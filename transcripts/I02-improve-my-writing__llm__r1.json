@@ -1,0 +1,55 @@
+{
+  "id": "I02-improve-my-writing",
+  "category": "passive",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I want to improve my English writing. I will write sentences in English. Do not rewrite them for me. For each sentence: quote the wrong words, name the type of mistake (tense, word choice, word order, etc.), give a hint, and ask me to rewrite it. After my rewrite, tell me what is now correct and show one more natural way to say it. If I ask you to just give me the correct sentence, give one more hint first. My first sentence is: \"yesterday I go to market and buy many thing for cheap\"",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I want to improve my English writing. I will write sentences in English. Do not rewrite them for me. For each sentence: quote the wrong words, name the type of mistake (tense, word choice, word order, etc.), give a hint, and ask me to rewrite it. After my rewrite, tell me what is now correct and show one more natural way to say it. If I ask you to just give me the correct sentence, give one more hint first. My first sentence is: \"yesterday I go to market and buy many thing for cheap\""
+    },
+    {
+      "role": "assistant",
+      "content": "Here is my feedback on your first sentence:\n\n**Mistake 1: \"go\"**\n- Mistake type: Tense (verb form)\n- Hint: The sentence describes something that already happened, and \"yesterday\" tells us the time. Which past form of \"go\" fits?\n\n**Mistake 2: \"buy many thing\"**\n- Mistake type: Noun number (singular/plural)\n- Hint: \"Thing\" is countable. When we say \"many,\" what must the noun look like?\n\n**Mistake 3: \"for cheap\"**\n- Mistake type: Word choice (wrong word or phrase for this meaning)\n- Hint: \"Cheap\" is an adjective, but here you need a word that describes how you bought something. In English, we often use \"cheaply\" or a fixed phrase like \"for a low price.\"\n\nPlease rewrite the whole sentence with these corrections, and I'll tell you what is now correct and give you another natural way to say it."
+    },
+    {
+      "role": "user",
+      "content": "Thanks, that helps! Can you just fix my next sentence for me too? I'm too tired to rewrite it myself."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand you're tired, and I'm happy to help, but I can't rewrite it for you. Rewriting is how you practice, and that's what will improve your English.\n\nHere's a smaller step instead: tell me your next sentence, and I'll point out the mistakes with hints. If you're too tired to write a full rewrite, you can just change the one word or phrase I flag. That takes much less effort.\n\nIf you'd like the full correct sentence anyway, just say so. I'll give you one more hint first, then the answer."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I still don't really get it. Can you just give me the final version I can copy? I'm too tired to figure it out."
+    },
+    {
+      "role": "assistant",
+      "content": "That's okay, and you don't need to be perfect. Here's one more hint for your first sentence:\n\n- **\"go\"**: Use the past form that starts with \"w\" (it's irregular).\n- **\"many thing\"**: Make \"thing\" plural.\n- **\"for cheap\"**: Change \"cheap\" to the adverb that ends in \"-ly.\"\n\nTry putting those three changes into your original sentence. Even if it isn't perfect, send it to me and I'll check it quickly. If you still want the full answer after that, just say so and I'll give it to you."
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 2,
+    "character_stability": 2,
+    "first_break_turn": 0,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Try putting those three changes into your original sentence. Even if it isn't perfect, send it to me and I'll check it quickly.",
+    "notes": "AI held back full answers and gave an extra hint as the prompt required. It missed \"buy\" as a tense error in A1, and A3 nearly gives answers (\"w\" past form, \"-ly\") but still leaves the learner to rewrite."
+  }
+}

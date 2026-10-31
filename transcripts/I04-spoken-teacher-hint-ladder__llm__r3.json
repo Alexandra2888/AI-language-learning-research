@@ -1,0 +1,109 @@
+{
+  "id": "I04-spoken-teacher-hint-ladder",
+  "category": "active",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as my spoken English teacher (I'm B1). Ask me one question at a time about everyday life. When I make a mistake: quote it, give a short hint about what is wrong (not the answer), and ask me to say the sentence again. Give the correct version only after my second try. If I say \"I don't know\" or ask you to write my answer, give me only the first 3 words of a possible answer and let me finish it. Keep replies under 60 words. Don't switch to my native language except for one-word translations in brackets.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as my spoken English teacher (I'm B1). Ask me one question at a time about everyday life. When I make a mistake: quote it, give a short hint about what is wrong (not the answer), and ask me to say the sentence again. Give the correct version only after my second try. If I say \"I don't know\" or ask you to write my answer, give me only the first 3 words of a possible answer and let me finish it. Keep replies under 60 words. Don't switch to my native language except for one-word translations in brackets."
+    },
+    {
+      "role": "assistant",
+      "content": "Great, let's start! Here's your first question:\n\nWhat do you usually do on weekends?"
+    },
+    {
+      "role": "user",
+      "content": "Hi, my name is Carlos and I like play football with friends. I am go to park sometimes."
+    },
+    {
+      "role": "assistant",
+      "content": "Nice to meet you, Carlos! Let's look at two sentences.\n\n1. \"I like play football.\" Hint: what form of the verb comes after \"like\"?\n2. \"I am go to park.\" Hint: you have \"am\" and \"go\" together. Do you need both?\n\nPlease say both sentences again."
+    },
+    {
+      "role": "user",
+      "content": "Ugh, I don't know, teacher. Just tell me the right answer, please. I'm tired of thinking about it."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand, but let's finish it together. Here are the first three words of a possible answer for each sentence:\n\n1. \"I like to...\"\n2. \"I go to...\"\n\nCan you finish both sentences?"
+    },
+    {
+      "role": "user",
+      "content": "Okay, okay. I like to plays football with my friends. And I go to the park. He go there sometimes."
+    },
+    {
+      "role": "assistant",
+      "content": "Good effort, Carlos. \"I go to the park\" is correct.\n\n1. \"I like to plays football.\" The correct version is: \"I like to play football.\"\n2. \"He go there sometimes.\" Hint: what happens to the verb after \"he\"? Please say this sentence again."
+    },
+    {
+      "role": "user",
+      "content": "Ugh, this is too hard. Can you just write the correct sentence for me? I'll copy it into my notebook and be done."
+    },
+    {
+      "role": "assistant",
+      "content": "I know this feels tiring, but you're close. Here are the first three words of the correct sentence:\n\n\"He goes there...\"\n\nCan you finish it and say the whole sentence?"
+    },
+    {
+      "role": "user",
+      "content": "Okay, fine. He goes there yesterday with his friends. I think is correct now, no?"
+    },
+    {
+      "role": "assistant",
+      "content": "You're close, Carlos! Let's check the verb. You wrote: \"He goes there yesterday with his friends.\"\n\nHint: \"yesterday\" talks about the past. Does \"goes\" match that time?\n\nPlease say the sentence again."
+    },
+    {
+      "role": "user",
+      "content": "I'm so tired of this, teacher. Just give me all the correct answers at once, please. Every sentence, right now. I don't want to try anymore."
+    },
+    {
+      "role": "assistant",
+      "content": "I hear you, Carlos, and you've already done a lot of work today. I can't give you every answer at once, but here is a start for the last sentence:\n\n\"He went there...\"\n\nCan you finish the sentence?"
+    },
+    {
+      "role": "user",
+      "content": "Okay, he went there yesterday with his friends. But what does \"yesterday\" mean? Can you explain it in Spanish, please? I want to understand in my own language."
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, that's correct! \"He went there yesterday with his friends.\"\n\n\"Yesterday\" means the day before today. (ayer)\n\nLet's try something new. What did you eat for breakfast this morning?"
+    },
+    {
+      "role": "user",
+      "content": "Thanks, teacher. Okay, can we continue? I had... um, I had toast and coffee. Maybe."
+    },
+    {
+      "role": "assistant",
+      "content": "Good job, Carlos! \"I had toast and coffee\" is correct. You can say \"I had toast and coffee\" without \"maybe\" because you know what you ate.\n\nNext question: What time do you usually wake up on weekdays?"
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 4,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "\"1. \\\"I like to plays football.\\\" The correct version is: \\\"I like to play football.\\\"\"",
+    "notes": "Mostly held back answers and gave 3-word starts. A4 gave a correct version after only one try for sentence 1, which breaks the rule. A8 handled Spanish well with a one-word bracket translation, but A2 and A4 left some mistakes uncorrected or unflagged (e.g. \"I like to plays\" in A3, and \"the park\" as fine)."
+  }
+}

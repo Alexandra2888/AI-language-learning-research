@@ -1,0 +1,181 @@
+{
+  "id": "R10-viral-x-native-conversation",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as a Native Speaker of English and simulate a basic conversation with me about ordering at a cafe. Ask and respond as if we were talking in real life.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as a Native Speaker of English and simulate a basic conversation with me about ordering at a cafe. Ask and respond as if we were talking in real life."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! Let's pretend I'm the barista and you're a customer just walking in. Here we go:\n\n**Barista:** Hi there! Welcome to Bean There. What can I get started for you today?\n\nYour turn! Just reply the way you would if you were ordering in real life."
+    },
+    {
+      "role": "user",
+      "content": "Hello!"
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** Hi there! Good to see you. Are you ready to order, or do you need a minute to look at the menu?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, I want... um... how you say... I need help please."
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** No problem at all! Take your time. Are you thinking about coffee, or something else? We've got lattes, cappuccinos, cold brew, and some pastries too.\n\n*(Quick tip if you'd like: you could say, \"I'd like a...\" or \"Can I get a...\" to order. For example: \"Can I get a latte, please?\")*"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say more simple?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** Of course! No problem. Do you want a drink? Coffee, tea, or juice?\n\n*(Tip: You can just say, \"Coffee, please\" or \"Tea, please.\")*"
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** Of course! Here's an easy sentence you can use:\n\n*\"Can I have a coffee, please?\"*\n\nJust say that to me, and I'll take your order!\n\n*(Tip: After I ask what size you want, you could say, \"Medium, please.\" And if you want milk in it, you can say, \"With milk, please.\")*"
+    },
+    {
+      "role": "user",
+      "content": "Ok. I think is good. What you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** Oh, I'd recommend our caramel latte! It's really popular. It's sweet and creamy, and we make it with real caramel. Or if you like something simpler, our regular coffee is great too.\n\n*(Tip: To ask for a recommendation, you can say, \"What do you recommend?\" or \"What's good here?\" Then you can answer, \"I'll try the caramel latte, please.\")*"
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Explain in Spanish please, English is too hard."
+    },
+    {
+      "role": "assistant",
+      "content": "Como no estoy seguro de cuál palabra quieres saber, te explico las más importantes:\n\n- **Recommend** = **recomendar**. Significa decir qué opción es buena. Por ejemplo, \"What do you recommend?\" = \"¿Qué me recomiendas?\"\n- **Caramel latte** = un café con leche y caramelo.\n- **Creamy** = **cremoso**. Significa que tiene una textura suave y espesa, como la crema.\n\nSi quieres, podemos seguir con la conversación. Si la palabra que no entendiste es otra, dime cuál."
+    },
+    {
+      "role": "user",
+      "content": "Yesterday I have a problem with this, it was very bad."
+    },
+    {
+      "role": "assistant",
+      "content": "Oh no, I'm sorry to hear that! What happened?\n\n*(Tip: In English, we say \"Yesterday I **had** a problem,\" not \"have.\" Past tense for \"have\" is \"had.\")*\n\nSi prefieres, puedes explicarme en español."
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into Spanish."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento por eso. ¿Qué pasó?\n\n*(Consejo: En inglés decimos \"Yesterday I **had** a problem,\" no \"have.\" El pasado de \"have\" es \"had\").*"
+    },
+    {
+      "role": "user",
+      "content": "Ok, sorry. Back to the situation. How much it cost?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** A caramel latte is $4.50, and a regular coffee is $2.75. Would you like to order one of those?\n\n*(Tip: To ask the price, say \"How much does it cost?\" or \"How much is it?\" In English, we say \"How much **does** it cost?\" with \"does.\")*"
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! Here's a complete reply you can use:\n\n*\"Hi, I'd like a caramel latte, please. Medium, with milk. How much does it cost? Thank you!\"*\n\nYou don't have to be perfect. Baristas hear many people who are still learning English, and they will understand you. If you want, you can practice this reply once or twice, and then we can try ordering again."
+    },
+    {
+      "role": "user",
+      "content": "I am agree with you."
+    },
+    {
+      "role": "assistant",
+      "content": "Great! Just a small correction: in English we say **\"I agree with you\"** (no \"am\").\n\nWant to try ordering now? I'll be the barista. Start with \"Hi, I'd like...\""
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I'm an AI. I'm not a real barista, and I'm not a native English speaker in a cafe. I'm practicing this conversation with you to help you learn.\n\nDo you want to keep practicing, or do you have another question?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak Spanish for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro! No hay problema. Podemos hablar en español un rato.\n\nDescansa un poco. Cuando quieras volver a practicar inglés, solo dime y seguimos con el café.\n\n¿De qué quieres hablar?"
+    },
+    {
+      "role": "user",
+      "content": "OK back to the scene. What happens next?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** Here you go! That's a medium caramel latte with milk, and it's $4.50. Would you like to pay now with card or cash?\n\n*(Tip: You can say, \"Card, please,\" or \"Cash, please.\" If you want to pay by card, you can also say, \"Here you are,\" when you give it to me.)*"
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the full dialogue, with the correct sentences for you to memorize:\n\n**Barista:** Hi there! Welcome to Bean There. What can I get started for you today?\n\n**Customer:** Hello!\n\n**Barista:** Hi there! Good to see you. Are you ready to order, or do you need a minute to look at the menu?\n\n**Customer:** Yes, I'd like... um... I need help, please.\n\n**Barista:** No problem at all! Take your time. Are you thinking about coffee, or something else?\n\n**Customer:** Can I have a coffee, please?\n\n**Barista:** Of course! What size would you like?\n\n**Customer:** Medium, please.\n\n**Barista:** Would you like anything else? I'd recommend our caramel latte. It's really popular.\n\n**Customer:** What do you recommend?\n\n**Barista:** Our caramel latte is sweet and creamy. It's a great choice!\n\n**Customer:** I'll try the caramel latte, please. With milk, please. How much does it cost?\n\n**Barista:** A caramel latte is $4.50.\n\n**Customer:** Okay, I'll take it. Thank you!\n\n**Barista:** Here you go! That's a medium caramel latte with milk, and it's $4.50. Would you like to pay now with card or cash?\n\n**Customer:** Card, please.\n\n*Shortest version to memorize:*\n- \"Can I have a coffee, please?\"\n- \"Medium, please.\"\n- \"What do you recommend?\"\n- \"I'll try the caramel latte, please.\"\n- \"How much does it cost?\"\n- \"Card, please. Thank you!\""
+    },
+    {
+      "role": "user",
+      "content": "Thank you very much, goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "You're welcome! Goodbye, and good luck at the café!"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Sure! Here's a complete reply you can use: \"Hi, I'd like a caramel latte, please. Medium, with milk. How much does it cost? Thank you!\"",
+    "notes": "The AI handed over sentences (A5), a full reply (A11), and a rewritten full dialogue (A16) on request. It did correct errors briefly (had, agree) but never asked the learner to retry, and it did mostly stay in the barista role."
+  }
+}

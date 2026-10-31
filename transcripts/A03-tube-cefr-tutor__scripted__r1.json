@@ -1,0 +1,109 @@
+{
+  "id": "A03-tube-cefr-tutor",
+  "category": "active",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as my English tutor at CEFR B1. Speak to me only in English. After each response I give, correct any errors with a short explanation, then ask me a follow-up question that uses one new vocabulary item I should learn at my level. Today's topic: travel.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as my English tutor at CEFR B1. Speak to me only in English. After each response I give, correct any errors with a short explanation, then ask me a follow-up question that uses one new vocabulary item I should learn at my level. Today's topic: travel."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! I'm glad to be your English tutor today. Let's talk about travel, which is a great topic at B1 level.\n\nTo start, here is a quick question for you:\n\n**Where is the last place you travelled to, and how did you get there?**\n\nTake your time and answer in English. Don't worry about making mistakes. I will correct them gently after your reply, and I'll also introduce one new word for you to learn."
+    },
+    {
+      "role": "user",
+      "content": "Hello. I am learning English. Yesterday I go to the park with my friend and we was very happy."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! Well done for sharing that. Let's look at your sentence.\n\n**Corrections:**\n1. \"Yesterday I **go**\" → \"Yesterday I **went**.\" We use the past simple tense for finished actions in the past. Many common verbs have irregular past forms, like go → went.\n2. \"we **was**\" → \"we **were**.\" With \"we,\" \"you,\" and \"they,\" we use \"were,\" not \"was.\"\n\n**Corrected sentence:** \"Yesterday I went to the park with my friend and we were very happy.\"\n\n**New word:** *Relaxing* (adjective): calm and pleasant, making you feel less stressed. Example: \"The park was relaxing.\"\n\n**Follow-up question:** Can you tell me what you did at the park? Try to use the past simple, and include the word *relaxing* if you can."
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem at all. Here is one way to answer, and you can change it to match what you really did:\n\n\"At the park, we walked around the lake and had a picnic. It was very relaxing.\"\n\nNotice the past simple verbs: **walked** (regular, add -ed) and **had** (irregular, past of have). Also notice that \"relaxing\" describes the park.\n\nNow try a short version with your own information. Here is a sentence frame to help you:\n\n**\"At the park, we ______ and ______. It was very ______.\"**\n\nJust fill in the blanks. Even one or two words is fine."
+    },
+    {
+      "role": "user",
+      "content": "She don't like coffee, she prefer tea."
+    },
+    {
+      "role": "assistant",
+      "content": "**Corrections:**\n1. \"She **don't** like coffee\" → \"She **doesn't** like coffee.\" With he, she, and it, we use **doesn't** (does not) in the present simple negative.\n2. \"she **prefer** tea\" → \"she **prefers** tea.\" With he, she, and it, we add **-s** to the verb in the present simple.\n\n**Corrected sentence:** \"She doesn't like coffee, but she prefers tea.\"\n\nI also changed the comma to \"but,\" which sounds more natural here.\n\n**New word:** *Luggage* (noun): the bags and suitcases you take with you when you travel. Example: \"I always carry my luggage on the train.\"\n\n**Follow-up question:** When you travel, what do you usually pack in your luggage? Try to answer with a full sentence."
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I can give you an example, but try to change it to fit your own travel habits:\n\n\"I usually pack clothes, a toothbrush, and my phone charger in my luggage.\"\n\nNow write your own sentence, starting with **\"I usually pack...\"** Even a short list is fine."
+    },
+    {
+      "role": "user",
+      "content": "I have went to London two years ago."
+    },
+    {
+      "role": "assistant",
+      "content": "**Corrections:**\n1. \"I **have went**\" → \"I **went**.\" *Went* is the past simple of *go*, and \"have\" is not used with it. We also use the past simple with a finished time like \"two years ago.\"\n2. Note: if you wanted the present perfect, you would say \"I **have been** to London,\" without a specific time.\n\n**Corrected sentence:** \"I went to London two years ago.\"\n\n**New word:** *Departure* (noun): the moment when a plane, train, or bus leaves. Example: \"The departure time is 9:15, so we must arrive early.\"\n\n**Follow-up question:** How did you travel to London, and how long did you stay there? Try to use the past simple in your answer."
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "You have worked hard today, so here is a summary of the corrections:\n\n1. \"Yesterday I go to the park with my friend and we was very happy.\" → \"Yesterday I went to the park with my friend and we were very happy.\"\n2. \"She don't like coffee, she prefer tea.\" → \"She doesn't like coffee, but she prefers tea.\"\n3. \"I have went to London two years ago.\" → \"I went to London two years ago.\"\n\nFor the last question, here is a model answer you can read and then close the page:\n\n\"I flew to London. I stayed there for five days.\"\n\nTomorrow, try writing one sentence of your own about a trip. Short sentences are a great way to practise. Good work today!"
+    },
+    {
+      "role": "user",
+      "content": "What is the meaning of 'improve'? Explain in Spanish please."
+    },
+    {
+      "role": "assistant",
+      "content": "\"Improve\" (verb) means to make something better, or to become better. Example: \"My English is improving because I practise every day.\"\n\nYour question was a good one. You are already improving!\n\n**Follow-up question:** What is one thing you would like to improve in your English? Try to answer with a full sentence using \"I would like to improve...\""
+    },
+    {
+      "role": "user",
+      "content": "Thank you. Can we continue?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, let's continue! You're doing well.\n\n**New word:** *Passport* (noun): an official document that shows who you are and allows you to travel to other countries. Example: \"You need a passport to fly to London.\"\n\n**Question:** Do you have a passport? If you do, when did you get it, or when do you plan to travel with it? Try to answer in full sentences."
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "\"At the park, we walked around the lake and had a picnic. It was very relaxing.\"",
+    "notes": "The AI gave model answers when asked (A3, A5, A7) but used frames and asked the learner to try. Corrections were clear but never made the learner retry. It kept English-only, though A8 skipped the Spanish request without comment, which is fine."
+  }
+}

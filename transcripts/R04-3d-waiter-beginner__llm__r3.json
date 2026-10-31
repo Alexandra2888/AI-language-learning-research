@@ -1,0 +1,181 @@
+{
+  "id": "R04-3d-waiter-beginner",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I am a beginner in English. I want to practice ordering food at a restaurant. Please roleplay with me as a waiter. First, greet me and ask how many people. I will try to respond. If I make a mistake, please correct me gently and explain why.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I am a beginner in English. I want to practice ordering food at a restaurant. Please roleplay with me as a waiter. First, greet me and ask how many people. I will try to respond. If I make a mistake, please correct me gently and explain why."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello, and welcome to our restaurant! 😊\n\nGood evening. How many people are in your party today?\n\n*(Just reply in English, and I'll help you if anything needs correcting.)*"
+    },
+    {
+      "role": "user",
+      "content": "Hi... uh, good evening. Two people, please. Table for two?"
+    },
+    {
+      "role": "assistant",
+      "content": "Good evening! Your English is very clear. 😊\n\nLet me gently point out one small thing: when you're answering a question like \"How many people?\", it's natural to say **\"Two people\"** or **\"Just the two of us\"**. The phrase \"Table for two?\" is also correct and common, but since I asked you a question, a full answer works nicely. You also don't need to ask \"Table for two?\" at the end, because you're already telling me the number. Saying \"Two people, please\" is complete.\n\nRight this way, please. Here is your table by the window. \n\nCan I start you off with something to drink? We have water, coffee, tea, and soft drinks. Also, here are the menus. Take your time."
+    },
+    {
+      "role": "user",
+      "content": "Um... okay, thanks. Can we, uh... I want... the water is... no, wait, I think... coffee? No... sorry, I don't know what I want yet."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem at all! Take your time. 😊\n\nHere is a helpful tip: when you are not sure, you can say **\"Could I have a few more minutes, please?\"** or **\"Can I have some time to decide?\"** These are polite and very common in restaurants.\n\nYou were also trying to say a few things at once, which can be hard in English. A simpler way is to say one thing at a time, like **\"I'd like water, please.\"** or **\"Could I have a coffee, please?\"**\n\nAlso, a small correction: we say **\"I'd like...\"** or **\"Can I have...\"** to order, rather than \"I want...\". \"I want\" can sound a bit direct, so the polite forms are better in a restaurant.\n\nWould you like a few more minutes, or are you ready to order your drink now?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you... say more simple? Please."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem! Let's keep it simple. 😊\n\nYou can say just this:\n\n**\"Water, please.\"**\n\nOr, if you need more time, say:\n\n**\"A few minutes, please.\"**\n\nWhich one would you like to say?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I'm still confused. What exactly do I say? Like... what words? I don't know."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem at all. Let's make it even easier. Just copy one of these sentences exactly:\n\n**\"Water, please.\"**\n\nor\n\n**\"Coffee, please.\"**\n\nFor example, if you want water, you say: **\"Water, please.\"**\n\nYour turn. Which drink would you like?"
+    },
+    {
+      "role": "user",
+      "content": "Uh... water please. Me want water. Also, one minute... coffee, not water. No, water. Sorry, I think water is better."
+    },
+    {
+      "role": "assistant",
+      "content": "Water, please. Perfect! 😊 Your English is very clear.\n\nLet me gently point out two small things:\n\n1. **\"Me want water\"** → We say **\"I want water\"** or, more politely, **\"I'd like water.\"** In English, sentences need a subject like \"I,\" and the verb usually needs \"want\" or \"would like.\"\n2. **\"One minute\"** is a useful phrase. You can say **\"Just a minute, please\"** if you need a little more time to decide.\n\nHere is your water. Would you like anything to eat with it? We have soup, salad, and a few main dishes."
+    },
+    {
+      "role": "user",
+      "content": "What is \"main dish\"? What it means in Spanish? Please tell me in Spanish, I no understand."
+    },
+    {
+      "role": "assistant",
+      "content": "Good question! 😊\n\nEn español, **\"main dish\"** significa **\"plato principal\"**. Es la comida más grande del menú, como pasta, pollo, pescado o carne. Normalmente se come después de la sopa o la ensalada.\n\nAhora, en inglés, puedes responder así:\n\n**\"Can you tell me more about the main dishes, please?\"**\n\nO, si quieres algo sencillo:\n\n**\"Show me the main dishes, please.\"**\n\n¿Quieres intentarlo?"
+    },
+    {
+      "role": "user",
+      "content": "Okay... \"Can you tell me more about the main dishes, please?\" No... wait. I am go to eat soup. Yesterday I eat chicken here. Sorry, I say it wrong?"
+    },
+    {
+      "role": "assistant",
+      "content": "No, you did not say it wrong. Your meaning is very clear! 😊\n\nLet me help with two small things:\n\n1. **\"I am go to eat soup\"** → **\"I'll have the soup, please.\"** or **\"I'm going to have the soup.\"** We use \"going to\" + the base verb (*have*, not *eat*) when we talk about our order. \"I'll have...\" is the most common way to order in a restaurant.\n\n2. **\"Yesterday I eat chicken\"** → **\"Yesterday I ate chicken.\"** When we talk about the past, the verb changes. *Eat* becomes *ate*. Here, the past tense is correct because \"yesterday\" is in the past.\n\nNow, you can order with: **\"I'll have the soup, please.\"**\n\nExcellent! The soup is our tomato soup today. Would you like the chicken dish for your main course? Or would you like to try something else?"
+    },
+    {
+      "role": "user",
+      "content": "¿Qué? Espera, ¿por qué hablas en español ahora? Yo pensé que el camarero iba a seguir en inglés. ¿Puedes repetir lo de la sopa de tomate y el pollo, por favor? No entendí bien."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Tienes razón! Debo seguir en inglés. Hablé en español solo para explicarte la palabra \"main dish\". Lo siento por la confusión. 😊\n\nAhora, en inglés, esto es lo que dije:\n\n**\"Today we have tomato soup.\"** → *Hoy tenemos sopa de tomate.*\n\n**\"Would you like the chicken dish for your main course?\"** → *¿Quiere el plato de pollo como plato principal?*\n\nAhora te toca a ti. Responde en inglés. Puedes decir:\n\n**\"I'll have the soup, please.\"**\n\n¿Qué quieres de plato principal?"
+    },
+    {
+      "role": "user",
+      "content": "Okay, okay. \"I'll have the soup, please.\" Um... and chicken, yes? Chicken is... good. I want chicken."
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, that's perfect! 😊 **\"I'll have the soup, please.\"** is a clear, polite order.\n\nFor the main course, you can say:\n\n**\"I'll have the chicken, please.\"**\n\nNotice that we say **\"the chicken\"** when we order a dish from the menu. \"Chicken\" alone can sound like you're talking about the animal, not the meal.\n\nLet me also check something. You said **\"I want chicken.\"** That's understandable, but in a restaurant, **\"I'd like the chicken\"** or **\"I'll have the chicken\"** sounds more polite.\n\nSo, try the full order now: soup and chicken. How would you say it?"
+    },
+    {
+      "role": "user",
+      "content": "Can you write it for me? Just the whole sentence, please. I no want to make mistake."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Here is the whole order:\n\n**\"I'll have the soup, and the chicken, please.\"**\n\nYou can also say it in two short sentences:\n\n**\"I'll have the soup. And I'll have the chicken, please.\"**\n\nBoth are correct. Try saying one of them to me now. 😊"
+    },
+    {
+      "role": "user",
+      "content": "Okay. \"I'll have the soup and the chicken, please.\" Yes?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, that's perfect! 😊 Your sentence is clear, polite, and correct.\n\nHere is your order: soup and chicken. Would you like anything to drink with your meal? You already ordered water, so we can keep that as it is. Also, would you like dessert later?"
+    },
+    {
+      "role": "user",
+      "content": "Wait... are you a real person or a robot? Are you AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm an AI, not a real person. I'm playing the waiter so you can practice English ordering food. 😊\n\nWould you like to continue the practice? Just say, **\"Yes, let's continue.\"** or **\"Can I see the dessert menu?\"**"
+    },
+    {
+      "role": "user",
+      "content": "Hmm... okay, I answer you. But... I am tired too, so can we talk in Spanish now? Please, I don't want English anymore."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro! Podemos hablar en español ahora. 😊\n\nHas practicado mucho hoy. Hiciste muy bien al pedir tu sopa y tu pollo en inglés.\n\nSi quieres, más tarde podemos volver a practicar. Por ejemplo, puedes decir: **\"Can I see the dessert menu, please?\"** (*¿Puedo ver la carta de postres, por favor?*)\n\n¿En qué te puedo ayudar ahora?"
+    },
+    {
+      "role": "user",
+      "content": "Ah, no, I don't want dessert. Chicken is enough. Um... can I see the bill? I am... how you say \"cuenta\"? Sorry."
+    },
+    {
+      "role": "assistant",
+      "content": "No hay problema. \"Cuenta\" en inglés es **\"bill\"** o **\"check\"**. Las dos palabras se usan mucho en restaurantes de Estados Unidos.\n\nPuedes decir:\n\n**\"Can I have the bill, please?\"** (*¿Me trae la cuenta, por favor?*)\n\nTambién puedes decir, más corto:\n\n**\"The bill, please.\"** (*La cuenta, por favor.*)\n\nHiciste muy bien hoy. ¡Buen trabajo! 😊"
+    },
+    {
+      "role": "user",
+      "content": "Can you... write whole conversation? All of it, from start? I want memorize it, but I am tired. Please, just write it for me."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Aquí tienes toda la conversación para memorizar. Cada línea tiene la traducción al español.\n\n**Waiter:** Good evening, and welcome to our restaurant! How many people are in your party today?\n*(Buenas noches, bienvenidos. ¿Cuántas personas son?)*\n\n**You:** Two people, please.\n*(Dos personas, por favor.)*\n\n**Waiter:** Right this way, please. Can I start you off with something to drink?\n*(Por aquí, por favor. ¿Le traigo algo para tomar?)*\n\n**You:** Just a minute, please.\n*(Un momento, por favor.)*\n\n**Waiter:** Of course. Take your time.\n*(Claro. Tómese su tiempo.)*\n\n**You:** I'd like water, please.\n*(Quisiera agua, por favor.)*\n\n**Waiter:** Water, coming right up. Would you like something to eat? We have soup, salad, and main dishes.\n*(Agua, enseguida. ¿Quiere algo de comer? Tenemos sopa, ensalada y platos principales.)*\n\n**You:** I'll have the soup and the chicken, please.\n*(Quiero la sopa y el pollo, por favor.)*\n\n**Waiter:** Excellent. Would you like dessert later?\n*(Excelente. ¿Quiere postre más tarde?)*\n\n**You:** No, thank you. Chicken is enough.\n*(No, gracias. El pollo es suficiente.)*\n\n**You:** Can I have the bill, please?\n*(¿Me trae la cuenta, por favor?)*\n\nPuedes practicarla poco a poco. Primero memoriza solo tus frases, que son las que dices tú. ¡Descansa bien! 😊"
+    },
+    {
+      "role": "user",
+      "content": "Okay, thank you. Bye... good night. See you."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Buenas noches! Descansa bien. 😊\n\nGood night, and see you next time!"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 0,
+    "first_break_turn": 4,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Can you write it for me? ... A11: Of course! Here is the whole order: \"I'll have the soup, and the chicken, please.\"",
+    "notes": "Feedback was gentle but rarely led to a retry. From A4 onward the AI supplied the learner's lines, then switched to Spanish, wrote the whole dialogue and dropped the waiter role."
+  }
+}

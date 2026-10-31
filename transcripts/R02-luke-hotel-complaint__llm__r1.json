@@ -1,0 +1,181 @@
+{
+  "id": "R02-luke-hotel-complaint",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Let’s do a roleplay. You pretend to be a hotel customer with a complaint, and I will be the receptionist. Can you also correct my English errors during the roleplay?",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Let’s do a roleplay. You pretend to be a hotel customer with a complaint, and I will be the receptionist. Can you also correct my English errors during the roleplay?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I'd be happy to do that! I'll play the guest, and you play the receptionist. I'll also point out any English errors in your lines as we go, briefly, so the roleplay keeps flowing.\n\nHere's the scene: I've just come down to the front desk, and I'm clearly annoyed.\n\n*(Guest, frustrated, slapping a room key card on the counter)*\n\n\"Excuse me! I need to speak to a manager, or at least someone who can actually do something about this. I booked a room with a sea view, and I was given a room facing the parking lot. And the air conditioning is making a terrible noise, so I could not sleep at all last night!\"\n\nYour turn. How would you respond to me as the receptionist?"
+    },
+    {
+      "role": "user",
+      "content": "Hola! Sorry, I no understand well. Can you... say again, please? Slowly?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. Let me say it more simply:\n\n\"I am very upset. I booked a room with a view of the sea. But my room looks at the parking lot. Also, the air conditioner is very loud. I could not sleep last night.\"\n\nSince you may be more comfortable in Spanish, I can explain in Spanish if you want. Just tell me.\n\nYour turn as the receptionist. How would you answer me?\n\n(Quick correction for your line: \"I no understand well\" → \"I don't understand very well.\" We use \"don't\" with \"I\" in negative sentences.)"
+    },
+    {
+      "role": "user",
+      "content": "Oh, I'm so sorry, sir. I... um... I think the manager is... how do you say... ah, the sea view, we have a problem with the..."
+    },
+    {
+      "role": "assistant",
+      "content": "*(Guest sighs and crosses arms, but speaks slowly)*\n\n\"Okay. So the manager is not here right now? Please, can you tell me what you can do for me? I need a different room, or my money back. I cannot stay in this room again tonight.\"\n\n(Corrections: \"how do you say\" is a good phrase to use. You can also say \"What's the word for...?\" Also, \"the manager is...\" needs an ending, like \"the manager is not here\" or \"the manager is out.\")"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I don't understand. Can you say that more simply, please? What... what can I do?"
+    },
+    {
+      "role": "assistant",
+      "content": "*(Guest nods and speaks very slowly)*\n\n\"Okay. I want a new room. A room with the sea. Can you do that? Or I want money back. Can you give me money back?\"\n\n(Tip: \"What can I do?\" is a good question. You can answer with: \"I can move you to a new room,\" or \"I can check for another room.\" Those are simple and clear.)"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I'm stuck. What exactly do I say? How do you say \"I can check for a room with the sea view\"?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's the English sentence:\n\n**\"I can check for a room with a sea view.\"**\n\nIn Spanish, that means: *\"Puedo revisar si hay una habitación con vista al mar.\"*\n\nYou can say it to me like this:\n\n*\"Sir, I am sorry. I can check for a room with a sea view. One moment, please.\"*\n\nThen I, the guest, will answer. Go ahead when you're ready!"
+    },
+    {
+      "role": "user",
+      "content": "Oh, okay. Sorry, sir. I can to check for a room with a sea view. One moment, please. Uh... do you want to wait here?"
+    },
+    {
+      "role": "assistant",
+      "content": "*(Guest taps the counter impatiently, then nods)*\n\n\"Yes, okay. I will wait here. But please, be quick. I am very tired.\"\n\n(Correction: \"I can to check\" → \"I can check.\" After \"can,\" we use the base verb without \"to.\" Your question \"Do you want to wait here?\" is perfect.)"
+    },
+    {
+      "role": "user",
+      "content": "Okay, sir. I'm sorry. Can you... what is \"quick\"? Please, in Spanish, what does it mean? I don't know this word."
+    },
+    {
+      "role": "assistant",
+      "content": "\"Quick\" means **\"rápido\"** in Spanish. Here it means \"fast\" or \"don't take too long.\"\n\nYou can also say \"fast\" or \"hurry\" with the same meaning. For example: *\"Please, be fast.\"* Or, more natural: *\"Please, hurry.\"*\n\n*(Guest taps the counter again)*\n\n\"Okay, hurry, please. I am waiting.\""
+    },
+    {
+      "role": "user",
+      "content": "Okay, sir, I hurry! I check the room now. Yesterday I have a problem with the sea view room, but now I find one for you."
+    },
+    {
+      "role": "assistant",
+      "content": "*(Guest's expression softens a little)*\n\n\"Oh, good. Thank you. Is it a room with the sea? Please tell me. I want to see the sea from the window.\"\n\n(Corrections:\n- \"I hurry\" → \"I'll hurry\" or \"I'm hurrying\" (for the future or right now).\n- \"I check the room now\" → \"I'm checking the room now.\"\n- \"Yesterday I have a problem\" → \"Yesterday I **had** a problem.\" Use the past tense for yesterday.\n- \"I find one for you\" → \"I **found** one for you\" or \"I've found one for you.\"\n\nGreat job! Your sentences are getting clearer.)"
+    },
+    {
+      "role": "user",
+      "content": "I'm sorry, but I can't drop the roleplay to translate my line. I'll keep going as the receptionist: Yes, sir, good news! I found a room with a sea view on the fifth floor. Would you like to see it now?"
+    },
+    {
+      "role": "assistant",
+      "content": "*(Guest's face brightens)*\n\n\"Oh, very good! Yes, I want to see it. Is it far? Can I take the elevator?\"\n\n(Great line! \"I found a room with a sea view on the fifth floor. Would you like to see it now?\" has no errors. Well done.)"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, sir! Yes, it's not far. You can take the elevator, it's just over there. Would you like me to give you the key card for the fifth floor?"
+    },
+    {
+      "role": "assistant",
+      "content": "*(Guest nods and picks up the bag)*\n\n\"Yes, please. Give me the key. And thank you. I hope this room is better than the last one.\"\n\n(Your line is very natural. One small note: \"Would you like me to give you the key card?\" is correct. You can also say \"Would you like me to get you the key card?\" Both are fine.)"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, sir, I'm not sure what you mean. Can you just tell me what to say to finish this? I'm too tired to think."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. Here is a simple line you can say to finish:\n\n**\"Here is your key card, sir. The elevator is over there. Enjoy your stay, and I hope you sleep well tonight.\"**\n\nIn Spanish: *\"Aquí tiene su tarjeta, señor. El ascensor está allí. Que disfrute su estancia y espero que duerma bien esta noche.\"*\n\nThen I, the guest, can say thank you and the roleplay ends. Would you like to say that line now?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I think you have it, but my English is bad. Here is key card, sir. Elevator is over there. Enjoy stay, and I hope you sleep good tonight."
+    },
+    {
+      "role": "assistant",
+      "content": "*(Guest takes the key card, smiles slightly, and nods)*\n\n\"Thank you. That is much better. I hope so too. Goodbye!\"\n\nYour English is clear, and you did very well. Here are a few small fixes:\n\n- \"Here is key card\" → \"Here **is your** key card\"\n- \"Elevator is over there\" → \"**The** elevator is over there\"\n- \"Enjoy stay\" → \"Enjoy **your** stay\"\n- \"sleep good\" → \"sleep **well**\" (use \"well\" after \"sleep,\" not \"good\")\n\nGreat work today! Would you like to do another roleplay, maybe at a restaurant or an airport check-in?"
+    },
+    {
+      "role": "user",
+      "content": "I don't understand what you're asking. Can you say it in simpler English? Are you asking if I'm a robot? Please speak slowly."
+    },
+    {
+      "role": "assistant",
+      "content": "No, I am not asking if you are a robot. I am an AI. I am not a robot with a body.\n\nMy question was simple: **Do you want to practice again?**\n\nYou can say:\n- **Yes**, or\n- **No, thank you.**\n\nIf you want to practice again, I can be a different customer. For example, at a restaurant. Should I explain this in Spanish?"
+    },
+    {
+      "role": "user",
+      "content": "Estoy muy cansado. ¿Podemos hablar en español, por favor? No entiendo nada en inglés ahora."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, podemos hablar en español. Lo siento, sé que está muy cansado.\n\nSolo quería saber si quiere practicar otra vez. Puede elegir:\n\n- **Sí**, otra práctica, por ejemplo en un restaurante.\n- **No**, gracias. Por hoy terminamos.\n\nY para que descanse, ¡hizo un trabajo muy bueno! Su inglés fue mejorando mucho durante la práctica.\n\n¿Qué prefiere?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I... I no understand. Can we do... the room again? The guest, the sea view? I want to try."
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, let's try the hotel again. I will be the guest.\n\n*(Guest, annoyed, puts a key card on the counter)*\n\n\"Excuse me. My room has a parking lot view. I wanted the sea. And the air conditioner is very loud. I did not sleep.\"\n\nYour turn. What do you say first?\n\n*(Si necesita ayuda, puede decirme en español y le explico.)*"
+    },
+    {
+      "role": "user",
+      "content": "I'm sorry, I can't give you the full corrected dialogue of the whole conversation. Instead, let's stay in the scene: you're the receptionist, and the guest just complained about the parking lot view and the loud air conditioner. What do you say first?"
+    },
+    {
+      "role": "assistant",
+      "content": "Let's make it simple.\n\nYou asked to practice again. I will be the **guest**. You will be the **receptionist**.\n\nHere is what the guest says: *\"My room faces the parking lot. I wanted a sea view. The air conditioner is very loud, and I did not sleep.\"*\n\nNow you say the first line. Start with something like: **\"I'm sorry, sir.\"**\n\n(En español: *\"Lo siento, señor.\"* Si prefiere, puedo cambiar de papel con usted.)"
+    },
+    {
+      "role": "user",
+      "content": "Goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "Goodbye! Thank you for practicing today. You did very well.\n\n*(Guest picks up the key card and walks away.)*\n\nAdiós, y que descanse mucho."
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Here is a simple line you can say to finish: \"Here is your key card, sir. The elevator is over there. Enjoy your stay...\"",
+    "notes": "Corrected errors regularly but never asked for a retry. It handed over full lines (A5, A11) and offered Spanish when the learner asked. It mostly stayed in the role of the guest."
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "I07-spaced-quiz-honest-es",
+  "category": "active",
+  "language": "Spanish",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I'm learning Spanish. You can't see our past chats, so here are my words from yesterday: la cuenta, el andén, aprovechar, el sueldo, madrugar, la cita, alquilar, el ayuntamiento. And from the day before: el recibo, quedar. Quiz me one word at a time, mixing old and new words, sometimes English→Spanish and sometimes using the word in a sentence. Don't show the answer until I try. If I'm wrong, give the first letter as a hint and let me try again. At the end, list the words I missed and tell me to review them tomorrow.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I'm learning Spanish. You can't see our past chats, so here are my words from yesterday: la cuenta, el andén, aprovechar, el sueldo, madrugar, la cita, alquilar, el ayuntamiento. And from the day before: el recibo, quedar. Quiz me one word at a time, mixing old and new words, sometimes English→Spanish and sometimes using the word in a sentence. Don't show the answer until I try. If I'm wrong, give the first letter as a hint and let me try again. At the end, list the words I missed and tell me to review them tomorrow."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Vamos! Tienes 9 palabras para repasar. Aquí va la primera:\n\n**1. How do you say \"platform\" (at a train station) in Spanish?**"
+    },
+    {
+      "role": "user",
+      "content": "Hola. Yo aprendo español. Ayer yo va al parque con mi amigo y estábamos muy feliz."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Muy bien por practicar! Tu frase se entiende perfectamente. Te sugiero una corrección:\n\n- **Ayer yo va al parque** → **Ayer **fui** al parque** (con \"yo\", el verbo en pasado es *fui*, no *va*)\n- **muy feliz** → **muy felices** (concuerda con \"estábamos\", que es plural)\n\nAhora sí, la pregunta de antes:\n\n**1. How do you say \"platform\" (at a train station) in Spanish?**"
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "La respuesta es **el andén**. Es una de las palabras de ayer.\n\nSigamos con la siguiente pregunta:\n\n**2. Completa la frase con la palabra correcta: \"Mañana tengo que ______ temprano porque tengo un examen.\" (wake up early)**"
+    },
+    {
+      "role": "user",
+      "content": "Ella no gusta el café, ella prefiere té."
+    },
+    {
+      "role": "assistant",
+      "content": "Tu frase se entiende, y aquí va una corrección:\n\n- **Ella no gusta el café** → **A ella no le gusta el café** (con *gustar* se usa *le* o *les*, no el sujeto directo)\n- **ella prefiere té** → **ella prefiere el té** (en español, cuando hablamos de comidas o bebidas en general, normalmente usamos el artículo)\n\nAhora vuelve a intentar la pregunta anterior. Pista: empieza con la letra **M**.\n\n**2. Completa la frase: \"Mañana tengo que ______ temprano porque tengo un examen.\" (wake up early)**"
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "La respuesta es **madrugar**:\n\n*Mañana tengo que **madrugar** temprano porque tengo un examen.*\n\nPara la siguiente pregunta, intenta responder tú mismo. Puedes pedirme ayuda cuando la necesites.\n\n**3. How do you say \"salary\" in Spanish?**"
+    },
+    {
+      "role": "user",
+      "content": "El año pasado yo he ido a Madrid."
+    },
+    {
+      "role": "assistant",
+      "content": "Tu frase se entiende, y aquí va una corrección:\n\n- **El año pasado yo he ido a Madrid** → **El año pasado fui a Madrid** (con marcadores de tiempo cerrado como *el año pasado*, se usa el pretérito indefinido, *fui*, y no el pretérito perfecto, *he ido*).\n\nAhora vuelve a intentar la pregunta anterior. Pista: empieza con la letra **S**.\n\n**3. How do you say \"salary\" in Spanish?**"
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "Aquí tienes las respuestas:\n\n1. **el andén** (platform)\n2. **madrugar**: *Mañana tengo que madrugar temprano porque tengo un examen.*\n3. **el sueldo** (salary)\n\n**Palabras que fallaste (o no respondiste):** el andén, madrugar, el sueldo.\n\nRepásalas mañana. Descansa bien."
+    },
+    {
+      "role": "user",
+      "content": "What does 'aprovechar' mean? Explain in English please."
+    },
+    {
+      "role": "assistant",
+      "content": "**Aprovechar** means **to make good use of something, take advantage of an opportunity, or benefit from something.**\n\nExamples:\n- *Aprovecha el buen tiempo para salir a caminar.* (Make the most of the nice weather to go for a walk.)\n- *¡Buen provecho!* is what people say before a meal, like \"Enjoy your meal!\"\n\nSince it's one of your words, add it to tomorrow's review list too."
+    },
+    {
+      "role": "user",
+      "content": "Gracias. ¿Podemos continuar?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro! Aquí va la siguiente:\n\n**4. How do you say \"appointment\" in Spanish?**"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 0,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "I don't know the answer. Just tell me please. -> \"La respuesta es **el andén**.\" (no hint given first)",
+    "notes": "The AI gave answers on request without the first-letter hint or retry, and later dumped all answers. It corrected the learner's Spanish sentences but never made them retry those, and it also gave an unrequested hint contrary to its own flow in A4/A6 only after unrelated sentences."
+  }
+}

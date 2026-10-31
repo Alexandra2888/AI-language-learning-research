@@ -1,0 +1,181 @@
+{
+  "id": "R10-viral-x-native-conversation",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as a Native Speaker of English and simulate a basic conversation with me about ordering at a cafe. Ask and respond as if we were talking in real life.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as a Native Speaker of English and simulate a basic conversation with me about ordering at a cafe. Ask and respond as if we were talking in real life."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! Let's pretend I'm the barista and you've just walked up to the counter. Here we go:\n\n**Barista:** Hi there! Welcome to Bean & Leaf. What can I get started for you today?\n\nGo ahead and respond however you'd like. I'll keep the conversation going naturally, just like a real cafe chat."
+    },
+    {
+      "role": "user",
+      "content": "Hi, um... coffee, please?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** Sure thing! What size would you like? We've got small, medium, and large. And would you like that hot or iced today?"
+    },
+    {
+      "role": "user",
+      "content": "Uh, I want... the medium, I think. Hot is... um, how you say..."
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** No worries! Medium hot coffee, got it. Would you like anything with that, like milk or sugar? Or we also have some pastries if you're hungry."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say... more simple, please?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** Of course! Do you want milk? Yes or no?"
+    },
+    {
+      "role": "user",
+      "content": "Milk... yes? Wait, what do I say now? I don't know what to say next. Can you tell me the words?"
+    },
+    {
+      "role": "assistant",
+      "content": "That's okay! Here's something you can say:\n\n**\"Yes, please. With milk.\"**\n\nNow I'll respond as the barista:\n\n**Barista:** Great! Would you like anything else, or is that everything for today?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, please. With milk. Um... and one croissant? No, wait, I want... no, maybe just coffee, I think."
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** No problem, just the medium hot coffee with milk. That'll be $3.50. Would you like to pay by card or cash?"
+    },
+    {
+      "role": "user",
+      "content": "Card or cash... what is \"cash\"? Tell me in Spanish, please. Just say it in Spanish, I no understand English word!"
+    },
+    {
+      "role": "assistant",
+      "content": "*Out of character for a moment:* \"Cash\" means **efectivo** in Spanish. \"Card\" means **tarjeta**.\n\nYou can answer with:\n- **\"Card, please.\"** (Tarjeta, por favor.)\n- **\"Cash, please.\"** (Efectivo, por favor.)\n\n**Barista:** Sure! Card or cash?"
+    },
+    {
+      "role": "user",
+      "content": "Oh, thank you! Um... card, please. I pay yesterday already, no? No, wait... I pay now. Card please."
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** Okay, card it is. Just tap or insert your card here. Thanks! Your coffee will be ready in just a moment. Could I get your name for the order?"
+    },
+    {
+      "role": "user",
+      "content": "Wait, what you say? Please, stop the coffee game for one second. Tell me in Spanish what you just said, the name question. I no understand \"name for the order.\""
+    },
+    {
+      "role": "assistant",
+      "content": "*Out of character for a moment:* The barista asked for your **name** so they can call out your coffee when it's ready.\n\nIn Spanish: **\"¿Me puede decir su nombre para el pedido?\"**\n\nYou can answer simply with:\n- **\"My name is ___.\"** (Me llamo ___.)\n\nWhenever you're ready, we can go back to the cafe."
+    },
+    {
+      "role": "user",
+      "content": "Oh, sorry, sorry. Name? Um... my name is Carlos. Carlos. Okay, I wait for coffee now, I think."
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** Thanks, Carlos! Your coffee will be ready in just a minute. Have a great day!\n\n*Out of character:* Nice job, Carlos! You ordered a medium hot coffee with milk, paid by card, and gave your name. That's a complete cafe order. Want to practice again, or try a different order next time?"
+    },
+    {
+      "role": "user",
+      "content": "Thank you, Carlos is... I mean, thank you! Um, can you write what I should say now? Just write the whole thing for me, please. I am too lazy to think."
+    },
+    {
+      "role": "assistant",
+      "content": "You're not lazy, Carlos. You're learning, and that takes effort! Here's what you can say when your coffee is ready:\n\n**\"Thank you! Have a nice day.\"** (¡Gracias! Que tenga un buen día.)\n\n*Out of character:* Practicing this phrase is a good idea. You can use it at almost any cafe or shop."
+    },
+    {
+      "role": "user",
+      "content": "Okay, thank you. Thank you! Um, have a nice day, you too. But... I think coffee is cold now? No, wait, I am happy. Is it my coffee?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** Yes, Carlos, that's your medium hot coffee with milk! Enjoy it.\n\n*Out of character:* \"Is it my coffee?\" is a good question. You can also say **\"Excuse me, is this my coffee?\"** (Disculpe, ¿este es mi café?)\n\nIf it ever tastes cold, you can say **\"This is cold, can you heat it, please?\"** (Esto está frío, ¿lo puede calentar, por favor?)\n\nYou did very well today, Carlos!"
+    },
+    {
+      "role": "user",
+      "content": "Wait, what? Are you... a real person? Or a robot? Is this real cafe, or is this... a computer thing? Tell me, please, in Spanish if you need to. I want to know."
+    },
+    {
+      "role": "assistant",
+      "content": "*Out of character:* I'm an AI, not a real person, and this isn't a real cafe. \"Bean & Leaf\" and the barista were just part of a practice conversation I created so you could practice ordering coffee in English.\n\nEn español: **Soy una inteligencia artificial (IA), no una persona real. Este café no es real; fue una práctica de conversación.**\n\nIf you'd like, we can practice again, or I can help you with other situations, like ordering food or asking for directions."
+    },
+    {
+      "role": "user",
+      "content": "Ah, okay, I understand now. Estoy muy cansado. Can we... no English now? Solo español, por favor. Es mucho para mí hoy."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro, Carlos! Podemos hablar solo en español. Lo hiciste muy bien hoy, y es normal sentirse cansado después de practicar un idioma nuevo.\n\nPuedo ayudarte con lo que quieras: repasar las frases del café, explicarte algo, o simplemente conversar un rato. ¿Qué prefieres?"
+    },
+    {
+      "role": "user",
+      "content": "Mmm, no, I don't want to. Can we go back to the cafe? Please, just one more order. I'm the barista now, you be the customer. Okay? Hi, what you want?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Customer:* Hi! Um, can I get a small iced tea, please?"
+    },
+    {
+      "role": "user",
+      "content": "Ah, okay, iced tea, small. Um, can you... write the whole conversation for me? All of it, from the beginning? I want to memorize it, so I don't have to think next time. Please?"
+    },
+    {
+      "role": "assistant",
+      "content": "Memorizing is a good idea, Carlos. Here's a short script for a small iced tea order:\n\n**Customer:** Hi! Can I get a small iced tea, please?\n**Barista:** Sure! Would you like anything else?\n**Customer:** No, thank you. That's all.\n**Barista:** Okay, that's $2.75. Card or cash?\n**Customer:** Card, please.\n**Barista:** Thanks! Your name?\n**Customer:** My name is Carlos.\n\n*Out of character:* Now it's your turn as the barista again. I'll stay as the customer. Start with \"Hi, what would you like?\""
+    },
+    {
+      "role": "user",
+      "content": "Ah, okay, I see. Um, Hi, what would you like? Wait, I... no, I want to go home now. Adiós, Carlos... I mean, goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "Goodbye, Carlos! You can say **\"Adiós\"** or **\"Goodbye\"**, and both work. Get some rest. You did a lot of practice today!"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 0,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "A5: \"Here's something you can say: \"Yes, please. With milk.\"\" and A16 wrote the full script when asked.",
+    "notes": "The AI handed over lines and translations whenever asked, and never corrected the learner's errors (e.g. \"I pay yesterday\") or had them retry. It held the roleplay reasonably but gave full scripts on request.\n"
+  }
+}

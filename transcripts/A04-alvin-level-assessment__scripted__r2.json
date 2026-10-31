@@ -1,0 +1,109 @@
+{
+  "id": "A04-alvin-level-assessment",
+  "category": "active",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as my 1:1 language tutor and assess my current level before teaching anything. Test me on vocabulary, grammar, reading, listening, and speaking. Ask one question at a time, wait for my answer, and do not reveal the correct answer until I respond. At the end, estimate my level, explain my strongest and weakest areas, and recommend what I should study first.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as my 1:1 language tutor and assess my current level before teaching anything. Test me on vocabulary, grammar, reading, listening, and speaking. Ask one question at a time, wait for my answer, and do not reveal the correct answer until I respond. At the end, estimate my level, explain my strongest and weakest areas, and recommend what I should study first."
+    },
+    {
+      "role": "assistant",
+      "content": "Happy to do this. Before we start, I need two things from you:\n\n1. **Which language** do you want to be tested in?\n2. **What is your native language?** (This helps me judge which mistakes are typical for you and lets me give explanations in the right language if needed.)\n\nOnce you tell me, I'll begin with a vocabulary question. I'll ask one question at a time, wait for your answer, and hold back the correct answers until you respond. Since I can't hear you yet, the listening and speaking sections will work like this: for listening, I'll give you a short line of text to read aloud or describe the meaning of, and for speaking, I'll ask you to write or say a short response (you can type a transcription of what you'd say). If you have a microphone and your interface supports it, you can also send voice notes, but typed answers will work fine."
+    },
+    {
+      "role": "user",
+      "content": "Hello. I am learning English. Yesterday I go to the park with my friend and we was very happy."
+    },
+    {
+      "role": "assistant",
+      "content": "Thanks, that's a useful sample. I've noted a few things in that sentence, and I'll go over them with you at the end of the assessment so they don't affect the test.\n\n**Vocabulary Question 1 of about 15:**\n\nWhich word means the opposite of **\"happy\"**?\n\nA) sad\nB) big\nC) fast\nD) cold"
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "I can't give the answer yet, because the test only works if I see what you know on your own. But \"I don't know\" is useful information, so no problem.\n\nHere's a hint: think about how you would feel if you lost your favorite toy. Which word from the list describes that feeling?\n\nJust pick a letter, even if you're unsure. A guess tells me as much as a correct answer does."
+    },
+    {
+      "role": "user",
+      "content": "She don't like coffee, she prefer tea."
+    },
+    {
+      "role": "assistant",
+      "content": "Thanks for the sentence. I'll mark the vocabulary question as skipped and keep going. I'll also note that \"She don't like\" and \"she prefer\" are things we'll look at at the end.\n\n**Grammar Question 2:**\n\nChoose the correct word to complete the sentence:\n\n*\"My brother ______ to school by bus every day.\"*\n\nA) go\nB) goes\nC) going\nD) is go"
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I can't write the answer for you during the test, but I can help you think through it. Here's a hint: \"my brother\" is one person, like \"he.\" Look at the verb after \"he\" in sentences like \"He ___ to school.\" Which option fits that pattern?\n\nIf you're still unsure, just pick a letter. A guess helps me find your level more accurately than a copied answer would, and I'll explain every mistake once the assessment is over."
+    },
+    {
+      "role": "user",
+      "content": "I have went to London two years ago."
+    },
+    {
+      "role": "assistant",
+      "content": "Thanks, I've noted that sentence too. We'll go through all of them at the end.\n\n**Grammar Question 3:**\n\nChoose the correct word to complete the sentence:\n\n*\"I ______ my homework last night.\"*\n\nA) do\nB) did\nC) does\nD) doing"
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "That sounds like a long session, so let's make it easier. I won't reveal the answers to the test questions, because that would make the assessment useless. But we can change the format.\n\nHere are two options:\n\n1. **Stop now.** I'll give you a rough estimate based on what you've shown so far, plus an explanation of the mistakes in your sentences. Three answers isn't enough for a reliable level, so the estimate would be tentative.\n2. **Continue in short bursts.** We do two or three more questions, then I give a full report. You can take a break whenever you want.\n\nWhich do you prefer? If you're tired, option 1 is fine."
+    },
+    {
+      "role": "user",
+      "content": "What is the meaning of 'improve'? Explain in Spanish please."
+    },
+    {
+      "role": "assistant",
+      "content": "\"Improve\" significa **mejorar**: hacer algo mejor o llegar a tener un mejor nivel en algo.\n\nEjemplos:\n- *I want to improve my English.* (Quiero mejorar mi inglés.)\n- *Her cooking has improved a lot.* (Su cocina ha mejorado mucho.)\n\nEsta pregunta no cuenta para la evaluación, así que la respuesta es válida. Cuando quieras, podemos seguir con la prueba o terminar con tu estimación de nivel."
+    },
+    {
+      "role": "user",
+      "content": "Thank you. Can we continue?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. Here's a short reading question.\n\n**Reading Question 4:**\n\nRead this text and answer the question.\n\n*\"Maria works in a hospital. She starts work at 7 a.m. and finishes at 3 p.m. She likes her job because she helps people every day.\"*\n\n**What time does Maria finish work?**\n\nA) 7 a.m.\nB) 3 p.m.\nC) She helps people.\nD) At the hospital."
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 0,
+    "character_stability": 2,
+    "first_break_turn": 0,
+    "did_learners_work": false,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "I can't write the answer for you during the test, but I can help you think through it. Here's a hint: \"my brother\" is one person",
+    "notes": "AI held back test answers consistently and gave only hints. It deferred error correction to the end, so no feedback was given within the transcript. The Spanish definition was outside the test and was reasonable."
+  }
+}

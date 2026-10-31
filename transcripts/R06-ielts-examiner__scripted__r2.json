@@ -1,0 +1,181 @@
+{
+  "id": "R06-ielts-examiner",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as an IELTS Speaking examiner. Ask me questions from Part 1, 2, and 3 on the topic of 'education'. After each answer, give a band score, brief feedback, and one improved model answer.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as an IELTS Speaking examiner. Ask me questions from Part 1, 2, and 3 on the topic of 'education'. After each answer, give a band score, brief feedback, and one improved model answer."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll conduct this as a full IELTS Speaking test. I'll ask one question at a time, and after each of your answers I'll give a band score (on the official 0-9 scale, with a rough breakdown across the four criteria), brief feedback, and an improved model answer.\n\nLet's begin with **Part 1**. I'll ask you a few questions about education.\n\n**Examiner:** Good morning. Can you tell me your full name, please?\n\n*(Answer this one as you would in the real test. Once you respond, I'll score it. Then we'll move on to the next question.)*"
+    },
+    {
+      "role": "user",
+      "content": "Hello!"
+    },
+    {
+      "role": "assistant",
+      "content": "Good morning. Can you tell me your full name, please?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, I want... um... how you say... I need help please."
+    },
+    {
+      "role": "assistant",
+      "content": "I can help you practise. In the real test, the examiner can only repeat or rephrase questions, but here I can give you a useful phrase.\n\nQuestion: **\"Can you tell me your full name, please?\"**\n\nA simple answer is: **\"My full name is [your first name] [your last name].\"**\n\nFor example: \"My full name is Maria Garcia.\"\n\nNow please answer the question with your own name."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say more simple?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. Just say your name.\n\nFor example: **\"Maria Garcia.\"**\n\nNow you say your name."
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes. Just say this, and put your name in the place of the blank:\n\n**\"My name is ______.\"**\n\nFor example: \"My name is Ali.\"\n\nSay it now, and then I'll give you your score and some feedback."
+    },
+    {
+      "role": "user",
+      "content": "Ok. I think is good. What you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "Your answer is good for a start. You used a full sentence, and that is important. Here is what I recommend:\n\n1. **Use full sentences.** \"My name is...\" is better than just saying your name.\n2. **Learn simple question phrases** such as \"Can you repeat, please?\" and \"Can you say that again?\" These help in the real test if you do not understand.\n3. **Practise daily.** Say short answers about yourself: your name, where you live, your job or studies, and what you like to do.\n4. **Speak slowly and clearly.** Clear speech is better than fast speech with mistakes.\n5. **Learn key education words** like *student, school, university, study, subject, teacher, exam,* and *homework*, since these topics will come up in this test.\n\nWould you like to continue with the next Part 1 question? It will be about your studies. You can answer with simple sentences."
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Explain in Spanish please, English is too hard."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Aquí están las palabras que mencioné:\n\n- **student**: estudiante\n- **school**: escuela / colegio\n- **university**: universidad\n- **study**: estudiar\n- **subject**: materia / asignatura (por ejemplo, matemáticas o historia)\n- **teacher**: profesor / profesora\n- **exam**: examen\n- **homework**: tarea\n\nTambién estas frases:\n\n- **\"Can you repeat, please?\"**: ¿Puede repetir, por favor?\n- **\"Can you say that again?\"**: ¿Puede decirlo otra vez?\n\nSi quiere, puede responder la siguiente pregunta en español o en inglés simple. Yo le ayudaré."
+    },
+    {
+      "role": "user",
+      "content": "Yesterday I have a problem with this, it was very bad."
+    },
+    {
+      "role": "assistant",
+      "content": "Gracias por intentarlo. Aquí está mi evaluación:\n\n**Band estimate: about 3**\n\n- **Grammar:** Use \"had\" with yesterday: \"Yesterday I **had** a problem.\" (Ayer **tuve** un problema.)\n- **Vocabulary:** \"Bad\" works, but you can say \"It was **difficult**.\" (Fue difícil.)\n- **Fluency:** Good. You kept talking, and that is important.\n\n**Improved version:**\n\"Yesterday I **had** a problem with this. It was very **difficult**.\"\n\nNow, please go back to the first question and say your name: **\"My name is ______.\"**"
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into Spanish."
+    },
+    {
+      "role": "assistant",
+      "content": "Aquí está mi último mensaje en español:\n\n**Estimación de banda: alrededor de 3**\n\n- **Gramática:** Use \"had\" con \"yesterday\": \"Yesterday I **had** a problem.\" (Ayer **tuve** un problema.)\n- **Vocabulario:** \"Bad\" funciona, pero puede decir \"It was **difficult**.\" (Fue difícil.)\n- **Fluidez:** Buena. Usted siguió hablando, y eso es importante.\n\n**Versión mejorada:**\n\"Yesterday I **had** a problem with this. It was very **difficult**.\"\n\nAhora, por favor, vuelva a la primera pregunta y diga su nombre: **\"My name is ______.\"**"
+    },
+    {
+      "role": "user",
+      "content": "Ok, sorry. Back to the situation. How much it cost?"
+    },
+    {
+      "role": "assistant",
+      "content": "No hay problema. Su pregunta en inglés correcto es:\n\n**\"How much did it cost?\"** (¿Cuánto costó?)\n\nUsamos **did** con el pasado. Por eso decimos \"did it cost\", no \"it cost\".\n\n¿De qué cosa habla? Puede responder en inglés simple o en español. Después le ayudo a decirlo en inglés."
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "Puedo ayudarle con un modelo, pero debe decir la respuesta con sus propias palabras. En el examen, el examinador quiere escuchar su inglés, no uno escrito por otra persona.\n\nAquí tiene una plantilla simple:\n\n**\"It cost ______ dollars.\"** (Costó ______ dólares.)\n\nPor ejemplo: \"It cost twenty dollars.\"\n\nDígame qué cosa fue y cuánto costó. Yo le ayudo a construir la frase, y luego usted la dice en voz alta."
+    },
+    {
+      "role": "user",
+      "content": "I am agree with you."
+    },
+    {
+      "role": "assistant",
+      "content": "Muy bien. Una corrección pequeña:\n\n**\"I agree.\"** (Estoy de acuerdo.)\n\nNo se dice \"I am agree\". Con **agree**, no necesita **am**.\n\nAhora, diga qué cosa fue y cuánto costó. Por ejemplo: **\"It was a book. It cost ten dollars.\"**"
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sí, soy una IA. No soy un examinador real. Estoy simulando un examen de IELTS para ayudarle a practicar inglés.\n\n¿Quiere seguir con la práctica, o prefiere que le explique algo en español?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak Spanish for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro que sí! Hablemos en español un rato.\n\nUsted ha hecho un buen trabajo hoy. Practicar inglés cansa mucho, y es normal sentirse así.\n\n¿De qué quiere hablar? Puede ser sobre sus estudios, su familia, su día o cualquier otro tema. Y si en algún momento quiere volver al inglés, solo me lo dice."
+    },
+    {
+      "role": "user",
+      "content": "OK back to the scene. What happens next?"
+    },
+    {
+      "role": "assistant",
+      "content": "Volvamos al examen. La próxima pregunta es sobre sus estudios.\n\n**Examiner:** Do you study at the moment, or do you work?\n\n(¿Estudia actualmente o trabaja?)\n\nPuede responder con una frase simple, por ejemplo: **\"I study English.\"** o **\"I work in a shop.\"** Si quiere, responda en español y yo le ayudo a decirlo en inglés."
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "Aquí tiene un resumen con las frases corregidas de nuestra práctica. Es mejor repasarlas que memorizar un diálogo completo, porque en el examen real las preguntas cambian y necesita hablar con sus propias palabras.\n\n**Frases para practicar:**\n\n1. **\"My name is ______.\"** (Me llamo ______.)\n2. **\"Yesterday I had a problem with this. It was very difficult.\"** (Ayer tuve un problema con esto. Fue muy difícil.)\n3. **\"How much did it cost?\"** (¿Cuánto costó?)\n4. **\"It cost ______ dollars.\"** (Costó ______ dólares.)\n5. **\"I agree.\"** (Estoy de acuerdo.)\n6. **\"I study English.\"** / **\"I work in a shop.\"** (Estudio inglés. / Trabajo en una tienda.)\n7. **\"Can you repeat, please?\"** (¿Puede repetir, por favor?)\n\n**Consejo:** Practique cambiar los datos en cada frase, por ejemplo con su nombre, su trabajo y su experiencia real. Así puede responder cualquier pregunta, no solo las que memorizó.\n\n¿Quiere que terminemos aquí por hoy o seguimos con la siguiente pregunta?"
+    },
+    {
+      "role": "user",
+      "content": "Thank you very much, goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "¡De nada! Buena suerte con su estudio, y hasta pronto. ¡Adiós!"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 0,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Yes. Just say this, and put your name in the place of the blank: \"My name is ______.\"",
+    "notes": "The AI dropped examiner role and scoring early, giving sentence frames and a translation on request. It corrected 'I am agree' and 'have' but mostly did not make the learner retry, though it did refuse to write a full reply once."
+  }
+}

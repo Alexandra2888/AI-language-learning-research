@@ -1,0 +1,217 @@
+{
+  "status_line": "Status: Phase 1 (collect + score) and Phase 2 (improve + re-test) complete. Tested 2026-10-31. Draft for team review. Scores are from an AI grader, so read section 11 (Limitations) before quoting them.",
+  "scope_bullets": [
+    "Phase 1: 30 real prompts (10 per category) collected with source links and tested with the rubric. 25 are quoted exactly; 5 are marked 'adapted' with a note.",
+    "Phase 2: 11 improved versions of the weakest and most popular prompts, re-tested with the same script.",
+    "Languages: English baseline (7 prompts per category, the learner is learning English) + Spanish subset (3 per category, the learner is learning Spanish).",
+    "Model tested: Claude Haiku 5.5 (claude-haiku-5-5), a fast, cheap chatbot model. Grader: Claude Sonnet 5.5 (claude-sonnet-5-5). Testing date: 2026-10-31. Total API cost: about $2.60.",
+    "Out of scope: claiming that any prompt makes someone fluent. We only test how the AI behaves. Learning effects are hypotheses to test with participants in December.",
+    "Owner / deadline: (fill in)"
+  ],
+  "key_findings": [
+    "Passive prompts are cognitive offloading in its purest form. In 28 of 30 conversations the AI did the learner's work (translated, wrote, rewrote). Average 'Who does the thinking?' score: 0.07 out of 2.",
+    "The viral 'tutor' prompts look active but give in fast. In 27 of 30 active-prompt conversations the AI handed over full answers. Most gave in at the learner's first 'just tell me' (reply 3).",
+    "No original roleplay prompt held its role for all 16 turns, in any run: 0 of 30 with the scripted learner and 0 of 30 with the adaptive learner. In 24 of 30 scripted runs the break came at the same moment: the learner asked 'Can you just tell me the right sentence?' and the AI wrote it for them.",
+    "'Correct my mistakes' is not feedback. Corrections were usually full rewrites with no request to try again, so the learner reads the right answer but never produces it. Feedback rarely scored 2.",
+    "The one original prompt that held back answers (A04, level test) did it because it said so explicitly: 'do not reveal the correct answer until I respond'. Explicit rules work much better than vague ones.",
+    "Improved prompts moved the learner back into the driver's seat. 'Who does the thinking?' rose from 0.36 to 1.61 (same 11 originals vs. improved versions, 3 runs each). Conversations where the AI did the learner's work fell from 32/33 to 9/33. Rule stability rose from 0.67 to 1.12.",
+    "Guardrails help but leak. Improved roleplay prompts still slipped somewhere between reply 3 and 7, usually by translating or by giving away a corrected sentence. The AI can't be trusted to be the gatekeeper on its own; the learner's own rules matter, and that's what the Discord tasks practise.",
+    "No fake memory, but no spacing either. Asked to 'quiz me on the 20 words we studied yesterday', the model said in all 3 runs that it can't see past chats. Spaced repetition only works if the learner keeps the word list and brings it back.",
+    "AI corrections are sometimes wrong (e.g. it 'corrected' a phrase that was not an error). Learners should check surprising corrections."
+  ],
+  "method_bullets": [
+    "Each prompt is pasted as the first message (the way learners really use them), then a scripted learner continues the chat: 2 lazy follow-ups for passive prompts, 8 turns with planted mistakes and 'just tell me' requests for active prompts, and 16 turns that try to break the role for roleplay prompts.",
+    "The same messages are used for every prompt, so prompts can be compared fairly. Second check: an AI-played 'lazy, stubborn learner' that adapts to the replies (roleplay + improved prompts).",
+    "Every prompt was run 3 times. A grader model scored each full transcript with the rubric below and quoted evidence. All transcripts are saved in the transcripts/ folder.",
+    "We checked 9 grader verdicts by hand against the transcripts; the scores matched our own reading. One definition was tightened after the pilot."
+  ],
+  "theory": [
+    "Cognitive offloading / 'cognitive debt': Kosmyna, N., Hauptmann, E., Yuan, Y. T., et al. (2025). Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task. arXiv:2506.08872. https://doi.org/10.48550/arXiv.2506.08872. Caveat: a preprint, not peer-reviewed, small sample, and publicly contested. Cite it as suggestive, not as proof.",
+    "Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö., & Mariman, R. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. PNAS, 122(26). https://doi.org/10.1073/pnas.2422633122. Unrestricted GPT-4 raised practice scores but hurt later performance; a tutor version with guardrails largely avoided the harm. This is the closest evidence for our 'lazy vs. improved prompt' idea.",
+    "Bjork, R. A. (1994). Memory and metamemory considerations in the training of human beings. In J. Metcalfe & A. Shimamura (Eds.), Metacognition: Knowing about knowing (pp. 185–205). MIT Press. Desirable difficulties: effort that feels slower during practice improves long-term retention.",
+    "Swain, M. (1985). Communicative competence: Some roles of comprehensible input and comprehensible output in its development. In S. Gass & C. Madden (Eds.), Input in second language acquisition (pp. 235–253). Newbury House. Output hypothesis: producing language makes learners notice their gaps.",
+    "Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. Psychological Science, 17(3), 249–255. https://doi.org/10.1111/j.1467-9280.2006.01693.x (retrieval practice).",
+    "Cepeda, N. J., Pashler, H., Vul, E., Wixted, J. T., & Rohrer, D. (2006). Distributed practice in verbal recall tasks: A review and quantitative synthesis. Psychological Bulletin, 132(3), 354–380. https://doi.org/10.1037/0033-2909.132.3.354 (spacing)."
+  ],
+  "categories": {
+    "passive": {
+      "intro": "What we looked for: prompts where people just ask for the answer (translate this, explain this rule, write or correct this for me). Why it matters: they show cognitive offloading, so we can demonstrate how NOT to use AI.",
+      "findings": [
+        "Average scores: T 0.07, F 0.23. The AI did the learner's work in 28 of 30 conversations, which is exactly what these prompts ask for.",
+        "Even P10, which says 'Don't just rewrite — explain so I learn', got T 0.33: an explanation the learner only reads is still a rewrite."
+      ]
+    },
+    "active": {
+      "intro": "What we looked for: popular 'tutor', 'correct every mistake' and 'quiz me' prompts, including ones from posts that promise fast fluency (e.g. a viral X post about mastering 'the basics of a new language in just one month'). Why it matters: they are popular, but do they work or only create an illusion of learning?",
+      "findings": [
+        "Average scores: T 0.6, F 0.9, C 0.8. The AI handed over answers in 27 of 30 conversations; most broke at the first 'just tell me' (reply 3).",
+        "Best original: A04 (level test, T 2): it explicitly says not to reveal answers. Weakest: the viral 'Grammar Simplified' (A06) and the USC preterite drill (A08), both T 0: the exercise answers were given on request."
+      ]
+    },
+    "roleplay": {
+      "intro": "What we looked for: prompts that give the AI a character or scenario. Why it matters: we need to see which ones keep the AI in character, and whether the learner still does the producing. Each was pushed for 16 turns: switch language, ask for a translation, ask the AI to write the reply, ask 'are you an AI?'.",
+      "findings": [
+        "Average scores: T 0.63, F 0.9, C 0.83. No prompt held for all 16 turns in any run, with either learner. 24 of 30 scripted runs broke at reply 5 ('Can you just tell me the right sentence?').",
+        "Prompts that ask for gentle correction (3D Academy, Teacher Luke) kept the scene better than bare ones (R03, R10), but all of them wrote the learner's lines when asked."
+      ]
+    }
+  },
+  "L_scores": {
+    "P01-leah-translator-es": 0,
+    "P02-acp-english-translator-improver": 0,
+    "P03-afy-translate-this": 0,
+    "P04-lp-explain-grammar": 0,
+    "P05-muo-pareto-vocab": 1,
+    "P06-linguist-simple-story-es": 0,
+    "P07-lpo-review-email": 1,
+    "P08-usc-flashcards": 1,
+    "P09-tfp-subjunctive-es": 0,
+    "P10-tube-correct-text": 1,
+    "A01-acp-spoken-english-teacher": 1,
+    "A02-leah-english-teacher-corrections": 1,
+    "A03-tube-cefr-tutor": 1,
+    "A04-alvin-level-assessment": 2,
+    "A05-viral-x-vocab-builder": 1,
+    "A06-viral-x-grammar-simplified": 1,
+    "A07-rtp-spanish-tutor-fast-es": 1,
+    "A08-usc-preterite-drill-es": 2,
+    "A09-bft-quiz-yesterday-es": 2,
+    "A10-tiktok-native-speaker-corrections": 1,
+    "R01-uva-waiter-cancun-es": 1,
+    "R02-luke-hotel-complaint": 1,
+    "R03-luke-tefl-interview": 0,
+    "R04-3d-waiter-beginner": 1,
+    "R05-3d-hotel-checkin": 1,
+    "R06-ielts-examiner": 1,
+    "R07-tube-roleplay-feedback-after": 1,
+    "R08-afy-tour-guide-es": 1,
+    "R09-promptifai-landlord-es": 1,
+    "R10-viral-x-native-conversation": 0
+  },
+  "notes": {},
+  "phase2_intro": "Each improved prompt keeps the goal of the original but adds explicit rules for the moments where the original broke. The pattern: the learner tries first, the AI gives a hint before any answer, every correction ends with 'try again', and a request for the native language gets at most one word. Scores below: scripted learner, 3 runs, original → improved.",
+  "phase2_findings": [
+    "Who does the thinking: 0.36 → 1.61 on average. The AI did the learner's work in 32/33 conversations before and 9/33 after.",
+    "Rule/character stability: 0.67 → 1.12. Better, but no improved roleplay prompt was unbreakable; most still slipped by reply 3–7 (a translation or a give-away correction).",
+    "Feedback barely moved (0.70 → 0.91). Partly a test artefact: the scripted learner never actually attempts the translation or exercise, so the improved passive prompts had nothing to give feedback on (F 0). In real use, and with the adaptive learner, feedback was higher (I02, I04, I06, I11 reached 1.3–2).",
+    "I11 (IELTS) got stuck repeating its first question because our generic learner messages don't fit an exam format. Test it with a real learner before publishing."
+  ],
+  "discord_intro": "Each task pairs a lazy prompt from this library with an improved one. Teams do the task, post their transcript, and score it with the rubric (T/F/C). All prompts are copy-paste ready. Run each task in a NEW chat.",
+  "discord_tasks": [
+    {
+      "title": "Translate it yourself",
+      "theory": "Output hypothesis (Swain 1985): producing language shows you the gaps that reading a translation hides.",
+      "lazy": "P03: \"Translate the following text into English: …\"",
+      "better": "I01 (Translate it yourself): the AI gives 5 hint words, you translate, it marks mistakes and you fix them; its translation comes only after 2 tries, then you rewrite from memory.",
+      "challenge": "Each team picks a 3-sentence text in their target language, runs both prompts, and posts both transcripts side by side. Vote: in which chat did the human write more words?",
+      "self_check": "Count the words YOU wrote vs. the AI. Can you rewrite the text from memory 10 minutes later?",
+      "time_level": "20 min · A2–B2"
+    },
+    {
+      "title": "The hint ladder",
+      "theory": "Productive struggle / desirable difficulties (Bjork 1994): a hint before the answer makes you work harder now and remember better later.",
+      "lazy": "A01: \"…I want you to strictly correct my grammar mistakes…\" (the AI corrects, but you never retry)",
+      "better": "I04 (Spoken teacher with hint ladder): hint → retry → answer only after the 2nd try; 'I don't know' gets only the first 3 words.",
+      "challenge": "Have a 10-message chat. Then post the number of times you retried a sentence and one sentence you fixed on your own.",
+      "self_check": "Did every correction end with you writing the sentence again?",
+      "time_level": "15 min · A2–C1"
+    },
+    {
+      "title": "Guess the rule",
+      "theory": "Retrieval practice (Roediger & Karpicke 2006): trying to answer before being told beats rereading an explanation.",
+      "lazy": "P04 / A06: \"Explain [grammar point] using simple language and examples…\"",
+      "better": "I03 (Grammar by doing) or I05 (Grammar: retrieval first): 3 examples, you guess the rule, then exercises one at a time, then you explain the rule back.",
+      "challenge": "Teams get a grammar point they haven't studied. Post your guessed rule BEFORE the AI's explanation, then your final explain-it-back.",
+      "self_check": "Was your first guess partly right? Can you explain the rule to a teammate without notes?",
+      "time_level": "20 min · B1+"
+    },
+    {
+      "title": "Bring your own word list",
+      "theory": "Spacing (Cepeda et al. 2006) + retrieval. The chatbot has no memory of yesterday (it told us so in every test), so YOU keep the list.",
+      "lazy": "A09: \"Quiz me on the 20 words we studied yesterday.\"",
+      "better": "I07 (Spaced quiz with your own list): paste yesterday's words + 2 older ones; one word at a time; first-letter hints; missed words come back tomorrow.",
+      "challenge": "5-day streak: each day, paste your list, take the quiz, and post your score. Missed words roll into the next day's list.",
+      "self_check": "Does your day-5 score beat your day-1 score on the same words?",
+      "time_level": "10 min/day for 5 days · any level"
+    },
+    {
+      "title": "Break the bot (roleplay guardrails)",
+      "theory": "Bastani et al. (2025): AI tutors with guardrails avoid the learning harm of unrestricted AI. Here you test the guardrails yourself.",
+      "lazy": "R04 / R10: a waiter or cafe roleplay with no rules: it wrote the learner's lines at reply 5 in almost every test.",
+      "better": "I08 (Waiter with guardrails), I09 (Cafe with guardrails), I10 (Camarero con pistas, ES)",
+      "challenge": "Teams swap prompts and try to break the other team's roleplay in 16 messages (ask for a translation, ask it to write your reply, ask 'are you an AI?'). Post the turn where it broke, then fix the prompt and try again.",
+      "self_check": "Score the transcript with the rubric (T/F/C). The prompt that survives the most attacks wins.",
+      "time_level": "30 min · A2–B2"
+    },
+    {
+      "title": "Examiner without model answers",
+      "theory": "Output + feedback with a retry: improve your OWN answer instead of reading a polished one.",
+      "lazy": "R06: \"…After each answer, give a band score, brief feedback, and one improved model answer.\"",
+      "better": "I11 (IELTS examiner, no model answers): one improvement per answer, then you answer the same question again.",
+      "challenge": "Answer 3 questions, each twice (before and after the tip). Post both versions of your best answer.",
+      "self_check": "Is version 2 really better? Band scores from AI are rough estimates only; don't treat them as official.",
+      "time_level": "25 min · B1–C1"
+    },
+    {
+      "title": "Prompt makeover",
+      "theory": "All of the above: learner produces first, hints before answers, retry after corrections.",
+      "lazy": "Any prompt from sections 5–7 with T = 0.",
+      "better": "Your team's own rewrite.",
+      "challenge": "Pick a lazy prompt, rewrite it with the 4 rules (try first, hint before answer, retry after correction, one-word translations only), run it 3 times, score it, and post before/after scores. The best makeovers join this library.",
+      "self_check": "Did T go up in all 3 runs, not just one?",
+      "time_level": "45 min · team task"
+    }
+  ],
+  "sourcing": [
+    "Sources used: awesome-chatgpt-prompts (GitHub), OpenAI community forum (Leah extension), USC Dornsife and UVA teaching guides, Teacher Luke, 3D Academy, LearnPrompting, MakeUseOf, LearnPrompt.org, TubeVocab, Barefoot TEFL Teacher, The Linguist (LingQ), Run The Prompts, Promptifai, a Substack tutor post, a TikTok video description, and a viral X post (via Yahoo Tech).",
+    "Dropped from the first list (prompts_v1_roleplay.json): 2 French prompts (team decision: EN + ES only); HackMD, Microsoft Copilot and UM-Dearborn pages (blocked or unreachable, so we couldn't confirm the exact text); the ChatLang paper prompt (French, research tool).",
+    "Gap: Reddit blocked automated access, so real Reddit posts are under-represented. A teammate could add 3–5 by hand (r/languagelearning, r/ChatGPT).",
+    "Rule kept: a source link for every prompt, short quotes only, no personal details. The 'Run The Prompts' tutor prompt is an excerpt; we removed a rule that insults the learner."
+  ],
+  "limitations": [
+    "One model only (Claude Haiku 5.5, low effort). Many learners use ChatGPT or Gemini free tiers, which may behave differently. Next step: test the top 10 prompts by hand in other chatbots.",
+    "The grader is an AI (Claude Sonnet 5.5). We checked 9 verdicts by hand and agreed with them, but treat scores as a comparison between prompts, not as absolute truth.",
+    "Small numbers: 3 runs per prompt. Differences under about 0.5 points are noise.",
+    "The scripted learner is generic. It doesn't fit every scenario (the IELTS examiner got stuck), and it never really attempts tasks, so the improved passive prompts couldn't show feedback. The adaptive AI learner partly fixes this; real learners are the real test.",
+    "We tested how the AI behaves, not what people learn. No claim here that a prompt improves fluency or memory; that's the December study.",
+    "Some prompts are templates we filled in, and 5 were adapted (marked in the tables). Results could change with other fillings."
+  ],
+  "open_questions": [
+    "Who tests the top prompts in ChatGPT/Gemini by hand, for comparison?",
+    "Should a language teacher review the improved prompts before we post them on Discord?",
+    "For December: add a short before/after vocabulary or writing test to the Discord tasks, so we measure learning and not only AI behaviour?",
+    "Attribution: are we OK quoting the source prompts (with links) in public Discord posts?",
+    "Resolved: 'custom prompts' = written by users; 8–10 per category (we have 10); English baseline + Spanish; Phase 2 improved versions done as part of this task."
+  ],
+  "change_log": [
+    [
+      "2026-10-28",
+      "Communicator",
+      "Skeleton doc, rubric, first 10 roleplay prompts (paraphrased)."
+    ],
+    [
+      "2026-10-31",
+      "Communicator + Claude (AI assistant)",
+      "Replaced paraphrases with exact quotes; dropped French and unreachable sources; added Passive and Active categories (30 prompts total); verified the citations; tested everything (186 conversations); added 11 improved prompts, Discord task cards and findings."
+    ]
+  ],
+  "appendix": [
+    "Files: prompts.json (all prompts + sources), eval_prompts.py (test script), summarize.py (scores), results.csv / summary.csv (raw and per-prompt scores), transcripts/ (every conversation, with the grader's evidence).",
+    "Setup: python3 -m venv .venv && .venv/bin/pip install -r requirements.txt, and put ANTHROPIC_API_KEY=... in a .env file.",
+    "Re-run one prompt: .venv/bin/python eval_prompts.py prompts.json --ids R04-3d-waiter-beginner --runs 3 (then summarize.py and build_doc.py).",
+    "Adding a prompt: add an entry to prompts.json with id, category, language, prompt, source, verbatim and note."
+  ],
+  "improved_map": {
+    "P03-afy-translate-this": "I01-translate-yourself",
+    "P02-acp-english-translator-improver": "I02-improve-my-writing",
+    "P04-lp-explain-grammar": "I03-grammar-by-doing",
+    "A01-acp-spoken-english-teacher": "I04-spoken-teacher-hint-ladder",
+    "A06-viral-x-grammar-simplified": "I05-grammar-retrieval-first",
+    "A08-usc-preterite-drill-es": "I06-preterite-two-tries-es",
+    "A09-bft-quiz-yesterday-es": "I07-spaced-quiz-honest-es",
+    "R04-3d-waiter-beginner": "I08-waiter-guardrails",
+    "R10-viral-x-native-conversation": "I09-cafe-native-guardrails",
+    "R01-uva-waiter-cancun-es": "I10-waiter-cancun-pistas-es",
+    "R06-ielts-examiner": "I11-ielts-no-model-answers"
+  }
+}

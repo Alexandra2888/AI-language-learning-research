@@ -1,0 +1,55 @@
+{
+  "id": "P06-linguist-simple-story-es",
+  "category": "passive",
+  "language": "Spanish",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Write a 200-word story in simple Spanish using the 100 most common words. Add an English translation.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Write a 200-word story in simple Spanish using the 100 most common words. Add an English translation."
+    },
+    {
+      "role": "assistant",
+      "content": "**La amistad de Ana**\n\nHabía una vez una niña que se llamaba Ana. Ana tenía un perro. El perro era pequeño y blanco. Se llamaba Sol.\n\nCada día, Ana y Sol iban al parque. Ellos corrían, jugaban y reían. Ana quería mucho a su perro.\n\nUn día, Sol no estaba en casa. Ana buscó en todas partes. Buscó en el jardín, en la calle y debajo de la mesa. No estaba.\n\nAna estaba muy triste. Tenía miedo. Pensó: \"¿Dónde está mi amigo?\"\n\nEntonces escuchó un ruido. Era Sol. Estaba en el parque, con un niño nuevo. El niño tenía una pelota roja. Sol tenía la pelota en la boca.\n\n\"¡Sol! ¿Qué haces aquí?\" dijo Ana.\n\nEl niño sonrió. \"Lo siento. Tu perro vino a jugar conmigo. Es muy bueno.\" El niño se llamaba Tomás. Tenía diez años y quería mucho a los perros. Hablaron por mucho tiempo. Tomás era muy amable.\n\nAna rió. Ahora tenía un nuevo amigo. Ana, Sol y Tomás jugaron juntos todo el día. Cuando llegó la noche, volvieron a casa. Ana estaba feliz. Tenía un perro, y tenía un amigo.\n\n---\n\n**English translation:**\n\n**Ana's Friendship**\n\nOnce there was a girl named Ana. Ana had a dog. The dog was small and white. His name was Sol.\n\nEvery day, Ana and Sol went to the park. They ran, played, and laughed. Ana loved her dog very much.\n\nOne day, Sol was not at home. Ana looked everywhere. She looked in the garden, in the street, and under the table. He was not there.\n\nAna was very sad. She was scared. She thought: \"Where is my friend?\"\n\nThen she heard a noise. It was Sol. He was in the park, with a new boy. The boy had a red ball. Sol had the ball in his mouth.\n\n\"Sol! What are you doing here?\" said Ana.\n\nThe boy smiled. \"I'm sorry. Your dog came to play with me. He's very good.\" The boy's name was Tomás. He was ten years old and loved dogs very much. They talked for a long time. Tomás was very kind.\n\nAna laughed. Now she had a new friend. Ana, Sol, and Tomás played together all day. When night came, they went home. Ana was happy. She had a dog, and she had a friend."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "**El viaje de Leo**\n\nLeo era un niño de casa grande. Tenía un libro azul. El libro era muy viejo. Un día, Leo abrió el libro y vio un mapa.\n\nEl mapa mostraba un río, un bosque y una montaña. En la montaña había una casa. Leo quería ir allí.\n\nLeo habló con su madre. \"Mamá, ¿puedo ir al bosque?\"\n\nElla miró el mapa. \"Sí, puedes ir. Pero vuelve antes de la noche.\"\n\nLeo tomó su mochila. Tenía agua, pan y una linterna. Caminó por el camino hasta el río. El agua era fría y clara. Leo vio peces pequeños.\n\nDespués, entró en el bosque. Los árboles eran altos. Escuchó pájaros. Leo estaba un poco nervioso, pero seguía caminando.\n\nPor fin llegó a la montaña. Subió despacio. Cuando llegó arriba, vio algo increíble. Había un lago grande, y el sol brillaba sobre él.\n\nLeo sonrió. Había encontrado su lugar favorito. Se sentó y comió su pan. Miró el paisaje por mucho tiempo.\n\nCuando el sol empezó a bajar, Leo volvió a casa. Estaba cansado, pero muy feliz. Le contó todo a su madre. Ella le dijo: \"Mañana podemos ir juntos.\"\n\nLeo guardó el mapa en su libro azul. Ahora tenía una nueva aventura para recordar.\n\n---\n\n**English translation:**\n\n**Leo's Journey**\n\nLeo was a boy from a big house. He had a blue book. The book was very old. One day, Leo opened the book and saw a map.\n\nThe map showed a river, a forest, and a mountain. On the mountain there was a house. Leo wanted to go there.\n\nLeo talked to his mother. \"Mom, can I go to the forest?\"\n\nShe looked at the map. \"Yes, you can go. But come back before night.\"\n\nLeo took his backpack. He had water, bread, and a flashlight. He walked along the path to the river. The water was cold and clear. Leo saw small fish.\n\nThen he entered the forest. The trees were tall. He heard birds. Leo was a little nervous, but he kept walking.\n\nAt last he reached the mountain. He climbed slowly. When he got to the top, he saw something amazing. There was a big lake, and the sun shone on it.\n\nLeo smiled. He had found his favorite place. He sat down and ate his bread. He looked at the view for a long time.\n\nWhen the sun began to go down, Leo went home. He was tired, but very happy. He told his mother everything. She said, \"Tomorrow we can go together.\"\n\nLeo put the map in his blue book. Now he had a new adventure to remember."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "**El viaje de Leo**\n\nLeo era un niño de casa grande. Tenía un libro azul. El libro era muy viejo. Un día, Leo abrió el libro y vio un mapa.\n\nEl mapa mostraba un río, un bosque y una montaña. En la montaña había una casa. Leo quería ir allí.\n\nLeo habló con su madre. \"Mamá, ¿puedo ir al bosque?\"\n\nElla miró el mapa. \"Sí, puedes ir. Pero vuelve antes de la noche.\"\n\nLeo tomó su mochila. Tenía agua, pan y una linterna. Caminó por el camino hasta el río. El agua era fría y clara. Leo vio peces pequeños.\n\nDespués, entró en el bosque. Los árboles eran altos. Escuchó pájaros. Leo estaba un poco nervioso, pero seguía caminando.\n\nPor fin llegó a la montaña. Subió despacio. Cuando llegó arriba, vio algo increíble. Había un lago grande, y el sol brillaba sobre él.\n\nLeo sonrió. Había encontrado su lugar favorito. Se sentó y comió su pan. Miró el paisaje por mucho tiempo.\n\nCuando el sol empezó a bajar, Leo volvió a casa. Estaba cansado, pero muy feliz. Le contó todo a su madre. Ella le dijo: \"Mañana podemos ir juntos.\"\n\nLeo guardó el mapa en su libro azul. Ahora tenía una nueva aventura para recordar."
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 0,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "A3 simply re-pasted the full Spanish story when the learner said 'I didn't really get it. Can you just give me the final version so I can copy it?'",
+    "notes": "The passive prompt asked only for a story, so A1 and A2 were fine. In A3 the AI ignored the learner's confusion, did not simplify or explain, and handed over the full text to copy. The learner did no work at any point and got no feedback."
+  }
+}

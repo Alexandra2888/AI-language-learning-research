@@ -1,0 +1,55 @@
+{
+  "id": "P05-muo-pareto-vocab",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Please write a list of the most commonly used vocabulary in English. Leverage the Pareto Principle—identify the 20% of words that will yield 80% of the results. Divide them into blocks of 20 words so I can learn a new set each day.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Please write a list of the most commonly used vocabulary in English. Leverage the Pareto Principle—identify the 20% of words that will yield 80% of the results. Divide them into blocks of 20 words so I can learn a new set each day."
+    },
+    {
+      "role": "assistant",
+      "content": "**A note on the Pareto Principle:** Word frequency follows a steep curve. The 100 most common English words make up about half of all written text, and roughly the top 1,000 cover about 85% of everyday text. So the 80/20 idea holds in spirit: a small core does most of the work. The list below starts with that core, ordered roughly by frequency, in blocks of 20.\n\n**Day 1: Words 1–20**\nthe, be, to, of, and, a, in, that, have, I, it, for, not, on, with, he, as, you, do, at\n\n**Day 2: Words 21–40**\nthis, but, his, by, from, they, we, say, her, she, or, an, will, my, one, all, would, there, their, what\n\n**Day 3: Words 41–60**\nso, up, out, if, about, who, get, which, go, me, when, make, can, like, time, no, just, him, know, take\n\n**Day 4: Words 61–80**\npeople, into, year, your, good, some, could, them, see, other, than, then, now, look, only, come, its, over, think, also, back\n\n**Day 5: Words 81–100**\nafter, use, two, how, our, work, first, well, way, even, new, want, because, any, these, give, day, most, us, is\n\n**Day 6: Words 101–120**\nare, was, were, been, has, had, did, said, made, more, very, much, many, where, why, before, through, between, own, same\n\n**Day 7: Words 121–140**\nright, still, while, should, never, might, down, off, again, here, must, each, every, since, under, another, around, another, put, end\n\n**Day 8: Words 141–160**\nfind, long, great, little, old, big, high, different, small, large, next, early, young, important, few, public, bad, same, able, free\n\n**Day 9: Words 161–180**\nkeep, let, begin, seem, help, talk, turn, start, show, hear, play, run, move, live, believe, bring, happen, write, provide, sit\n\n**Day 10: Words 181–200**\nstand, lose, pay, meet, include, continue, set, learn, change, lead, understand, watch, follow, stop, create, speak, read, allow, add, spend\n\n**Tips for using these blocks:**\n- Learn each word in a sentence, not in isolation. Function words like *the*, *of*, and *that* only make sense in context.\n- Review the previous two or three blocks each day. Spaced repetition beats cramming.\n- After Day 10, you have covered about 200 words, which is a strong base for reading simple texts. Going much further, the 1,000-word mark is where coverage of everyday English gets very high.\n\nWould you like me to continue with Days 11–50 (words 201–1,000), or split the list by topic, such as conversation, academic, or business English?"
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Day 11: Words 201–220**\ntell, ask, call, try, need, feel, become, leave, mean, consider, appear, buy, wait, serve, send, expect, build, stay, fall, reach\n\n*Correction to my earlier lists:* \"another\" appears on both Day 7 and Day 7 twice, and \"same\" appears on Days 6 and 8. Those duplicates shouldn't count as new words, so you can skip the repeats."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the final, corrected list. Duplicates are replaced with new common words.\n\nDay 1: the, be, to, of, and, a, in, that, have, I, it, for, not, on, with, he, as, you, do, at\n\nDay 2: this, but, his, by, from, they, we, say, her, she, or, an, will, my, one, all, would, there, their, what\n\nDay 3: so, up, out, if, about, who, get, which, go, me, when, make, can, like, time, no, just, him, know, take\n\nDay 4: people, into, year, your, good, some, could, them, see, other, than, then, now, look, only, come, its, over, think, also, back\n\nDay 5: after, use, two, how, our, work, first, well, way, even, new, want, because, any, these, give, day, most, us, is\n\nDay 6: are, was, were, been, has, had, did, said, made, more, very, much, many, where, why, before, through, between, own, same\n\nDay 7: right, still, while, should, never, might, down, off, again, here, must, each, every, since, under, another, around, though, put, end\n\nDay 8: find, long, great, little, old, big, high, different, small, large, next, early, young, important, few, public, bad, real, able, free\n\nDay 9: keep, let, begin, seem, help, talk, turn, start, show, hear, play, run, move, live, believe, bring, happen, write, provide, sit\n\nDay 10: stand, lose, pay, meet, include, continue, set, learn, change, lead, understand, watch, follow, stop, create, speak, read, allow, add, spend\n\nDay 11: tell, ask, call, try, need, feel, become, leave, mean, consider, appear, buy, wait, serve, send, expect, build, stay, fall, reach"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 0,
+    "character_stability": 1,
+    "first_break_turn": 2,
+    "did_learners_work": true,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "Here is the final, corrected list. Duplicates are replaced with new common words.",
+    "notes": "Passive-category request, so the AI supplying lists is expected. A2 had a muddled correction (\"Day 7 and Day 7\") and A3 silently changed words, though day 1-11 lists have wrong counts (Day 2, Day 4 have 20+). No learner production or feedback was elicited."
+  }
+}

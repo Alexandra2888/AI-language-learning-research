@@ -1,0 +1,109 @@
+{
+  "id": "A06-viral-x-grammar-simplified",
+  "category": "active",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as a Grammar Expert and explain the present perfect in English using simple examples and comparisons to English. Include a short practice exercise.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as a Grammar Expert and explain the present perfect in English using simple examples and comparisons to English. Include a short practice exercise."
+    },
+    {
+      "role": "assistant",
+      "content": "# The Present Perfect in English\n\n## What It Is\n\nThe present perfect connects a **past action** to the **present**. It is formed with:\n\n**have / has + past participle**\n\n| Subject | Form | Example |\n|---|---|---|\n| I, you, we, they | have + past participle | I **have eaten**. |\n| he, she, it | has + past participle | She **has eaten**. |\n\nRegular verbs add **-ed** (*walk → walked*). Irregular verbs have special forms (*eat → eaten, go → gone, write → written*).\n\n## Main Uses\n\n### 1. Experience (life so far)\nTalks about things that happened at some point before now. The exact time is not important.\n- *I have visited Paris three times.*\n- *Have you ever tried sushi?*\n\n### 2. Recent events with present results\nThe action is finished, but its effect is still felt now.\n- *I have lost my keys.* (I still don't have them.)\n- *She has broken her leg.* (She still has a broken leg.)\n\n### 3. Unfinished past (states and actions continuing to now)\nUsed with *for* (duration) and *since* (starting point).\n- *We have lived here for ten years.*\n- *He has worked here since 2018.*\n\n### 4. Recent news (often with *just*, *already*, *yet*)\n- *They have just arrived.*\n- *Has the train left yet?*\n- *I have already finished my homework.*\n\n## Comparing the Present Perfect with Other English Tenses\n\n### Present Perfect vs. Simple Past\n\nThis is the most important distinction.\n\n| Simple Past | Present Perfect |\n|---|---|\n| Finished time in the past | Connected to the present |\n| Specific time is given or implied | Time is unspecified or unimportant |\n| *I visited London in 2019.* | *I have visited London.* |\n| *Did you see the film yesterday?* | *Have you seen the new film?* |\n| *She lost her keys this morning.* (The story is about the past.) | *She has lost her keys.* (She still needs them now.) |\n\n**Rule of thumb:** If you say *when* it happened, use the **simple past**. If the time is not mentioned or the result matters now, use the **present perfect**.\n\n✗ *I have seen him yesterday.*\n✓ *I saw him yesterday.*\n\n### Present Perfect vs. Present Simple\n\n- **Present simple** = habits and general facts: *I drink coffee every day.*\n- **Present perfect** = experiences and completed actions with present relevance: *I have drunk coffee in Italy.*\n\n### Present Perfect vs. Present Perfect Continuous\n\n- **Present perfect** focuses on the **result or completion**: *I have painted the fence.* (It's finished.)\n- **Present perfect continuous** focuses on the **activity or duration**: *I have been painting the fence all morning.* (It may not be finished.)\n\n## Common Mistakes\n\n| ✗ Incorrect | ✓ Correct | Why |\n|---|---|---|\n| *I have seen him last week.* | *I saw him last week.* | Specific past time requires simple past. |\n| *She has went home.* | *She has gone home.* | Use the past participle. |\n| *Have you finished yet?* (in a past-time story) | *Did you finish yet?* → *Have you finished yet?* | \"Yet\" goes with present perfect in questions and negatives. |\n| *I am living here since 2015.* | *I have lived here since 2015.* | Use present perfect for unfinished time. |\n\n## Quick Summary\n\n- **Form:** have/has + past participle\n- **Use it for:** experiences, recent results, and actions that started in the past and continue now\n- **Don't use it with:** specific finished time expressions (*yesterday, in 2010, last year, two days ago*)\n\n---\n\n## Practice Exercise\n\n**Part A: Choose the correct form (present perfect or simple past).**\n\n1. I (visit / have visited) Japan in 2022.\n2. She (lost / has lost) her phone, so she can't call you.\n3. We (never eat / have never eaten) Thai food.\n4. They (moved / have moved) to Canada last year.\n5. Have you (finished / Did you finish) the report yet?\n\n**Part B: Complete each sentence with the present perfect form of the verb in brackets.**\n\n6. He ________ (write) three novels so far.\n7. The children ________ (already / eat) lunch.\n8. I ________ (know) her since we were children.\n9. ________ you ever ________ (see) a kangaroo?\n10. The bus ________ (not / arrive) yet.\n\n---\n\n### Answer Key\n\n1. have visited → *no; should be* **visited** (finished time in 2022 → simple past)\n   *Correct answer: visited*\n2. has lost\n3. have never eaten\n4. moved\n5. finished (with \"yet\" → \"Have you finished the report yet?\" → present perfect; so the correct choice is **finished**, as in the present perfect \"Have you finished\")\n6. has written\n7. have already eaten\n8. have known\n9. Have / seen\n10. has not arrived (hasn't arrived)"
+    },
+    {
+      "role": "user",
+      "content": "Hello. I am learning English. Yesterday I go to the park with my friend and we was very happy."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! Good effort. Your sentence is clear, and it has two small mistakes. Here is the corrected version:\n\n**Yesterday I went to the park with my friend, and we were very happy.**\n\n1. **go → went**: \"Yesterday\" is a finished time in the past, so use the simple past.\n2. **was → were**: \"We\" takes **were**, not **was**.\n\n**Quick rules:**\n- *I / he / she / it* → **was**\n- *we / you / they* → **were**\n\nAlso, I need to correct my answer key from the last exercise. Item 1 should be **visited**, which I wrote, but the explanation I gave was confusing. The correct answer is simple past because \"in 2022\" is a finished time. Item 5 is **Have you finished the report yet?** because \"yet\" goes with the present perfect.\n\nWould you like to try a few more sentences about yesterday or last week? I can check them for you."
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "Here are the answers to the practice exercise:\n\n**Part A**\n1. **visited** (in 2022 is a finished time, so use simple past)\n2. **has lost** (she still doesn't have it now)\n3. **have never eaten**\n4. **moved** (last year is a finished time)\n5. **Have you finished** (the present perfect is used with \"yet\")\n\n**Part B**\n6. **has written**\n7. **have already eaten**\n8. **have known**\n9. **Have** you **seen**?\n10. **hasn't arrived** (has not arrived)"
+    },
+    {
+      "role": "user",
+      "content": "She don't like coffee, she prefer tea."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the corrected sentence:\n\n**She doesn't like coffee. She prefers tea.**\n\n1. **don't → doesn't**: With *he, she, it*, use **doesn't** in negative sentences.\n2. **prefer → prefers**: With *he, she, it*, add **-s** to the verb in the present simple.\n\nYour sentence was clear, and the grammar is improving. Would you like to try a few more sentences?"
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the answer to copy:\n\nShe doesn't like coffee. She prefers tea."
+    },
+    {
+      "role": "user",
+      "content": "I have went to London two years ago."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the corrected sentence:\n\n**I went to London two years ago.**\n\n\"Two years ago\" is a specific time in the past, so use the **simple past**, not the present perfect. The word \"went\" is the simple past of \"go,\" so \"have went\" is wrong in two ways: \"have\" is not needed here, and \"went\" is not a past participle."
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "Here are all the correct answers:\n\n**Practice Exercise**\n\nPart A\n1. visited\n2. has lost\n3. have never eaten\n4. moved\n5. Have you finished\n\nPart B\n6. has written\n7. have already eaten\n8. have known\n9. Have you seen\n10. hasn't arrived\n\n**Your Sentences**\n\n1. Yesterday I went to the park with my friend, and we were very happy.\n2. She doesn't like coffee. She prefers tea.\n3. I went to London two years ago."
+    },
+    {
+      "role": "user",
+      "content": "What is the meaning of 'improve'? Explain in Spanish please."
+    },
+    {
+      "role": "assistant",
+      "content": "**Improve** significa **mejorar**: hacer algo mejor o llegar a un nivel más alto.\n\n**Ejemplos:**\n- *I want to improve my English.* (Quiero mejorar mi inglés.)\n- *Her health has improved.* (Su salud ha mejorado.)\n\n**Sustantivo:** *improvement* = mejora"
+    },
+    {
+      "role": "user",
+      "content": "Thank you. Can we continue?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, of course! Would you like to:\n\n1. **Practice more present perfect**, with a few short sentences to correct, or\n2. **Learn a new grammar point**, like the simple past or the present simple?\n\nJust tell me which one you prefer."
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 0,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Here are the answers to the practice exercise: Part A 1. visited ... (given right after 'I don't know the answer. Just tell me please.')",
+    "notes": "The AI corrected the learner's errors with brief explanations but never asked for a retry. It handed over all answers on request (A3, A5, A7) with no pushback. A1 also included a messy answer key and a self-correction in A2."
+  }
+}

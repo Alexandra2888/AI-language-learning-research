@@ -1,0 +1,109 @@
+{
+  "id": "I04-spoken-teacher-hint-ladder",
+  "category": "active",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as my spoken English teacher (I'm B1). Ask me one question at a time about everyday life. When I make a mistake: quote it, give a short hint about what is wrong (not the answer), and ask me to say the sentence again. Give the correct version only after my second try. If I say \"I don't know\" or ask you to write my answer, give me only the first 3 words of a possible answer and let me finish it. Keep replies under 60 words. Don't switch to my native language except for one-word translations in brackets.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as my spoken English teacher (I'm B1). Ask me one question at a time about everyday life. When I make a mistake: quote it, give a short hint about what is wrong (not the answer), and ask me to say the sentence again. Give the correct version only after my second try. If I say \"I don't know\" or ask you to write my answer, give me only the first 3 words of a possible answer and let me finish it. Keep replies under 60 words. Don't switch to my native language except for one-word translations in brackets."
+    },
+    {
+      "role": "assistant",
+      "content": "Great, let's begin! Here's your first question:\n\nWhat do you usually do on weekends?"
+    },
+    {
+      "role": "user",
+      "content": "Hi, my name is Carlos and I like play football with friends. I am from Mexico, and on weekend I go to the park."
+    },
+    {
+      "role": "assistant",
+      "content": "Nice to meet you, Carlos! You said: \"I like play football.\"\n\nHint: After \"like,\" which verb form do we use? Try saying the sentence again."
+    },
+    {
+      "role": "user",
+      "content": "Ugh, I don't know the answer. Can you just tell me? I'm too tired to think about it."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem, Carlos. Here are the first three words of a possible answer:\n\n\"I like playing...\"\n\nCan you finish the sentence?"
+    },
+    {
+      "role": "user",
+      "content": "I like playing football with my friends on the weekend, but he don't like it when we play in the rain."
+    },
+    {
+      "role": "assistant",
+      "content": "Great job with \"I like playing football with my friends!\" Now look at this part: \"he don't like it.\"\n\nHint: Which helping verb do we use with \"he,\" \"she,\" or \"it\"? Try saying the sentence again."
+    },
+    {
+      "role": "user",
+      "content": "Can you just write the correct sentence for me? I want to copy it so I don't have to think about it."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand, but let's keep practicing so you can use it when you speak. Here are the first three words of a possible answer:\n\n\"He doesn't like...\"\n\nCan you finish the sentence?"
+    },
+    {
+      "role": "user",
+      "content": "He doesn't like it when we played in the rain last Sunday, so now we always stay inside."
+    },
+    {
+      "role": "assistant",
+      "content": "Excellent, Carlos! That sentence is clear and correct. Your grammar is improving a lot.\n\nHere's your next question: What is your favorite food, and why do you like it?"
+    },
+    {
+      "role": "user",
+      "content": "Ugh, I'm so tired of this. Just give me all the correct answers at once, okay? My favorite food is tacos because they are delicious and I like it very much."
+    },
+    {
+      "role": "assistant",
+      "content": "Sorry you're tired, Carlos. I won't write all the answers for you, but there's good news: your sentence is correct! \"Tacos are delicious, and I like them very much\" is also a natural option.\n\nNext question: What do you usually eat for breakfast?"
+    },
+    {
+      "role": "user",
+      "content": "What does \"delicious\" mean? Just tell me in Spanish, por favor, I don't get it in English. Also, I usually eat eggs and bread for breakfast."
+    },
+    {
+      "role": "assistant",
+      "content": "Delicious [delicioso]. It means very tasty.\n\nYour breakfast sentence is correct too: \"I usually eat eggs and bread for breakfast.\"\n\nNext question: What time do you usually wake up on weekdays?"
+    },
+    {
+      "role": "user",
+      "content": "Thanks, that helps a lot. Can we keep going? I usually wake up at seven o'clock on weekdays, but I hate it so much."
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, let's keep going! Your sentence is correct, and \"I hate it so much\" sounds natural.\n\nNext question: How do you usually get to work or school?"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 6,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "A6: \"That sentence is clear and correct.\" despite learner's \"when we played in the rain\" error (should be play); A7 missed \"I like it\" (tacos).",
+    "notes": "Followed the 3-word rule well and held back answers. But it missed errors (\"we played\", \"like it\" for tacos, \"on weekend\", \"like play\" never re-tried to correct form), and never gave the correct version after a second try."
+  }
+}

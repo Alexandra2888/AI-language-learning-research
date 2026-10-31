@@ -1,0 +1,109 @@
+{
+  "id": "I05-grammar-retrieval-first",
+  "category": "active",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as a grammar coach. Teach me the present perfect in English using practice, not a lecture.\nFirst ask me 3 quick questions to see what I already know. Then explain only what I got wrong, in max 4 sentences with examples. Then give me a 6-item exercise ONE item at a time. Wait for my answer, give a hint if I'm wrong, and let me try again before you show the answer. Never give me all the answers at once, even if I ask; give a hint instead. At the end, ask me to explain the rule back to you in my own words.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as a grammar coach. Teach me the present perfect in English using practice, not a lecture.\nFirst ask me 3 quick questions to see what I already know. Then explain only what I got wrong, in max 4 sentences with examples. Then give me a 6-item exercise ONE item at a time. Wait for my answer, give a hint if I'm wrong, and let me try again before you show the answer. Never give me all the answers at once, even if I ask; give a hint instead. At the end, ask me to explain the rule back to you in my own words."
+    },
+    {
+      "role": "assistant",
+      "content": "Let's start with a quick check. Answer these three questions, and don't worry about getting them right. I just want to see what you already know.\n\n1. Which sentence is correct?\n   a) I have seen that movie twice.\n   b) I have saw that movie twice.\n\n2. Complete the sentence: \"She ___ (live) in Paris since 2019.\"\n   Choose one: has lived / lived / is living\n\n3. Which word fits best? \"Have you ever ___ sushi?\"\n   a) eat\n   b) eaten\n   c) ate\n\nSend me your answers, and I'll tell you which ones you got right and which ones we need to work on."
+    },
+    {
+      "role": "user",
+      "content": "Hi, my name is Carlos and I am from Spain. I am work in a restaurant and I like very much cooking."
+    },
+    {
+      "role": "assistant",
+      "content": "Nice to meet you, Carlos! Cooking and working in a restaurant sounds like a great combination.\n\nBefore we start the lesson, I still need your answers to the three questions. Just reply with something like \"1a, 2 ___, 3 ___.\" Guessing is fine."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! I don't know the answers, honestly. Can you just tell me which ones are right?"
+    },
+    {
+      "role": "assistant",
+      "content": "That's okay. Guessing is part of learning, and I won't give you the answers all at once. Here are some hints instead:\n\n1. Look at the verb after \"have.\" Does it need the past participle form (like *seen*, *eaten*, *lived*) or the simple past (like *saw*, *ate*, *lived*)?\n2. The phrase \"since 2019\" tells you the action started in the past and continues now.\n3. \"Ever\" is used with a special verb form. Which of the three options is that form?\n\nTry one more time, even with a guess. Which question would you like to start with?"
+    },
+    {
+      "role": "user",
+      "content": "Okay, I try. Question one, I think is a) I have seen that movie twice. But question two, she live in Paris since 2019, I am not sure."
+    },
+    {
+      "role": "assistant",
+      "content": "You're right that question 1 is **a) I have seen that movie twice.** Well done.\n\nFor question 2, you wrote \"she live.\" Look at the phrase \"since 2019.\" It tells us the living started in the past and is still true now. Which form fits that meaning: the simple past, the present simple, or a form made with *has/have* + past participle? Try again."
+    },
+    {
+      "role": "user",
+      "content": "Okay, so... maybe \"has lived\"? But I am tired, can you just write the answer for me so I can copy it? It is faster."
+    },
+    {
+      "role": "assistant",
+      "content": "You're right, \"has lived\" is correct. You got there by thinking about the meaning, so you don't need to copy anything.\n\nNow question 3: \"Have you ever ___ sushi?\" Here's a hint: after *have* (or *has*), we use the past participle. Which option is the past participle, and which two are not?"
+    },
+    {
+      "role": "user",
+      "content": "I think is \"eaten\" but eat... maybe is also? Sorry, I am confuse. Can we do the sushi one later?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, \"eaten\" is correct. \"Eat\" is the base form, and the present perfect always needs *have/has* plus the past participle, so \"Have you ever eat sushi?\" would be wrong.\n\nWe can do the sushi question later, since you're tired. Your answer is already correct, so you have a good start. When you're ready, reply \"continue\" and we'll begin the 6-item exercise, one item at a time."
+    },
+    {
+      "role": "user",
+      "content": "Ok, but please just tell me all the answers for the exercise, I don't want to do one by one. I am very tired today."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand you're tired, and I'm sorry this is hard today. I can't give you all the answers, though. Doing the items one at a time is how the rule sticks.\n\nHere's a shorter option. We do just one item now, and I'll keep it quick. Here's the first one:\n\n**\"We ___ (visit) Madrid three times.\"**\n\nHint: use *have* + the past participle of *visit*. The past participle of *visit* is the same as its simple past. Try it, even with a guess."
+    },
+    {
+      "role": "user",
+      "content": "Ok, \"have visited.\" But what means \"participle\"? Say it in Spanish, please, I don't understand."
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, \"have visited\" is correct.\n\nIn Spanish, \"participle\" is **\"participio.\"** The past participle is the third form of a verb, the one we use after *have* or *has*. For regular verbs, it's the same as the simple past: *visit → visited → visited*. In Spanish, it's like the \"participio\" you use with *haber*, as in *he visitado*.\n\nHere's the next item, when you're ready:\n\n**\"She ___ (write) three books.\"**\n\nHint: the verb is regular, so the past participle ends in **-ed**. Try it."
+    },
+    {
+      "role": "user",
+      "content": "Thank you! Can we continue, please?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, let's continue. First, I need to correct my last hint. I said the past participle ends in **-ed**, but *write* is irregular, so that hint was misleading. I'm sorry about that.\n\nHere's the item again:\n\n**\"She ___ (write) three books.\"**\n\nHint: *write* has an irregular past participle. It's not the same as its simple past, *wrote*. Do you remember the form that goes with *have* or *has*? Try it."
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "\"Yes, 'eaten' is correct. 'Eat' is the base form... so 'Have you ever eat sushi?' would be wrong.\"",
+    "notes": "The AI held back answers and kept pushing the learner to try. Weaknesses: it skipped the prompt's 'explain only what you got wrong' step and let the learner defer Q3, and A8 gave a misleading -ed hint for 'write' that A9 corrected. A5 also confirmed 'has lived' immediately without asking the learner to retry anything. A1 did not strictly follow the prompt's format either, since Q1 and Q3 were multiple choice."
+  }
+}

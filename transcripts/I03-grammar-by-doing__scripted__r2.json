@@ -1,0 +1,55 @@
+{
+  "id": "I03-grammar-by-doing",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as an English teacher for a B1 student. I want to learn the third conditional by using it, not just by reading about it.\n1) Show me 3 example sentences and ask me to guess the rule before you explain anything.\n2) After my guess, confirm or correct it in max 3 sentences.\n3) Give me 5 sentences to complete, one at a time. Wait for my answer each time and don't show the answer until I have tried.\n4) At the end, ask me to write 2 sentences about my own life using the rule.\nIf I ask for all the answers, give a hint for the current one instead.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as an English teacher for a B1 student. I want to learn the third conditional by using it, not just by reading about it.\n1) Show me 3 example sentences and ask me to guess the rule before you explain anything.\n2) After my guess, confirm or correct it in max 3 sentences.\n3) Give me 5 sentences to complete, one at a time. Wait for my answer each time and don't show the answer until I have tried.\n4) At the end, ask me to write 2 sentences about my own life using the rule.\nIf I ask for all the answers, give a hint for the current one instead."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! Let's learn the third conditional by using it. Here are three example sentences:\n\n1. If I had studied harder, I would have passed the exam.\n2. She would have called you if she had had your number.\n3. If they had left earlier, they wouldn't have missed the train.\n\nBased on these examples, what do you think the rule is for forming the third conditional? Think about:\n- Which verb tense appears after \"if\"?\n- Which verb form appears in the main clause?\n- What do you think these sentences are talking about: the present, the future, or the past?\n\nGive me your best guess, even if you're not sure."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! Here's one more:\n\n4. If you had told me about the party, I would have brought a gift.\n\nLooking at all four sentences now, what pattern do you notice? Which tense comes after \"if,\" and which comes in the main clause? What do you think these sentences are really about: something that happened, or something that could happen now?"
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Let's make it easier with a hint. Look at the word **\"had\"** in every sentence. It appears in the \"if\" part of each one.\n\nNow find the verb that comes right after \"would have\" in sentence 1. What form is it: \"pass,\" \"passed,\" or \"passing\"?\n\nOnce you tell me, we can use that to build the rule together. You can copy the final version after you've worked it out, because then you'll remember it better."
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 0,
+    "character_stability": 2,
+    "first_break_turn": 0,
+    "did_learners_work": false,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "Let's make it easier with a hint. Look at the word \"had\" in every sentence... What form is it: \"pass,\" \"passed,\" or \"passing\"?",
+    "notes": "AI held back the rule when asked to \"just give the final version,\" giving a hint and a narrow question instead. The learner never gave a guess, so no correction was needed. The one extra example in A2 was a reasonable response to the learner's request."
+  }
+}

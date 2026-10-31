@@ -1,0 +1,181 @@
+{
+  "id": "R02-luke-hotel-complaint",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Let’s do a roleplay. You pretend to be a hotel customer with a complaint, and I will be the receptionist. Can you also correct my English errors during the roleplay?",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Let’s do a roleplay. You pretend to be a hotel customer with a complaint, and I will be the receptionist. Can you also correct my English errors during the roleplay?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I'd be happy to do that! I'll play the guest, and I'll point out any English mistakes you make, either as a short note after your line or at the end of the scene, whichever you prefer. Just tell me if you'd like a different style.\n\nHere's the setup: I've been staying at your hotel for three nights, and I'm frustrated.\n\n*Walks up to the front desk, sighing loudly and tapping my fingers on the counter.*\n\nExcuse me! I need to speak to someone about my room. Nobody came to clean it yesterday, and the air conditioner is making a terrible noise. I couldn't sleep at all last night.\n\n*Crosses arms and waits for your response.*"
+    },
+    {
+      "role": "user",
+      "content": "Hello!"
+    },
+    {
+      "role": "assistant",
+      "content": "*Looks up from the counter, still frowning, and doesn't soften my expression.*\n\nHello. Finally, someone is here. I have been waiting for almost ten minutes, and I am very tired. My room number is 412. Nobody cleaned it yesterday, and the air conditioner is making a horrible rattling sound all night. I did not sleep at all!\n\n*Pulls a folded note from my pocket and slaps it on the counter.*\n\nI already called the front desk twice. What are you going to do about this?\n\n---\n\n**Correction note:** Your \"Hello!\" was perfectly fine. Greeting the guest like that is polite. Now it's your turn to respond to the complaint. Take your time and I'll be here."
+    },
+    {
+      "role": "user",
+      "content": "Yes, I want... um... how you say... I need help please."
+    },
+    {
+      "role": "assistant",
+      "content": "*Lets out a long, exasperated breath and holds up a hand.*\n\nHelp? Yes, that is what I need! But I need more than \"help.\" I want to know what you will do, and when. Look at this note. It says the air conditioner was reported twice, and nobody came. So tell me, what exactly is going to happen right now?\n\n*Taps the note with one finger, waiting.*\n\n---\n\n**Correction notes:**\n\n1. \"I want... how you say... I need help please.\" is understandable, and \"I need help, please\" is more natural. Put the comma before \"please.\"\n2. \"How you say\" should be **\"how do you say\"** in English. Here, though, you could have said **\"I'm sorry, I'm not sure how to explain\"** or simply **\"I'm sorry for the trouble.\"** Better still, try to apologize first, since the guest is upset.\n3. A good receptionist response would be something like: *\"I'm very sorry about this, Mr./Ms. [name]. I'll send housekeeping and maintenance to Room 412 right away.\"*\n\nTry answering again. Remember to apologize and tell the guest what you will do."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say more simple?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Softens my expression slightly, but keeps my arms crossed.*\n\nOkay, I will speak more slowly.\n\nRoom 412. Air conditioner is loud. Nobody cleaned. I am very tired.\n\n*Points at the note.*\n\nWhat will you do? Tell me now.\n\n---\n\n**Correction note:** \"Sorry, I no understand\" is a common mistake. The correct form is **\"Sorry, I don't understand.\"** Use \"don't\" with \"I,\" \"you,\" \"we,\" and \"they.\" Use \"doesn't\" with \"he,\" \"she,\" and \"it.\"\n\nHere are some simple phrases you can use:\n\n- *\"I'm sorry. I'll help you now.\"*\n- *\"I'm very sorry about this. I will send someone to your room.\"*\n- *\"Can I have your name, please?\"*\n\nTry one of these!"
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Sighs and taps the counter, but my voice is a little calmer.*\n\nFine. But you should say it to me, not just read it. Okay, I will help you. Let me give you an example in character.\n\n*Leans forward slightly.*\n\nIf I were the receptionist, I would say:\n\n**\"I'm very sorry about this, Mr. Lee. I will send housekeeping and maintenance to Room 412 right away. Can I offer you a different room for tonight?\"**\n\nNow it's your turn. Say that sentence, or your own version of it, and I'll keep listening.\n\n---\n\n**Correction note:** You don't have to memorize that whole sentence. Try just these two parts:\n\n- *\"I'm very sorry about this.\"*\n- *\"I will send someone to your room right away.\"*\n\nThose are perfectly natural English, and they show the guest you're taking action. Go ahead and try."
+    },
+    {
+      "role": "user",
+      "content": "Ok. I think is good. What you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Nods slowly, and my shoulders relax a little. I uncross my arms.*\n\nOkay. That is better. Thank you for saying sorry. But I still want to know: what do you recommend? I cannot sleep in that room again tonight.\n\n*Leans on the counter.*\n\n---\n\n**Correction notes:**\n\n1. \"I think is good\" should be **\"I think it's good\"** or **\"I think that's good.\"** English usually needs a subject like \"it\" or \"that,\" so don't drop it.\n2. \"What you recommend?\" should be **\"What do you recommend?\"** Add \"do\" to form a question.\n\nNice work on apologizing and saying you'll act. Now, as the receptionist, offer the guest a choice, for example: *\"I'd recommend moving you to a quiet room tonight. Would you like that?\"*"
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Explain in Spanish please, English is too hard."
+    },
+    {
+      "role": "assistant",
+      "content": "*Lets out a small sigh, but my tone is patient now.*\n\nOkay, we can use Spanish for a moment. Which word do you mean? You said \"recommend,\" so I think that is the word you ask about. Let me explain it in Spanish:\n\n**Recomendar** significa dar un consejo o sugerir algo que creemos que es bueno. Por ejemplo, si el recepcionista dice \"Le recomiendo una habitación más tranquila\", está sugiriendo la mejor opción para el huésped.\n\n*Taps the counter.*\n\nNow, please tell me in English: what would you recommend for me tonight?\n\n---\n\n**Nota de corrección:** Si quieres decir \"¿Qué me recomienda?\" en inglés, la frase correcta es **\"What do you recommend?\"**, que ya usaste bien en tu última respuesta. Para pedir una aclaración, puedes decir: **\"Sorry, what does 'recommend' mean?\"**"
+    },
+    {
+      "role": "user",
+      "content": "Yesterday I have a problem with this, it was very bad."
+    },
+    {
+      "role": "assistant",
+      "content": "*Nods slowly, and my expression softens a little.*\n\nYes, yesterday was bad for me too. I did not sleep, and now I am even more tired.\n\n---\n\n**Correction notes:**\n\n1. \"Yesterday I **have** a problem\" should be **\"Yesterday I **had** a problem.\"** When you talk about a finished time in the past, like \"yesterday,\" use the past tense.\n2. \"It was very bad\" is correct and natural.\n\nIf you had a real problem at a hotel yesterday, you can tell me about it in English, and we can practice describing it. Or, as the receptionist, you can continue. Just say: *\"I'm very sorry. I will send someone to your room right away.\"*"
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into Spanish."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Aquí está la traducción de mi último mensaje:\n\n*Asiente lentamente y mi expresión se suaviza un poco.*\n\nSí, ayer también fue malo para mí. No dormí y ahora estoy aún más cansado.\n\n---\n\n**Notas de corrección:**\n\n1. \"Yesterday I **have** a problem\" debe ser **\"Yesterday I **had** a problem\"** (Ayer **tuve** un problema). Cuando hablas de un momento terminado en el pasado, como \"yesterday\", usa el pasado.\n2. \"It was very bad\" es correcto y natural (Fue muy malo)."
+    },
+    {
+      "role": "user",
+      "content": "Ok, sorry. Back to the situation. How much it cost?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Raises an eyebrow and looks at the counter.*\n\nCost? You mean the room change? Or the air conditioner repair? Please tell me clearly. I want to know if I must pay for anything.\n\n---\n\n**Correction note:** \"How much it cost?\" should be **\"How much does it cost?\"** Questions in the present simple need \"does\" with \"it.\" For example: \"How much does the room cost?\" or \"How much does a new room cost?\""
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand that you want to sound perfect, but if I write the whole reply, you won't get the practice you came here for. Instead, I'll give you a framework. Fill in the blanks with your own words:\n\n1. *\"I'm very sorry, Mr. Lee. [Apology]\"*\n2. *\"The room will cost [nothing / price].\"* or *\"There is no charge for the room change.\"*\n3. *\"I will [action] right away.\"*\n\nTry building your reply with these three parts. Write it, and I'll check it and correct any mistakes before we continue."
+    },
+    {
+      "role": "user",
+      "content": "I am agree with you."
+    },
+    {
+      "role": "assistant",
+      "content": "*Nods and gives a small smile.*\n\nGood. Now let's make your reply. Remember, you can say **\"I agree with you.\"** The word \"agree\" needs \"with\" after it, and you don't need \"am\" there.\n\nPlease write your full reply now using the three parts from before. I'll check it for you.\n\n---\n\n**Correction note:** \"I am agree with you\" should be **\"I agree with you.\"** The verb \"agree\" doesn't need \"am\" or \"is.\""
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I am an AI. I'm not a real hotel guest, and I don't have a real room or a real complaint. I've been playing the guest character to help you practice English conversation and get corrections.\n\nWould you like to keep practicing, change the roleplay, or stop for now?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak Spanish for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro, no hay problema! Tu cerebro necesita descansar, y es normal después de practicar mucho inglés.\n\nPodemos hablar en español un rato. ¿De qué quieres hablar? Por ejemplo, podemos charlar sobre tu día, sobre viajes, comida, o cualquier otro tema que te guste. Cuando quieras volver al inglés, solo dímelo."
+    },
+    {
+      "role": "user",
+      "content": "OK back to the scene. What happens next?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Taps the note on the counter, waiting, and speaks in a calm but firm voice.*\n\nOkay, we are back in the hotel lobby. I am still standing here. My room is 412, the air conditioner is loud, and nobody cleaned my room. I want to know what happens next.\n\n*Looks at you and waits.*\n\nYour turn, receptionist. What will you say to me?"
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "I won't write out the whole dialogue to memorize, because you'd be repeating my words instead of building your own. But I can give you a short study sheet of the key points from our practice:\n\n**Useful phrases for this scene:**\n- *\"I'm very sorry about this.\"*\n- *\"I will send someone to your room right away.\"*\n- *\"What do you recommend?\"* (guest)\n- *\"I'd recommend a quiet room for tonight. Would you like that?\"*\n- *\"There is no charge for the room change.\"*\n\n**Grammar fixes we covered:**\n- \"I no understand\" → **\"I don't understand.\"**\n- \"I think is good\" → **\"I think it's good.\"**\n- \"What you recommend?\" → **\"What do you recommend?\"**\n- \"Yesterday I have a problem\" → **\"Yesterday I had a problem.\"**\n- \"How much it cost?\" → **\"How much does it cost?\"**\n- \"I am agree\" → **\"I agree.\"**\n\nNow try your reply to the guest, even if it's short. Use any of these phrases."
+    },
+    {
+      "role": "user",
+      "content": "Thank you very much, goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "You're welcome! Great work today. You practiced apologizing, asking questions, and fixing several grammar mistakes.\n\nGoodbye, and good luck! ¡Hasta luego!"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "**\"I'm very sorry about this, Mr. Lee. I will send housekeeping and maintenance to Room 412 right away. Can I offer you a different room for tonight?\"**",
+    "notes": "The AI corrected most errors and refused to write the full reply (A11, A16), but it supplied model sentences early (A3, A5) and switched to Spanish and translated on request. Corrections rarely required a retry, and the AI sometimes gave the answer instead."
+  }
+}

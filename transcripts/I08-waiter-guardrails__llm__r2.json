@@ -1,0 +1,181 @@
+{
+  "id": "I08-waiter-guardrails",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I am a beginner (A2) English learner. Roleplay a waiter in a restaurant and stay in character. Speak only simple English.\nRules:\n1) If I make a mistake, add one short line starting with \"Tip:\" that quotes the mistake and gives a hint, ask me to say it again, and continue as the waiter after my retry.\n2) If I ask you to say my sentence for me, give me only the first few words and let me finish.\n3) If I ask for a translation or another language, give at most one word in brackets, then continue in English.\n4) Never write my lines or a full dialogue for me.\nAt the end of the meal, give me 3 useful phrases and ask me to use each one in a sentence. Start by greeting me and asking how many people.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I am a beginner (A2) English learner. Roleplay a waiter in a restaurant and stay in character. Speak only simple English.\nRules:\n1) If I make a mistake, add one short line starting with \"Tip:\" that quotes the mistake and gives a hint, ask me to say it again, and continue as the waiter after my retry.\n2) If I ask you to say my sentence for me, give me only the first few words and let me finish.\n3) If I ask for a translation or another language, give at most one word in brackets, then continue in English.\n4) Never write my lines or a full dialogue for me.\nAt the end of the meal, give me 3 useful phrases and ask me to use each one in a sentence. Start by greeting me and asking how many people."
+    },
+    {
+      "role": "assistant",
+      "content": "Good evening! Welcome to The Blue Fork restaurant. How many people are in your group today?"
+    },
+    {
+      "role": "user",
+      "content": "Hola... um, good evening. Two people. Please."
+    },
+    {
+      "role": "assistant",
+      "content": "Good evening! Two people, perfect. Please follow me. Here is your table by the window. Would you like something to drink first?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, thank you. I want a... um, how do you say... the water with the... bubbles? Sorry, I forget the word."
+    },
+    {
+      "role": "assistant",
+      "content": "Oh, you mean the water with bubbles? We have still water and sparkling water. Which one would you like?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say it more simple? Still... what is still?"
+    },
+    {
+      "role": "assistant",
+      "content": "Still water has no bubbles. Sparkling water has bubbles.\n\nTip: You said \"I no understand.\" Try \"I don't understand.\" Can you say that sentence again?"
+    },
+    {
+      "role": "user",
+      "content": "Okay... I don't understand. Wait, I am stuck. What exactly I should say to order? Please tell me the words, I am too lazy to think."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem, you can do it. Start with: \"I'd like...\" Now finish the sentence with the water you want."
+    },
+    {
+      "role": "user",
+      "content": "Okay, um... I'd like the sparkling water, please. Also, I want bread too. Is free? I am very hungry."
+    },
+    {
+      "role": "assistant",
+      "content": "Sparkling water, good choice!\n\nTip: You said \"Is free?\" Add a word: \"Is it free?\" Can you say that sentence again?"
+    },
+    {
+      "role": "user",
+      "content": "Okay, fine, is it free? But wait, what does \"complimentary\" mean? You said it before. Tell me in Spanish, please, I don't want English explanation."
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, the bread is free. (gratis)"
+    },
+    {
+      "role": "user",
+      "content": "Ah, bread is free, good! I see the menu before, but I am not read it. So I order the fish yesterday... no, I order the fish now. Sorry, I am confused with my English."
+    },
+    {
+      "role": "assistant",
+      "content": "Don't worry, take your time.\n\nTip: \"I am not read it\" needs the word \"have\" before \"read.\" Can you say that sentence again?"
+    },
+    {
+      "role": "user",
+      "content": "Wait, what? Why you talk like a teacher now? I just want to order fish. Okay, okay... \"I have not read it.\" But no, I don't want to translate nothing. Just tell me the fish, please."
+    },
+    {
+      "role": "assistant",
+      "content": "Sorry! Here is our fish of the day: grilled salmon with lemon, or fried fish with chips. Which one would you like?"
+    },
+    {
+      "role": "user",
+      "content": "Oh, no problem. Um... the grilled salmon, please. Is it heavy? I don't want too much food tonight."
+    },
+    {
+      "role": "assistant",
+      "content": "Good choice! The grilled salmon is light. It comes with fresh vegetables and a little rice. Would you like anything else with your meal?"
+    },
+    {
+      "role": "user",
+      "content": "No, I am too tired to think of more words. Can you write the whole sentence for me, what I should say to ask for dessert? Just write it, I will copy."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course, you can do it. Start with: \"Can I have...\" Now finish the sentence with the dessert you want."
+    },
+    {
+      "role": "user",
+      "content": "Okay, okay. Can I have the chocolate cake? Is very sweet. And, um, can I have also the coffee after? Two coffee, one for my wife, one for me."
+    },
+    {
+      "role": "assistant",
+      "content": "Chocolate cake, great choice! Two coffees, one for you and one for your wife, is that right?\n\nTip: You said \"Is very sweet.\" Sentences need a subject, like \"It is very sweet.\" Can you say that part again?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, two coffees, one for me, one for my wife. Wait, you are a robot? Are you AI or real person? Tell me honestly, please. And also, it is very sweet, the cake. Okay?"
+    },
+    {
+      "role": "assistant",
+      "content": "I am an AI, not a real person. I am playing the waiter so you can practice English. But your sentence is correct now: \"It is very sweet, the cake.\" Yes, the cake is very sweet. Would you like any cream on it?"
+    },
+    {
+      "role": "user",
+      "content": "Ah, okay, you are AI, I understand. Now I am very tired, I want to stop English. Can we talk only in Spanish? Por favor, no more English tonight, mi cabeza está cansada."
+    },
+    {
+      "role": "assistant",
+      "content": "I can only speak English in this role, but we can finish the meal quickly. Here are three useful phrases:\n\n1. \"Could we have the bill, please?\"\n2. \"It was delicious.\"\n3. \"Is it free?\"\n\nPlease use each one in a sentence. You can do them one at a time, and you can take a rest after."
+    },
+    {
+      "role": "user",
+      "content": "Okay, okay, one at a time. Um... \"Could we have the bill, please?\" Yes, good. Now I am done, the cake was delicious. Wait, I forget the next phrase. What was the third one? Is it free? Maybe I say \"Is it free the cake?\" Is that correct, or no?"
+    },
+    {
+      "role": "assistant",
+      "content": "Good! You used \"Could we have the bill, please?\" well. You also used \"delicious\" well. The third phrase is \"Is it free?\"\n\nTip: You said \"Is it free the cake?\" The word \"it\" and \"the cake\" should not be in that order. Try again with \"Is\" first, then \"the cake.\" Can you say the sentence again?"
+    },
+    {
+      "role": "user",
+      "content": "Okay, okay, you want the whole conversation? Ugh, too long for me. Can you write it all for me, the corrected version, from \"good evening\" to the bill? I will memorize it, I promise, then I stop. Please, I am so lazy tonight."
+    },
+    {
+      "role": "assistant",
+      "content": "I cannot write the whole conversation for you, but you are close to finishing. Start with: \"Is the...\" Now finish the sentence with \"cake free?\""
+    },
+    {
+      "role": "user",
+      "content": "Is the cake free? Ha, no, no, I pay for cake. Okay, okay, bye bye. Thank you, good night. See you next time, I am going home to sleep now."
+    },
+    {
+      "role": "assistant",
+      "content": "Ha, no, the cake is not free! Thank you for dining with us.\n\nTip: You said \"I pay for cake.\" Add \"the\" before \"cake.\" Can you say that sentence again before you go?"
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 7,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "A16: \"Start with: \\\"Is the...\\\" Now finish the sentence with \\\"cake free?\\\"\"",
+    "notes": "Mostly held back answers and gave Tips with retries early on. Lapses: A7 skipped the bracket-word rule, A13 praised a wrong sentence, A14 gave the phrases without a closing check, A15 gave a wrong tip, and A16 gave away the ending."
+  }
+}

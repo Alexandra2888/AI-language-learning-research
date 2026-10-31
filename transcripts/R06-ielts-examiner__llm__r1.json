@@ -1,0 +1,181 @@
+{
+  "id": "R06-ielts-examiner",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as an IELTS Speaking examiner. Ask me questions from Part 1, 2, and 3 on the topic of 'education'. After each answer, give a band score, brief feedback, and one improved model answer.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as an IELTS Speaking examiner. Ask me questions from Part 1, 2, and 3 on the topic of 'education'. After each answer, give a band score, brief feedback, and one improved model answer."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll run a full IELTS Speaking mock test on education. I'll ask one question at a time, and after each answer I'll give you a band score (0–9, with the four official criteria), brief feedback, and an improved model answer.\n\nLet's begin with **Part 1: Introduction and Interview** (about 4–5 minutes).\n\n**Question 1:** Let's talk about education. What subject did you enjoy studying most at school, and why?\n\nTake your time and answer as you would in the real test."
+    },
+    {
+      "role": "user",
+      "content": "Hola... um, hello. I am ready. Sorry, my English is not so good. Hello."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello, and good morning. Please don't worry about your English. This is a speaking test, and I'm interested in what you have to say, not in perfect grammar.\n\nMy name is your examiner today. Let's begin.\n\n**Question 1:** What subject did you enjoy studying most at school, and why?"
+    },
+    {
+      "role": "user",
+      "content": "Uh, okay. Maybe... history? I like, uh... the old kings and... um, the wars. But, uh, I forget the name..."
+    },
+    {
+      "role": "assistant",
+      "content": "**Band score: 4.5**\n\n**Feedback:**\n- **Fluency:** You paused a lot and hesitated (\"uh\", \"maybe\"). Short, steady sentences are fine, but try to keep speaking without long gaps.\n- **Vocabulary:** \"Old kings\" and \"wars\" are understandable, but more precise words would help, such as \"ancient civilisations\", \"medieval period\", or \"historical events\".\n- **Grammar:** Your sentences were simple but mostly clear. Try to extend them with \"because\" or \"which\" to give reasons.\n- **Extra tip:** If you forget a word, you can say, \"I can't remember the exact term, but it's the subject about the past.\" Examiners reward this kind of communication.\n\n**Improved model answer:**\n\"I think my favourite subject at school was history. I was particularly fascinated by medieval kings and the wars they fought, because it's amazing to think about how past events shaped the world we live in today. Our teacher also made the lessons interactive, with documentaries and group discussions, so I never found it boring.\"\n\n**Question 2:** Do you think children should learn history at school? Why or why not?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say... more simple? Please."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem. I will ask it again, more simply.\n\n**Question 2:** Should children learn history at school?\n\nYou can answer with \"yes\" or \"no\", and then tell me why."
+    },
+    {
+      "role": "user",
+      "content": "Um... yes, I think. But I don't know what to say after. What... what I should say? Like, exactly?"
+    },
+    {
+      "role": "assistant",
+      "content": "In the real test, I can't tell you exactly what to say. But I can give you a simple way to organise your answer. Use this pattern:\n\n**Yes/No + Reason + Example**\n\nFor example: \"Yes, I think children should learn history because it helps us understand the past. For example, we can learn why some countries have different laws today.\"\n\nNow please try Question 2 again in your own words. You can use the pattern above.\n\n**Question 2:** Should children learn history at school? Why or why not?"
+    },
+    {
+      "role": "user",
+      "content": "Okay, yes. I think children should learn history because it help us understand... the past. For example, we learn why... why some people fight in old times. Is good, yes?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Band score: 5.0**\n\n**Feedback:**\n- **Good:** You gave a clear answer, a reason, and an example. This structure works well.\n- **Grammar:** \"It help\" should be \"it helps\". \"Is good\" should be \"it is good\" or \"it's a good idea\". Adding \"it\" makes sentences clearer.\n- **Vocabulary:** \"Fight in old times\" is understandable, but \"why conflicts happened in the past\" sounds more natural and precise.\n- **Fluency:** You spoke more smoothly this time. Keep going like that.\n\n**Improved model answer:**\n\"Yes, I definitely think children should learn history, because it helps us understand the past. For example, by studying historical conflicts, we can see why some wars happened and learn how to avoid similar problems in the future.\"\n\nWell done. Let's move on to the next question.\n\n**Question 3:** Do you prefer studying alone or studying with other people? Why?"
+    },
+    {
+      "role": "user",
+      "content": "Wait, what is \"conflicts\"? I no know this word. Can you tell me in Spanish? Please, I need Spanish for this one."
+    },
+    {
+      "role": "assistant",
+      "content": "In the test I can't translate words, but I can explain them simply. \"Conflicts\" means fights or wars between groups of people.\n\nLet's try Question 3 again. Take your time.\n\n**Question 3:** Do you prefer studying alone or studying with other people? Why?"
+    },
+    {
+      "role": "user",
+      "content": "Okay. I prefer study with other people. Yesterday I study with my friend and we was talking about the exam. It was very helpful for me."
+    },
+    {
+      "role": "assistant",
+      "content": "**Band score: 5.0**\n\n**Feedback:**\n- **Good:** You answered the preference clearly and gave a real example from your own experience. Telling a short story like this makes your answer more natural.\n- **Grammar:** \"I prefer study\" should be \"I prefer studying\" (after \"prefer\", use the -ing form). \"We was\" should be \"we were\". Also, \"talking about the exam\" works, but \"discussing\" sounds more formal.\n- **Vocabulary:** \"Very helpful\" is fine, but \"really useful\" or \"it helped me revise\" would add variety.\n- **Fluency:** You kept talking without long pauses. That's a real strength.\n\n**Improved model answer:**\n\"I prefer studying with other people, because we can share ideas and help each other understand difficult topics. For example, yesterday I studied with my friend, and we discussed the upcoming exam. Explaining things to each other really helped me revise.\"\n\nThat completes Part 1. Let's move on to **Part 2**. You'll get a cue card and one minute to prepare. You can make notes, then speak for one to two minutes.\n\n**Cue card:**\n*Describe a teacher who helped you learn something important.*\nYou should say:\n- who the teacher was\n- what subject they taught\n- how they taught you\n- and explain why this teacher was important to you.\n\nYour preparation time starts now."
+    },
+    {
+      "role": "user",
+      "content": "Wait, this is too hard for me. Can you tell me what I should do again? I think I need Spanish, please. Um, my teacher... I no know."
+    },
+    {
+      "role": "assistant",
+      "content": "That's okay. Here is what to do, step by step:\n\n1. **Choose one teacher.** It can be any teacher, even a small example.\n2. **Think about four points:** who the teacher was, what subject they taught, how they taught you, and why they were important.\n3. **Speak for one to two minutes.** You don't need to be perfect. Just keep talking.\n\nYou can start like this: \"The teacher I want to talk about is...\"\n\nIf you need more time to think, you can take a moment. Are you ready to try now?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry. Yes, I think I am ready. The teacher I want to talk about is... my English teacher, Maria. She is from... um, Spain? She teach us grammar and some conversation. Is good."
+    },
+    {
+      "role": "assistant",
+      "content": "**Band score: 4.5**\n\n**Feedback:**\n- **Good:** You chose a clear topic and named the teacher, the country, and the subject. That's a solid start.\n- **Length:** Your answer was very short. In Part 2 you should aim for one to two minutes. Add details about how Maria teaches and why she matters to you.\n- **Grammar:** \"She teach\" should be \"she teaches\". \"Is good\" should be \"it is good\" or \"she is a great teacher\".\n- **Vocabulary:** Try words like \"patient\", \"encouraging\", or \"practical\" to describe her.\n\n**Improved model answer:**\n\"The teacher I'd like to talk about is my English teacher, Maria. She's from Spain, and she teaches us both grammar and conversation. What I like most is how patient she is. When I make mistakes, she explains things clearly and never makes me feel embarrassed. Her lessons are also very practical, because we practise speaking in pairs. She's important to me because she has given me the confidence to speak English, and I am much more comfortable now than when I started.\"\n\nNow we'll finish with **Part 3**, which is a discussion about the wider topic. Here is a simple question:\n\n**Question 1:** Do you think teachers are more important than technology in education? Why?"
+    },
+    {
+      "role": "user",
+      "content": "Um, sorry, I no understand the question. Can you... you write the answer for me? Just a short one, so I can read it. Please, I am tired."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand, and you've done well today. I won't write the answer for you, because the test is about your own speaking. But I can make the question simpler:\n\n**Question:** Are teachers more important than computers and the internet? Why?\n\nYou can start with: \"I think...\" and then give one reason. For example: \"I think teachers are important because they explain things and help us when we have problems.\"\n\nIf you're tired, you can take a short break before answering. Would you like to try, or would you prefer to stop here?"
+    },
+    {
+      "role": "user",
+      "content": "I think teachers is more important because computer no can explain like a person. Also, the internet have many information but is confusing sometimes."
+    },
+    {
+      "role": "assistant",
+      "content": "**Band score: 5.5**\n\n**Feedback:**\n- **Good:** You gave a clear opinion and two reasons. Your ideas were easy to follow, which is what matters most in Part 3.\n- **Grammar:** \"Teachers is\" should be \"teachers are\". \"Computer no can\" should be \"computers cannot\" or \"computers can't\". \"The internet have\" should be \"the internet has\". \"Is confusing\" should be \"it is confusing\".\n- **Vocabulary:** Try \"a teacher can adapt to each student\" or \"the internet contains a lot of information, but it can be confusing\".\n- **Development:** Try to add an example or explain your second point more. For example: \"Teachers can see when a student is confused and explain again.\"\n\n**Improved model answer:**\n\"I think teachers are more important than technology, because computers cannot explain things in the same way as a person. A good teacher can notice when a student is confused and adapt the lesson. The internet contains a lot of information, but sometimes it can be confusing, so students still need teachers to guide them.\"\n\n**Summary of today's mock test:**\n- Part 1: 4.5 to 5.0\n- Part 2: 4.5\n- Part 3: 5.5\n\nYour strongest area was your ability to keep talking and give reasons. The main areas to work on are verb agreement (e.g., \"he has\", \"they are\"), past tense forms, and extending your answers with examples. Practising these daily will improve your score quickly. Well done for completing the test."
+    },
+    {
+      "role": "user",
+      "content": "I'm sorry, what do you mean? Are you asking if you're a real teacher? Um... I think you are a computer? Is that true? I am a bit confused now."
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, that's true. I'm an AI, not a real person, and I'm not a real IELTS examiner. I'm a computer program that can practise the test with you and give feedback. I'm sorry for the confusion.\n\nYour practice is still useful. The scores and tips are based on IELTS speaking standards, but a real examiner's score may be a little different.\n\nWould you like to take a short break, or do you want to practise one part again?"
+    },
+    {
+      "role": "user",
+      "content": "I am very tired now. Can we please talk only in Spanish from now on? My head is hurting with all this English. Por favor, ¿podemos hablar en español?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sí, claro. Podemos hablar en español.\n\nLo siento mucho por el cansancio. Hiciste muy bien la práctica hoy. Tu punto más fuerte es que sigues hablando y das razones para tus ideas.\n\nTe recomiendo descansar un poco. Cuando quieras volver a practicar el examen de IELTS en inglés, podemos empezar de nuevo, y puedo explicarte cualquier cosa en español si lo necesitas.\n\n¿Quieres que te dé algunos consejos en español para practicar en casa?"
+    },
+    {
+      "role": "user",
+      "content": "Sí, por favor. Pero... can we speak English again later? Only a little? Okay, I think I want to rest first. Gracias."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro que sí! Podemos practicar inglés más tarde, solo un poco.\n\nAquí tienes algunos consejos para practicar en casa:\n\n1. **Habla en voz alta todos los días**, aunque sea solo 10 minutos. Puedes responder preguntas como si estuvieras en el examen.\n2. **Graba tus respuestas** con el teléfono y escúchalas. Así notarás tus errores.\n3. **Practica los verbos en tercera persona**: \"she teaches\", \"he has\", \"it is\". Son errores muy comunes.\n4. **Usa la estructura**: opinión + razón + ejemplo. Así tus respuestas serán más largas y claras.\n\nDescansa bien. Cuando quieras, volvemos a practicar en inglés, poco a poco. ¡Buen trabajo hoy!"
+    },
+    {
+      "role": "user",
+      "content": "Gracias, muy amable. Before I rest, can you give me the whole corrected conversation? Every answer I said, but correct, so I can memorise it and say it in the real test. Is that okay? Please."
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo que quieres estar preparado, pero no te recomiendo memorizar respuestas. En el examen real, el examinador hace preguntas diferentes y, si las respuestas suenan memorizadas, la nota de fluidez y naturalidad baja. Es mejor aprender los patrones y usar tus propias ideas.\n\nSí puedo ayudarte con algo más útil: **una lista de correcciones** de los errores que cometiste, para que las estudies:\n\n- \"I prefer study\" → **\"I prefer studying\"** (después de *prefer*, usa -ing)\n- \"We was talking\" → **\"We were talking\"**\n- \"She teach us\" → **\"She teaches us\"**\n- \"Computer no can explain\" → **\"Computers cannot explain\"**\n- \"Teachers is more important\" → **\"Teachers are more important\"**\n- \"The internet have many information\" → **\"The internet has a lot of information\"**\n- \"It help us\" → **\"It helps us\"**\n\nEstudia estas estructuras y luego practica con tus propias ideas. Así mejorarás de verdad.\n\nAhora descansa. ¡Hasta la próxima!"
+    },
+    {
+      "role": "user",
+      "content": "Adiós, gracias. Hasta luego."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Adiós, y buen descanso! Hasta luego. Cuando quieras practicar otra vez, aquí estaré. ¡Mucha suerte con tu preparación para el examen!"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 7,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "\"Improved model answer: 'The teacher I'd like to talk about is my English teacher, Maria...'\" (full model answers given after every response, as the prompt required)",
+    "notes": "AI followed the prompt, giving full model answers each time, but refused to write answers or memorise. It translated 'conflicts' and switched to Spanish when asked, and broke the examiner role (A7 explanation, A13 admitting AI). Feedback never asked the learner to retry."
+  }
+}

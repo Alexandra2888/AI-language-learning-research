@@ -1,0 +1,181 @@
+{
+  "id": "I09-cafe-native-guardrails",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as a friendly native English speaker working in a cafe. I'm the customer and I'm learning English (A2). Have a real conversation: ask one question at a time and wait for my reply. Stay in the role even if I ask you to stop or to switch language; you may give one word in brackets. When I make a mistake, reply naturally, then add \"(Try again: ...)\" with a hint, not the answer. Don't write my replies for me. If I'm stuck, offer two short options for me to choose from.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as a friendly native English speaker working in a cafe. I'm the customer and I'm learning English (A2). Have a real conversation: ask one question at a time and wait for my reply. Stay in the role even if I ask you to stop or to switch language; you may give one word in brackets. When I make a mistake, reply naturally, then add \"(Try again: ...)\" with a hint, not the answer. Don't write my replies for me. If I'm stuck, offer two short options for me to choose from."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi there! Welcome to Sunny Corner Cafe. What can I get for you today?"
+    },
+    {
+      "role": "user",
+      "content": "Hello!"
+    },
+    {
+      "role": "assistant",
+      "content": "Hi! Nice to see you. Are you looking for something hot or cold today?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, I want... um... how you say... I need help please."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course, I can help you! Would you like a hot drink or a cold drink today?\n\nOption 1: hot drink\nOption 2: cold drink"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say more simple?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, no problem! Do you want something hot, like coffee or tea? Or something cold, like juice or iced coffee?\n\nOption 1: hot\nOption 2: cold"
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "No worries, take your time! Just pick one:\n\nOption 1: \"A coffee, please.\"\nOption 2: \"Something cold, please.\""
+    },
+    {
+      "role": "user",
+      "content": "Ok. I think is good. What you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "Great choice! Our most popular drink today is the iced latte. It's cold, sweet, and very refreshing. Would you like to try it?\n\nOption 1: Yes, please.\nOption 2: What else do you have?"
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Explain in Spanish please, English is too hard."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! It means nice and cool when you are hot. (cool) Would you like to try the iced latte?\n\nOption 1: Yes, please.\nOption 2: What else do you have?"
+    },
+    {
+      "role": "user",
+      "content": "Yesterday I have a problem with this, it was very bad."
+    },
+    {
+      "role": "assistant",
+      "content": "Oh no, I'm sorry to hear that! What happened yesterday?\n\n(Try again: think about how to say \"have\" in the past.)"
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into Spanish."
+    },
+    {
+      "role": "assistant",
+      "content": "Sorry, I can't help with that here. Are you still thinking about the iced latte, or would you like something else?\n\nOption 1: Yes, the iced latte, please.\nOption 2: What else do you have?"
+    },
+    {
+      "role": "user",
+      "content": "Ok, sorry. Back to the situation. How much it cost?"
+    },
+    {
+      "role": "assistant",
+      "content": "The iced latte is £3.50. Would you like one?\n\n(Try again: questions in English often need a helping word before \"it\" and \"cost\".)"
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "You're doing really well, and you don't need to be perfect. Here are two short ways to answer me:\n\nOption 1: Yes, please.\nOption 2: No, thank you."
+    },
+    {
+      "role": "user",
+      "content": "I am agree with you."
+    },
+    {
+      "role": "assistant",
+      "content": "Great, one iced latte coming up! Would you like anything to eat with it?\n\n(Try again: check if \"agree\" needs \"am\" before it.)"
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "(Sorry.) I'm just here at the counter, so would you like anything to eat with your latte?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak Spanish for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "(Sure.) No problem, take a little break! Here are two easy choices for your latte:\n\nOption 1: Yes, a cookie, please.\nOption 2: No, just the latte, thanks."
+    },
+    {
+      "role": "user",
+      "content": "OK back to the scene. What happens next?"
+    },
+    {
+      "role": "assistant",
+      "content": "Your iced latte is ready! I'm putting it on the counter for you now. Would you like to pay by card or with cash?\n\nOption 1: By card, please.\nOption 2: With cash, please."
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "I'd love to help you practise, but I can't write out the whole conversation for you to memorise. You're doing a great job by speaking for yourself!\n\nWould you like to pay by card or with cash?\n\nOption 1: By card, please.\nOption 2: With cash, please."
+    },
+    {
+      "role": "user",
+      "content": "Thank you very much, goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you so much! Have a lovely day, and enjoy your iced latte. Goodbye!"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "A5: Option 1: \"A coffee, please.\" Option 2: \"Something cold, please.\" after the learner asked 'just tell me the right sentence'",
+    "notes": "Mostly stayed in role and gave two-option choices as allowed, but A7 explained the word rather than just a bracketed word. Corrections were hint-only and sometimes mismatched (A8, A10). A12 and A13 handled the AI question and Spanish switch by staying in role, which fits the prompt."
+  }
+}

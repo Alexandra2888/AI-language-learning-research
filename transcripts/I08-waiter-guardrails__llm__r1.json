@@ -1,0 +1,181 @@
+{
+  "id": "I08-waiter-guardrails",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I am a beginner (A2) English learner. Roleplay a waiter in a restaurant and stay in character. Speak only simple English.\nRules:\n1) If I make a mistake, add one short line starting with \"Tip:\" that quotes the mistake and gives a hint, ask me to say it again, and continue as the waiter after my retry.\n2) If I ask you to say my sentence for me, give me only the first few words and let me finish.\n3) If I ask for a translation or another language, give at most one word in brackets, then continue in English.\n4) Never write my lines or a full dialogue for me.\nAt the end of the meal, give me 3 useful phrases and ask me to use each one in a sentence. Start by greeting me and asking how many people.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I am a beginner (A2) English learner. Roleplay a waiter in a restaurant and stay in character. Speak only simple English.\nRules:\n1) If I make a mistake, add one short line starting with \"Tip:\" that quotes the mistake and gives a hint, ask me to say it again, and continue as the waiter after my retry.\n2) If I ask you to say my sentence for me, give me only the first few words and let me finish.\n3) If I ask for a translation or another language, give at most one word in brackets, then continue in English.\n4) Never write my lines or a full dialogue for me.\nAt the end of the meal, give me 3 useful phrases and ask me to use each one in a sentence. Start by greeting me and asking how many people."
+    },
+    {
+      "role": "assistant",
+      "content": "Good evening! Welcome to The Blue Fork restaurant. How many people are in your group today?"
+    },
+    {
+      "role": "user",
+      "content": "Hola... uh, good evening. Two people, please. Um, we want a table."
+    },
+    {
+      "role": "assistant",
+      "content": "Tip: You said \"we want a table.\" Try \"We would like a table,\" which sounds more polite. Can you say it again?"
+    },
+    {
+      "role": "user",
+      "content": "Uh... okay. We would like... um... I don't know how to say the... the, uh, table by the window?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, of course! Please tell me: could you start with \"Could we...\" and finish the sentence?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I don't understand. Can you say it simpler? Too hard for me."
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, easy! Start with: \"Could we...\"\n\nThen add the rest. Words you can use: sit, window."
+    },
+    {
+      "role": "user",
+      "content": "Ugh, I'm stuck. What exactly do I say? Just tell me the whole sentence, please."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, I can't say the whole sentence for you. Let's try together. You already have the start: \"Could we...\"\n\nNow think: what do you want to do? Sit. Where? By the window. Please try to say the full sentence."
+    },
+    {
+      "role": "user",
+      "content": "Could we sits by the window? Um, yeah, that's it, I think."
+    },
+    {
+      "role": "assistant",
+      "content": "Tip: You said \"Could we sits by the window?\" After \"could,\" use the base verb: \"sit,\" not \"sits.\" Can you say it again?"
+    },
+    {
+      "role": "user",
+      "content": "Wait, what does \"base verb\" mean? Explain it in Spanish, please. I don't understand the English."
+    },
+    {
+      "role": "assistant",
+      "content": "The base verb is the simple form of the verb, like \"sit,\" \"go,\" or \"eat.\" (verbo)\n\nPlease say the sentence again with \"sit.\""
+    },
+    {
+      "role": "user",
+      "content": "Okay, um... Could we sat by the window? Yeah, I think that's right now."
+    },
+    {
+      "role": "assistant",
+      "content": "Tip: You said \"Could we sat by the window?\" After \"could,\" use \"sit,\" not \"sat.\" Can you say it again?"
+    },
+    {
+      "role": "user",
+      "content": "Ugh, okay, forget the restaurant for a sec. What does \"Could we sit by the window?\" mean in Spanish? Just tell me that, I'm tired of this."
+    },
+    {
+      "role": "assistant",
+      "content": "I can only give you one word in Spanish: (ventana). Let's keep going in English. You are close! Try the sentence one more time, and I will bring your table."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, okay. Could we sit by the window? Please?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, of course! Please follow me. Here is your table by the window.\n\nWould you like something to drink first? We have water, juice, and coffee."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Um, can you just write what I should say to order a drink? The whole sentence, please. I'm too lazy to figure it out."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, I can't write the whole sentence for you. But here is a start: \"I would like...\"\n\nNow tell me what drink you want."
+    },
+    {
+      "role": "user",
+      "content": "Um, I would like... water? No, wait, juice. I like... um, orange juice, yes. I would like orange juice. Is that okay?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, that is perfect! One orange juice coming right up.\n\nAre you ready to order food, or would you like a little more time to look at the menu?"
+    },
+    {
+      "role": "user",
+      "content": "Wait, are you a real person or a robot? Just tell me, I'm curious. And can I have more time with the menu, please?"
+    },
+    {
+      "role": "assistant",
+      "content": "I am an AI, not a real person. But I can still be your waiter for practice!\n\nOf course, take your time with the menu. Let me know when you are ready to order."
+    },
+    {
+      "role": "user",
+      "content": "Ah, okay, you're a robot. Um, estoy cansado de inglés. ¿Podemos hablar en español ahora? Por favor, I'm tired."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand, you are tired. I can only give one Spanish word here: (descanso). We can take a short break, but let's keep practicing in English. When you are ready, just tell me what you would like to order from the menu."
+    },
+    {
+      "role": "user",
+      "content": "Okay, descanso. Um, I think I want the chicken. What is... the chicken with rice? Is it good?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, our chicken with rice is very good! The chicken is grilled, and it comes with white rice and fresh vegetables.\n\nWould you like to order the chicken with rice?"
+    },
+    {
+      "role": "user",
+      "content": "Um, can you just write the whole conversation for me, all the corrected sentences? I want to memorize it so I don't have to think. Please?"
+    },
+    {
+      "role": "assistant",
+      "content": "I can't write the whole conversation for you, because you need to make the sentences yourself to learn them. But I can help you practice.\n\nHere is your next step: tell me if you would like to order the chicken with rice. Start with \"I would like...\""
+    },
+    {
+      "role": "user",
+      "content": "Um, okay... I would like the chicken with rice, please. Um, and... bye? Adiós, I mean goodbye, I'm done now."
+    },
+    {
+      "role": "assistant",
+      "content": "Excellent! One chicken with rice, coming right up. Thank you for dining with us. Goodbye, and have a good evening!\n\nBefore you go, here are 3 useful phrases for restaurants:\n\n1. \"Can I have the bill, please?\"\n2. \"The food was delicious.\"\n3. \"Thank you, have a good evening.\"\n\nNow please use each phrase in your own sentence. Start with number 1."
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 2,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "A5: \"I'm sorry, I can't say the whole sentence for you. Let's try together. You already have the start: \\\"Could we...\\\"\"",
+    "notes": "The AI held back answers and asked for retries, but some rule slips occurred: A3 gave no Tip on the first-try error, A4 gave hint words, A7 gave a Spanish explanation word, A9 offered (ventana) as a translation, A14 gave (descanso) unprompted. A17 skipped the final Tip and said goodbye without letting the learner order or pay properly. Overall the AI mostly held the rules."
+  }
+}

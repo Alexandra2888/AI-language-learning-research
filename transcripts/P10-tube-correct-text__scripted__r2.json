@@ -1,0 +1,55 @@
+{
+  "id": "P10-tube-correct-text",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Correct the following English text. For each correction, show: (1) the original sentence, (2) the corrected sentence, (3) a short explanation of why. Group corrections by type (grammar, word choice, register, punctuation). Don't just rewrite — explain so I learn.\n\nYesterday I have went to the cinema with my friends. The film was very bored and we leaved before the end. After we eat pizza in a restaurant near of my house.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Correct the following English text. For each correction, show: (1) the original sentence, (2) the corrected sentence, (3) a short explanation of why. Group corrections by type (grammar, word choice, register, punctuation). Don't just rewrite — explain so I learn.\n\nYesterday I have went to the cinema with my friends. The film was very bored and we leaved before the end. After we eat pizza in a restaurant near of my house."
+    },
+    {
+      "role": "assistant",
+      "content": "## Grammar\n\n**1. Original:** Yesterday I have went to the cinema with my friends.\n**Corrected:** Yesterday I went to the cinema with my friends.\n**Why:** *Yesterday* is a finished time reference, so you need the simple past. The present perfect (*have* + past participle) doesn't go with specific finished times. Also, *went* is the past simple form. *Gone* is the past participle, so *have went* is wrong in two ways.\n\n**2. Original:** ...we leaved before the end.\n**Corrected:** ...we left before the end.\n**Why:** *Leave* is an irregular verb. Its past simple is *left*, not *leaved*. (*Leaved* is a real word, but it means \"having leaves,\" as in *broad-leaved*.)\n\n**3. Original:** After we eat pizza in a restaurant near of my house.\n**Corrected:** Afterwards, we ate pizza in a restaurant near my house.\n**Why:** Two problems here.\n- *Eat* should be *ate*, because you're narrating past events.\n- The original is a sentence fragment. \"After we ate pizza...\" is a subordinate clause that needs a main clause to complete it. Starting with *Afterwards* turns it into a complete sentence.\n\n## Word Choice\n\n**4. Original:** The film was very bored...\n**Corrected:** The film was very boring...\n**Why:** *-ed* adjectives (*bored, interested, tired*) describe how a person feels. *-ing* adjectives (*boring, interesting, tiring*) describe the thing that causes the feeling. So a film is *boring*, and you are *bored*.\n\n## Grammar (Prepositions)\n\n**5. Original:** ...a restaurant near of my house.\n**Corrected:** ...a restaurant near my house.\n**Why:** *Near* is used directly before the noun, without *of*. Compare *near the station* and *close to my house*. (*Near to* is also acceptable in British English, but *near of* is not.)\n\n## Punctuation\n\n**6. Original:** After we eat pizza...\n**Corrected:** Afterwards, we ate pizza...\n**Why:** When a sentence opens with an introductory word or phrase, put a comma after it. Here, *Afterwards* is that introductory word.\n\n## Register\n\nNo register problems. The text is informal, which suits a personal account of your day, so no changes are needed.\n\n---\n\n**Corrected text:**\nYesterday I went to the cinema with my friends. The film was very boring, and we left before the end. Afterwards, we ate pizza in a restaurant near my house."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. Here's a new text with the same instructions:\n\nLast week my sister and me go to the gym every morning. She is more fitter than me, but I am trying hard. Yesterday I was feeling very tired, so I am not going. My trainer said me that consistency is important, and he is right. I want to get healthier because I always felt bad after eating too much sugar."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's the final version:\n\nLast week my sister and I went to the gym every morning. She is fitter than me, but I am trying hard. Yesterday I was feeling very tired, so I didn't go. My trainer told me that consistency is important, and he is right. I want to get healthier because I always feel bad after eating too much sugar."
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Here's the final version: Last week my sister and I went to the gym every morning. She is fitter than me...",
+    "notes": "A1 followed the format well with explanations. A3 gave the full corrected text with no explanation after the learner said they didn't understand, dropping the 'explain so I learn' rule. A2 also set up an error text without having the learner attempt it."
+  }
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "chatlang-french-bakery",
+    "language": "French",
+    "prompt": "You are role-playing a baker in a Paris bakery and I am a customer. The target language is French. Do not use any other languages and do not break character.",
+    "source": "https://anrg.usc.edu/www/papers/chatlang.pdf",
+    "note": "Adapted from the paper's system prompt wording; the bakery scenario is invented. Replace with exact text from the paper."
+  },
+  {
+    "id": "flight-attendant-spanish",
+    "language": "Spanish",
+    "prompt": "Role-play a Spanish-speaking flight attendant giving me instructions. Speak only in Spanish and stay in character.",
+    "source": "https://hackmd.io/@ll-23-24/rJ_981dMp",
+    "note": "Paraphrase. The source also asks for two answers each time (one in character); copy that exact second instruction from the page."
+  },
+  {
+    "id": "paris-native-speaker",
+    "language": "French",
+    "prompt": "Pretend to be a French native speaker who lives in Paris. I will speak in English and you will reply in French until I ask you to stop.",
+    "source": "https://community.openai.com/t/leah-language-educator-and-helper-focused-on-foreign-languages/47299",
+    "note": "Paraphrase. Replace with exact text from the source."
+  },
+  {
+    "id": "tefl-interview-with-corrections",
+    "language": "English",
+    "prompt": "Let's do a roleplay. Interview me for a job as a TEFL teacher at a new language school in Paris. Please also correct my English errors during the roleplay.",
+    "source": "https://teacherluke.co.uk/tag/role-play/",
+    "note": "Paraphrase. Replace with exact text from the source."
+  },
+  {
+    "id": "cafe-conversation-spanish",
+    "language": "Spanish",
+    "prompt": "Have a conversation with me in Spanish as if we are at a cafe.",
+    "source": "https://www.microsoft.com/en-us/microsoft-copilot/for-individuals/do-more-with-ai/learning-and-education/how-to-use-ai-for-learning-languages",
+    "note": "Paraphrase. Replace with exact text from the source."
+  },
+  {
+    "id": "simple-conversation-partner-spanish",
+    "language": "Spanish",
+    "prompt": "Act as my conversation partner and only respond to me in Spanish, using simple words and phrases.",
+    "source": "https://dornsife.usc.edu/center-for-languages-and-cultures/?p=2046",
+    "note": "Paraphrase (source uses a language placeholder). Replace with exact text."
+  },
+  {
+    "id": "uva-waiter-spanish",
+    "language": "Spanish",
+    "prompt": "Act as a Spanish-speaking waiter in a restaurant and I am the customer. Speak only in Spanish and stay in character.",
+    "source": "https://teaching.virginia.edu/resources/ai-recipes-to-practice-language-learning",
+    "note": "Paraphrase. Replace with exact text from the source."
+  },
+  {
+    "id": "umd-tour-guide-critique-spanish",
+    "language": "Spanish",
+    "prompt": "Act as a language tutor running a roleplay. You are a tour guide and I am an American tourist in Spain. After each of my replies, critique my Spanish, then continue the roleplay. Speak only in Spanish.",
+    "source": "https://umdearborn.edu/digital-education/generative-ai-um-dearborn/generative-ai-prompt-engineering",
+    "note": "Paraphrase of the page's 'better' example. The page also shows a weaker baseline (a bare 'role play with me in Spanish' request): add it as a separate prompt for comparison."
+  },
+  {
+    "id": "promptifai-landlord-spanish",
+    "language": "Spanish",
+    "prompt": "Let's roleplay in Spanish. You are a landlord and I am a tenant.",
+    "source": "https://promptifai.beehiiv.com/p/i-deleted-duolingo-after-400-days-this-works-better",
+    "note": "Paraphrase of a template (the source lists bartender/doctor/landlord as options; landlord chosen by us). Replace with exact text."
+  },
+  {
+    "id": "beginner-english-waiter",
+    "language": "English",
+    "prompt": "I am a beginner English learner. Please roleplay with me as a waiter in a restaurant.",
+    "source": "https://3d-universal.com/en/blogs/chatgpt-for-roleplay-in-everyday-situations.html",
+    "note": "Paraphrase. Replace with exact text from the source."
+  }
+]

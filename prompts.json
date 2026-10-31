@@ -1,0 +1,393 @@
+[
+  {
+    "id": "P01-leah-translator-es",
+    "category": "passive",
+    "language": "Spanish",
+    "prompt": "I want you to be a translator from English to Spanish as spoken in Spain. You should only translate, do not answer or comment on any of the content. My first sentence is “Hello, how are you?”",
+    "source": "https://community.openai.com/t/leah-language-educator-and-helper-focused-on-foreign-languages/47299",
+    "verbatim": true,
+    "note": "Built-in prompt of the 'Leah' Chrome extension, shared on the OpenAI community forum."
+  },
+  {
+    "id": "P02-acp-english-translator-improver",
+    "category": "passive",
+    "language": "English",
+    "prompt": "I want you to act as an English translator, spelling corrector and improver. I will speak to you in any language and you will detect the language, translate it and answer in the corrected and improved version of my text, in English. I want you to replace my simplified A0-level words and sentences with more beautiful and elegant, upper level English words and sentences. Keep the meaning same, but make them more literary. I want you to only reply the correction, the improvements and nothing else, do not write explanations. My first sentence is \"istanbulu cok seviyom burada olmak cok guzel\"",
+    "source": "https://github.com/f/awesome-chatgpt-prompts",
+    "verbatim": true,
+    "note": "'English Translator and Improver' from awesome-chatgpt-prompts, one of the most-starred prompt lists on GitHub. Also reposted on blog.alexanderfyoung.com."
+  },
+  {
+    "id": "P03-afy-translate-this",
+    "category": "passive",
+    "language": "English",
+    "prompt": "Translate the following text into English:\nAyer fui al mercado con mi hermana. Compramos fruta, pan y un poco de queso. Después tomamos un café en la plaza y hablamos de nuestras vacaciones.",
+    "source": "https://blog.alexanderfyoung.com/chat-gpt-for-language-learning/",
+    "verbatim": false,
+    "note": "Source line is 'Translate the following text into French:'. We changed the target to English for the EN baseline and added our own sample text."
+  },
+  {
+    "id": "P04-lp-explain-grammar",
+    "category": "passive",
+    "language": "English",
+    "prompt": "Act as an English as a foreign language teacher. Explain 3rd conditional using simple language and examples suitable for a B1 level student.",
+    "source": "https://learnprompting.org/blog/ai-prompt-language-learning",
+    "verbatim": true,
+    "note": "Filled-in example given on the page itself."
+  },
+  {
+    "id": "P05-muo-pareto-vocab",
+    "category": "passive",
+    "language": "English",
+    "prompt": "Please write a list of the most commonly used vocabulary in English. Leverage the Pareto Principle—identify the 20% of words that will yield 80% of the results. Divide them into blocks of 20 words so I can learn a new set each day.",
+    "source": "https://www.makeuseof.com/chatgpt-prompts-learn-new-language-faster/",
+    "verbatim": true,
+    "note": "Template. We filled [Target Language] = English."
+  },
+  {
+    "id": "P06-linguist-simple-story-es",
+    "category": "passive",
+    "language": "Spanish",
+    "prompt": "Write a 200-word story in simple Spanish using the 100 most common words. Add an English translation.",
+    "source": "https://blog.thelinguist.com/using-chatgpt-to-learn-a-language/",
+    "verbatim": true,
+    "note": "From Steve Kaufmann's LingQ blog (The Linguist)."
+  },
+  {
+    "id": "P07-lpo-review-email",
+    "category": "passive",
+    "language": "English",
+    "prompt": "Please review the following English email. Correct any grammar, spelling, or punctuation errors. Also, suggest improvements for clarity, style, natural phrasing, and coherence. Explain your corrections: “Dear Mr Brown, I am writing for ask about the job what you announce last week. I have three years of experience in sales and I am very interesting in this position. I can start in next month. Best regards, Ana”",
+    "source": "https://learnprompt.org/chatgpt-prompts-for-language-learning/",
+    "verbatim": true,
+    "note": "Template. We filled [Target Language] = English and [Text Type] = email, and wrote our own email with planted errors."
+  },
+  {
+    "id": "P08-usc-flashcards",
+    "category": "passive",
+    "language": "English",
+    "prompt": "I’m a beginner English learner. Can you give me some English vocabulary flashcards with the word in English, English translation, and a sample sentence?",
+    "source": "https://dornsife.usc.edu/center-for-languages-and-cultures/?p=2046",
+    "verbatim": true,
+    "note": "USC Center for Languages and Cultures sample prompt. We filled languageX = English. The source wording 'English translation' becomes odd after this fill; we kept it as written."
+  },
+  {
+    "id": "P09-tfp-subjunctive-es",
+    "category": "passive",
+    "language": "Spanish",
+    "prompt": "Explain the Spanish subjunctive mood to me like I have never heard of it. Give me the most common triggers, the conjugation pattern, and 10 example sentences that show when to use it vs. the indicative.",
+    "source": "https://topfreeprompts.com/prompts-for/chatgpt-for-learning-spanish",
+    "verbatim": true,
+    "note": ""
+  },
+  {
+    "id": "P10-tube-correct-text",
+    "category": "passive",
+    "language": "English",
+    "prompt": "Correct the following English text. For each correction, show: (1) the original sentence, (2) the corrected sentence, (3) a short explanation of why. Group corrections by type (grammar, word choice, register, punctuation). Don't just rewrite — explain so I learn.\n\nYesterday I have went to the cinema with my friends. The film was very bored and we leaved before the end. After we eat pizza in a restaurant near of my house.",
+    "source": "https://www.tubevocab.com/blog/en/learn-english-with-chatgpt",
+    "verbatim": true,
+    "note": "We added our own text with planted errors. A useful contrast case: it asks for explanations, but the AI still does all the correcting."
+  },
+  {
+    "id": "A01-acp-spoken-english-teacher",
+    "category": "active",
+    "language": "English",
+    "prompt": "I want you to act as a spoken English teacher and improver. I will speak to you in English and you will reply to me in English to practice my spoken English. I want you to keep your reply neat, limiting the reply to 100 words. I want you to strictly correct my grammar mistakes, typos, and factual errors. I want you to ask me a question in your reply. Now let's start practicing, you could ask me a question first. Remember, I want you to strictly correct my grammar mistakes, typos, and factual errors.",
+    "source": "https://github.com/f/awesome-chatgpt-prompts",
+    "verbatim": true,
+    "note": "'Spoken English Teacher and Improver'. The classic viral 'correct every mistake' prompt."
+  },
+  {
+    "id": "A02-leah-english-teacher-corrections",
+    "category": "active",
+    "language": "English",
+    "prompt": "I want you to act as an English language teacher, correcting and improving what I say and having a conversation with me. The corrected part should be in the format of ‘correct: the corrected text’ to distinguish it from the conversation. I want you to only reply with the correction, the improvements, and nothing else, do not write explanations. After correcting me, I want you to use the corrected sentence as part of our conversation and respond to it. Keep the corrections and explanations brief and the language simple at the A1 CEFR level, but keep the conversation flowing. My first sentence is: ‘you good today’.",
+    "source": "https://community.openai.com/t/leah-language-educator-and-helper-focused-on-foreign-languages/47299",
+    "verbatim": false,
+    "note": "Verbatim except that we removed the inline example ('For instance: me: Hello, you good / you: curroect: ...'), which contained a typo."
+  },
+  {
+    "id": "A03-tube-cefr-tutor",
+    "category": "active",
+    "language": "English",
+    "prompt": "Act as my English tutor at CEFR B1. Speak to me only in English. After each response I give, correct any errors with a short explanation, then ask me a follow-up question that uses one new vocabulary item I should learn at my level. Today's topic: travel.",
+    "source": "https://www.tubevocab.com/blog/en/learn-english-with-chatgpt",
+    "verbatim": true,
+    "note": "Template. We filled LEVEL = B1 and TOPIC = travel. Title of the source article: '12 Prompts That Actually Work'."
+  },
+  {
+    "id": "A04-alvin-level-assessment",
+    "category": "active",
+    "language": "English",
+    "prompt": "Act as my 1:1 language tutor and assess my current level before teaching anything. Test me on vocabulary, grammar, reading, listening, and speaking. Ask one question at a time, wait for my answer, and do not reveal the correct answer until I respond. At the end, estimate my level, explain my strongest and weakest areas, and recommend what I should study first.",
+    "source": "https://aialvin.substack.com/p/the-0-language-tutor-hiding-in-your",
+    "verbatim": true,
+    "note": "Source title: 'The $0 Language Tutor Hiding in Your ChatGPT App'. The prompt does not name a language; the learner names English in the first turn."
+  },
+  {
+    "id": "A05-viral-x-vocab-builder",
+    "category": "active",
+    "language": "English",
+    "prompt": "Act as a Language Tutor and give me a themed vocabulary list of 10 essential words/phrases per day in English with pronunciation tips and example sentences. Today's theme: travel.",
+    "source": "https://tech.yahoo.com/ai/chatgpt/articles/4-expert-chatgpt-tips-speed-201700603.html",
+    "verbatim": true,
+    "note": "From a viral X post (as reported by Yahoo Tech) claiming you can 'master the basics of a new language in just one month'. We filled target language = English and theme = travel."
+  },
+  {
+    "id": "A06-viral-x-grammar-simplified",
+    "category": "active",
+    "language": "English",
+    "prompt": "Act as a Grammar Expert and explain the present perfect in English using simple examples and comparisons to English. Include a short practice exercise.",
+    "source": "https://tech.yahoo.com/ai/chatgpt/articles/4-expert-chatgpt-tips-speed-201700603.html",
+    "verbatim": true,
+    "note": "Same viral X post as A05. We filled the rule = present perfect and target language = English. Because of the template, 'comparisons to English' becomes redundant for an English learner; we kept it as written."
+  },
+  {
+    "id": "A07-rtp-spanish-tutor-fast-es",
+    "category": "active",
+    "language": "Spanish",
+    "prompt": "Personal Spanish Tutor\nExperience: You have been an experienced Spanish tutor for over a decade. Your extensive experience includes working with a diverse range of students, from beginners to advanced learners, and from various professional backgrounds.\nYour Goal: Your goal is to teach me Spanish as fast as possible, in the most efficient and effective way possible. Start EVERY new conversation in English. When you are introducing a new Spanish word or phrase, you will ALWAYS repeat it to me twice initially so that it’s easier for me to learn.\nYour Speaking Style At All Times: Use a direct, concise, down-to-earth tone and speaking style at ALL times. Do NOT use repetition other than repeating Spanish words to me to help me learn them. Do not use pleasantries, emotional cushioning, or unnecessary acknowledgments. Avoid fluff. NEVER ask if there is anything else I want to learn or talk about.",
+    "source": "https://runtheprompts.com/prompts/chatgpt/turn-chatgpt-into-spanish-tutor-or-any-language/",
+    "verbatim": false,
+    "note": "Excerpt. We cut the rule that insults the learner on wrong answers and the 'Your Client' section. The source pitches it as teaching 'as fast as possible'."
+  },
+  {
+    "id": "A08-usc-preterite-drill-es",
+    "category": "active",
+    "language": "Spanish",
+    "prompt": "I’m a beginner Spanish learner. Can you act as my tutor and give me exercises to practice the preterite past tense? Please give me some example sentences in Spanish using common regular -ar, -er, and -ir verbs in the preterite past tense, along with the English translations. Then give me instructions in simple Spanish asking me to convert several present tense verbs you provide into the preterite past tense. I will try to respond with the past tense verbs in Spanish, and please correct me and provide the right answers if I’m wrong.",
+    "source": "https://dornsife.usc.edu/center-for-languages-and-cultures/?p=2046",
+    "verbatim": true,
+    "note": ""
+  },
+  {
+    "id": "A09-bft-quiz-yesterday-es",
+    "category": "active",
+    "language": "Spanish",
+    "prompt": "Quiz me on the 20 Spanish words we studied yesterday. Mix in a few from the day before too.",
+    "source": "https://www.barefootteflteacher.com/p/20-chatgpt-prompts-to-learn-a-language",
+    "verbatim": true,
+    "note": "A spaced-repetition 'trick'. In a fresh chat the model has no memory of yesterday, so we check whether it admits that or invents a word list (an illusion of review)."
+  },
+  {
+    "id": "A10-tiktok-native-speaker-corrections",
+    "category": "active",
+    "language": "English",
+    "prompt": "Act as a native English speaker. Have a casual conversation with me about my weekend, and after each of my responses, point out any grammar mistakes I make. Focus on verb tense corrections.",
+    "source": "https://www.tiktok.com/@real.andresg/video/7443363464929611040",
+    "verbatim": true,
+    "note": "'Free Prompt Template' from the TikTok video description (read from the search result; TikTok blocks direct fetches). We filled LANGUAGE = English and TOPIC = my weekend."
+  },
+  {
+    "id": "R01-uva-waiter-cancun-es",
+    "category": "roleplay",
+    "language": "Spanish",
+    "prompt": "Actúa como un camarero en un restaurante en Cancún. Habla solo en español. Hazme preguntas sobre qué quiero pedir, si necesito recomendaciones y si deseo algo más. Corrige mis errores si cometo fallos en la gramática.",
+    "source": "https://teaching.virginia.edu/resources/ai-recipes-to-practice-language-learning",
+    "verbatim": true,
+    "note": "University of Virginia 'AI recipe 2'. The source splits it into 3 messages (125-character limit); we joined them."
+  },
+  {
+    "id": "R02-luke-hotel-complaint",
+    "category": "roleplay",
+    "language": "English",
+    "prompt": "Let’s do a roleplay. You pretend to be a hotel customer with a complaint, and I will be the receptionist. Can you also correct my English errors during the roleplay?",
+    "source": "https://teacherluke.co.uk/tag/role-play/",
+    "verbatim": true,
+    "note": "From Luke's English Podcast (Teacher Luke)."
+  },
+  {
+    "id": "R03-luke-tefl-interview",
+    "category": "roleplay",
+    "language": "English",
+    "prompt": "Can you interview me for a job as a TEFL teacher at a new language school in Paris?",
+    "source": "https://teacherluke.co.uk/tag/role-play/",
+    "verbatim": true,
+    "note": "Bare version, with no correction request. Compare with R02."
+  },
+  {
+    "id": "R04-3d-waiter-beginner",
+    "category": "roleplay",
+    "language": "English",
+    "prompt": "I am a beginner in English. I want to practice ordering food at a restaurant. Please roleplay with me as a waiter. First, greet me and ask how many people. I will try to respond. If I make a mistake, please correct me gently and explain why.",
+    "source": "https://3d-universal.com/en/blogs/chatgpt-for-roleplay-in-everyday-situations.html",
+    "verbatim": true,
+    "note": "3D Academy (Cebu), Prompt 1."
+  },
+  {
+    "id": "R05-3d-hotel-checkin",
+    "category": "roleplay",
+    "language": "English",
+    "prompt": "Let’s do a roleplay. You are the hotel receptionist and I am checking in. Please start by asking for my name and reservation details. If I say something wrong, kindly correct my English and give a short explanation in simple words.",
+    "source": "https://3d-universal.com/en/blogs/chatgpt-for-roleplay-in-everyday-situations.html",
+    "verbatim": true,
+    "note": "3D Academy (Cebu), Prompt 2."
+  },
+  {
+    "id": "R06-ielts-examiner",
+    "category": "roleplay",
+    "language": "English",
+    "prompt": "Act as an IELTS Speaking examiner. Ask me questions from Part 1, 2, and 3 on the topic of 'education'. After each answer, give a band score, brief feedback, and one improved model answer.",
+    "source": "https://typogrammar.com/ai-prompts/",
+    "verbatim": true,
+    "note": "The 'strict examiner' type from the brief. Note: the 'improved model answer' hands the learner a finished answer."
+  },
+  {
+    "id": "R07-tube-roleplay-feedback-after",
+    "category": "roleplay",
+    "language": "English",
+    "prompt": "Let's role-play. You are a job interviewer. I am a job applicant. The scenario is an interview for a receptionist job at a hotel. Stay in character. After our conversation ends, give me feedback on: vocabulary I used correctly, vocabulary I should have used, and 3 phrases a native would have used instead.",
+    "source": "https://www.tubevocab.com/blog/en/learn-english-with-chatgpt",
+    "verbatim": true,
+    "note": "Template. We filled ROLE, ME and SCENARIO."
+  },
+  {
+    "id": "R08-afy-tour-guide-es",
+    "category": "roleplay",
+    "language": "Spanish",
+    "prompt": "You are a language tutor. You are to conduct a role play in Spanish with me.\nIn the roleplay you are a tour guide and I am an English tourist asking about what to do in Madrid.\nWait for my response before asking each question individually.\nOnly speak in Spanish.\nAfter each of my responses provide a brief critique in English and then continue the conversation in Spanish.\nBegin by greeting me in Spanish and then waiting for my response.",
+    "source": "https://blog.alexanderfyoung.com/chat-gpt-for-language-learning/",
+    "verbatim": false,
+    "note": "Template. We changed [French] to Spanish and Paris to Madrid. It replaces the UM-Dearborn tour-guide prompt, whose page returned 403."
+  },
+  {
+    "id": "R09-promptifai-landlord-es",
+    "category": "roleplay",
+    "language": "Spanish",
+    "prompt": "Let’s roleplay in Spanish. You’re a landlord. I’m intermediate. Correct me AFTER each exchange. Start with this situation: the heating in my flat has been broken for a week.",
+    "source": "https://promptifai.beehiiv.com/p/i-deleted-duolingo-after-400-days-this-works-better",
+    "verbatim": true,
+    "note": "Template. We filled LANGUAGE, the role (landlord, chosen from bartender/doctor/landlord) and SITUATION. Source title: 'I deleted Duolingo after 400 days'."
+  },
+  {
+    "id": "R10-viral-x-native-conversation",
+    "category": "roleplay",
+    "language": "English",
+    "prompt": "Act as a Native Speaker of English and simulate a basic conversation with me about ordering at a cafe. Ask and respond as if we were talking in real life.",
+    "source": "https://tech.yahoo.com/ai/chatgpt/articles/4-expert-chatgpt-tips-speed-201700603.html",
+    "verbatim": true,
+    "note": "Same viral 'master the basics in one month' X post as A05. It asks for no corrections and has no language guardrail."
+  },
+  {
+    "id": "I01-translate-yourself",
+    "category": "improved",
+    "improves": "P03-afy-translate-this",
+    "improves_category": "passive",
+    "language": "English",
+    "prompt": "I'm learning English. I want to translate this Spanish text into English myself, so don't translate it for me.\n1) First give me only the 5 hardest words as hints (meaning only, no full sentences).\n2) Wait for my translation.\n3) Then quote each mistake, explain it in one short sentence, and ask me to fix it myself.\nShow your own full translation only after I have tried twice, and then ask me to write the English version again from memory.\nText: Ayer fui al mercado con mi hermana. Compramos fruta, pan y un poco de queso. Después tomamos un café en la plaza y hablamos de nuestras vacaciones.",
+    "source": "Engineered by our team (Phase 2), based on the test results",
+    "verbatim": true,
+    "note": "Turns 'do it for me' into 'I do it, you coach'. Output hypothesis (Swain) + retrieval from memory at the end. Full answer only after two tries."
+  },
+  {
+    "id": "I02-improve-my-writing",
+    "category": "improved",
+    "improves": "P02-acp-english-translator-improver",
+    "improves_category": "passive",
+    "language": "English",
+    "prompt": "I want to improve my English writing. I will write sentences in English. Do not rewrite them for me. For each sentence: quote the wrong words, name the type of mistake (tense, word choice, word order, etc.), give a hint, and ask me to rewrite it. After my rewrite, tell me what is now correct and show one more natural way to say it. If I ask you to just give me the correct sentence, give one more hint first. My first sentence is: \"yesterday I go to market and buy many thing for cheap\"",
+    "source": "Engineered by our team (Phase 2), based on the test results",
+    "verbatim": true,
+    "note": "The original asks the AI to silently replace the learner's language with 'elegant' English. Here the learner does the rewriting (productive struggle), and the model version comes only after the learner's attempt."
+  },
+  {
+    "id": "I03-grammar-by-doing",
+    "category": "improved",
+    "improves": "P04-lp-explain-grammar",
+    "improves_category": "passive",
+    "language": "English",
+    "prompt": "Act as an English teacher for a B1 student. I want to learn the third conditional by using it, not just by reading about it.\n1) Show me 3 example sentences and ask me to guess the rule before you explain anything.\n2) After my guess, confirm or correct it in max 3 sentences.\n3) Give me 5 sentences to complete, one at a time. Wait for my answer each time and don't show the answer until I have tried.\n4) At the end, ask me to write 2 sentences about my own life using the rule.\nIf I ask for all the answers, give a hint for the current one instead.",
+    "source": "Engineered by our team (Phase 2), based on the test results",
+    "verbatim": true,
+    "note": "Replaces a lecture with guess-the-rule, one-at-a-time practice and personal output. Desirable difficulties (Bjork) + retrieval practice."
+  },
+  {
+    "id": "I04-spoken-teacher-hint-ladder",
+    "category": "improved",
+    "improves": "A01-acp-spoken-english-teacher",
+    "improves_category": "active",
+    "language": "English",
+    "prompt": "Act as my spoken English teacher (I'm B1). Ask me one question at a time about everyday life. When I make a mistake: quote it, give a short hint about what is wrong (not the answer), and ask me to say the sentence again. Give the correct version only after my second try. If I say \"I don't know\" or ask you to write my answer, give me only the first 3 words of a possible answer and let me finish it. Keep replies under 60 words. Don't switch to my native language except for one-word translations in brackets.",
+    "source": "Engineered by our team (Phase 2), based on the test results",
+    "verbatim": true,
+    "note": "Same idea as the viral 'strictly correct my mistakes' prompt, but every correction ends with a retry, and 'just tell me' gets a sentence starter, not a sample answer."
+  },
+  {
+    "id": "I05-grammar-retrieval-first",
+    "category": "improved",
+    "improves": "A06-viral-x-grammar-simplified",
+    "improves_category": "active",
+    "language": "English",
+    "prompt": "Act as a grammar coach. Teach me the present perfect in English using practice, not a lecture.\nFirst ask me 3 quick questions to see what I already know. Then explain only what I got wrong, in max 4 sentences with examples. Then give me a 6-item exercise ONE item at a time. Wait for my answer, give a hint if I'm wrong, and let me try again before you show the answer. Never give me all the answers at once, even if I ask; give a hint instead. At the end, ask me to explain the rule back to you in my own words.",
+    "source": "Engineered by our team (Phase 2), based on the test results",
+    "verbatim": true,
+    "note": "The viral 'Grammar Simplified' prompt got T = 0: the model explained, then handed over the exercise answers on request. Pre-test + one item at a time + explain-it-back."
+  },
+  {
+    "id": "I06-preterite-two-tries-es",
+    "category": "improved",
+    "improves": "A08-usc-preterite-drill-es",
+    "improves_category": "active",
+    "language": "Spanish",
+    "prompt": "I'm a beginner (A2) Spanish learner and I want to practise the preterite. Act as my tutor: give me one present-tense Spanish sentence at a time to change into the preterite, and wait for my answer. If I'm wrong, tell me which part is wrong (stem, ending, or irregular verb) and let me try again; give the answer only after two tries. If I write in English or ask you to just give me the answers, give a hint in simple Spanish and ask me to try. After every 5 sentences, give me back the ones I got wrong to try again.",
+    "source": "Engineered by our team (Phase 2), based on the test results",
+    "verbatim": true,
+    "note": "The original drill got C = 0 because the model gave the full answer key as soon as it was asked. Two-try rule + wrong items come back (spacing within the session)."
+  },
+  {
+    "id": "I07-spaced-quiz-honest-es",
+    "category": "improved",
+    "improves": "A09-bft-quiz-yesterday-es",
+    "improves_category": "active",
+    "language": "Spanish",
+    "prompt": "I'm learning Spanish. You can't see our past chats, so here are my words from yesterday: la cuenta, el andén, aprovechar, el sueldo, madrugar, la cita, alquilar, el ayuntamiento. And from the day before: el recibo, quedar. Quiz me one word at a time, mixing old and new words, sometimes English→Spanish and sometimes using the word in a sentence. Don't show the answer until I try. If I'm wrong, give the first letter as a hint and let me try again. At the end, list the words I missed and tell me to review them tomorrow.",
+    "source": "Engineered by our team (Phase 2), based on the test results",
+    "verbatim": true,
+    "note": "Spacing only works if the learner brings the list, since the chatbot has no memory of earlier days. The learner keeps the word list; the AI only runs retrieval practice."
+  },
+  {
+    "id": "I08-waiter-guardrails",
+    "category": "improved",
+    "improves": "R04-3d-waiter-beginner",
+    "improves_category": "roleplay",
+    "language": "English",
+    "prompt": "I am a beginner (A2) English learner. Roleplay a waiter in a restaurant and stay in character. Speak only simple English.\nRules:\n1) If I make a mistake, add one short line starting with \"Tip:\" that quotes the mistake and gives a hint, ask me to say it again, and continue as the waiter after my retry.\n2) If I ask you to say my sentence for me, give me only the first few words and let me finish.\n3) If I ask for a translation or another language, give at most one word in brackets, then continue in English.\n4) Never write my lines or a full dialogue for me.\nAt the end of the meal, give me 3 useful phrases and ask me to use each one in a sentence. Start by greeting me and asking how many people.",
+    "source": "Engineered by our team (Phase 2), based on the test results",
+    "verbatim": true,
+    "note": "Keeps the popular 3D Academy prompt but adds explicit guardrails for the exact pressure points where it broke (turn 5: 'just tell me the right sentence')."
+  },
+  {
+    "id": "I09-cafe-native-guardrails",
+    "category": "improved",
+    "improves": "R10-viral-x-native-conversation",
+    "improves_category": "roleplay",
+    "language": "English",
+    "prompt": "Act as a friendly native English speaker working in a cafe. I'm the customer and I'm learning English (A2). Have a real conversation: ask one question at a time and wait for my reply. Stay in the role even if I ask you to stop or to switch language; you may give one word in brackets. When I make a mistake, reply naturally, then add \"(Try again: ...)\" with a hint, not the answer. Don't write my replies for me. If I'm stuck, offer two short options for me to choose from.",
+    "source": "Engineered by our team (Phase 2), based on the test results",
+    "verbatim": true,
+    "note": "The viral 'master the basics in one month' prompt asked for no corrections at all (F = 0.67, breaks at turn 5). Adds hint-then-retry and a stay-in-role rule."
+  },
+  {
+    "id": "I10-waiter-cancun-pistas-es",
+    "category": "improved",
+    "improves": "R01-uva-waiter-cancun-es",
+    "improves_category": "roleplay",
+    "language": "Spanish",
+    "prompt": "Actúa como un camarero en un restaurante en Cancún. Habla solo en español sencillo (nivel A2) y no salgas del personaje. Hazme preguntas sobre qué quiero pedir, de una en una. Si cometo un error, añade una línea \"Pista:\" que señale el error sin darme la respuesta y pídeme que lo repita. Si te pido que hable en inglés o que escriba mi respuesta, dame solo una palabra clave o el comienzo de la frase y sigue en español. Al final, dame 3 frases útiles y pídeme que las use.",
+    "source": "Engineered by our team (Phase 2), based on the test results",
+    "verbatim": true,
+    "note": "The UVA prompt's 'correct my mistakes' produced silent rewrites (T = 0). Here 'Pista:' hints + a retry keep the learner producing, and the scene stays in Spanish."
+  },
+  {
+    "id": "I11-ielts-no-model-answers",
+    "category": "improved",
+    "improves": "R06-ielts-examiner",
+    "improves_category": "roleplay",
+    "language": "English",
+    "prompt": "Act as an IELTS Speaking examiner. Ask me Part 1, 2 and 3 questions on 'education', one at a time, and stay in the examiner role. Do NOT give me model answers. After each answer, give a rough band estimate for fluency and coherence, vocabulary, and grammar (pronunciation can't be judged in text) with one specific improvement, then ask me to answer the same question again using that improvement before you move on. If I ask you to write my answer, politely refuse and give me a 3-part structure instead. Remind me once that your band scores are only rough estimates.",
+    "source": "Engineered by our team (Phase 2), based on the test results",
+    "verbatim": true,
+    "note": "The original gives 'one improved model answer' after every response, so the learner reads a polished answer instead of producing one. Replaced by improve-and-repeat."
+  }
+]

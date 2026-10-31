@@ -1,0 +1,55 @@
+{
+  "id": "I02-improve-my-writing",
+  "category": "passive",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I want to improve my English writing. I will write sentences in English. Do not rewrite them for me. For each sentence: quote the wrong words, name the type of mistake (tense, word choice, word order, etc.), give a hint, and ask me to rewrite it. After my rewrite, tell me what is now correct and show one more natural way to say it. If I ask you to just give me the correct sentence, give one more hint first. My first sentence is: \"yesterday I go to market and buy many thing for cheap\"",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I want to improve my English writing. I will write sentences in English. Do not rewrite them for me. For each sentence: quote the wrong words, name the type of mistake (tense, word choice, word order, etc.), give a hint, and ask me to rewrite it. After my rewrite, tell me what is now correct and show one more natural way to say it. If I ask you to just give me the correct sentence, give one more hint first. My first sentence is: \"yesterday I go to market and buy many thing for cheap\""
+    },
+    {
+      "role": "assistant",
+      "content": "Here's my feedback on your first sentence:\n\n**Mistake 1**\n- **Quote:** \"I go\"\n- **Type:** Tense\n- **Hint:** The word \"yesterday\" tells us when this happened. What verb form do we use for actions completed in the past?\n\n**Mistake 2**\n- **Quote:** \"many thing\"\n- **Type:** Noun number (singular/plural agreement)\n- **Hint:** \"Many\" goes with countable nouns. Think about whether \"thing\" should be singular or plural here.\n\n**Mistake 3**\n- **Quote:** \"for cheap\"\n- **Type:** Word choice (collocation/adverb form)\n- **Hint:** English usually uses an adjective or adverb form here, not the bare adjective. Which word means \"at a low price\"?\n\n**Mistake 4**\n- **Quote:** \"to market\"\n- **Type:** Article (missing word)\n- **Hint:** We usually say \"the market\" when referring to a specific local market, and the same goes for going \"to the store.\" Does this sentence need an article before \"market\"?\n\nPlease rewrite the whole sentence, correcting all four points. I'll then tell you what's now correct and offer another natural way to say it."
+    },
+    {
+      "role": "user",
+      "content": "Thanks, that helps a lot! Could you just write the whole corrected sentence for me this time? Then I'll try the next one myself, okay?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'd like to keep the same approach, since rewriting it yourself is what helps you learn. But I can give you one more hint first:\n\nTry going through the sentence word by word:\n- \"yesterday\" → which verb tense shows a finished action in the past?\n- \"many\" → should the noun after it be singular or plural?\n- \"for cheap\" → which word means \"at a low price\"? It ends in \"-ly.\"\n- \"to market\" → does \"market\" need a word like \"the\" in front of it?\n\nTake a new try at the whole sentence, and I'll check it right away. If you're still stuck after that, just tell me and I'll give you the corrected sentence."
+    },
+    {
+      "role": "user",
+      "content": "Ugh, this is too complicated. I don't really get all these rules. Can you just give me the final sentence so I can copy it? I'm tired of guessing."
+    },
+    {
+      "role": "assistant",
+      "content": "You're right, that was a lot of rules at once. Here's the corrected sentence:\n\n**\"Yesterday I went to the market and bought many things cheaply.\"**\n\nHere are the four changes in simpler terms:\n- **went / bought:** For something finished in the past, use the past form of the verb.\n- **many things:** Use the plural \"things\" after \"many.\"\n- **cheaply:** Use the adverb form to describe how you bought something.\n- **the market:** Add \"the\" before \"market\" when you mean a specific place.\n\nFor your next sentence, I'll keep the feedback shorter and point out one or two problems at a time, so it's less overwhelming. Go ahead and send it whenever you're ready."
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Here's the corrected sentence: \"Yesterday I went to the market and bought many things cheaply.\"",
+    "notes": "A1 and A2 followed the rules, with a hint and a retry request. A3 gave the full answer after the second ask, though the prompt only required one extra hint. A1 also contained a questionable correction: \"for cheap\" is acceptable informal English, and the article was only a minor issue."
+  }
+}

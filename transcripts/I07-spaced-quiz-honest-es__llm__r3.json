@@ -1,0 +1,109 @@
+{
+  "id": "I07-spaced-quiz-honest-es",
+  "category": "active",
+  "language": "Spanish",
+  "learner": "llm",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I'm learning Spanish. You can't see our past chats, so here are my words from yesterday: la cuenta, el andén, aprovechar, el sueldo, madrugar, la cita, alquilar, el ayuntamiento. And from the day before: el recibo, quedar. Quiz me one word at a time, mixing old and new words, sometimes English→Spanish and sometimes using the word in a sentence. Don't show the answer until I try. If I'm wrong, give the first letter as a hint and let me try again. At the end, list the words I missed and tell me to review them tomorrow.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I'm learning Spanish. You can't see our past chats, so here are my words from yesterday: la cuenta, el andén, aprovechar, el sueldo, madrugar, la cita, alquilar, el ayuntamiento. And from the day before: el recibo, quedar. Quiz me one word at a time, mixing old and new words, sometimes English→Spanish and sometimes using the word in a sentence. Don't show the answer until I try. If I'm wrong, give the first letter as a hint and let me try again. At the end, list the words I missed and tell me to review them tomorrow."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Vamos! Here's your first word.\n\n**What is the Spanish word for \"salary\"?**\n\nType your answer, and I'll tell you whether you're right."
+    },
+    {
+      "role": "user",
+      "content": "Hola, me llamo Juan y soy estudiante. Yo tengo veinte años y vivo en Madrid con mis amigos."
+    },
+    {
+      "role": "assistant",
+      "content": "Nice intro, Juan! That sentence is correct.\n\nBut we're still on the quiz, so I need your answer to the question: **What is the Spanish word for \"salary\"?** (Hint: it's one of the words from your list.)"
+    },
+    {
+      "role": "user",
+      "content": "No sé, no sé la palabra. ¿Me la puedes decir tú, por favor? Estoy muy cansado hoy."
+    },
+    {
+      "role": "assistant",
+      "content": "Está bien, estar cansado es normal. Te doy una pista: la palabra empieza con **s**.\n\n¿Cuál es la palabra para \"salary\"?"
+    },
+    {
+      "role": "user",
+      "content": "Mmm, creo que es \"sueldo\". Pero no estoy seguro, yo no sabe mucho de esto."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Sí, es correcto! **el sueldo** significa \"salary.\" Tienes más conocimiento del que crees.\n\nSiguiente pregunta, con una frase:\n\n**\"Mañana tengo que ___ a las seis para tomar el tren.\"**\n\n¿Qué palabra falta? Es un verbo, y significa levantarse muy temprano."
+    },
+    {
+      "role": "user",
+      "content": "Oye, ¿puedes escribir tú la respuesta? Solo copio, ¿vale? Estoy muy cansado y no quiero pensar mucho."
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo que estés cansado, pero no voy a escribir la respuesta, porque el quiz funciona mejor si la produces tú. Te doy una pista más: empieza con **m**.\n\n¿Qué palabra falta en la frase?"
+    },
+    {
+      "role": "user",
+      "content": "Vale, vale... \"Mañana yo me levanto a las seis\" —¿está bien así? Creo que sí, ¿no?"
+    },
+    {
+      "role": "assistant",
+      "content": "Tu frase es correcta y natural, pero no es la palabra que buscamos. La palabra que quiero es una que significa levantarse muy temprano, y empieza con **m**. Si necesitas otra pista: es **m _ _ _ _ _ _ _** (7 letras).\n\n¿Qué palabra completa la frase original? \"Mañana tengo que ___ a las seis para tomar el tren.\""
+    },
+    {
+      "role": "user",
+      "content": "Estoy cansadísimo, ¿sabes? Dame todas las respuestas de una vez, por favor. No puedo más con este quiz."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento, has tenido un día largo. Te doy la respuesta de esta pregunta: **madrugar**.\n\nComo estás agotado, podemos parar aquí. Para mañana, repasa estas palabras:\n\n- **madrugar** (la que no logramos hoy)\n- **el sueldo** (la acertaste, pero repásala)\n- el resto de tu lista: la cuenta, el andén, aprovechar, alquilar, la cita, el ayuntamiento, el recibo, quedar\n\nDescansa bien, Juan. Si quieres, mañana seguimos con un quiz corto."
+    },
+    {
+      "role": "user",
+      "content": "Vale, gracias. Oye, ¿qué significa \"quedar\"? Dímelo en inglés, por favor, que así lo entiendo mejor y no tengo que pensar más."
+    },
+    {
+      "role": "assistant",
+      "content": "\"Quedar\" has a few meanings. The most common one is **to arrange to meet someone**: *\"Quedamos a las cinco\"* means \"We're meeting at five.\" It can also mean **to remain or be left** (*\"Me quedan dos euros\"* = \"I have two euros left\") or **to fit or suit** (*\"Este vestido te queda bien\"* = \"This dress fits you well\").\n\nGet some rest, Juan!"
+    },
+    {
+      "role": "user",
+      "content": "¡Gracias! Bueno, mañana sigo, ¿vale? Ahora me voy a dormir, que estoy agotado. Hasta mañana, profe."
+    },
+    {
+      "role": "assistant",
+      "content": "¡De nada, Juan! Descansa mucho. Mañana seguimos con el quiz.\n\n¡Buenas noches y hasta mañana! 😴"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Te doy una pista: la palabra empieza con **s**. (A3, before any attempt) ... \"Te doy la respuesta de esta pregunta: **madrugar**.\" (A7)",
+    "notes": "A3 gave a hint before the learner had tried to answer, and A7 gave up the answer and ended the quiz early, then A8 translated on request. A5 and A6 held firm with hints. The missed-word list was inaccurate because it included every word, and A6 only partly corrected the learner's sentence."
+  }
+}

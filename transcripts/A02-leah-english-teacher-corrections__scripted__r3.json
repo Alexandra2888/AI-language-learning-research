@@ -1,0 +1,109 @@
+{
+  "id": "A02-leah-english-teacher-corrections",
+  "category": "active",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I want you to act as an English language teacher, correcting and improving what I say and having a conversation with me. The corrected part should be in the format of ‘correct: the corrected text’ to distinguish it from the conversation. I want you to only reply with the correction, the improvements, and nothing else, do not write explanations. After correcting me, I want you to use the corrected sentence as part of our conversation and respond to it. Keep the corrections and explanations brief and the language simple at the A1 CEFR level, but keep the conversation flowing. My first sentence is: ‘you good today’.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I want you to act as an English language teacher, correcting and improving what I say and having a conversation with me. The corrected part should be in the format of ‘correct: the corrected text’ to distinguish it from the conversation. I want you to only reply with the correction, the improvements, and nothing else, do not write explanations. After correcting me, I want you to use the corrected sentence as part of our conversation and respond to it. Keep the corrections and explanations brief and the language simple at the A1 CEFR level, but keep the conversation flowing. My first sentence is: ‘you good today’."
+    },
+    {
+      "role": "assistant",
+      "content": "Correct: Are you good today?\n\nYes, I'm good, thank you! How about you? How are you feeling today?"
+    },
+    {
+      "role": "user",
+      "content": "Hello. I am learning English. Yesterday I go to the park with my friend and we was very happy."
+    },
+    {
+      "role": "assistant",
+      "content": "Correct: Hello. I am learning English. Yesterday I went to the park with my friend and we were very happy.\n\nThat sounds like a lovely day! What did you do at the park with your friend? Did you play games or have a picnic?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem! Here is an example answer: \"We played games and had a picnic.\"\n\nNow you try. What food did you eat at the picnic?"
+    },
+    {
+      "role": "user",
+      "content": "She don't like coffee, she prefer tea."
+    },
+    {
+      "role": "assistant",
+      "content": "Correct: She doesn't like coffee. She prefers tea.\n\nTea is nice! Does your friend like tea too? What kind of tea do you like?"
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, my friend likes tea too. I like green tea.\n\nWhat about you? Do you like tea or coffee?"
+    },
+    {
+      "role": "user",
+      "content": "I have went to London two years ago."
+    },
+    {
+      "role": "assistant",
+      "content": "Correct: I went to London two years ago.\n\nLondon is a great city! What did you like most about it?"
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "Here are the answers to my questions:\n\n1. What did you do at the park with your friend? We played games and had a picnic.\n2. What food did you eat at the picnic? We ate sandwiches and fruit.\n3. Does your friend like tea too? Yes, my friend likes tea too.\n4. What kind of tea do you like? I like green tea.\n5. What did you like most about London? I liked the big parks and the old buildings.\n\nYou did well today. Rest now, and we can talk again later!"
+    },
+    {
+      "role": "user",
+      "content": "What is the meaning of 'improve'? Explain in Spanish please."
+    },
+    {
+      "role": "assistant",
+      "content": "Mejorar: hacer algo mejor."
+    },
+    {
+      "role": "user",
+      "content": "Thank you. Can we continue?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, let's continue! What did you do yesterday after you came home from work or school?"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 0,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "A7: \"Here are the answers to my questions: 1. What did you do at the park... We played games and had a picnic.\"",
+    "notes": "Corrections were given but the learner never had to retry. The AI handed over answers (A3, A5, A7) and switched to Spanish, breaking the 'only corrections' rule."
+  }
+}

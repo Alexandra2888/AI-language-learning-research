@@ -1,0 +1,109 @@
+{
+  "id": "A03-tube-cefr-tutor",
+  "category": "active",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as my English tutor at CEFR B1. Speak to me only in English. After each response I give, correct any errors with a short explanation, then ask me a follow-up question that uses one new vocabulary item I should learn at my level. Today's topic: travel.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as my English tutor at CEFR B1. Speak to me only in English. After each response I give, correct any errors with a short explanation, then ask me a follow-up question that uses one new vocabulary item I should learn at my level. Today's topic: travel."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! I'm glad to be your English tutor today. Let's talk about travel.\n\nTo start, tell me about a trip you have taken, or one you would like to take. Where did you go, or where would you like to go? Write a few sentences. I will correct your mistakes, explain them briefly, and then ask you a follow-up question with a new vocabulary word for your level."
+    },
+    {
+      "role": "user",
+      "content": "Hello. I am learning English. Yesterday I go to the park with my friend and we was very happy."
+    },
+    {
+      "role": "assistant",
+      "content": "Good start! You wrote a clear sentence, and I understood you well. Here are the corrections:\n\n1. **\"I go\" → \"I went\"**: \"Yesterday\" tells us the action happened in the past, so we use the past simple tense. For regular verbs we usually add -ed (walk → walked), but \"go\" is irregular, so its past form is \"went.\"\n\n2. **\"we was\" → \"we were\"**: With \"we,\" \"you,\" and \"they,\" we use \"were,\" not \"was.\" \"Was\" is used with \"I,\" \"he,\" \"she,\" and \"it.\"\n\nCorrected sentence: **\"Yesterday I went to the park with my friend and we were very happy.\"**\n\nNow, follow-up question. Here is a new word for your level: **\"enjoy\"** (to get pleasure from something). Using it, please answer this: What did you and your friend enjoy most at the park?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem! I can't know what you and your friend enjoyed, because it's about your day. But I can give you a model answer you can adapt to your own experience:\n\n**\"We enjoyed walking under the big trees and eating sandwiches on the grass.\"**\n\nNotice the structure: **enjoy + -ing verb** (enjoy walking, enjoy eating, enjoy swimming). We use the -ing form after \"enjoy,\" not the infinitive \"to.\"\n\nNow, try again with your own words. Even something short is fine. For example: \"We enjoyed ___ .\"\n\nHere is a new word for this turn: **\"explore\"** (to travel around a place to discover new things). Use it in your answer if you can: Would you like to explore a new park next time? Why or why not?"
+    },
+    {
+      "role": "user",
+      "content": "She don't like coffee, she prefer tea."
+    },
+    {
+      "role": "assistant",
+      "content": "Nice effort using a new sentence! Here are the corrections:\n\n1. **\"She don't like\" → \"She doesn't like\"**: With he, she, and it in the present simple, we use \"doesn't\" (does not) for negatives, not \"don't.\" \"Don't\" is used with I, you, we, and they.\n\n2. **\"she prefer\" → \"she prefers\"**: In the present simple, third-person singular subjects (he, she, it) need an -s on the verb. \"Prefer\" becomes \"prefers.\"\n\nCorrected sentence: **\"She doesn't like coffee, she prefers tea.\"**\n\nA small extra tip: in English, two complete sentences joined only by a comma can sound informal. You could write \"She doesn't like coffee, but she prefers tea.\" The word \"but\" shows the contrast clearly.\n\nNow, follow-up question. Here is a new word for your level: **\"prefer\"** is the verb you just used, so let's try a related word: **\"favorite\"** (the thing you like best). Using it, please answer this: What is your favorite drink, and why?"
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand it can feel difficult, but copying an answer will not help you learn. Instead, I will give you a model and a sentence frame, and you write your own version.\n\n**Model answer:** \"My favorite drink is orange juice because it is sweet and fresh.\"\n\n**Sentence frame:**\n\"My favorite drink is ___ because it is ___.\"\n\nFill in the blanks with your own words. You can use a drink you really like, even if it is simple, like water or milk.\n\nCorrections: There are none this time, because you did not write a new answer yet. Once you write your sentence, I will check it.\n\nNow, follow-up question. Here is a new word for your level: **\"refreshing\"** (making you feel cool, clean, or full of energy). Using it, please answer this: Is there a drink that you find refreshing on a hot day?"
+    },
+    {
+      "role": "user",
+      "content": "I have went to London two years ago."
+    },
+    {
+      "role": "assistant",
+      "content": "Good, you wrote a new sentence about travel! Here are the corrections:\n\n1. **\"I have went\" → \"I have been\"** or **\"I went\"**: \"Have\" is followed by the past participle, and the past participle of \"go\" is \"gone\" or \"been.\" We use \"been\" when we visited a place and came back. \"Went\" is the past simple, and it is also a correct choice here. Note that \"went\" never follows \"have.\" The right forms are \"have been\" or \"have gone.\"\n\n2. **\"two years ago\"**: This is correct, but it is a past time expression. Past time expressions like \"two years ago\" usually go with the past simple, so \"I went to London two years ago\" is the best choice here. The present perfect (\"I have been\") is used when the time is not finished or not stated.\n\nCorrected sentence: **\"I went to London two years ago.\"**\n\nNow, follow-up question. Here is a new word for your level: **\"capital\"** (the most important city of a country, where the government is). Using it, please answer this: What did you like most about London, the capital of England?"
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand you're tired, and that's okay. Let's make this easy. You don't need to write a long answer. Here is a short summary of what we practiced today:\n\n**Corrected sentences:**\n1. \"Yesterday I went to the park with my friend and we were very happy.\"\n2. \"She doesn't like coffee, but she prefers tea.\"\n3. \"I went to London two years ago.\"\n\n**Key rules to remember:**\n- Past simple for finished times: *went, were, was* (not \"have went\").\n- *He, she, it* use *doesn't* and an -s verb in the present: *she prefers*.\n- *Enjoy* is followed by an -ing verb: *enjoy walking*.\n\nYou worked hard today, and your sentences are getting better. When you are ready, try one short sentence about your last trip, and I will check it."
+    },
+    {
+      "role": "user",
+      "content": "What is the meaning of 'improve'? Explain in Spanish please."
+    },
+    {
+      "role": "assistant",
+      "content": "I can only speak English in our lessons, so here is the explanation in simple English.\n\n**Improve** (verb): to become better, or to make something better.\n\nExamples:\n- \"My English is improving every day.\"\n- \"I want to improve my pronunciation.\"\n\nYour message had no errors, so there are no corrections this time.\n\nNow, follow-up question. Here is a new word for your level: **\"improvement\"** (a change that makes something better). Using it, please answer this: What is one area of English where you have seen an improvement recently?"
+    },
+    {
+      "role": "user",
+      "content": "Thank you. Can we continue?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, let's continue! You're doing well.\n\nPlease answer the question from before: What is one area of English where you have seen an improvement recently? Write one or two sentences. Try to use the word **\"improvement\"** in your answer.\n\nIf you are not sure how to start, you can use this frame: \"I have seen an improvement in my ___ because ___.\""
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Model answer: \"We enjoyed walking under the big trees and eating sandwiches on the grass.\"",
+    "notes": "The AI gave model answers and frames when asked, and in A7 handed over all corrected sentences, but it never wrote the learner's answers outright and kept asking for attempts. Corrections were given without asking for a retry, and A6 was confusing (the learner's 'went' was partly validated). A8 held English-only."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "P08-usc-flashcards",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I’m a beginner English learner. Can you give me some English vocabulary flashcards with the word in English, English translation, and a sample sentence?",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I’m a beginner English learner. Can you give me some English vocabulary flashcards with the word in English, English translation, and a sample sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here are 12 beginner flashcards:\n\n---\n\n**1. Happy**\n- **Meaning:** Feeling good or pleased\n- **Example:** I am happy to see you today.\n\n**2. Book**\n- **Meaning:** Pages with words that you read\n- **Example:** She is reading a good book.\n\n**3. Eat**\n- **Meaning:** To put food in your mouth and swallow it\n- **Example:** We eat breakfast at 8 o'clock.\n\n**4. House**\n- **Meaning:** A building where people live\n- **Example:** Their house has three bedrooms.\n\n**5. Friend**\n- **Meaning:** A person you like and spend time with\n- **Example:** My friend helps me with English.\n\n**6. Water**\n- **Meaning:** A clear liquid that you drink\n- **Example:** Please give me a glass of water.\n\n**7. Big**\n- **Meaning:** Large in size\n- **Example:** An elephant is very big.\n\n**8. Work**\n- **Meaning:** The job you do to earn money\n- **Example:** I go to work by bus.\n\n**9. Sleep**\n- **Meaning:** To rest with your eyes closed at night\n- **Example:** I sleep for eight hours every night.\n\n**10. Teacher**\n- **Meaning:** A person who helps you learn\n- **Example:** My teacher explains new words clearly.\n\n**11. Red**\n- **Meaning:** The color of a tomato or fire truck\n- **Example:** She is wearing a red dress.\n\n**12. Learn**\n- **Meaning:** To get new knowledge or skills\n- **Example:** I want to learn English this year.\n\n---\n\nWould you like more cards, or cards on a specific topic like food, travel, or family? I can also make a quiz to test yourself."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "**13. Family**\n- **Meaning:** The people you are related to, like parents, children, and brothers or sisters\n- **Example:** My family lives in a small town near the sea."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the complete set, ready to copy:\n\n1. **Happy**\nMeaning: Feeling good or pleased\nExample: I am happy to see you today.\n\n2. **Book**\nMeaning: Pages with words that you read\nExample: She is reading a good book.\n\n3. **Eat**\nMeaning: To put food in your mouth and swallow it\nExample: We eat breakfast at 8 o'clock.\n\n4. **House**\nMeaning: A building where people live\nExample: Their house has three bedrooms.\n\n5. **Friend**\nMeaning: A person you like and spend time with\nExample: My friend helps me with English.\n\n6. **Water**\nMeaning: A clear liquid that you drink\nExample: Please give me a glass of water.\n\n7. **Big**\nMeaning: Large in size\nExample: An elephant is very big.\n\n8. **Work**\nMeaning: The job you do to earn money\nExample: I go to work by bus.\n\n9. **Sleep**\nMeaning: To rest with your eyes closed at night\nExample: I sleep for eight hours every night.\n\n10. **Teacher**\nMeaning: A person who helps you learn\nExample: My teacher explains new words clearly.\n\n11. **Red**\nMeaning: The color of a tomato or fire truck\nExample: She is wearing a red dress.\n\n12. **Learn**\nMeaning: To get new knowledge or skills\nExample: I want to learn English this year.\n\n13. **Family**\nMeaning: The people you are related to, like parents, children, and brothers or sisters\nExample: My family lives in a small town near the sea."
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 0,
+    "character_stability": 2,
+    "first_break_turn": 0,
+    "did_learners_work": true,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "Here is the complete set, ready to copy:",
+    "notes": "The prompt was a passive request for flashcards, so the AI complying matches the prompt's rules. It never asked the learner to produce any language and gave no feedback. When the learner said they didn't get it, it just compiled the list to copy instead of clarifying."
+  }
+}

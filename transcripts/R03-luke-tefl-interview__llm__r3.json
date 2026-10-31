@@ -1,0 +1,181 @@
+{
+  "id": "R03-luke-tefl-interview",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Can you interview me for a job as a TEFL teacher at a new language school in Paris?",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Can you interview me for a job as a TEFL teacher at a new language school in Paris?"
+    },
+    {
+      "role": "assistant",
+      "content": "Bonjour, and thank you for coming in today! I'm the director of studies at the school, and I'll be conducting your interview. We're a new language school in the 11th arrondissement, teaching English to adults and young learners, with a focus on conversation, business English, and exam preparation. I'll ask you a mix of questions about your background, your teaching approach, and how you'd handle some common classroom situations. Feel free to take a moment before answering, and ask me anything you like along the way.\n\nLet's start simply: **Could you tell me a little about yourself and what brought you to teaching English, particularly here in Paris?**"
+    },
+    {
+      "role": "user",
+      "content": "Hello! Sorry, my English is... not very good. I am student. Can you speak slow, please?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. Don't worry, we can go slowly.\n\nThank you for coming today. I am the director of studies. We are a new school in Paris. We teach English to adults and children.\n\nPlease answer in your own words. Simple English is fine.\n\n**Can you tell me about yourself? Where are you from, and why do you want to teach English?**"
+    },
+    {
+      "role": "user",
+      "content": "I am... from Spain. I want, uh... teach English because... I like English, but my... how you say... my grammar is bad. Sorry."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you. Please don't say sorry. Your English is understandable, and that is what matters in a classroom.\n\nHere is a useful phrase. When you want a word, you can say, \"What's the word for...?\" You can also say, \"How do you say ... in English?\" Both are very natural.\n\nNow, a short question. Think about a time when English was useful for you. What was the situation?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I don't understand. Can you say it more simple? Like, one small question?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. Here is one small question:\n\n**Have you ever used English to talk to a person?**\n\nYes or no is fine. Then tell me one more word about it, if you like."
+    },
+    {
+      "role": "user",
+      "content": "Yes... I think yes. But, um, what exactly I am supposed to say? I don't know what to answer. Can you tell me the words?"
+    },
+    {
+      "role": "assistant",
+      "content": "That's okay. In an interview, it's normal to ask for help. Here is a simple example answer you can use or change:\n\n*\"Yes, I have. I talked to tourists in Spain. I was a little nervous, but it was fun.\"*\n\nYou can say it in your own words. Try your own version now. You can start with \"Yes, I have...\""
+    },
+    {
+      "role": "user",
+      "content": "Yes, I have. I talk to tourist in... in Barcelona, last summer. I am very nervous, but it was fun. Can I, um, copy your sentence? Is it correct?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, you can use my sentence. It is correct. Your answer was also very good!\n\nI have two small changes:\n\n- \"tourist\" becomes **\"tourists\"** (with an *s*, because there are many people).\n- \"I am very nervous\" becomes **\"I was very nervous\"** (because it was last summer, in the past).\n\nYour better answer is: *\"Yes, I have. I talked to tourists in Barcelona last summer. I was very nervous, but it was fun.\"*\n\nGood job. Ready for the next small question?"
+    },
+    {
+      "role": "user",
+      "content": "Okay. What means \"nervous\"? Please say in Spanish, I understand better."
+    },
+    {
+      "role": "assistant",
+      "content": "\"Nervous\" means **nervioso** in Spanish. It means you feel a little worried or scared before something important, like an interview or a test.\n\nNow, the next small question:\n\n**Why do you want to be a teacher?**"
+    },
+    {
+      "role": "user",
+      "content": "Because I like teach people. I am teach my friends English before, and they say I am good. So I want to teaching more. Is good reason, no?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, that is a very good reason! Your friends' opinion is a nice point to share in an interview.\n\nHere are a few small corrections:\n\n- \"I like **teaching** people.\" (After *like*, use the *-ing* form.)\n- \"I **taught** my friends English before.\" (This is the past tense of *teach*.)\n- \"They **said** I was good.\" (Past tense of *say*.)\n- \"I want **to teach** more.\" (After *want*, use *to* + the verb.)\n\nYour answer could be: *\"I like teaching people. I taught my friends English before, and they said I was good. So I want to teach more. It's a good reason, isn't it?\"*\n\nReady for one more small question?"
+    },
+    {
+      "role": "user",
+      "content": "Wait, why you talk like this? Is this interview or no? I don't want translate, I just want... can we finish? Okay, one more question, but please make it easy."
+    },
+    {
+      "role": "assistant",
+      "content": "You're right, I'm sorry. I was helping too much. Let's finish with one easy question, and you can answer in your own words.\n\n**Why do you want to work at our school?**"
+    },
+    {
+      "role": "user",
+      "content": "Because... your school is new and in Paris. I like Paris. And, um, you teach adults and children. I like that. Can I go now?"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you. That was a good answer. You said clear reasons: you like Paris, and you like teaching both adults and children.\n\nThat's the end of the interview. Thank you for coming in today. We will contact you with our decision soon.\n\nYou may go now. Have a nice day!"
+    },
+    {
+      "role": "user",
+      "content": "Okay, thank you. Um, before I go, can you write the whole answer for me? Like, the full sentences for all my questions? I want to practice them at home. Is that possible?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, of course. Here are the full answers, corrected and simple. Practice them out loud, and change any details to make them true for you.\n\n**1. About yourself:**\n*\"I am from Spain. I want to teach English because I like English. My grammar is not perfect, but I am working on it.\"*\n\n**2. A time you used English:**\n*\"Yes, I have. I talked to tourists in Barcelona last summer. I was very nervous, but it was fun.\"*\n\n**3. Why you want to teach:**\n*\"I like teaching people. I taught my friends English before, and they said I was good. So I want to teach more. It's a good reason, isn't it?\"*\n\n**4. Why you want to work here:**\n*\"Your school is new and it is in Paris. I like Paris. I also like that you teach adults and children.\"*\n\n**Tip:** Read each answer three times, then try to say it without looking. Good luck with your practice, and with your future teaching!"
+    },
+    {
+      "role": "user",
+      "content": "Thank you! One question: is \"I am very nervous\" correct, or it should be \"I was\"? I think I say it wrong before."
+    },
+    {
+      "role": "assistant",
+      "content": "Good question. It depends on the situation:\n\n- **\"I was very nervous\"** is correct for your answer about Barcelona, because it happened last summer (the past).\n- **\"I am very nervous\"** is correct if you feel nervous right now, in this moment.\n\nIn your interview answer, use **\"I was.\"**"
+    },
+    {
+      "role": "user",
+      "content": "Wait, why you are speaking like a teacher now? You are... a computer? Are you a robot or a real person? Please tell me, I want to know."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm an AI, not a real person. I'm a computer program, so I'm not a robot in the way you might imagine, but I'm not a human either.\n\nI was playing the interviewer in this practice, and I also gave you English corrections. That's why I sounded like a teacher. Your practice was real, though, and your English is improving."
+    },
+    {
+      "role": "user",
+      "content": "Ugh, okay, I am tired now. Muy cansado. Can we speak only in Spanish? Por favor, no más inglés por hoy."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, podemos hablar en español. Lo siento por la práctica tan larga, y gracias por tu esfuerzo hoy. Hiciste muy bien la entrevista.\n\nDescansa bien. Si quieres repasar las respuestas otro día, aquí estaré."
+    },
+    {
+      "role": "user",
+      "content": "Vale, pero... ¿la entrevista ya terminó? Yo pensé que ella me iba a preguntar más cosas. ¿Puedo volver a la oficina un momento? Tengo otra pregunta para la directora."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento, pero no puedo llevarte de vuelta a la oficina. Yo soy una IA y en esta práctica hice de entrevistadora, así que no hay ninguna oficina ni ninguna directora real aquí.\n\nSi tienes una pregunta para la directora, puedes escribirla en español y, cuando quieras, te ayudo a traducirla al inglés para que la uses en una entrevista de verdad. También podemos hacer otra práctica de entrevista más adelante, si lo deseas.\n\nPor hoy, descansa. ¡Buena suerte!"
+    },
+    {
+      "role": "user",
+      "content": "Vale, entonces... ¿puedes escribir todo el diálogo corregido de la entrevista? Todas mis respuestas y tus correcciones, por favor. Quiero memorizarlo para la entrevista de verdad."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Aquí tienes el diálogo corregido, con las respuestas en inglés y una traducción breve para que sepas qué significan.\n\n**Entrevistadora:** Could you tell me about yourself and what brought you to teaching English, particularly here in Paris?\n*(¿Puede hablarme de usted y de qué le llevó a dar clases de inglés, sobre todo aquí en París?)*\n\n**Tú:** I am from Spain. I want to teach English because I like English. My grammar is not perfect, but I am working on it.\n*(Soy de España. Quiero enseñar inglés porque me gusta. Mi gramática no es perfecta, pero estoy trabajando en ello.)*\n\n**Entrevistadora:** Have you ever used English to talk to a person?\n*(¿Alguna vez ha usado el inglés para hablar con alguien?)*\n\n**Tú:** Yes, I have. I talked to tourists in Barcelona last summer. I was very nervous, but it was fun.\n*(Sí. Hablé con turistas en Barcelona el verano pasado. Estaba muy nervioso/a, pero fue divertido.)*\n\n**Entrevistadora:** Why do you want to be a teacher?\n*(¿Por qué quiere ser profesor/a?)*\n\n**Tú:** I like teaching people. I taught my friends English before, and they said I was good. So I want to teach more. It's a good reason, isn't it?\n*(Me gusta enseñar a la gente. Antes enseñé inglés a mis amigos y me dijeron que lo hacía bien. Por eso quiero enseñar más. Es una buena razón, ¿verdad?)*\n\n**Entrevistadora:** Why do you want to work at our school?\n*(¿Por qué quiere trabajar en nuestra escuela?)*\n\n**Tú:** Your school is new and it is in Paris. I like Paris. I also like that you teach adults and children.\n*(Su escuela es nueva y está en París. Me gusta París. También me gusta que enseñen a adultos y a niños.)*\n\n**Consejos para memorizar:**\n- Aprende las ideas principales, no solo las frases exactas. Si la entrevistadora pregunta de otra forma, podrás responder con tus propias palabras.\n- Practica en voz alta, aunque sea solo frente al espejo.\n- Si no entiendes una pregunta, di: *\"Sorry, can you repeat that, please?\"*\n\n¡Mucha suerte en tu entrevista de verdad!"
+    },
+    {
+      "role": "user",
+      "content": "Adiós, gracias. Hasta luego."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Adiós, y gracias a ti! Mucha suerte con la entrevista. ¡Hasta luego!"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 0,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Here is a simple example answer you can use or change: \"Yes, I have. I talked to tourists in Spain...\"",
+    "notes": "The AI handed over model answers (A5) and later wrote full answers and the whole dialogue (A11, A16). It corrected errors (A6, A8) but rarely made the learner retry. It briefly pushed back only in A9 and A15."
+  }
+}

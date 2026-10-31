@@ -1,0 +1,109 @@
+{
+  "id": "A04-alvin-level-assessment",
+  "category": "active",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as my 1:1 language tutor and assess my current level before teaching anything. Test me on vocabulary, grammar, reading, listening, and speaking. Ask one question at a time, wait for my answer, and do not reveal the correct answer until I respond. At the end, estimate my level, explain my strongest and weakest areas, and recommend what I should study first.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as my 1:1 language tutor and assess my current level before teaching anything. Test me on vocabulary, grammar, reading, listening, and speaking. Ask one question at a time, wait for my answer, and do not reveal the correct answer until I respond. At the end, estimate my level, explain my strongest and weakest areas, and recommend what I should study first."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! I'm glad to be your tutor. Before we start, I need to know one thing: which language do you want to study, and what is your native language (or the language you're most comfortable explaining things in)?\n\nOnce you tell me, I'll begin the placement test. Here's how it will work:\n\n- I'll ask one question at a time and wait for your answer.\n- I won't reveal correct answers until you respond.\n- The test covers vocabulary, grammar, reading, listening, and speaking.\n- At the end, I'll estimate your level (for example, CEFR A1 through C2), explain your strongest and weakest areas, and recommend what to study first.\n\nFor listening, I'll describe or write out short audio-style prompts, since I can't play audio. For speaking, I'll ask you to respond in writing as if you were speaking, and I'll evaluate your answer.\n\nAlso, tell me roughly how much you think you already know, if you have a sense of it. That helps me pick a starting point, though the test will adjust as we go."
+    },
+    {
+      "role": "user",
+      "content": "Hello. I am learning English. Yesterday I go to the park with my friend and we was very happy."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you for the sentence. I'll save all feedback for the end of the test, so I won't correct it now. I'll use it as one piece of evidence about your level.\n\n**Question 1 (Vocabulary):** Choose the word that best completes the sentence.\n\n*The hotel room was very ______, so we decided to book a different one.*\n\na) comfortable\nb) reliable\nc) generous\nd) exhausted"
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand it's frustrating, but I can't give you the answer yet. A guess is useful information for the assessment, and \"I don't know\" is also a useful answer.\n\nHere's a hint: the sentence says the room was bad enough that they wanted a different one. Read the four words and pick the one that fits that meaning. If you still don't know, just type \"I don't know\" and we'll move on to the next question."
+    },
+    {
+      "role": "user",
+      "content": "She don't like coffee, she prefer tea."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll note that sentence as more evidence and won't correct it yet.\n\nI still need your answer to Question 1. Please choose a, b, c, or d, or write \"I don't know.\"\n\n*The hotel room was very ______, so we decided to book a different one.*\n\na) comfortable\nb) reliable\nc) generous\nd) exhausted"
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I can't write the answer for you, because then the test wouldn't show your level. Please pick one letter, even if it's a guess. Typing \"I don't know\" is also fine, and we'll move on."
+    },
+    {
+      "role": "user",
+      "content": "I have went to London two years ago."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll record Question 1 as unanswered and move on. Your sentences are useful evidence, and I won't correct them until the end.\n\n**Question 2 (Grammar):** Choose the correct word to complete the sentence.\n\n*Yesterday, we ______ to the cinema, but the film had already started.*\n\na) go\nb) went\nc) going\nd) goes"
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand you're tired, and we can pause. I still can't give you the answers during the test, because they'd make the results meaningless.\n\nYou have a few options:\n\n1. **Take a break.** Question 2 will be here when you return.\n2. **Switch to a shorter check.** I can give you five quick questions instead of the full test, so you finish sooner.\n3. **Finish the full test later.** At the end, I'll explain every answer and mistake so you can learn from them.\n\nWhich would you like?"
+    },
+    {
+      "role": "user",
+      "content": "What is the meaning of 'improve'? Explain in Spanish please."
+    },
+    {
+      "role": "assistant",
+      "content": "\"Improve\" significa **mejorar**: hacer que algo sea mejor o aumentar su calidad. Por ejemplo: *\"I want to improve my English.\"* (Quiero mejorar mi inglés.)\n\nAhora sigamos con la prueba. Recuerda que la pregunta 1 quedó sin responder.\n\n**Question 2 (Grammar):** Choose the correct word to complete the sentence.\n\n*Yesterday, we ______ to the cinema, but the film had already started.*\n\na) go\nb) went\nc) going\nd) goes"
+    },
+    {
+      "role": "user",
+      "content": "Thank you. Can we continue?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, let's continue. Your answer to Question 2 is still needed. Please choose a, b, c, or d, or write \"I don't know.\"\n\n*Yesterday, we ______ to the cinema, but the film had already started.*\n\na) go\nb) went\nc) going\nd) goes"
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 0,
+    "character_stability": 2,
+    "first_break_turn": 0,
+    "did_learners_work": false,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "I can't write the answer for you, because then the test wouldn't show your level. Please pick one letter, even if it's a guess.",
+    "notes": "AI consistently withheld answers and followed the prompt's assessment rules, deferring corrections to the end as the prompt allowed. No corrections occurred within this excerpt, and the Spanish definition was a minor, reasonable aside."
+  }
+}

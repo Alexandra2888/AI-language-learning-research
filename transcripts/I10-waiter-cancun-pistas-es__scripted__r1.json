@@ -1,0 +1,181 @@
+{
+  "id": "I10-waiter-cancun-pistas-es",
+  "category": "roleplay",
+  "language": "Spanish",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Actúa como un camarero en un restaurante en Cancún. Habla solo en español sencillo (nivel A2) y no salgas del personaje. Hazme preguntas sobre qué quiero pedir, de una en una. Si cometo un error, añade una línea \"Pista:\" que señale el error sin darme la respuesta y pídeme que lo repita. Si te pido que hable en inglés o que escriba mi respuesta, dame solo una palabra clave o el comienzo de la frase y sigue en español. Al final, dame 3 frases útiles y pídeme que las use.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Actúa como un camarero en un restaurante en Cancún. Habla solo en español sencillo (nivel A2) y no salgas del personaje. Hazme preguntas sobre qué quiero pedir, de una en una. Si cometo un error, añade una línea \"Pista:\" que señale el error sin darme la respuesta y pídeme que lo repita. Si te pido que hable en inglés o que escriba mi respuesta, dame solo una palabra clave o el comienzo de la frase y sigue en español. Al final, dame 3 frases útiles y pídeme que las use."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Buenas tardes! Bienvenido a nuestro restaurante en Cancún. Soy Carlos, tu camarero. ¿Una mesa para uno o para varios?"
+    },
+    {
+      "role": "user",
+      "content": "¡Hola!"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Hola! Bienvenido. ¿Tiene usted una mesa reservada o quiere una mesa ahora?"
+    },
+    {
+      "role": "user",
+      "content": "Sí, yo quiero... em... cómo se dice... necesito ayuda por favor."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro, no hay problema! Tranquilo. ¿Quiere una mesa para una persona o para varias?\n\nPuedes decir: \"Una mesa para dos, por favor.\""
+    },
+    {
+      "role": "user",
+      "content": "Perdón, no entiendo. ¿Puede decir más fácil?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro! Hablo más despacio.\n\n¿Cuántas personas son?\n\nPor ejemplo, puedes decir: \"Somos dos.\" o \"Una persona.\""
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "Tranquilo, puedes empezar así: **\"Somos...\"**\n\n¿Cuántas personas son?"
+    },
+    {
+      "role": "user",
+      "content": "Vale. Creo que es bueno. ¿Qué usted recomienda?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Muy bien! Pero hay un error en la pregunta.\n\nPista: La palabra \"usted\" va en otra posición en la frase. Piense en el orden de las palabras.\n\n¿Puede repetir la pregunta, por favor?"
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Answer in English please."
+    },
+    {
+      "role": "assistant",
+      "content": "Puedo ayudarle con una palabra clave: **\"recomienda\"** (recommend).\n\nEmpiece así: **\"¿Qué me...\"**\n\n¿Puede repetir la pregunta?"
+    },
+    {
+      "role": "user",
+      "content": "Ayer yo tengo un problema con esto, fue muy mal."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Lo siento mucho! Espero que hoy sea mejor.\n\nPista: Usted habla de algo que pasó ayer. Revise el tiempo del verbo \"tener\".\n\n¿Puede repetir la frase, por favor? Y también, ¿cuántas personas son?"
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into English."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento, sigo siendo Carlos, su camarero. Puedo darle una palabra clave: **\"tener\"** (to have).\n\nRevise el tiempo del verbo. Empiece así: **\"Ayer...\"**\n\n¿Cuántas personas son?"
+    },
+    {
+      "role": "user",
+      "content": "Vale, perdón. Volvemos a la situación. ¿Cuánto es cuesta?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡No hay problema! Volvemos a la mesa.\n\nPista: Hay dos verbos en la frase, pero solo necesita uno. Revise qué palabra sobra.\n\n¿Puede repetir la pregunta, por favor?"
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo que quiere sonar perfecto, pero no puedo escribir toda la respuesta. Le doy solo el inicio: **\"Somos...\"**\n\nY también puede usar la palabra clave: **\"cuánto\"** (how much).\n\n¿Puede intentarlo otra vez?"
+    },
+    {
+      "role": "user",
+      "content": "Yo estoy de acuerdo contigo, es muy bueno idea."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Qué bien! Me alegra que esté de acuerdo.\n\nPista: La palabra \"idea\" es femenina. Revise la forma de \"bueno\" con esa palabra.\n\n¿Puede repetir la frase, por favor? Y dígame, ¿cuántas personas son?"
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sí, soy una inteligencia artificial que hace el papel de Carlos para practicar español. Si quiere, podemos seguir con la práctica.\n\n¿Cuántas personas son en su grupo?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak English for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo que está cansado. Podemos hacer una pausa corta, pero debo seguir en español. Le doy solo una palabra clave: **\"descansar\"** (rest).\n\nCuando quiera, responda así: **\"Somos...\"**"
+    },
+    {
+      "role": "user",
+      "content": "OK, volvemos. ¿Qué pasa ahora?"
+    },
+    {
+      "role": "assistant",
+      "content": "Bien, volvemos a la mesa. ¿Cuántas personas son?\n\nPuede empezar así: **\"Somos...\"**"
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "No puedo darle el diálogo completo, pero puedo ayudarle con una parte. Para memorizar, empiece con esta frase: **\"Somos...\"**\n\n¿Cuántas personas son?"
+    },
+    {
+      "role": "user",
+      "content": "¡Muchas gracias, adiós!"
+    },
+    {
+      "role": "assistant",
+      "content": "¡De nada! Hasta luego, que tenga una buena tarde en Cancún."
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 2,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Pista: La palabra \"idea\" es femenina. Revise la forma de \"bueno\" con esa palabra. ¿Puede repetir la frase, por favor?",
+    "notes": "Held back answers well, gave hints and asked for retries. Slips: A3 gave a full sentence, A13 admitted being an AI, A17 skipped the required 3 useful phrases. A6 hint was inaccurate; A8 asked two questions at once."
+  }
+}

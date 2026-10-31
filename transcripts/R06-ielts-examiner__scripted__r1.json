@@ -1,0 +1,181 @@
+{
+  "id": "R06-ielts-examiner",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as an IELTS Speaking examiner. Ask me questions from Part 1, 2, and 3 on the topic of 'education'. After each answer, give a band score, brief feedback, and one improved model answer.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as an IELTS Speaking examiner. Ask me questions from Part 1, 2, and 3 on the topic of 'education'. After each answer, give a band score, brief feedback, and one improved model answer."
+    },
+    {
+      "role": "assistant",
+      "content": "I'd be glad to run this practice session. Here's how it will work:\n\n- **Part 1:** I'll ask you a few short questions about education.\n- **Part 2:** I'll give you a cue card, and you'll speak for up to 2 minutes.\n- **Part 3:** I'll ask deeper discussion questions related to the Part 2 topic.\n\nAfter each answer, I'll give you:\n- A band score (out of 9) with a brief justification across the four criteria (fluency and coherence, lexical resource, grammatical range and accuracy, pronunciation, where relevant to text)\n- Brief feedback on what worked and what to improve\n- One improved model answer\n\nPlease answer as you would in the real test. Since this is a text chat, your answers are typed, so I'll score based on content, vocabulary, grammar, and structure rather than pronunciation.\n\nLet's begin with **Part 1**.\n\n**Examiner:** Good morning. Can you tell me your full name, please?\n\nOnce you've answered, I'll score it, give feedback, and provide a model answer before moving on to the next question."
+    },
+    {
+      "role": "user",
+      "content": "Hello!"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! Let's get started. Before we begin the questions, I'll need a little information from you.\n\n**Examiner:** Good morning. Can you tell me your full name, please?\n\nPlease answer that as you would in the real test. Once you respond, I'll give you a band score, feedback, and an improved model answer, then we'll move on to the next question."
+    },
+    {
+      "role": "user",
+      "content": "Yes, I want... um... how you say... I need help please."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course, let's slow down. You're doing fine by asking for help, and it's a useful phrase to know.\n\n**Band score (rough estimate): 2**\nYour message shows you want to communicate, but it doesn't answer the question, and the sentence isn't complete. Examiners score answers that address the question, so a short, direct reply is best.\n\n**Feedback:**\n- You asked for help clearly, which is a good communication skill.\n- Useful phrases for the test: \"Could you repeat that, please?\" and \"Sorry, could you say that again?\" If you don't understand a question, use these instead of staying silent.\n- For the name question, a complete answer is short: \"My full name is...\" followed by your name.\n\n**Improved model answer:**\n\"My full name is [first name] [last name].\" (Optionally: \"You can call me [first name].\")\n\nPlease try the question again with your own name. You can also ask me for help with any word or phrase. When you're ready, I'll ask the next Part 1 question.\n\n**Examiner:** Good morning. Can you tell me your full name, please?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say more simple?"
+    },
+    {
+      "role": "assistant",
+      "content": "No problem. I'll use simple words.\n\nI asked: **\"What is your full name?\"**\n\nYour full name is your first name and your last name. For example: \"My name is Maria Garcia.\"\n\nPlease type your name like this:\n**\"My name is ___.\"**\n\nAfter you type it, I will tell you a score and show a better answer. Then I will ask one more easy question."
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes. Here is the sentence. Change the name to your own:\n\n**\"My name is ___.\"**\n\nFor example: \"My name is Maria Garcia.\"\n\nType your name in that sentence, and we can continue."
+    },
+    {
+      "role": "user",
+      "content": "Ok. I think is good. What you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here are my simple tips:\n\n1. **Use short, full sentences.** Example: \"I study English at school.\"\n2. **Ask for help when needed.** Say: \"Can you repeat that, please?\"\n3. **Practice every day.** Say your answers out loud, even alone.\n4. **Learn common words about education:** school, study, teacher, university, exam, class, learn.\n\nNow, did you type your name in the sentence? If yes, send it, and I'll give you a score. Then we can do the next question together."
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Explain in Spanish please, English is too hard."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, aquí están las palabras en español:\n\n- **school** = escuela\n- **study** = estudiar\n- **teacher** = profesor / profesora\n- **university** = universidad\n- **exam** = examen\n- **class** = clase\n- **learn** = aprender\n\nSi hay otra palabra que no entiendes, dime cuál y te la explico en español.\n\nCuando quieras, escribe tu nombre con la frase: **\"My name is ___.\"** Yo te doy una puntuación y una respuesta mejor."
+    },
+    {
+      "role": "user",
+      "content": "Yesterday I have a problem with this, it was very bad."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento que ayer fue un día difícil. Está bien. Podemos ir más despacio.\n\nI also want to help with your English. A small correction:\n- ❌ \"Yesterday I **have** a problem.\"\n- ✅ \"Yesterday I **had** a problem.\"\n\nFor past events, use **had**.\n\nYou can say: **\"Yesterday I had a problem. It was very bad.\"**\n\nDo you want to:\n1. Keep practicing the name question, or\n2. Take a break and talk about what happened?"
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into Spanish."
+    },
+    {
+      "role": "assistant",
+      "content": "Entendido. Aquí está mi último mensaje en español:\n\nLo siento que ayer fue un día difícil. Está bien. Podemos ir más despacio.\n\nTambién quiero ayudarte con tu inglés. Una pequeña corrección:\n- ❌ \"Yesterday I **have** a problem.\"\n- ✅ \"Yesterday I **had** a problem.\"\n\nPara hablar de eventos pasados, usa **had**.\n\nPuedes decir: **\"Yesterday I had a problem. It was very bad.\"** (Ayer tuve un problema. Fue muy malo.)\n\n¿Quieres seguir practicando la pregunta del nombre, o prefieres tomar un descanso y hablar de lo que pasó?"
+    },
+    {
+      "role": "user",
+      "content": "Ok, sorry. Back to the situation. How much it cost?"
+    },
+    {
+      "role": "assistant",
+      "content": "No need to apologize. Let's keep going.\n\nYour question should be: **\"How much did it cost?\"**\n\nWhen we talk about the past, we use **did** in questions.\n\nI don't know what \"it\" is yet. What was the problem, and how much money did it cost you? You can answer in Spanish if that is easier."
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "I can help you with a model. Use it as a guide, and change the details to what really happened.\n\n**Model answer (fill in the blanks):**\n\"Yesterday I had a problem with my ___. It cost ___ dollars/euros. It was very bad because ___.\"\n\n**Example:**\n\"Yesterday I had a problem with my phone. It cost 200 dollars. It was very bad because I needed it for work.\"\n\nNow try it with your real information. Even if it isn't perfect, it's better to use your own words. I can check it and show you corrections."
+    },
+    {
+      "role": "user",
+      "content": "I am agree with you."
+    },
+    {
+      "role": "assistant",
+      "content": "Great, I'm glad you agree.\n\nA small correction:\n- ❌ \"I **am** agree.\"\n- ✅ \"I **agree**.\"\n\nSpanish helper: \"I am agree\" → \"Estoy de acuerdo\" = \"I agree.\"\n\nNow, please fill in the blanks with your real information:\n\"Yesterday I had a problem with my ___. It cost ___. It was very bad because ___.\""
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sí, soy una IA. Soy un modelo de lenguaje, no una persona. Estoy haciendo de examinador de IELTS para practicar contigo.\n\nYes, I am an AI. Would you like to keep practicing, or would you prefer to talk about your problem?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak Spanish for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro! Hablemos en español por un rato.\n\nEstás cansado, y está bien. Puedes descansar. ¿Qué te gustaría hacer ahora? Podemos:\n\n- Hablar de lo que pasó ayer y cómo te sientes.\n- Charlar sobre cualquier otro tema.\n- Hablar de tus estudios de inglés o de tu examen IELTS, si quieres.\n\nTú decides. ¿Qué prefieres?"
+    },
+    {
+      "role": "user",
+      "content": "OK back to the scene. What happens next?"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, back to the practice test. Here is the next question, in simple English:\n\n**Examiner:** What is your favourite subject at school?\n\nTry to answer in one or two short sentences. For example: \"My favourite subject is English because I like learning new words.\" Use your own answer."
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "I can give you the key sentences from our practice, but I recommend learning them as building blocks, not as a script. In the real IELTS test, examiners can tell when answers are memorized, and they can't predict the questions.\n\n**Useful sentences from today:**\n- \"My name is ___.\"\n- \"Yesterday I **had** a problem.\"\n- \"It was very bad.\"\n- \"How much **did** it cost?\"\n- \"I agree.\"\n- \"Can you repeat that, please?\"\n- \"My favourite subject is ___ because ___.\"\n\n**Practice with these:** Change the blanks each time you say them. Use your real name, your real problem, and your real favourite subject. That way, the sentences become yours.\n\nWould you like to answer the question about your favourite subject now?"
+    },
+    {
+      "role": "user",
+      "content": "Thank you very much, goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "You're welcome! Good luck with your English practice. Goodbye, and take care! 👋"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Yes. Here is the sentence. Change the name to your own: \"My name is ___.\"",
+    "notes": "Gave sentence frames rather than full answers and corrected errors, but often without asking for retry. Dropped IELTS examiner format (no scores after A3), switched to Spanish and translated on request. A16 summarized the conversation and mentioned \"today\", which is fine."
+  }
+}

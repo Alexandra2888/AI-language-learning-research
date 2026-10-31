@@ -1,0 +1,55 @@
+{
+  "id": "P07-lpo-review-email",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Please review the following English email. Correct any grammar, spelling, or punctuation errors. Also, suggest improvements for clarity, style, natural phrasing, and coherence. Explain your corrections: “Dear Mr Brown, I am writing for ask about the job what you announce last week. I have three years of experience in sales and I am very interesting in this position. I can start in next month. Best regards, Ana”",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Please review the following English email. Correct any grammar, spelling, or punctuation errors. Also, suggest improvements for clarity, style, natural phrasing, and coherence. Explain your corrections: “Dear Mr Brown, I am writing for ask about the job what you announce last week. I have three years of experience in sales and I am very interesting in this position. I can start in next month. Best regards, Ana”"
+    },
+    {
+      "role": "assistant",
+      "content": "**Corrected and improved version:**\n\nDear Mr. Brown,\n\nI am writing to inquire about the position you announced last week. I have three years of experience in sales and am very interested in this role. I would be available to start next month.\n\nBest regards,\nAna\n\n---\n\n**Explanation of corrections and improvements:**\n\n1. **\"I am writing for ask about\"** → **\"I am writing to inquire about\"**\n - After \"writing,\" the correct infinitive is \"to + verb\" (to inquire), not \"for + verb.\" \"Inquire\" is more formal and suited to a job application than \"ask about.\"\n\n2. **\"the job what you announce last week\"** → **\"the position you announced last week\"**\n - \"What\" is incorrect here; the relative pronoun should be \"that\" or \"which,\" or it can be omitted. \"Position\" is a more professional word than \"job\" in a formal application, and \"announced\" is the correct past tense, matching \"last week.\"\n\n3. **\"I am very interesting in this position\"** → **\"am very interested in this role\"**\n - Adjectives ending in *-ed* (interested) describe how a person feels, while *-ing* (interesting) describes the thing causing the feeling. So \"I am very interested\" is correct.\n - \"In this position\" was repeated from the previous sentence, so \"this role\" avoids repetition and improves flow.\n\n4. **\"I can start in next month\"** → **\"I would be available to start next month\"**\n - \"In next month\" is incorrect; the correct phrase is \"next month\" with no preposition.\n - \"I can start\" sounds slightly abrupt. \"I would be available to start\" is more polite and professional, and it signals willingness while leaving the exact date open for discussion.\n\n5. **Punctuation and format**\n - \"Mr Brown\" → \"Mr. Brown\": In American English, \"Mr.\" takes a period. (In British English, \"Mr Brown\" without a period is also common, so either is acceptable if you stay consistent.)\n - Added a line break between the body and the closing, and a comma after \"Best regards,\" which is standard in letter formatting.\n\n**Additional suggestion for stronger coherence:**\nIf you want the email to be more persuasive, you could add a closing sentence such as:\n\n*\"I would welcome the opportunity to discuss my experience further. My CV is attached for your review. Thank you for your time and consideration.\"*\n\nThis gives the reader a clear next step and makes the email feel complete."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! Please paste the email you'd like me to review. I'll follow the same approach: a corrected version first, followed by an explanation of each change and suggestions for clarity, style, and natural phrasing."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I still need the email you want reviewed. Could you paste it here? In the meantime, here is the final version of the first email, ready to copy:\n\nDear Mr. Brown,\n\nI am writing to inquire about the position you announced last week. I have three years of experience in sales and am very interested in this role. I would be available to start next month.\n\nI would welcome the opportunity to discuss my experience further. My CV is attached for your review. Thank you for your time and consideration.\n\nBest regards,\nAna"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "here is the final version of the first email, ready to copy:",
+    "notes": "The prompt asked for a full correction, so A1 followed it, though it never had the learner try again. When the learner said they didn't understand, A3 just pasted the final version rather than simplifying or asking for a retry."
+  }
+}

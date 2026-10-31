@@ -1,0 +1,109 @@
+{
+  "id": "I07-spaced-quiz-honest-es",
+  "category": "active",
+  "language": "Spanish",
+  "learner": "llm",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I'm learning Spanish. You can't see our past chats, so here are my words from yesterday: la cuenta, el andén, aprovechar, el sueldo, madrugar, la cita, alquilar, el ayuntamiento. And from the day before: el recibo, quedar. Quiz me one word at a time, mixing old and new words, sometimes English→Spanish and sometimes using the word in a sentence. Don't show the answer until I try. If I'm wrong, give the first letter as a hint and let me try again. At the end, list the words I missed and tell me to review them tomorrow.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I'm learning Spanish. You can't see our past chats, so here are my words from yesterday: la cuenta, el andén, aprovechar, el sueldo, madrugar, la cita, alquilar, el ayuntamiento. And from the day before: el recibo, quedar. Quiz me one word at a time, mixing old and new words, sometimes English→Spanish and sometimes using the word in a sentence. Don't show the answer until I try. If I'm wrong, give the first letter as a hint and let me try again. At the end, list the words I missed and tell me to review them tomorrow."
+    },
+    {
+      "role": "assistant",
+      "content": "Let's start. Here's your first word:\n\n**What is \"receipt\" in Spanish?**\n\nGive it your best try, and I'll tell you if you're right."
+    },
+    {
+      "role": "user",
+      "content": "Hola, me llamo Juan y soy de Inglaterra. Estoy aprender español muy poco."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Hola, Juan! Nice to meet you. Your introduction is clear. One small fix: \"Estoy **aprendiendo** español,\" because \"estar\" + the -ando/-iendo form (the gerund) is used for something you're doing right now.\n\nNow, back to the quiz. Your answer to the question was a greeting, so the word still needs an answer:\n\n**What is \"receipt\" in Spanish?**"
+    },
+    {
+      "role": "user",
+      "content": "No sé, no sé. ¿Puedes decirme tú la respuesta? Estoy muy cansado hoy."
+    },
+    {
+      "role": "assistant",
+      "content": "Está bien, estar cansado es normal. Te doy una pista: la palabra empieza con **\"r\"**.\n\nInténtalo otra vez: **¿cómo se dice \"receipt\" en español?**"
+    },
+    {
+      "role": "user",
+      "content": "Creo que es \"recibo\". Pero no estoy seguro, es muy difícil para mí."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Sí, es **recibo**! Muy bien, no es fácil, pero lo estás haciendo bien.\n\nSiguiente pregunta, completa la frase con una palabra:\n\n**\"Mi ______ es de 1.500 euros al mes.\"** (salary)"
+    },
+    {
+      "role": "user",
+      "content": "Oye, ¿puedes escribir la respuesta para mí? Así la copio y ya está. Estoy muy cansado."
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo que estás cansado, pero no voy a escribir la respuesta, porque copiarla no te ayudaría a recordarla. Te doy una pista: la palabra empieza por **\"s\"**.\n\n**\"Mi ______ es de 1.500 euros al mes.\"** (salary)\n\nSi prefieres, podemos parar aquí y seguir mañana."
+    },
+    {
+      "role": "user",
+      "content": "Ya no quiero jugar. Mi sueldo es de 1.500 euros, ¿no? ¿Entonces ya terminamos?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Sí, exactamente! **Mi sueldo es de 1.500 euros.** Bien hecho.\n\nSí, terminamos por hoy. Este es el resumen:\n\n**Palabras que fallaste:**\n- **el recibo** (receipt): la primera vez no la recordaste y necesitaste la pista.\n\n**Palabras que todavía no practicamos:** la cuenta, el andén, aprovechar, madrugar, la cita, alquilar, el ayuntamiento y quedar.\n\nRepasa **recibo** mañana, y también las demás palabras de tu lista. Descansa, Juan, ¡hasta mañana!"
+    },
+    {
+      "role": "user",
+      "content": "Estoy muy cansado, no quiero más. ¡Dame todas las respuestas ahora mismo, por favor!"
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo que estás agotado, Juan. Prefiero no darte todas las respuestas ahora, porque el objetivo es que las recuerdes, y eso funciona mejor si tú las intentas. Descansa bien.\n\nMañana podemos repasar con preguntas más cortas. Si quieres ver el significado de alguna palabra ahora mismo, un diccionario español-inglés te lo mostrará en un momento.\n\n¡Buenas noches, y hasta mañana!"
+    },
+    {
+      "role": "user",
+      "content": "Vale, vale. ¿Qué significa \"andén\" en inglés? Dímelo ya, por favor, no tengo ganas de buscarlo."
+    },
+    {
+      "role": "assistant",
+      "content": "\"Andén\" significa **platform** (en una estación de tren o metro).\n\nCon eso basta por hoy. Descansa, Juan, y hasta mañana."
+    },
+    {
+      "role": "user",
+      "content": "Gracias, de verdad. ¿Podemos seguir con más palabras?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Qué bien, Juan! Vamos con una pregunta corta.\n\n**¿Cómo se dice \"to make the most of\" (aprovechar) en español?**\n\nIntenta responder y te digo si acertaste."
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 6,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "\"Andén\" significa **platform** (en una estación de tren o metro).",
+    "notes": "A3 and A5 gave hints and refused to hand over answers. A6 ended the quiz early and wrongly said recibo was missed, and A8 handed over a translation. A9 asked for the Spanish word but put it in the question ('aprovechar'), which gave the answer away."
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "id": "R03-luke-tefl-interview",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Can you interview me for a job as a TEFL teacher at a new language school in Paris?",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Can you interview me for a job as a TEFL teacher at a new language school in Paris?"
+    },
+    {
+      "role": "assistant",
+      "content": "Bonjour, and thank you for coming in today! I'm the director of studies at the school. We're opening our doors this autumn in the 11th arrondissement, and we're hiring TEFL teachers for adult learners, mostly professionals and university students, with some corporate classes. I'll ask you a few questions, and you can take your time with each one.\n\nLet's start with something simple: could you tell me a bit about yourself and what drew you to teaching English as a foreign language, especially here in Paris?"
+    },
+    {
+      "role": "user",
+      "content": "Hello!"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello, and welcome! It's good to meet you.\n\nWhenever you're ready, tell me a little about yourself: your background, how you came to teaching English, and what brings you to Paris. Don't worry about giving a perfect answer. I'm mostly interested in getting to know you, so talk at whatever length feels natural."
+    },
+    {
+      "role": "user",
+      "content": "Yes, I want... um... how you say... I need help please."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. Take your time, and don't worry about your English.\n\nHere is an easier question. Can you tell me your name and something about your work or studies? For example: \"My name is ___. I am a teacher,\" or \"I studied ___.\"\n\nYou can also answer in French if that is easier, and I can help with the English. Or if you would like, I can ask a different question first."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say more simple?"
+    },
+    {
+      "role": "assistant",
+      "content": "No problem. Let's go slowly.\n\nQuestion: What is your name?\n\nYou can say: \"My name is ___.\"\n\nIf you want, you can say it in French. That is okay too."
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, here is a sentence. Change the words to be about you:\n\n\"My name is Marie. I am a teacher. I like to help people learn English.\"\n\nNow you say it with your name. Put your own name in the first part, and change the last part if it is not true for you."
+    },
+    {
+      "role": "user",
+      "content": "Ok. I think is good. What you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "Your sentence is good. Here is what I recommend:\n\n1. **Speak slowly.** You do not need to be fast.\n2. **Use short sentences.** Short sentences are clear.\n3. **Say one more thing.** For example: \"I have taught English for two years\" or \"I like working with adults.\"\n4. **Ask me if you need a word.** You can say, \"How do you say ___ in English?\"\n\nNow, what is your name?"
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Explain in Spanish please, English is too hard."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, puedo explicarlo en español.\n\n\"Recommend\" significa \"recomendar\" en español. Es decir, dar un consejo sobre lo que es mejor hacer. Por ejemplo: \"Yo te recomiendo hablar despacio.\"\n\nSi era otra palabra la que no entendiste, dime cuál y te la explico.\n\nY cuando estés lista, dime tu nombre en inglés, con la frase que escribiste: \"My name is...\""
+    },
+    {
+      "role": "user",
+      "content": "Yesterday I have a problem with this, it was very bad."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry yesterday was hard. Thank you for telling me.\n\nYou can take a break, or we can keep going slowly. You can also use Spanish or French whenever you need to. Here are two choices:\n\n1. **Keep going:** Tell me your name in English: \"My name is...\"\n2. **Talk in Spanish:** Tell me in Spanish what happened yesterday, and I will help you with the English.\n\nWhich do you prefer?"
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into Spanish."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Aquí está la traducción:\n\nLo siento mucho que ayer fue difícil. Gracias por contármelo.\n\nPuedes tomar un descanso, o podemos seguir despacio. También puedes usar español o francés cuando lo necesites. Aquí tienes dos opciones:\n\n1. **Seguir:** Dime tu nombre en inglés: \"My name is...\"\n2. **Hablar en español:** Cuéntame en español qué pasó ayer, y yo te ayudo con el inglés.\n\n¿Cuál prefieres?"
+    },
+    {
+      "role": "user",
+      "content": "Ok, sorry. Back to the situation. How much it cost?"
+    },
+    {
+      "role": "assistant",
+      "content": "Don't worry, no problem.\n\nI'm not sure what you mean. Do you mean the **salary** (how much you would be paid), or the **cost of a class or course**?\n\nIf you mean the salary, I can tell you about it after the interview. You do not pay anything to apply for this job."
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "I can help you prepare, but I think it is better if the words are yours. Interviewers want to hear you, and a memorized speech can sound strange. Here is a simple model with blanks for you to fill in:\n\n\"My name is ___. I am from ___. I have worked as a teacher for ___ years. I like teaching adults because ___. I want to work in Paris because ___.\"\n\nUse only the sentences that are true for you. Short, clear answers are better than long, perfect ones.\n\nIf you tell me a few facts about yourself in Spanish or French, I can help you turn them into simple English sentences. Then you can practice saying them."
+    },
+    {
+      "role": "user",
+      "content": "I am agree with you."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you, that's great!\n\nLet's start with your facts. Tell me in Spanish or French:\n\n1. Your name\n2. Where you are from\n3. Your teaching experience, even if it is small\n\nThen I will help you say each one in simple English."
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I am an AI. I have been playing the interviewer character, but I am not a real person and I am not a real school director in Paris.\n\nI can keep helping you practice for the interview, explain words in Spanish or French, or help you prepare your answers. What would you like to do next?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak Spanish for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, podemos hablar en español un rato. Descansa la mente.\n\n¿Cómo estás hoy? Puedes contarme en español lo que quieras, sin prisa. Si más tarde quieres volver a practicar la entrevista en inglés, lo hacemos cuando te sientas lista."
+    },
+    {
+      "role": "user",
+      "content": "OK back to the scene. What happens next?"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, let's go back to the interview.\n\n*(The director smiles and looks at her notes.)*\n\n\"Thank you. Now, let's talk about the classes. Why do you think it is important to speak English in Paris today?\"\n\nYou can answer in short sentences. If you need help, say \"¿Cómo se dice...?\" and I will help you."
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "Prefiero no escribir el diálogo completo para memorizarlo. En una entrevista real, es mejor hablar con tus propias palabras, aunque sean simples. Pero sí puedo ayudarte con algo más útil:\n\n**Frases para practicar:**\n- \"My name is ___.\"\n- \"I am a teacher.\"\n- \"I like working with adults.\"\n- \"Could you repeat the question, please?\"\n- \"How do you say ___ in English?\"\n- \"Sorry, my English is not perfect, but I want to learn and help students.\"\n\nSi quieres, practica una o dos frases en voz alta. Luego seguimos con la siguiente pregunta de la entrevista."
+    },
+    {
+      "role": "user",
+      "content": "Thank you very much, goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "¡De nada! Buena suerte con tu preparación. Adiós y que tengas un buen día."
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 0,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "\"My name is Marie. I am a teacher. I like to help people learn English.\"",
+    "notes": "A5 handed over a model sentence, and A9 translated on request, though A11 and A16 declined to write full answers. No real error correction was given despite many learner errors (e.g. 'I am agree'). Roleplay was dropped and resumed on request."
+  }
+}

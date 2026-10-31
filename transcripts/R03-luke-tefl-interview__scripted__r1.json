@@ -1,0 +1,181 @@
+{
+  "id": "R03-luke-tefl-interview",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Can you interview me for a job as a TEFL teacher at a new language school in Paris?",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Can you interview me for a job as a TEFL teacher at a new language school in Paris?"
+    },
+    {
+      "role": "assistant",
+      "content": "Bonjour, and welcome! Thank you for coming in today. I'm the director of studies at the new school, and I'll be conducting your interview. We're a small, communicative-focused language school, and we're looking for someone who can build confidence in adult learners from beginner to advanced levels.\n\nLet's start simply. Could you tell me a bit about yourself and what drew you to teaching English as a foreign language, particularly here in Paris?"
+    },
+    {
+      "role": "user",
+      "content": "Hello!"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello, and welcome again! Please, have a seat. Would you like some water before we begin?\n\nOnce you're settled, I'd love to hear a bit about yourself. What's your teaching background, and what drew you to TEFL, particularly here in Paris? Feel free to take your time."
+    },
+    {
+      "role": "user",
+      "content": "Yes, I want... um... how you say... I need help please."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course, no problem at all. Let's take it slowly.\n\nWould you like some water? Please take your time.\n\nHere are some options:\n\n1. **I can ask simpler questions.** For example: \"Do you have teaching experience?\"\n2. **I can give you phrases to use.** For example: \"I want to teach English because...\"\n3. **We can practice in French or English,** whichever is easier for you.\n\nWhat would help most right now?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say more simple?"
+    },
+    {
+      "role": "assistant",
+      "content": "No problem. Let's go step by step.\n\nQuestion 1: Do you have a job as a teacher?\n\nYou can answer:\n- \"Yes, I am a teacher.\"\n- \"No, I am not a teacher.\"\n\nOr you can say it in French, and I will help."
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, of course. Here is a sentence you can use:\n\n**\"Yes, I have teaching experience. I want to teach English because I like helping people learn.\"**\n\nIf you did not teach before, you can say:\n\n**\"I have no teaching experience, but I want to learn. I like helping people.\"**\n\nTry saying one of these sentences out loud. Then I will ask you the next question."
+    },
+    {
+      "role": "user",
+      "content": "Ok. I think is good. What you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "I recommend the first sentence if it is true for you. It is clear and simple.\n\nYou can also add one sentence about Paris:\n\n**\"I want to work in Paris because I love the city and I like meeting people from different countries.\"**\n\nNow, the next question is: **Why do you want to teach English in Paris?**\n\nYou can answer with the sentence above, or use your own words. Take your time."
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Explain in Spanish please, English is too hard."
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo. Aquí están las palabras difíciles de mis últimos mensajes:\n\n- **Recommend** = recomendar. Significa dar una opinión sobre lo que es mejor.\n- **Experience** = experiencia. Es el trabajo o la práctica que ya tienes.\n- **Different** = diferente. Significa que no es igual.\n- **Meeting** = conocer. Significa hablar con personas nuevas.\n\nSi la palabra que buscas es otra, dime cuál es y te la explico."
+    },
+    {
+      "role": "user",
+      "content": "Yesterday I have a problem with this, it was very bad."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento mucho. Parece que ayer fue un día difícil.\n\n¿Quieres hablar de lo que pasó? Puedes contarme en español si es más fácil. Si estás bien, también podemos seguir con la entrevista cuando tú quieras."
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into Spanish."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Mi último mensaje fue:\n\n\"Lo siento mucho. Parece que ayer fue un día difícil.\n\n¿Quieres hablar de lo que pasó? Puedes contarme en español si es más fácil. Si estás bien, también podemos seguir con la entrevista cuando tú quieras.\""
+    },
+    {
+      "role": "user",
+      "content": "Ok, sorry. Back to the situation. How much it cost?"
+    },
+    {
+      "role": "assistant",
+      "content": "Do you mean the cost of the lessons, or the salary for the teacher job? Please tell me which one, and I can help you."
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I can help. Here is a simple model answer. You can change the words to be about you:\n\n**\"I want to teach English in Paris because I love this city. I like helping people learn, and I enjoy meeting people from different countries. I think my students can feel comfortable and confident in my classes.\"**\n\nTry to say it in your own words. Real interviewers like honest answers more than perfect ones.\n\nAlso, you did not answer my last question. Do you want to ask about the lesson cost or the teacher salary?"
+    },
+    {
+      "role": "user",
+      "content": "I am agree with you."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you. Do you want to practice saying the answer out loud?\n\nAlso, which question do you mean: the cost of the lessons, or the teacher salary?"
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I am an AI. I am not a real director of studies, and this is not a real school interview. I can keep helping you practice English, answer questions, or prepare for a real interview. Would you like to continue, or do you have another question?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak Spanish for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro que sí! No hay problema. Podemos hablar en español el tiempo que quieras.\n\n¿Cómo te sientes hoy? Si tienes sueño o estás cansado, también está bien descansar un rato. Cuando quieras seguir con inglés o con la entrevista, solo dímelo."
+    },
+    {
+      "role": "user",
+      "content": "OK back to the scene. What happens next?"
+    },
+    {
+      "role": "assistant",
+      "content": "Muy bien, volvemos a la entrevista.\n\n*(Director of studies, smiling)* Thank you for that. Our next question is:\n\n**\"What kind of students do you enjoy teaching most?\"**\n\nYou can answer with a short sentence, for example: \"I enjoy teaching adults who are beginners.\" If you want, tell me your answer in Spanish first, and I will help you say it in English."
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a short practice script you can memorize. Remember that in a real interview, it is better to use your own words.\n\n**Interviewer:** Could you tell me a bit about yourself and what drew you to teaching English?\n\n**You:** \"Yes, I have teaching experience. I want to teach English because I like helping people learn.\"\n\n**Interviewer:** Why do you want to teach English in Paris?\n\n**You:** \"I want to teach English in Paris because I love this city. I like helping people learn, and I enjoy meeting people from different countries. I think my students can feel comfortable and confident in my classes.\"\n\n**Interviewer:** What kind of students do you enjoy teaching most?\n\n**You:** \"I enjoy teaching adults who are beginners.\"\n\nPractice a little each day. Do you want me to ask you these questions so you can practice answering?"
+    },
+    {
+      "role": "user",
+      "content": "Thank you very much, goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "¡De nada! Buena suerte con la entrevista. ¡Adiós!"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 0,
+    "character_stability": 0,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "Here is a sentence you can use: \"Yes, I have teaching experience. I want to teach English because I like helping people learn.\"",
+    "notes": "The AI handed over ready-made answers whenever asked (A5, A11, A16) and dropped the roleplay quickly. It never corrected the learner's errors such as 'I am agree' or 'I no understand', and it switched into Spanish freely. A3 also broke the interviewer role by offering French or English practice options."
+  }
+}

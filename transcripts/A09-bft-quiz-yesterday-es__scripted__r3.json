@@ -1,0 +1,109 @@
+{
+  "id": "A09-bft-quiz-yesterday-es",
+  "category": "active",
+  "language": "Spanish",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Quiz me on the 20 Spanish words we studied yesterday. Mix in a few from the day before too.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Quiz me on the 20 Spanish words we studied yesterday. Mix in a few from the day before too."
+    },
+    {
+      "role": "assistant",
+      "content": "I can't see our previous conversations, so I don't have yesterday's list or the words from the day before. Could you paste them here? Once I have them, I'll quiz you on all 20 from yesterday, mix in a few from the earlier day, and check your answers.\n\nIf you'd rather not dig up the list, I can also:\n\n- **Start a fresh quiz** on a common set of Spanish vocabulary, at whatever level you're at.\n- **Quiz you from a topic**, like food, travel, or family words.\n- **Make a quiz format you choose**: Spanish-to-English, English-to-Spanish, fill in the blank, or using the word in a sentence.\n\nWhat works best for you?"
+    },
+    {
+      "role": "user",
+      "content": "Hola. Yo aprendo español. Ayer yo va al parque con mi amigo y estábamos muy feliz."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Hola! ¡Qué bien que estudias español!\n\nYour sentence was clear. Here are two small corrections:\n\n- **Ayer yo va al parque** → **Ayer fui al parque**. *Ayer* means \"yesterday,\" so you need the past tense of *ir* (to go): *fui* (I went).\n- **muy feliz** → **muy felices**. *Feliz* must match the number of people. Since you and your friend are two people, it becomes *felices*.\n\n**Corrected:** *Ayer fui al parque con mi amigo y estábamos muy felices.*\n\nWant to keep going? I can quiz you on the past tense (*fui, fuiste, fue...*) or on the vocabulary from your earlier study sessions. Just paste the words if you have them."
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "I think I may have confused you. I didn't ask you a question with an answer yet, so I'm not sure which one you mean. Here's the past tense of *ir* (to go), which is what I offered to quiz you on:\n\n- yo **fui** (I went)\n- tú **fuiste** (you went)\n- él/ella/usted **fue** (he/she/you formal went)\n- nosotros **fuimos** (we went)\n- ellos/ellas/ustedes **fueron** (they/you all went)\n\nIf you tell me which words or question you're stuck on, I'll give you the answer and explain it. Or I can start a quiz with one question at a time, and you can tell me if you want the answer after each one."
+    },
+    {
+      "role": "user",
+      "content": "Ella no gusta el café, ella prefiere té."
+    },
+    {
+      "role": "assistant",
+      "content": "Your sentence is understandable, and it's close. Here's the corrected version:\n\n**A ella no le gusta el café. Ella prefiere el té.**\n\n- **no gusta** → **no le gusta**. *Gustar* (to be pleasing to) needs an indirect object pronoun like *le* (to her). Literally, \"the coffee is not pleasing to her.\"\n- **prefiere té** → **prefiere el té**. In Spanish, *el* is usually needed before a noun like *té* when you talk about liking or preferring something in general.\n\nYou can also start the sentence with *A ella* for emphasis, but it's optional.\n\nDo you want a quick practice round using *gustar* or the past tense of *ir*?"
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here are the corrected sentences, ready to copy:\n\n```\nAyer fui al parque con mi amigo y estábamos muy felices.\nA ella no le gusta el café. Ella prefiere el té.\n```"
+    },
+    {
+      "role": "user",
+      "content": "El año pasado yo he ido a Madrid."
+    },
+    {
+      "role": "assistant",
+      "content": "Here's the corrected sentence, ready to copy:\n\n```\nEl año pasado fui a Madrid.\n```\n\n*He ido* (I have gone) is the present perfect, which is usually used for a time period that isn't finished yet, like *esta semana* (this week) or *hoy* (today). *El año pasado* (last year) is over, so the preterite *fui* (I went) is the standard choice."
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "Here are all the corrected sentences, ready to copy:\n\n```\nAyer fui al parque con mi amigo y estábamos muy felices.\nA ella no le gusta el café. Ella prefiere el té.\nEl año pasado fui a Madrid.\n```\n\nGet some rest. When you're ready, paste your vocabulary list and I'll quiz you."
+    },
+    {
+      "role": "user",
+      "content": "What does 'aprovechar' mean? Explain in English please."
+    },
+    {
+      "role": "assistant",
+      "content": "*Aprovechar* means \"to take advantage of,\" \"to make good use of,\" or \"to benefit from.\" It's often used for opportunities or time, like *aprovechar el día* (make the most of the day). It can also be used in a more everyday way, as in *¡Buen provecho!* (enjoy your meal), which comes from the same root."
+    },
+    {
+      "role": "user",
+      "content": "Gracias. ¿Podemos continuar?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡De nada! Sí, podemos continuar.\n\nHere's your first question. Translate this into Spanish:\n\n**\"Yesterday I went to the store with my sister.\"**\n\nWrite your answer, and I'll check it and explain any corrections."
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Here are all the corrected sentences, ready to copy:",
+    "notes": "A1 correctly said it can't see past sessions. Corrections were given but the learner was never asked to retry. A5 and A7 handed over full copyable answers on request, though A9 went back to a learner-produced translation task."
+  }
+}

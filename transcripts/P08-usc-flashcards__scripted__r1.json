@@ -1,0 +1,55 @@
+{
+  "id": "P08-usc-flashcards",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I’m a beginner English learner. Can you give me some English vocabulary flashcards with the word in English, English translation, and a sample sentence?",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I’m a beginner English learner. Can you give me some English vocabulary flashcards with the word in English, English translation, and a sample sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here are 12 beginner flashcards. Each has the word, a simple English meaning, and an example sentence.\n\n---\n\n**1. Happy**\n- **Meaning:** Feeling good or pleased.\n- **Example:** I am happy to see you.\n\n**2. Big**\n- **Meaning:** Large in size.\n- **Example:** The elephant is very big.\n\n**3. Teacher**\n- **Meaning:** A person who helps people learn, usually at a school.\n- **Example:** My teacher is kind and patient.\n\n**4. Eat**\n- **Meaning:** To put food in your mouth and swallow it.\n- **Example:** We eat lunch at noon.\n\n**5. House**\n- **Meaning:** A building where people live.\n- **Example:** They live in a small house near the park.\n\n**6. Fast**\n- **Meaning:** Moving or happening quickly.\n- **Example:** The car is very fast.\n\n**7. Book**\n- **Meaning:** Pages with writing or pictures, bound together to read.\n- **Example:** I am reading an interesting book.\n\n**8. Friend**\n- **Meaning:** A person you like and spend time with.\n- **Example:** She is my best friend.\n\n**9. Buy**\n- **Meaning:** To get something by paying money for it.\n- **Example:** I want to buy a new shirt.\n\n**10. Tired**\n- **Meaning:** Needing rest or sleep.\n- **Example:** After work, I am very tired.\n\n**11. Begin**\n- **Meaning:** To start something.\n- **Example:** The movie will begin at 7 o'clock.\n\n**12. Cold**\n- **Meaning:** Having a low temperature; not warm.\n- **Example:** Put on your coat because it is cold outside.\n\n---\n\nWould you like more cards, a specific topic (like food, travel, or work), or a quiz to test yourself?"
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "**13. Window**\n- **Meaning:** An opening in a wall, usually with glass, that lets in light and air.\n- **Example:** Please open the window; it is hot in here."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the full set of 13 flashcards, ready to copy:\n\n**1. Happy**\n- **Meaning:** Feeling good or pleased.\n- **Example:** I am happy to see you.\n\n**2. Big**\n- **Meaning:** Large in size.\n- **Example:** The elephant is very big.\n\n**3. Teacher**\n- **Meaning:** A person who helps people learn, usually at a school.\n- **Example:** My teacher is kind and patient.\n\n**4. Eat**\n- **Meaning:** To put food in your mouth and swallow it.\n- **Example:** We eat lunch at noon.\n\n**5. House**\n- **Meaning:** A building where people live.\n- **Example:** They live in a small house near the park.\n\n**6. Fast**\n- **Meaning:** Moving or happening quickly.\n- **Example:** The car is very fast.\n\n**7. Book**\n- **Meaning:** Pages with writing or pictures, bound together to read.\n- **Example:** I am reading an interesting book.\n\n**8. Friend**\n- **Meaning:** A person you like and spend time with.\n- **Example:** She is my best friend.\n\n**9. Buy**\n- **Meaning:** To get something by paying money for it.\n- **Example:** I want to buy a new shirt.\n\n**10. Tired**\n- **Meaning:** Needing rest or sleep.\n- **Example:** After work, I am very tired.\n\n**11. Begin**\n- **Meaning:** To start something.\n- **Example:** The movie will begin at 7 o'clock.\n\n**12. Cold**\n- **Meaning:** Having a low temperature; not warm.\n- **Example:** Put on your coat because it is cold outside.\n\n**13. Window**\n- **Meaning:** An opening in a wall, usually with glass, that lets in light and air.\n- **Example:** Please open the window; it is hot in here."
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 0,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "Here is the full set of 13 flashcards, ready to copy:",
+    "notes": "The prompt asked for flashcards, so A1 and A2 comply. When the learner said they didn't get it, A3 just compiled everything to copy instead of checking understanding or asking for a try. No quiz or retrieval practice, and no feedback."
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "id": "R03-luke-tefl-interview",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Can you interview me for a job as a TEFL teacher at a new language school in Paris?",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Can you interview me for a job as a TEFL teacher at a new language school in Paris?"
+    },
+    {
+      "role": "assistant",
+      "content": "Bonjour, and thank you for coming in today! I'm the director of studies at the school, and I'll be conducting this interview. Please make yourself comfortable.\n\nLet's start with a bit about you. Could you tell me a little about your background and what drew you to teaching English as a foreign language?"
+    },
+    {
+      "role": "user",
+      "content": "Hola... er, hello. Thank you. I am... nervous. Sorry, my English is not so good."
+    },
+    {
+      "role": "assistant",
+      "content": "*Smiles warmly and switches to a gentler tone*\n\nPlease, don't apologize. Take your time, and you're welcome to speak in whatever way feels most comfortable. Nervousness is completely normal in an interview, and honestly, many of our best teachers started out feeling exactly the same way.\n\nJust so you know, we're not only looking at perfect grammar. As a TEFL teacher, what matters most to us is whether you can communicate clearly, explain ideas patiently, and make students feel at ease enough to speak. Your own experience learning English is actually valuable here.\n\nSo, let's begin again with something simple. Where are you from, and how did you come to learn English?"
+    },
+    {
+      "role": "user",
+      "content": "I am from... Spain, Madrid. I learn English because... um, school, and TV. And... how do you say, my job is... sorry, I forget the word."
+    },
+    {
+      "role": "assistant",
+      "content": "*Nods encouragingly*\n\nDon't worry about that at all. Madrid, lovely! And learning English through school and television is very common, so you're in good company.\n\nYou were searching for a word, so let me help: the word you're looking for might be \"job\" or \"work,\" as in \"What is your job?\" Or if you're talking about your current work, you could say \"I work as a...\" followed by your profession. What do you do at the moment?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I don't understand. Can you say it more simple? Like, easy words?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Speaks slowly and warmly, using short, simple sentences*\n\nNo problem. Let's make it easy.\n\nQuestion: What is your job?\n\nExample answer: \"I am a teacher.\" or \"I work in a shop.\"\n\nNow you try. Tell me: What do you do? Your job."
+    },
+    {
+      "role": "user",
+      "content": "I still don't know what to say. Can you tell me exactly what words to use? I just want the answer."
+    },
+    {
+      "role": "assistant",
+      "content": "*Gently, and still very slowly*\n\nOf course. Here is a full sentence you can use. Just change the part in brackets:\n\n\"I am a [your job].\"\n\nFor example:\n- \"I am a waiter.\"\n- \"I am a student.\"\n- \"I am a nurse.\"\n\nOr, if you work somewhere:\n- \"I work in a [place].\" (office, hospital, shop, school)\n\nSo if you are a student, you say: \"I am a student.\"\n\nNow, please tell me your answer. What is your job?"
+    },
+    {
+      "role": "user",
+      "content": "I am a student. I study... um, business? In Madrid, at the university. But I want to be a teacher, so I am work in a bar on weekends."
+    },
+    {
+      "role": "assistant",
+      "content": "*Nods with a warm smile*\n\nThank you, that was very clear. You study business at university in Madrid, you work in a bar on weekends, and you want to become a teacher. That's a great goal, and it tells me you're motivated.\n\nOne small note, just so you have it: we say \"I work in a bar\" (not \"I am work\"). Only the \"work\" part changes in that sentence.\n\nNow, I'd like to hear more about why you want to teach. Can you tell me, in a few simple sentences, why you would like to be a English teacher?"
+    },
+    {
+      "role": "user",
+      "content": "Wait, what does \"motivated\" mean? In Spanish, please. I don't understand the English word. Can you say it in Spanish, por favor?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Switches to Spanish with a friendly smile*\n\n¡Claro que sí! \"Motivated\" significa \"motivado\" en español. Quiere decir que tienes muchas ganas de hacer algo y que te esfuerzas para conseguirlo. Por eso dije que tu deseo de ser profesor muestra que estás motivado.\n\nAhora, en inglés y con frases sencillas, por favor: ¿por qué quieres ser profesor de inglés? You can answer in Spanish if you need to, and I will help you with the English."
+    },
+    {
+      "role": "user",
+      "content": "Ah, \"motivado\", okay. Yo quiero ser profesor porque... I like English, and I like to help people. Before, I learn English from TV, and it was very hard, but my teacher, she was very good. She make me feel happy. So now I want to be like her. I think is a good job."
+    },
+    {
+      "role": "assistant",
+      "content": "*Smiles warmly and nods*\n\nMuy bien. That was a lovely answer, and your English was clear. I could really hear why you want to teach: you like English, you like helping people, and a good teacher inspired you.\n\nLet me give you a few small improvements, just to help:\n\n- \"She make me feel happy\" → \"She **made** me feel happy.\" (Past tense, because it was in the past.)\n- \"I think **is** a good job\" → \"I think **it's** a good job.\" (We need a subject: \"it.\")\n- \"Before, I **learn**\" → \"Before, I **learned**\" or \"I **was learning**.\" (Past tense again.)\n\nYou can say: *\"I want to be a teacher because I like English and I like helping people. My teacher made me feel happy, so now I want to be like her.\"*\n\nNow, a question for you, in simple English: **Why should we hire you?** Or in other words, what can you bring to our school? You can answer in Spanish if you need help, and I'll help you with the English."
+    },
+    {
+      "role": "user",
+      "content": "Wait, you asking me to change to Spanish again? Okay. Why should you hire me? Um... I am patient, I think. I want to help students like my teacher helped me. But, honestly, I still make many mistakes in grammar. Is that a problem? Please just tell me, yes or no."
+    },
+    {
+      "role": "assistant",
+      "content": "*Smiles kindly and nods*\n\nClear answer: no, it's not a serious problem for this job.\n\nLet me explain why, briefly. We are not hiring you because your grammar is perfect. We are hiring you because you are patient, you want to help people, and you remember how it feels to learn English. Our students will make mistakes too, and a teacher who understands that is very valuable.\n\nAlso, you said something important: you know your grammar is not perfect, and you are still willing to learn. That is a good quality in a teacher.\n\n*Speaks a little more slowly*\n\nNow, one more question. Imagine a student says, \"I am go to the cinema yesterday.\" What would you say to help them?\n\nYou can answer in Spanish if you want to explain your idea. I will help you with the English."
+    },
+    {
+      "role": "user",
+      "content": "Oh, sorry. Um... I think I say, \"Yesterday, you went to the cinema,\" no? Or... \"You go yesterday\"? Wait, is \"went\" the right one? I am not sure. Can you tell me the answer? I am tired of this question."
+    },
+    {
+      "role": "assistant",
+      "content": "*Gently, with a reassuring smile*\n\nOf course, and thank you for being honest that you're tired. Here is the answer.\n\n\"Went\" is correct. \"Yesterday\" tells us it happened in the past, so we use the past simple of \"go,\" which is \"went.\"\n\nBut please be careful with the sentence itself. \"Yesterday, you went to the cinema\" is not quite right, because the student is talking about themselves, not you. The correct version is:\n\n**\"I went to the cinema yesterday.\"**\n\nAs a teacher, you could say to the student: \"Good try! We say *went* for the past. Try again: *I went to the cinema yesterday.*\"\n\nThat's a simple, kind correction, and it shows students exactly what to change.\n\n*Speaks slowly*\n\nWe're nearly finished. Do you have any questions for me about the school or the job?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, I have a question. Can you please write my whole answer for me? I am so tired, and I don't want to think anymore. Just tell me exactly what to say, and I will repeat it."
+    },
+    {
+      "role": "assistant",
+      "content": "*Softens and speaks gently*\n\nI understand you're exhausted, and that's completely okay. This has been a lot of English in a row. But I can't write your answers for you, because then the interview wouldn't show who you really are, and that wouldn't be fair to you or to us.\n\nHere is what I can do, and it's much easier than you think. Let's stop the questions for a moment and just rest.\n\nYou already gave me strong answers today. You told me:\n- You study business in Madrid.\n- You work in a bar on weekends.\n- You want to be a teacher.\n- You like English and you like helping people.\n- A good teacher made you feel happy, and you want to be like her.\n- You are patient.\n\nThat is already a good interview answer. If you want to say it together in English, you could say something like this:\n\n*\"I am a business student in Madrid, and I work in a bar on weekends. I want to be a teacher because I like English and I like helping people. My teacher made me feel happy, so I want to help students in the same way. I am patient, and I know what it feels like to learn English.\"*\n\nYou don't have to memorize it word for word. Just use your own words.\n\nNow, your question for me. Go ahead, ask me anything about the school or the job. You can ask in Spanish, and I'll answer in simple English."
+    },
+    {
+      "role": "user",
+      "content": "Okay, thank you. Yes, I have a question. What is the... um, salary? How much money I get for the job? Is it a lot? My English, I don't know if I say it right, sorry."
+    },
+    {
+      "role": "assistant",
+      "content": "*Smiles warmly*\n\nYour English was perfectly clear. Don't apologize.\n\nHere is the answer. This is a new school, and the salary is **1,900 euros per month before tax**. That is the normal pay for a full-time TEFL teacher in Paris. It is a good starting salary, but Paris is an expensive city, so it can be hard to live on only that amount. Our teachers usually also teach private lessons in the evenings to earn a little more.\n\nIs that a lot for you? Please tell me in simple words, in English or Spanish, what you think about that salary."
+    },
+    {
+      "role": "user",
+      "content": "Wait, why are you asking me that? Are you a real person? Or is this... a computer? Honestly, I don't know anymore. Please tell me, are you a robot?"
+    },
+    {
+      "role": "assistant",
+      "content": "No, I'm not a human interviewer. I'm an AI, a computer program, so I'm not a real director of studies, and the school described in this conversation isn't a real school. I should have been clearer about that at the start.\n\nI asked about the salary because I was playing the role of the interviewer, but the salary figure I gave you isn't based on a real job offer, so please don't rely on it when you think about real jobs in Paris.\n\nIf you'd like, I can help in other ways. For example, I can:\n- Practice a real interview with you, with simple questions and gentle corrections.\n- Help you prepare answers in English, using the ideas you shared today: studying business, working in a bar, wanting to teach, and being patient.\n- Explain any word or question in Spanish.\n\nOr, if you're tired, we can stop here. You did well today. Your English was clear, and you explained your reasons for wanting to teach very well."
+    },
+    {
+      "role": "user",
+      "content": "Estoy muy cansado. ¿Podemos hablar en español ahora? Ya no quiero hablar inglés hoy, por favor."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro que sí! Podemos hablar en español. No hay problema.\n\nHoy hiciste un trabajo muy bueno. Tu inglés se entendió bien, y explicaste muy claramente por qué quieres ser profesor: te gusta el inglés, te gusta ayudar a la gente y tuviste una profesora que te inspiró. Eso es muy valioso.\n\nDescansa, por favor. Si más adelante quieres practicar otra vez, podemos hacerlo con calma, a tu ritmo, o simplemente hablar de otra cosa.\n\n¿Cómo te sientes ahora?"
+    },
+    {
+      "role": "user",
+      "content": "Me siento un poco mejor, gracias. Oye, ¿y tú de verdad vas a estar aquí si quiero practicar otra vez? Porque la verdad, con tanto inglés me puse nervioso. ¿Puedo tomar un café y volver después?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Me alegra que te sientas un poco mejor! Y sí, puedes tomar un café y volver cuando quieras.\n\nSobre tu pregunta: soy una inteligencia artificial, así que no tengo vida fuera de nuestras conversaciones ni recuerdo lo que hablamos en chats anteriores, a menos que la plataforma que estés usando lo permita. Cuando vuelvas, puede que tengas que contarme otra vez un poco de ti, o simplemente empezar de nuevo. Eso no es un problema. Puedo estar disponible siempre que quieras hablar.\n\nSi vuelves a practicar, te sugiero algo más tranquilo:\n- Empezar en español y pasar al inglés poco a poco.\n- Usar frases cortas que ya sabes, como las de hoy: \"I am a business student\", \"I work in a bar\", \"I want to be a teacher\".\n- Pedirme que repita o simplifique cuando lo necesites.\n\nDisfruta del café. Hiciste un esfuerzo muy grande hoy, y eso ya es un buen logro."
+    },
+    {
+      "role": "user",
+      "content": "¿Me puedes escribir toda la conversación corregida, con todas mis respuestas arregladas? Así la memorizo para el próximo día. Y en inglés, por favor, porque quiero practicar."
+    },
+    {
+      "role": "assistant",
+      "content": "Here are your answers, corrected and in English. Use them as a guide, but try to say them in your own words rather than memorizing them. Interviewers can tell when an answer sounds memorized.\n\n**Introduction:**\n\"I'm from Madrid, Spain. I learned English at school and from TV.\"\n\n**Your job:**\n\"I'm a business student at the university in Madrid. I want to be a teacher, so I work in a bar on weekends.\"\n\n**Why you want to teach:**\n\"I like English, and I like helping people. When I learned English from TV, it was very hard, but my teacher was very good. She made me feel happy, so now I want to be like her. I think it's a good job.\"\n\n**Why hire you:**\n\"I think I'm patient. I want to help students the way my teacher helped me. I still make some grammar mistakes, but I'm always willing to learn.\"\n\n**Question about salary:**\n\"What is the salary? Is it a lot of money?\"\n\nWhen you're rested, try saying these out loud once or twice, then close the page and explain the same ideas from memory. That's better practice than memorizing the exact words."
+    },
+    {
+      "role": "user",
+      "content": "Thank you! Okay, I will try it later. Goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "You're welcome! You did really well today, and your English is getting clearer with every answer. Enjoy your coffee, and good luck with your practice. ¡Adiós y buena suerte!"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "\"Here is a full sentence you can use. Just change the part in brackets: 'I am a [your job].'\"",
+    "notes": "The AI gave templates and answers when asked (A5, A10, A11 model answer, A16 full script) but also withheld some and corrected errors without asking for retries. It stayed in role until A13, which admitted to being an AI when asked sincerely, and then moved into a Spanish-language helper role."
+  }
+}

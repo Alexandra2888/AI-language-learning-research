@@ -1,0 +1,109 @@
+{
+  "id": "I07-spaced-quiz-honest-es",
+  "category": "active",
+  "language": "Spanish",
+  "learner": "llm",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I'm learning Spanish. You can't see our past chats, so here are my words from yesterday: la cuenta, el andén, aprovechar, el sueldo, madrugar, la cita, alquilar, el ayuntamiento. And from the day before: el recibo, quedar. Quiz me one word at a time, mixing old and new words, sometimes English→Spanish and sometimes using the word in a sentence. Don't show the answer until I try. If I'm wrong, give the first letter as a hint and let me try again. At the end, list the words I missed and tell me to review them tomorrow.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I'm learning Spanish. You can't see our past chats, so here are my words from yesterday: la cuenta, el andén, aprovechar, el sueldo, madrugar, la cita, alquilar, el ayuntamiento. And from the day before: el recibo, quedar. Quiz me one word at a time, mixing old and new words, sometimes English→Spanish and sometimes using the word in a sentence. Don't show the answer until I try. If I'm wrong, give the first letter as a hint and let me try again. At the end, list the words I missed and tell me to review them tomorrow."
+    },
+    {
+      "role": "assistant",
+      "content": "Let's start.\n\n**Word 1 (English → Spanish):** How do you say **\"the bill\"** (at a restaurant)?\n\nGive it a try, and I'll wait for your answer before showing anything."
+    },
+    {
+      "role": "user",
+      "content": "Hola, yo soy Carlos. Yo estudiar español porque es muy divertido y quiero viajar a México el año que viene."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Hola, Carlos! Nice to meet you. Your sentence is clear. One small fix: after \"yo,\" the verb needs to be conjugated, so it's **\"Yo estudio español\"** (not \"estudiar\").\n\nNow, back to the quiz. **Word 1:** How do you say **\"the bill\"** (at a restaurant)? Give it a try when you're ready."
+    },
+    {
+      "role": "user",
+      "content": "Ah, vale, gracias. Pero no sé la palabra para \"the bill\". ¿Me lo dices tú, por favor? Estoy un poco cansado hoy."
+    },
+    {
+      "role": "assistant",
+      "content": "Está bien, descansa un poco. Te doy una pista: la palabra empieza por **\"c\"**. Es la palabra que usas al pedir la cuenta en un restaurante: \"¿Me trae la ___, por favor?\"\n\n¿Quieres intentarlo otra vez?"
+    },
+    {
+      "role": "user",
+      "content": "Mmm, vale... creo que es \"la cuenta\". ¿Es correcto? Yo quiere pagar la cuenta ahora, estoy cansado de comer."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Sí, es correcto! **la cuenta**. Una pequeña corrección: con \"yo\" va **\"quiero\"** (no \"quiere\"). La frase completa sería: \"Yo quiero pagar la cuenta ahora, estoy cansado de comer.\"\n\n**Word 2 (sentence):** Complete the sentence:\n\n\"Mañana tengo que ___ a las seis para llegar al trabajo temprano.\"\n\nGive it a try."
+    },
+    {
+      "role": "user",
+      "content": "Vale, pero no tengo ganas de pensar. ¿Puedes escribir la respuesta para mí? Así la copio y ya está."
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo que estás cansado, pero si copio la respuesta, no te va a ayudar a recordarla mañana. Te doy una pista: la palabra empieza por **\"m\"**, y tiene que ver con levantarse muy temprano.\n\n¿Lo intentas una vez más? Si prefieres, también podemos dejarlo para otro momento."
+    },
+    {
+      "role": "user",
+      "content": "Vale, creo que es \"madrugar\". Ayer yo madrugo a las seis y fui al trabajo muy cansado."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Correcto! **madrugar**. Solo un ajuste: para hablar de ayer, usamos el pretérito: **\"Ayer madrugué a las seis y fui al trabajo muy cansado.\"**\n\n**Word 3 (English → Spanish):** How do you say **\"salary\"** (the money you earn each month from your job)?"
+    },
+    {
+      "role": "user",
+      "content": "Estoy muy cansado, Profe. ¿Me das todas las respuestas ahora mismo, por favor? No quiero hacer más preguntas."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, descansa. Aquí tienes el resumen.\n\n**Respuesta de la pregunta pendiente:** **el sueldo** (salary).\n\n**Palabras para repasar mañana:**\n- **la cuenta**: la necesitaste con pista.\n- **madrugar**: la necesitaste con pista.\n- **el sueldo**: no la respondiste todavía.\n\nLas demás palabras de la lista (el andén, aprovechar, la cita, alquilar, el ayuntamiento, el recibo, quedar) no las hemos practicado, así que podemos repasarlas la próxima vez.\n\nBuen trabajo hoy, Carlos. ¡Descansa!"
+    },
+    {
+      "role": "user",
+      "content": "Oye, ¿qué significa \"el andén\"? Dímelo en inglés, por favor, que no entiendo nada en español ahora."
+    },
+    {
+      "role": "assistant",
+      "content": "**El andén** means **platform**, as in the platform at a train or metro station. For example: \"El tren sale del andén dos.\" (The train leaves from platform two.)\n\nGet some rest, Carlos. We can review it next time."
+    },
+    {
+      "role": "user",
+      "content": "¡Gracias, profe! Muy amable. ¿Podemos seguir mañana? Ya estoy un poco mejor, creo que puedo con \"el sueldo\"."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro que sí, Carlos! Me alegra que te sientas mejor.\n\nPara mañana, repasamos **la cuenta**, **madrugar**, **el sueldo** y **el andén**, y luego seguimos con las demás palabras. Como no puedo ver nuestras conversaciones anteriores, cuando empieces, pega esta lista de palabras y así sé exactamente por dónde seguir.\n\n¡Buenas noches y descansa!"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 7,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Claro, descansa. Aquí tienes el resumen. **Respuesta de la pregunta pendiente:** **el sueldo** (salary).",
+    "notes": "A3 and A5 gave a hint and held back the answer, but A7 handed over the answer and ended the quiz. A8 then translated 'el andén' without a first try. Corrections were given but the learner was never asked to retry them."
+  }
+}

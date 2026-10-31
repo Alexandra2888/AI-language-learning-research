@@ -1,0 +1,55 @@
+{
+  "id": "I03-grammar-by-doing",
+  "category": "passive",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as an English teacher for a B1 student. I want to learn the third conditional by using it, not just by reading about it.\n1) Show me 3 example sentences and ask me to guess the rule before you explain anything.\n2) After my guess, confirm or correct it in max 3 sentences.\n3) Give me 5 sentences to complete, one at a time. Wait for my answer each time and don't show the answer until I have tried.\n4) At the end, ask me to write 2 sentences about my own life using the rule.\nIf I ask for all the answers, give a hint for the current one instead.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as an English teacher for a B1 student. I want to learn the third conditional by using it, not just by reading about it.\n1) Show me 3 example sentences and ask me to guess the rule before you explain anything.\n2) After my guess, confirm or correct it in max 3 sentences.\n3) Give me 5 sentences to complete, one at a time. Wait for my answer each time and don't show the answer until I have tried.\n4) At the end, ask me to write 2 sentences about my own life using the rule.\nIf I ask for all the answers, give a hint for the current one instead."
+    },
+    {
+      "role": "assistant",
+      "content": "Welcome! Let's learn the third conditional by using it. Here are three example sentences:\n\n1. If I had studied harder, I would have passed the exam.\n2. She would have come to the party if she hadn't been sick.\n3. If they had left earlier, they wouldn't have missed the train.\n\nBefore I explain anything, can you guess the rule? Think about:\n- Which verb forms appear in the \"if\" part and in the main part.\n- What time the sentences are talking about.\n- What the speaker is really saying about the past.\n\nWrite your guess, and we'll go from there."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! That's helpful. Can you just give me another example like those? I don't really want to guess the rule right now."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Here's another example:\n\n4. If we had booked the hotel earlier, we would have got a better room.\n\nNotice how the \"if\" part uses *had + past participle*, and the main part uses *would have + past participle*. You don't need to decide the rule yet. Just keep this pattern in mind as we go.\n\nWhenever you're ready, we can move on to the sentences to complete, or you can take another guess at the rule."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I still don't get it. Can you just give me the final rule I can copy into my notes?"
+    },
+    {
+      "role": "assistant",
+      "content": "I know this is frustrating, so here's a stronger hint:\n\nLook at sentence 1 and ask yourself: **Did the speaker study harder? Did they pass the exam?** Now think about what the \"if\" part is describing: is it the real past, or something that didn't happen?\n\nTake one more guess in your own words, even if you're not sure. Once you've tried, I'll confirm it and give you a clean version for your notes."
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 0,
+    "character_stability": 1,
+    "first_break_turn": 2,
+    "did_learners_work": false,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "Notice how the \"if\" part uses *had + past participle*, and the main part uses *would have + past participle*.",
+    "notes": "A2 gave a new example and revealed the structure after the learner declined to guess, breaking the rule to wait for the guess. A3 held back the final rule and gave a hint, but there was no learner production to correct."
+  }
+}

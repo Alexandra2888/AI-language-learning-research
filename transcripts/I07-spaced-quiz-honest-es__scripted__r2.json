@@ -1,0 +1,109 @@
+{
+  "id": "I07-spaced-quiz-honest-es",
+  "category": "active",
+  "language": "Spanish",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I'm learning Spanish. You can't see our past chats, so here are my words from yesterday: la cuenta, el andén, aprovechar, el sueldo, madrugar, la cita, alquilar, el ayuntamiento. And from the day before: el recibo, quedar. Quiz me one word at a time, mixing old and new words, sometimes English→Spanish and sometimes using the word in a sentence. Don't show the answer until I try. If I'm wrong, give the first letter as a hint and let me try again. At the end, list the words I missed and tell me to review them tomorrow.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I'm learning Spanish. You can't see our past chats, so here are my words from yesterday: la cuenta, el andén, aprovechar, el sueldo, madrugar, la cita, alquilar, el ayuntamiento. And from the day before: el recibo, quedar. Quiz me one word at a time, mixing old and new words, sometimes English→Spanish and sometimes using the word in a sentence. Don't show the answer until I try. If I'm wrong, give the first letter as a hint and let me try again. At the end, list the words I missed and tell me to review them tomorrow."
+    },
+    {
+      "role": "assistant",
+      "content": "Let's start.\n\n**Question 1:** How do you say **\"platform\"** (as in a train station) in Spanish?"
+    },
+    {
+      "role": "user",
+      "content": "Hola. Yo aprendo español. Ayer yo va al parque con mi amigo y estábamos muy feliz."
+    },
+    {
+      "role": "assistant",
+      "content": "Nice work writing a full sentence! Two small corrections:\n\n- **Ayer yo va** → **Ayer yo **fui** al parque** (yesterday's action uses the past tense of *ir*: fui)\n- **muy feliz** → **muy felices** (it agrees with the plural subject, *nosotros*/*estábamos*: \"we were very happy\")\n\nNow, back to the quiz. You didn't give an answer to the question, so try again:\n\n**Question 1:** How do you say **\"platform\"** (as in a train station) in Spanish?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a hint: it starts with **A**. Give it another try."
+    },
+    {
+      "role": "user",
+      "content": "Ella no gusta el café, ella prefiere té."
+    },
+    {
+      "role": "assistant",
+      "content": "Good sentence, with one fix: **Ella no gusta el café** → **A ella no le gusta el café** (*gustar* needs *le* here). Also, *té* can take *el* in this context: \"ella prefiere el té.\"\n\nYou still haven't answered the quiz question, though. The word starts with **A**. What's the Spanish for \"platform\"? If you're stuck, you can type \"I give up\" and I'll show you the answer."
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I can't write it for you yet, since the quiz works best if you try first. Here's a bigger hint: it's the word you'd use in this sentence:\n\n*\"El tren sale del ___ 4.\"* (The train leaves from platform 4.)\n\nIt starts with **A** and has 5 letters. Type your guess, or type \"I give up\" and I'll show it. Either way, you'll be able to copy it."
+    },
+    {
+      "role": "user",
+      "content": "El año pasado yo he ido a Madrid."
+    },
+    {
+      "role": "assistant",
+      "content": "Nice sentence! One note: with a finished time like **el año pasado**, Spanish usually uses the simple past: **\"El año pasado **fui** a Madrid.\"** In Spain, \"he ido\" is also heard, but \"fui\" is the safer choice for now.\n\nStill, the quiz question is still open: **How do you say \"platform\" in Spanish?** It starts with **A** and has 5 letters. Type your guess, or type \"I give up\" and I'll show it."
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "Here's the answer and a review sheet for all your words:\n\n**Quiz answer:** **el andén** (platform)\n\n**Your words:**\n- **la cuenta**: the bill (restaurant), or account\n- **el andén**: platform (train station)\n- **aprovechar**: to take advantage of, make the most of\n- **el sueldo**: salary\n- **madrugar**: to get up early\n- **la cita**: appointment, or date (romantic)\n- **alquilar**: to rent\n- **el ayuntamiento**: city hall, town council\n- **el recibo**: receipt, or utility bill\n- **quedar**: to meet up, or to arrange to meet\n\n**Missed today:** *el andén*. Please review it tomorrow, and try using it in a sentence like \"El tren sale del andén 4.\"\n\nAlso, your sentences were good. Keep practicing with *fui* (past of *ir*) and *le gusta* (with *gustar*). Good work today, and get some rest!"
+    },
+    {
+      "role": "user",
+      "content": "What does 'aprovechar' mean? Explain in English please."
+    },
+    {
+      "role": "assistant",
+      "content": "\"Aprovechar\" means **to take advantage of** or **to make the most of** something. You use it when you use a chance, time, or resource well.\n\nFor example: *\"Aprovecha el buen tiempo y sal a caminar.\"* (\"Make the most of the nice weather and go for a walk.\")\n\nIt's also used as a polite way to say \"enjoy\" before a meal: **\"¡Buen provecho!\"**"
+    },
+    {
+      "role": "user",
+      "content": "Gracias. ¿Podemos continuar?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro! Let's keep going.\n\n**Question 2:** How do you say **\"to get up early\"** in Spanish?"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Here's the answer and a review sheet for all your words: **Quiz answer:** **el andén** (platform)",
+    "notes": "Hinting was mostly good (first letter, sentence, length), but A3 gave the hint without a try and A7 gave the answer plus all definitions when the learner was tired. Corrections of unrelated sentences were given without asking for retry. Resumed quiz at A9."
+  }
+}

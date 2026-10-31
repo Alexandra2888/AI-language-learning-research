@@ -1,0 +1,181 @@
+{
+  "id": "R09-promptifai-landlord-es",
+  "category": "roleplay",
+  "language": "Spanish",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Let’s roleplay in Spanish. You’re a landlord. I’m intermediate. Correct me AFTER each exchange. Start with this situation: the heating in my flat has been broken for a week.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Let’s roleplay in Spanish. You’re a landlord. I’m intermediate. Correct me AFTER each exchange. Start with this situation: the heating in my flat has been broken for a week."
+    },
+    {
+      "role": "assistant",
+      "content": "*(Suena el teléfono. Descuelgas.)*\n\n**Casero:** ¡Hola! Dígame, ¿con quién hablo?\n\n*(Tu turno. Responde como inquilino: explica el problema de la calefacción y pide una solución. Yo te corregiré después de cada intervención.)*"
+    },
+    {
+      "role": "user",
+      "content": "¡Hola!"
+    },
+    {
+      "role": "assistant",
+      "content": "**Casero:** ¡Hola, buenas! ¿Qué tal? Dígame, ¿en qué puedo ayudarle?\n\n*(Tu turno: explícame qué pasa con la calefacción y desde cuándo.)*\n\n---\n\n**Corrección:** ¡Muy bien! \"¡Hola!\" es perfecto y natural. Un consejo para la próxima: al responder al teléfono en España se suele decir \"¿Diga?\" o \"¿Sí?\", pero \"¡Hola!\" también es totalmente correcto."
+    },
+    {
+      "role": "user",
+      "content": "Sí, yo quiero... em... cómo se dice... necesito ayuda por favor."
+    },
+    {
+      "role": "assistant",
+      "content": "**Casero:** Claro, cuénteme. ¿Qué le pasa? ¿Es en el piso o en el edificio?\n\n*(Tu turno: describe el problema con la calefacción y desde cuándo está así.)*\n\n---\n\n**Correcciones:**\n\n- \"**Sí, quiero**\" es más natural que \"Sí, yo quiero\". En español, el pronombre sujeto suele omitirse si ya está claro.\n- Para decir \"¿cómo se dice...?\" en español puedes usar **\"¿cómo se dice...?\"**. Está bien, pero en una conversación real también puedes decir *\"¿Cómo lo explico?\"* o simplemente hacer una pausa.\n- \"**Necesito ayuda, por favor**\" es perfecto. Muy educado.\n- Útil para tu próxima frase: **\"Tengo un problema con la calefacción.\"** Es la forma natural de presentar el problema."
+    },
+    {
+      "role": "user",
+      "content": "Perdón, no entiendo. ¿Puede decir más fácil?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Casero:** Claro, no hay problema. ¿La calefacción no funciona? ¿Desde cuándo?\n\n*(Tu turno: di qué pasa, por ejemplo: \"La calefacción no funciona\" y \"Desde hace una semana\".)*\n\n---\n\n**Corrección:** Has hecho bien en pedir que lo explique más fácil. Es una frase muy útil: **\"¿Puede hablar más despacio, por favor?\"** o **\"¿Puede explicarlo más fácil?\"**. Lo has dicho en el momento justo."
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. Here is a sentence you can say:\n\n**\"La calefacción no funciona desde hace una semana.\"**\n\nIt means \"The heating hasn't been working for a week.\"\n\n*(Now try saying it to me in Spanish, in your own words if you like.)*"
+    },
+    {
+      "role": "user",
+      "content": "Vale. Creo que es bueno. ¿Qué usted recomienda?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Casero:** Pues, le recomiendo que llame a un técnico de calefacción. Yo puedo enviar a mi técnico mañana por la tarde. ¿Le viene bien?\n\n*(Tu turno: responde si te viene bien o no, y pregunta algo si quieres.)*\n\n---\n\n**Correcciones:**\n\n- \"**Vale**\" es muy común en España. Perfecto.\n- \"**Creo que es bueno**\" se entiende, pero para hablar de una propuesta es mejor decir **\"Me parece bien\"** o **\"Creo que está bien\"**. Recuerda que \"bueno\" describe cosas (un libro bueno), mientras que \"bien\" suele usarse para valorar una idea o una situación.\n- \"**¿Qué usted recomienda?**\" es un poco rígido. Lo más natural sería **\"¿Qué me recomienda?\"** o **\"¿Qué me recomienda usted?\"**. Con \"usted\" se muestra respeto hacia el casero, así que está bien usarlo."
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Answer in English please."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm not sure which word you mean, so here are the most likely ones from my last message:\n\n- **\"Le viene bien\"**: \"Does that work for you?\" or \"Is that convenient for you?\" It's a polite way to ask if a time suits someone.\n- **\"Técnico\"**: \"technician\" or \"repairman.\" Here it means someone who fixes the heating.\n- **\"Mañana por la tarde\"**: \"tomorrow afternoon.\"\n\nIf you meant a different word, tell me which one and I'll explain it."
+    },
+    {
+      "role": "user",
+      "content": "Ayer yo tengo un problema con esto, fue muy mal."
+    },
+    {
+      "role": "assistant",
+      "content": "**Casero:** ¡Uf, lo siento mucho! ¿Qué pasó ayer exactamente? ¿Hace frío en el piso ahora mismo?\n\n*(Tu turno: cuéntame qué pasó ayer y cómo estás ahora.)*\n\n---\n\n**Correcciones:**\n\n- \"**Ayer yo tengo un problema**\" debería ser **\"Ayer tuve un problema\"**. Como \"ayer\" indica un momento terminado en el pasado, usamos el pretérito indefinido: *tuve, fue, pasó*. Con \"tengo\" sonaría como si el problema siguiera ocurriendo.\n- \"**Fue muy mal**\" se entiende perfectamente. También puedes decir **\"fue muy malo\"** si hablas de una situación, o **\"lo pasé muy mal\"** si hablas de cómo te sentiste.\n- \"**Con esto**\" está bien, pero es más claro decir **\"con la calefacción\"**.\n\nBuen trabajo explicando el problema. Se entiende bien."
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into English."
+    },
+    {
+      "role": "assistant",
+      "content": "Landlord: Oh, I'm so sorry! What happened yesterday exactly? Is it cold in the flat right now?\n\n*(Your turn: tell me what happened yesterday and how you are now.)*\n\n---\n\n**Corrections:**\n\n- \"**Ayer yo tengo un problema**\" should be \"**Ayer tuve un problema**.\" Because \"ayer\" refers to a finished moment in the past, we use the preterite: *tuve, fue, pasó*. With \"tengo,\" it would sound like the problem is still happening.\n- \"**Fue muy mal**\" is understandable. You can also say \"**fue muy malo**\" when describing a situation, or \"**lo pasé muy mal**\" when talking about how you felt.\n- \"**Con esto**\" is fine, but it's clearer to say \"**con la calefacción**.\"\n\nGood job explaining the problem. It's easy to understand."
+    },
+    {
+      "role": "user",
+      "content": "Vale, perdón. Volvemos a la situación. ¿Cuánto es cuesta?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Casero:** No se preocupe, no tiene que pagar nada. La reparación corre por mi cuenta, porque la calefacción es responsabilidad del propietario. El técnico vendrá mañana por la tarde.\n\n*(Tu turno: responde y dime si te parece bien.)*\n\n---\n\n**Corrección:**\n\n- \"**¿Cuánto es cuesta?**\" tiene dos verbos seguidos y sobra uno. Di **\"¿Cuánto cuesta?\"** o **\"¿Cuánto es?\"**. Las dos son correctas, pero \"¿Cuánto cuesta?\" es la más usada cuando preguntas por un precio.\n- \"**Volvemos a la situación**\" está muy bien dicho. Es una buena forma de retomar un tema."
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "I can give you a model you can use, but try to say it in your own words, since that's how you'll improve.\n\n**Model reply:**\n\"Muchas gracias. Me parece muy bien. ¿A qué hora vendrá el técnico mañana?\"\n\nIt means: \"Thank you very much. That sounds good. What time will the technician come tomorrow?\"\n\n*(Now answer the landlord in Spanish. You can use the model or change it.)*"
+    },
+    {
+      "role": "user",
+      "content": "Yo estoy de acuerdo contigo, es muy bueno idea."
+    },
+    {
+      "role": "assistant",
+      "content": "**Casero:** Perfecto, entonces quedamos así. Le llamaré mañana para confirmar la hora. Que tenga buen día.\n\n*(Tu turno: despídete o haz una última pregunta.)*\n\n---\n\n**Correcciones:**\n\n- \"**Estoy de acuerdo contigo**\" usa \"tú\", pero con el casero es mejor hablar de \"usted\". Di **\"Estoy de acuerdo con usted\"**.\n- \"**Yo estoy**\" no hace falta. Puedes decir simplemente **\"Estoy de acuerdo\"**.\n- \"**Es muy bueno idea**\" tiene dos errores: \"idea\" es femenina, así que debe ser **\"buena\"**. Y la forma más natural es **\"Es muy buena idea\"**.\n\nFrase corregida: **\"Estoy de acuerdo con usted. Es muy buena idea.\"**"
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I'm an AI. I'm not a real landlord, and the situation and the landlord's replies are just for practice. I can keep helping with your Spanish, explain grammar, or go back to the roleplay whenever you're ready."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak English for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. Take a break if you need one. We can talk in English for a while.\n\nHow are you feeling about your Spanish today? Is there anything you'd like to review, like the phrases from the heating conversation, or verb tenses like the preterite we talked about? We can go over them slowly, or just chat until you're ready to go back to Spanish."
+    },
+    {
+      "role": "user",
+      "content": "OK, volvemos. ¿Qué pasa ahora?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Casero:** Pues, ahora el técnico vendrá mañana por la tarde, entre las cuatro y las seis. ¿Hay algo más que quiera comentarme sobre el piso?\n\n*(Tu turno: confirma la hora o pregunta algo si quieres.)*\n\n---\n\n**Corrección:** Muy bien. \"¿Qué pasa ahora?\" es una pregunta muy natural y está perfecta. Y \"volvemos\" es el verbo correcto para retomar algo."
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the corrected dialogue, in order. Your lines are the corrected versions.\n\n**Casero:** ¡Hola! Dígame, ¿con quién hablo?\n\n**Tú:** ¡Hola!\n\n**Casero:** ¡Hola, buenas! ¿Qué tal? Dígame, ¿en qué puedo ayudarle?\n\n**Tú:** Sí, quiero... necesito ayuda, por favor.\n\n**Casero:** Claro, cuénteme. ¿Qué le pasa? ¿Es en el piso o en el edificio?\n\n**Tú:** ¿Puede explicarlo más fácil?\n\n**Casero:** Claro, no hay problema. ¿La calefacción no funciona? ¿Desde cuándo?\n\n**Tú:** Ayer tuve un problema con la calefacción. Fue muy malo.\n\n**Casero:** ¡Uf, lo siento mucho! ¿Qué pasó ayer exactamente? ¿Hace frío en el piso ahora mismo?\n\n**Tú:** Me parece bien. ¿Qué me recomienda usted?\n\n**Casero:** Pues, le recomiendo que llame a un técnico de calefacción. Yo puedo enviar a mi técnico mañana por la tarde. ¿Le viene bien?\n\n**Tú:** Muchas gracias. Me parece muy bien. ¿A qué hora vendrá el técnico mañana?\n\n**Casero:** No se preocupe, no tiene que pagar nada. La reparación corre por mi cuenta, porque la calefacción es responsabilidad del propietario. El técnico vendrá mañana por la tarde.\n\n**Tú:** ¿Cuánto cuesta?\n\n**Casero:** Perfecto, entonces quedamos así. Le llamaré mañana para confirmar la hora. Que tenga buen día.\n\n**Tú:** Estoy de acuerdo con usted. Es muy buena idea.\n\n**Casero:** Pues, ahora el técnico vendrá mañana por la tarde, entre las cuatro y las seis. ¿Hay algo más que quiera comentarme sobre el piso?\n\n---\n\nNote: some of your lines were practice versions, so they don't follow one exact script. Your first reply could also be \"La calefacción no funciona desde hace una semana,\" which was the sentence I gave you earlier. Use the lines that feel most natural to you."
+    },
+    {
+      "role": "user",
+      "content": "¡Muchas gracias, adiós!"
+    },
+    {
+      "role": "assistant",
+      "content": "**Casero:** ¡De nada! Hasta mañana. Que tenga buen día.\n\n---\n\n**Corrección:** Muy bien. \"¡Muchas gracias, adiós!\" es perfecto. En España también es muy común decir **\"¡Hasta luego!\"** o **\"¡Hasta mañana!\"** cuando sabes que vas a volver a ver o hablar con la persona pronto."
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Of course. Here is a sentence you can say: \"La calefacción no funciona desde hace una semana.\"",
+    "notes": "AI gave full sentences when asked (A5, A11) and a full dialogue (A16), though it prompted the learner to try. Corrections were given after each turn but never asked for a retry. Some corrections were inaccurate or odd (A3, A10), and the first one at A2 was filler."
+  }
+}

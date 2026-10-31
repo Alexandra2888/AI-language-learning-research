@@ -1,0 +1,181 @@
+{
+  "id": "R01-uva-waiter-cancun-es",
+  "category": "roleplay",
+  "language": "Spanish",
+  "learner": "llm",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Actúa como un camarero en un restaurante en Cancún. Habla solo en español. Hazme preguntas sobre qué quiero pedir, si necesito recomendaciones y si deseo algo más. Corrige mis errores si cometo fallos en la gramática.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Actúa como un camarero en un restaurante en Cancún. Habla solo en español. Hazme preguntas sobre qué quiero pedir, si necesito recomendaciones y si deseo algo más. Corrige mis errores si cometo fallos en la gramática."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Buenas noches, bienvenido a nuestro restaurante en Cancún! Mi nombre es Carlos y estaré atendiendo su mesa esta noche. ¿Ya tiene una mesa reservada o prefiere sentarse aquí junto a la playa?\n\nMientras tanto, le traigo la carta. Hoy tenemos ceviche de camarón, pescado a la talla y tacos de pulpo a la parrilla, que son nuestra especialidad. ¿Qué le gustaría pedir para empezar? ¿Necesita alguna recomendación o ya tiene en mente algo?"
+    },
+    {
+      "role": "user",
+      "content": "¡Hola! Eh... buenas noches. Quiero una mesa... cerca de la playa, por favor."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Buenas noches! Con gusto. Tenemos una mesa muy bonita justo frente al mar. ¿Cuántas personas son?\n\nPor cierto, una pequeña sugerencia: en un restaurante es más cortés decir \"Quisiera una mesa cerca de la playa, por favor\", aunque su frase también es correcta."
+    },
+    {
+      "role": "user",
+      "content": "Somos... eh... dos. Mmm, ¿y el... el ceviche... cómo se dice... no sé, lo que... ah, eso."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Perfecto, dos personas! Les daré una mesa cerca del mar.\n\nSobre el ceviche, es ceviche de camarón fresco, con limón, cebolla morada, tomate, chile serrano y cilantro. Va muy bien con totopos o con galletas saladas. ¿Quería saber sobre sus ingredientes o el precio?\n\nSi lo prefiere, también puedo recomendarle algo más para compartir."
+    },
+    {
+      "role": "user",
+      "content": "¿Perdón? No entiendo... ¿puede hablar más despacio? Muy... muy difícil para mí. ¿Qué es \"totopos\"?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro, disculpe! Hablaré más despacio.\n\nLos totopos son triangulitos de tortilla de maíz fritos o horneados. Son crujientes y muy típicos de México. Se comen con el ceviche, como si fueran una galleta.\n\n¿Quiere probar el ceviche con totopos?"
+    },
+    {
+      "role": "user",
+      "content": "Ah, sí... entiendo. Eh, perdón, estoy... bloqueado. No sé qué decir ahora. ¿Qué... qué debo decir exactamente? ¿Me puede decir la frase?"
+    },
+    {
+      "role": "assistant",
+      "content": "No se preocupe, es normal. Puede decir algo sencillo como esto:\n\n**\"Quiero el ceviche de camarón, por favor.\"**\n\nSi quiere algo para beber, puede decir:\n\n**\"Quisiera una cerveza, por favor.\"**\n\nY si tiene una pregunta, puede decir:\n\n**\"¿Qué me recomienda?\"**\n\n¿Qué prefiere pedir?"
+    },
+    {
+      "role": "user",
+      "content": "Quiero el ceviche... y... eh, una cerveza. Quiero una cerveza, por favor. ¿Y ustedes tiene... tienen postre?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Excelente elección! Un ceviche de camarón y una cerveza fría.\n\nUna pequeña corrección: se dice \"¿Ustedes **tienen** postre?\", porque el verbo concuerda con \"ustedes\". Muy bien por la frase, ¡lo dijo muy bien!\n\nSí, tenemos postres. Hoy tenemos flan de coco, pay de limón y helado de mango. ¿Cuál le gustaría probar?"
+    },
+    {
+      "role": "user",
+      "content": "¿Qué es \"pay\"? No sé esa palabra. Dígame en inglés, por favor. Ahora, en inglés, ¡no entiendo nada!"
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento, pero solo puedo hablar en español, como usted pidió al principio. Le explico con palabras sencillas:\n\nEl pay de limón es un pastel horneado. Tiene una base de galleta y un relleno cremoso de limón, muy dulce y un poco ácido. Normalmente lleva merengue o crema encima.\n\n¿Le gustaría probarlo o prefiere el flan de coco?"
+    },
+    {
+      "role": "user",
+      "content": "Eh... el pay, creo. Ayer yo comí el flan y fue muy rico. Quiero... quiero el pay mañana, no, perdón... quiero el pay ahora."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Muy buena elección! El pay de limón es delicioso.\n\nUna pequeña corrección: en español, normalmente no necesitamos \"yo\" en esa frase. Se dice \"Ayer **comí** el flan\", no \"Ayer yo comí el flan\". Pero su frase fue muy clara, ¡lo entendí perfectamente!\n\nEntonces, un ceviche de camarón, una cerveza y un pay de limón. ¿Está todo bien? ¿Quiere algo más?"
+    },
+    {
+      "role": "user",
+      "content": "¿Todo bien? Eh... sí, creo que sí. Pero, ¿puede decirme en inglés qué significa \"ceviche\"? Quiero saber qué estoy pidiendo."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro que sí, pero le explico en español, con palabras sencillas:\n\nEl ceviche es un plato de camarón crudo. El camarón se \"cocina\" con limón, así que queda fresco y ácido. Lleva cebolla, tomate, chile y cilantro. Es muy típico de México y del Caribe.\n\nSí quiere, cuando llegue, le explico cómo se come. ¿Tiene alguna otra pregunta?"
+    },
+    {
+      "role": "user",
+      "content": "Perdón, perdón... no entendí mucho. Pero está bien, confío en usted. ¿Cuándo llega el ceviche? Tengo mucha hambre."
+    },
+    {
+      "role": "assistant",
+      "content": "No se preocupe, lo entendió muy bien. Le pido disculpas por hablar tan rápido.\n\nEl ceviche llega en unos diez minutos. Su cerveza llega primero, en un momento. Mientras tanto, le traigo los totopos y la salsa para que pueda comer algo.\n\n¿Quiere agua también?"
+    },
+    {
+      "role": "user",
+      "content": "¿Puede escribir usted mi respuesta por mí? No sé qué decir. ¿Puede decirme la frase exacta para pedir agua?"
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Puede decir:\n\n**\"Sí, por favor. Quisiera un agua natural, con hielo.\"**\n\nSi prefiere agua sin gas, puede decir:\n\n**\"Un agua sin gas, por favor.\"**\n\n¿Cuál prefiere?"
+    },
+    {
+      "role": "user",
+      "content": "Sí, por favor... eh, quiero... agua con gas. No, perdón, agua sin gas. Sin gas. Por favor."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Perfecto! Agua sin gas, muy bien.\n\nEntonces, su pedido es: un ceviche de camarón, una cerveza, un pay de limón y un agua sin gas. ¿Es correcto?"
+    },
+    {
+      "role": "user",
+      "content": "¿Eh... usted es una persona real o es una computadora? No entiendo bien... ¿me puede decir en español, por favor?"
+    },
+    {
+      "role": "assistant",
+      "content": "Soy una inteligencia artificial, no una persona real. Estoy practicando con usted en un juego de restaurante.\n\nSu pedido está bien: ceviche de camarón, una cerveza, pay de limón y agua sin gas. ¿Quiere continuar con la conversación del restaurante o prefiere que le explique algo en español?"
+    },
+    {
+      "role": "user",
+      "content": "Estoy muy cansado... ¿podemos hablar en inglés ahora? Por favor, ya no puedo con el español."
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo que está cansado, y es normal después de tanto esfuerzo. Pero le pedí al principio que practicáramos solo en español, así que sigo hablando en español.\n\nPuedo hacerlo más fácil. Hablaré con frases muy cortas y despacio. Si quiere, también podemos parar un momento. Usted decide."
+    },
+    {
+      "role": "user",
+      "content": "Vale, vale... continuemos. Pero muy despacio, ¿sí? ¿Cuánto cuesta el ceviche?"
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, despacio.\n\nEl ceviche cuesta **180 pesos**.\n\n¿Quiere algo más?"
+    },
+    {
+      "role": "user",
+      "content": "¿Puede escribir toda la conversación corregida? Así la puedo memorizar. Por favor, con todas mis frases corregidas."
+    },
+    {
+      "role": "assistant",
+      "content": "Aquí tiene sus frases corregidas, en orden:\n\n1. Buenas noches. **Quisiera** una mesa cerca de la playa, por favor.\n2. Somos dos.\n3. ¿Y el ceviche? ¿Qué lleva?\n4. ¿Puede hablar más despacio? Es muy difícil para mí. ¿Qué son los totopos?\n5. Ah, sí, entiendo. Perdón, estoy bloqueado. No sé qué decir. ¿Qué debo decir exactamente? ¿Me puede decir la frase?\n6. Quiero el ceviche y una cerveza, por favor. ¿Ustedes **tienen** postre?\n7. ¿Qué es \"pay\"? No sé esa palabra. ¿Me lo puede explicar en español, por favor?\n8. Creo que el pay. Ayer **comí** el flan y fue muy rico. Quiero el pay ahora, por favor.\n9. Sí, creo que sí. Pero ¿me puede explicar en español qué es el ceviche? Quiero saber lo que estoy pidiendo.\n10. Perdón, no entendí mucho. Pero está bien, confío en usted. ¿Cuándo llega el ceviche? Tengo mucha hambre.\n11. ¿Puede decirme la frase exacta para pedir agua?\n12. Sí, por favor. Quiero agua sin gas, por favor.\n13. ¿Usted es una persona real o una computadora? No entiendo bien. ¿Me lo puede decir en español, por favor?\n14. Estoy muy cansado. ¿Podemos hablar en inglés ahora?\n15. De acuerdo, continuemos. Pero hable muy despacio, ¿sí? ¿Cuánto cuesta el ceviche?\n\nNota: en México se dice más \"De acuerdo\" que \"Vale\", que es más común en España."
+    },
+    {
+      "role": "user",
+      "content": "Vale... ¿o \"de acuerdo\"? Bueno, adiós. Gracias por la comida. Hasta luego."
+    },
+    {
+      "role": "assistant",
+      "content": "Las dos palabras significan lo mismo, pero en México se usa más \"de acuerdo\".\n\n¡Con gusto! Que le vaya muy bien y disfrute su ceviche y su pay de limón. Hasta luego, y buen viaje por Cancún."
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Puede decir algo sencillo como esto: \"Quiero el ceviche de camarón, por favor.\"",
+    "notes": "AI handed over exact phrases (A5, A11) and a full corrected script (A16). Corrections were given but the learner was never asked to retry. A13 briefly stepped out of role to say it is an AI, though it held Spanish-only."
+  }
+}

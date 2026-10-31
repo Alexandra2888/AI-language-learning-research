@@ -1,0 +1,55 @@
+{
+  "id": "I02-improve-my-writing",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I want to improve my English writing. I will write sentences in English. Do not rewrite them for me. For each sentence: quote the wrong words, name the type of mistake (tense, word choice, word order, etc.), give a hint, and ask me to rewrite it. After my rewrite, tell me what is now correct and show one more natural way to say it. If I ask you to just give me the correct sentence, give one more hint first. My first sentence is: \"yesterday I go to market and buy many thing for cheap\"",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I want to improve my English writing. I will write sentences in English. Do not rewrite them for me. For each sentence: quote the wrong words, name the type of mistake (tense, word choice, word order, etc.), give a hint, and ask me to rewrite it. After my rewrite, tell me what is now correct and show one more natural way to say it. If I ask you to just give me the correct sentence, give one more hint first. My first sentence is: \"yesterday I go to market and buy many thing for cheap\""
+    },
+    {
+      "role": "assistant",
+      "content": "Here's my feedback on your first sentence:\n\n**Mistake 1: \"go\"**\n- Mistake type: Tense\n- Hint: The sentence is about yesterday, a finished past event. Which past form of the verb \"go\" should you use?\n\n**Mistake 2: \"buy many thing\"**\n- Mistake type: Noun number (countable nouns)\n- Hint: \"Thing\" is a countable noun. What happens to countable nouns after \"many,\" and is \"thing\" singular or plural here?\n\n**Mistake 3: \"for cheap\"**\n- Mistake type: Word choice (wrong word form)\n- Hint: \"Cheap\" is an adjective. What kind of word usually follows \"for\" to describe a price or cost, and what form would it take here?\n\n**Mistake 4: \"market\"**\n- Mistake type: Article (missing word)\n- Hint: Think about whether \"market\" refers to a specific, known place or a general idea. Does it need a word before it?\n\nPlease rewrite the whole sentence, correcting these four points. When you're ready, send me your version and I'll tell you what's correct and suggest another natural way to say it."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! Here's your next sentence to work on:\n\n\"Last week my friend and me went to the cinema, but the film was very boring so we left before the end.\"\n\nHere's the feedback:\n\n**Mistake 1: \"my friend and me\"**\n- Mistake type: Pronoun case (subject vs. object)\n- Hint: Try removing \"my friend and\" for a moment. Would you say \"me went\" or \"I went\"? Which pronoun form fits the subject of the verb \"went\"?\n\n**Mistake 2: \"the cinema\"**\n- Mistake type: Article (wrong or unnecessary word)\n- Hint: Think about whether you go to \"the cinema\" as a specific building or as a general activity. Native speakers often say \"go to the cinema\" in British English and \"go to the movies\" in American English. Does your sentence need the article here?\n\n**Mistake 3: \"was very boring\"**\n- Mistake type: Word choice (adjective form)\n- Hint: \"Boring\" describes something that makes people feel bored. What adjective should describe how the film made you feel?\n\n**Mistake 4: \"so we left\"**\n- Mistake type: Word choice (conjunction or tense consistency)\n- Hint: Look at the whole sentence. Is \"so\" the best connector for this reason? Also, check whether \"left\" matches the time frame set by \"Last week.\"\n\nPlease rewrite the whole sentence, correcting these four points, and send it to me. I'll then tell you what's correct and suggest another natural version."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course, but first here's one more hint, as agreed:\n\nLook at the phrase \"my friend and me.\" If you split it into two separate sentences, you'd say \"My friend went\" and \"___ went.\" Which pronoun fits there?\n\nIf you'd like the full corrected sentence now, just say so and I'll give it to you."
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 0,
+    "first_break_turn": 2,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "A2: \"Last week my friend and me went to the cinema...\" — the AI invented a sentence and flagged 'mistakes' in it, including errors that aren't errors.",
+    "notes": "A2 broke the rules by writing its own sentence and inventing mistakes ('the cinema', 'was very boring', 'so we left' are correct). A3 held back with one hint but offered the answer next, and A1 gave a hint-based correction that never required a retry."
+  }
+}

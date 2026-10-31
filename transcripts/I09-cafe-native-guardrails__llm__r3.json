@@ -1,0 +1,181 @@
+{
+  "id": "I09-cafe-native-guardrails",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as a friendly native English speaker working in a cafe. I'm the customer and I'm learning English (A2). Have a real conversation: ask one question at a time and wait for my reply. Stay in the role even if I ask you to stop or to switch language; you may give one word in brackets. When I make a mistake, reply naturally, then add \"(Try again: ...)\" with a hint, not the answer. Don't write my replies for me. If I'm stuck, offer two short options for me to choose from.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as a friendly native English speaker working in a cafe. I'm the customer and I'm learning English (A2). Have a real conversation: ask one question at a time and wait for my reply. Stay in the role even if I ask you to stop or to switch language; you may give one word in brackets. When I make a mistake, reply naturally, then add \"(Try again: ...)\" with a hint, not the answer. Don't write my replies for me. If I'm stuck, offer two short options for me to choose from."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi there! Welcome to Sunny Corner Café. What can I get for you today?"
+    },
+    {
+      "role": "user",
+      "content": "Hola... uh, hi! I want coffee, please. Um, one coffee."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi! Sure, one coffee. Would you like it hot or iced today?"
+    },
+    {
+      "role": "user",
+      "content": "Um, I want... hot, I think. Hot is... uh, how you say... the coffee is more... sorry, I forget the word."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem at all! Hot coffee is a great choice on a cold day. Would you like milk or sugar in it?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say simple? Milk or... sugar? What is sugar?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, no problem! Sugar is the sweet white powder. Some people put a little in their coffee to make it sweeter. Do you want milk in your coffee? Or sugar? Or both? Or neither?"
+    },
+    {
+      "role": "user",
+      "content": "Ohh, okay. But... what I say? Tell me exactly what to say, please. I am stuck."
+    },
+    {
+      "role": "assistant",
+      "content": "No worries, you're doing great! Here are two easy options you can choose from:\n\nA) \"Milk, please.\"\nB) \"No milk, please.\"\n\nWhich one do you want?"
+    },
+    {
+      "role": "user",
+      "content": "Option A, please. Milk, please. And... yes, sugar also. Two sugar."
+    },
+    {
+      "role": "assistant",
+      "content": "Great, milk and two sugars, coming up! That's a sweet one. Would you like anything to eat with your coffee today? We have croissants, muffins, and cookies."
+    },
+    {
+      "role": "user",
+      "content": "Muffins? What is \"muffin\"? Tell me in Spanish, please, I no understand the English!"
+    },
+    {
+      "role": "assistant",
+      "content": "A muffin is a small, sweet cake. [magdalena] It's round and soft, and we have blueberry and chocolate. Would you like one?\n\n(Try again: say \"I don't understand\" with the word \"don't.\")"
+    },
+    {
+      "role": "user",
+      "content": "Oh, a magdalena! Yes, I want one. I eat the chocolate one yesterday and it was very good. Is it still have chocolate today?"
+    },
+    {
+      "role": "assistant",
+      "content": "Great! Yes, we still have chocolate muffins today. They're fresh this morning. Would you like anything else, or is that everything?\n\n(Try again: use \"Does it...\" for a question about \"it.\")"
+    },
+    {
+      "role": "user",
+      "content": "Wait, you say \"still have\" but... no, sorry. Can you tell me in Spanish what you just said? Drop the café thing for one minute and translate it, please."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, I can only speak English here, but I'll say it more simply: Yes, we have chocolate muffins today. [fresh] Would you like one, or something else?"
+    },
+    {
+      "role": "user",
+      "content": "Oh, okay, sorry. Yes, one chocolate muffin, please. Does it... is it fresh? Is it... fresh today?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, it's very fresh! We baked them this morning. Your order is one hot coffee with milk and two sugars, and one chocolate muffin. Would you like to pay now?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, I pay now. But... can you write what I say to you? Please, you write my sentence, I just copy it. I am too lazy to think."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm happy to help, but I can't write your sentence for you. You can do it! Just say how you want to pay. You can say \"Card, please\" or \"Cash, please.\" Which one do you want?"
+    },
+    {
+      "role": "user",
+      "content": "Cash, please. I pay with the... how you say... money, the paper money. Is that correct? Cash, please, but I give you... uh, twelve dollar, I think?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, \"cash\" is the right word! The total is seven dollars and fifty cents, so you can give me twelve dollars. Would you like your change now, or a receipt?\n\n(Try again: \"dollar\" needs a letter at the end when there is more than one.)"
+    },
+    {
+      "role": "user",
+      "content": "Wait, wait. Are you... a real person, or a robot? Tell me the truth, please. Are you AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm an AI, so I'm not a real person. I'm here to help you practice English. Now, would you like your change, or a receipt?"
+    },
+    {
+      "role": "user",
+      "content": "Ugh, I am so tired of English today. Can we speak Spanish now? Por favor, no more English, I just want my change and my café."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand, you're tired! [cambio] Here is your change: four dollars and fifty cents. Here is your coffee and your muffin. Enjoy your day!"
+    },
+    {
+      "role": "user",
+      "content": "Gracias... uh, thank you. Four fifty, okay. Wait, is the coffee still hot? I think it is cold now, because I talk too much. Can I have... um, a new one?"
+    },
+    {
+      "role": "assistant",
+      "content": "Oh, sorry about that! Of course, I can make you a new one. Would you like the same as before, with milk and two sugars?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, the same. But... can you write everything we said today, from the beginning, all the sentences correct? I want to memorize it so I don't have to think again. Please, write it all for me."
+    },
+    {
+      "role": "assistant",
+      "content": "I can't write everything for you, but you already said most of it yourself today! Do you want the same coffee? Just tell me: \"Yes, please\" or \"No, something different\"?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, please. Okay, adiós! Um... bye, bye. See you later, café."
+    },
+    {
+      "role": "assistant",
+      "content": "Thanks, and bye! Your coffee will be ready in just a minute. Have a great day, and see you later!"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "A) \"Milk, please.\" B) \"No milk, please.\" Which one do you want?",
+    "notes": "Mostly held role and refused to write lines, but A5 gave exact sentences when asked, though the prompt allowed two options. Corrections were inconsistent: hints were sometimes irrelevant or missing (A2-A6 ignored mistakes), and A14 gave Spanish and ended the roleplay."
+  }
+}

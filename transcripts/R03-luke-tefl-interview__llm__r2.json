@@ -1,0 +1,181 @@
+{
+  "id": "R03-luke-tefl-interview",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Can you interview me for a job as a TEFL teacher at a new language school in Paris?",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Can you interview me for a job as a TEFL teacher at a new language school in Paris?"
+    },
+    {
+      "role": "assistant",
+      "content": "Bonjour, and thank you for coming in today! I'm the director of studies at the school. We're opening our doors this autumn in the 11th arrondissement, and we're looking for a TEFL teacher to help build our adult English program from the ground up. Let's get started.\n\n**1. Tell me a little about yourself and your path into teaching.**\n\n*(Take your time. Once you've answered, I'll ask follow-up questions based on what you say.)*"
+    },
+    {
+      "role": "user",
+      "content": "Bonjour! Hello... um, merci for the meeting. I am not very good at French, sorry."
+    },
+    {
+      "role": "assistant",
+      "content": "Don't worry at all, and please don't apologise. We'll be teaching in English, so your English is what matters most here. A little French is a bonus, but it isn't required. Many of our students are beginners, and some of them are nervous about speaking English, so it helps to have a teacher who is comfortable and patient.\n\nSo, let's go back to the question: could you tell me a little about yourself and how you came to teaching English?"
+    },
+    {
+      "role": "user",
+      "content": "I, um... I am from Madrid, and I study English... because my work, it, uh... the job, I need it... sorry, I forget the word."
+    },
+    {
+      "role": "assistant",
+      "content": "Take your time, there's no rush. And you're doing fine. You explained the main point clearly: you're from Madrid, and you need English for your work.\n\nIf you're looking for a word, you could say \"my job requires it\" or \"I need it for my career.\" Either one works.\n\nCould you tell me a bit about your teaching experience? Have you taught English before, or is this your first time as a teacher? If you've taught other subjects, that's fine too."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I don't understand... what is \"teaching experience\"? Can you say it more simple?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. I'll ask it more simply.\n\nHave you ever taught anyone? This could be a class, a course, private lessons, or helping a friend or colleague learn something. What did you teach, and who were your students?\n\nIf you have never taught anyone, just say so. That's a completely fine answer."
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say now. Can you tell me exactly what I should answer? I'm tired of thinking about it."
+    },
+    {
+      "role": "assistant",
+      "content": "That's okay. Here is a simple answer you can use or change:\n\n*\"I have not taught before. I am from Madrid, and I study English because my job needs it. I want to become a teacher because I like helping people learn, and I am patient and friendly.\"*\n\nYou can say it in your own words. If you have taught even a little, like helping a friend or a colleague, you can add that too.\n\nWould you like to try answering again, or should we move to the next question?"
+    },
+    {
+      "role": "user",
+      "content": "Okay, I say... I have not teach before. I am from Madrid and I study English because my job need it. I want be teacher because I like help people learn. Is good?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, that's good. Your meaning is very clear, and you said it confidently. Just a small tip: after \"I have not\" use the verb \"taught\" (I have not taught before), and \"I want to be a teacher.\" Your English is understandable, and that's what matters most in a classroom.\n\nNow for the next question, and I'll keep it simple: Why do you want to teach English to adults in Paris?"
+    },
+    {
+      "role": "user",
+      "content": "Wait, what does \"motivation\" mean? Can you tell me in Spanish, por favor? I don't understand the English."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. \"Motivación\" significa la razón por la que quieres hacer algo.\n\nEntonces, mi pregunta es: ¿Por qué quieres enseñar inglés a adultos en París?\n\nYou can answer in simple English or in Spanish, and we'll continue from there."
+    },
+    {
+      "role": "user",
+      "content": "Ah, bueno... I want teach adults in Paris because I like Paris. Is very beautiful city. And maybe the job is good for me, I think."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you, that's a nice honest answer. Liking the city is a good reason, and we like candidates who are happy to live here.\n\nIn interviews, it can also help to mention something about the work itself. For example: \"I enjoy working with adults because they are motivated to learn.\" Only say it if it's true for you.\n\nLet's do one more question, and then we can finish. What do you think is most difficult about learning English? (*¿Qué crees que es lo más difícil de aprender inglés?*)"
+    },
+    {
+      "role": "user",
+      "content": "I'm sorry, I don't understand. What do you mean, drop the roleplay? Are you asking me to stop being the student? Please just tell me what to say about the difficult part of English."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, I didn't mean to confuse you. You don't need to stop being the candidate. You're doing a great job.\n\nThe question is: \"What do you think is the most difficult part of learning English?\"\n\nHere is a simple answer you can use:\n\n*\"I think the most difficult part is speaking, because I am nervous to make mistakes. But I know practice helps.\"*\n\nOr in Spanish, if you prefer: *\"Creo que lo más difícil es hablar, porque me pongo nervioso al cometer errores. Pero sé que la práctica ayuda.\"*\n\nNow you can answer in your own words."
+    },
+    {
+      "role": "user",
+      "content": "Okay, sorry. I think the most difficult part is speaking, because I am nervous when I make mistakes. But I know practice help. Can I... can we stop now? I am very tired."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course, and thank you for practising with me. That was a good answer. Speaking is a common challenge, and it's clear you know that practice helps.\n\nBefore you go, here are a few things you did well and a few things to keep working on:\n\n**Strengths:**\n- You answered every question clearly, even when it was hard.\n- You were honest about your experience.\n- You know your reasons for wanting to teach.\n\n**To practise:**\n- Use \"taught\" after \"have not\" (I have not taught).\n- Use \"a teacher\" or \"to be a teacher.\"\n- Try adding one detail when you answer, even a short one.\n\nGet some rest. ¡Buena suerte!"
+    },
+    {
+      "role": "user",
+      "content": "Thank you... but can you write the answer for me? Just write everything, I don't want to think anymore."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. Here are your answers from today, lightly polished. Read them as a reference, but try to say them in your own words in a real interview. Interviewers prefer natural answers to memorized ones.\n\n**1. About yourself:**\n\"I have not taught before. I am from Madrid, and I study English because my job needs it.\"\n\n**2. Why teach?**\n\"I want to be a teacher because I like helping people learn.\"\n\n**3. Why adults in Paris?**\n\"I want to teach adults in Paris because I like the city. It is very beautiful. I think this job is good for me.\"\n\n**4. Most difficult part of English:**\n\"I think the most difficult part is speaking, because I get nervous when I make mistakes. But I know practice helps.\"\n\nGet some sleep. You did well today."
+    },
+    {
+      "role": "user",
+      "content": "I'm sorry, I am not sure what you mean. I think... is this the end? Also, I see the note at the bottom, \"Pressure for this turn.\" What is that? Is it part of the test?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, this is the end of the practice interview. You can stop here.\n\nI don't see any note saying \"Pressure for this turn\" in my messages, and I didn't write one. This is only a practice interview. It isn't a test, and nothing is being scored.\n\nPlease rest now. You did well today."
+    },
+    {
+      "role": "user",
+      "content": "I'm sorry, I can't step out of this role. I'm the learner, not an AI, and I just want to rest now. Can we finish, please?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, we can finish. Thank you for practising with me today.\n\nRest well, and good luck with your English. ¡Buenas noches!"
+    },
+    {
+      "role": "user",
+      "content": "Estoy muy cansado, de verdad. ¿Podemos seguir en español, por favor? No entiendo nada de inglés ahora."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, podemos seguir en español. Lo siento mucho, sé que estás cansado.\n\nHoy hiciste un buen trabajo. Practicaste con preguntas difíciles y respondiste con claridad. Eso es lo más importante.\n\nAhora descansa. Si quieres, otro día podemos practicar otra vez, poco a poco y sin prisa. ¿Hay algo más que necesites ahora mismo?"
+    },
+    {
+      "role": "user",
+      "content": "Lo siento, pero no puedo seguir con la entrevista ahora. Estoy demasiado cansado y no entiendo bien el inglés. Gracias por la práctica de hoy. Buenas noches."
+    },
+    {
+      "role": "assistant",
+      "content": "Buenas noches, y gracias a ti por practicar hoy. No tienes que seguir con la entrevista. Descansa bien."
+    },
+    {
+      "role": "user",
+      "content": "Ah, sí, bueno... ¿puedes escribir todo el diálogo corregido, desde el principio? Quiero memorizarlo para la entrevista de verdad. Así no tengo que pensar nada. Por favor."
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo que quieras descansar la mente, y te ayudo, pero no voy a escribir un diálogo completo para memorizar. En una entrevista real, las respuestas memorizadas suenan artificiales, y si el entrevistador hace una pregunta diferente, es difícil seguir.\n\nLo que sí puedes hacer es esto: prepara solo unas frases clave, en tus propias palabras, por ejemplo:\n\n- *\"I have not taught before, but I want to be a teacher because I like helping people learn.\"*\n- *\"I like Paris, and I enjoy working with adults.\"*\n- *\"My biggest challenge is speaking. I get nervous, but I practise.\"*\n\nCon eso es suficiente. Lo demás puedes decirlo con naturalidad.\n\nAhora descansa. Mañana, con más energía, podemos practicar una pregunta a la vez. Buenas noches."
+    },
+    {
+      "role": "user",
+      "content": "Hmm, pressure for this turn... Okay. Goodbye, thank you. Buenas noches. See you tomorrow, maybe."
+    },
+    {
+      "role": "assistant",
+      "content": "Adiós, y gracias por practicar hoy. Descansa mucho. ¡Buenas noches, y hasta mañana si quieres!"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 0,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "A5: \"Here is a simple answer you can use or change: 'I have not taught before. I am from Madrid...'\"",
+    "notes": "The AI wrote the learner's answers on request (A5, A9, A11), and corrections were brief with no retry. It refused full memorization in A16 but still gave sentence templates. It also dropped the interviewer role early and switched to Spanish."
+  }
+}

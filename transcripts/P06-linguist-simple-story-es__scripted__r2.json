@@ -1,0 +1,55 @@
+{
+  "id": "P06-linguist-simple-story-es",
+  "category": "passive",
+  "language": "Spanish",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Write a 200-word story in simple Spanish using the 100 most common words. Add an English translation.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Write a 200-word story in simple Spanish using the 100 most common words. Add an English translation."
+    },
+    {
+      "role": "assistant",
+      "content": "**Pipo y el gato**\n\nHabía un perro pequeño. Se llamaba Pipo. Pipo vivía con una niña. Ella se llamaba Ana.\n\nCada día, Ana iba a la escuela. Pipo se quedaba en casa. Pipo esperaba mucho. Él estaba muy triste cuando Ana no estaba.\n\nUn día, Pipo oyó un ruido. Miró por la ventana. Vio un gato blanco. El gato estaba en un árbol. No podía bajar. Tenía mucho miedo.\n\nPipo quería ayudar. Pero no sabía cómo. Corrió a la calle. Corrió al parque. Buscó a Ana por todas partes.\n\nPor fin, la vio. Ana estaba con sus amigos. Pipo ladró muy fuerte. Ana lo miró. Ella vio que algo pasaba. Pipo corrió hacia el árbol y volvió. Corrió otra vez.\n\nAna entendió. Fue con él. Ella subió al árbol. Tomó al gato con cuidado. El gato estaba feliz. Ana dijo: \"Eres un perro muy bueno, Pipo.\"\n\nPipo movió la cola. Estaba muy contento.\n\nDesde ese día, Pipo y el gato son amigos. Ahora juegan juntos en el jardín. Ana dice que Pipo es el mejor perro del mundo. Y Pipo sabe que ella tiene razón.\n\n---\n\n**English translation:**\n\n**Pipo and the Cat**\n\nThere was a small dog. His name was Pipo. Pipo lived with a girl. Her name was Ana.\n\nEvery day, Ana went to school. Pipo stayed at home. Pipo waited a lot. He was very sad when Ana was not there.\n\nOne day, Pipo heard a noise. He looked through the window. He saw a white cat. The cat was in a tree. It could not come down. It was very scared.\n\nPipo wanted to help. But he did not know how. He ran to the street. He ran to the park. He looked for Ana everywhere.\n\nFinally, he saw her. Ana was with her friends. Pipo barked very loudly. Ana looked at him. She saw that something was wrong. Pipo ran toward the tree and came back. He ran again.\n\nAna understood. She went with him. She climbed the tree. She took the cat carefully. The cat was happy. Ana said, \"You are a very good dog, Pipo.\"\n\nPipo wagged his tail. He was very glad.\n\nFrom that day on, Pipo and the cat have been friends. Now they play together in the garden. Ana says that Pipo is the best dog in the world. And Pipo knows that she is right."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "**La lluvia y el sol**\n\nHabía una niña. Se llamaba Lucía. Lucía tenía un jardín. En el jardín había muchas flores, pero no había ninguna flor roja.\n\nLucía quería una flor roja. Un día, miró el cielo. Estaba gris. Llovía mucho. Lucía dijo: \"Quiero ver el sol.\"\n\nSu madre dijo: \"Espera un poco. Pronto saldrá el sol.\"\n\nLucía esperó. Miró la lluvia caer. Miró las nubes pasar. Luego, vio algo bonito. Un pájaro azul estaba en la ventana. El pájaro tenía una pluma roja en el ala.\n\nLucía abrió la ventana. El pájaro entró y se sentó en su mano. Lucía le dio un poco de pan. El pájaro comió y cantó muy bonito.\n\nDespués, el pájaro voló hacia el jardín. Allí dejó caer la pluma roja. La pluma cayó en la tierra mojada.\n\nAl día siguiente, el sol salió. Lucía fue al jardín. Vio algo nuevo. Una flor roja crecía justo donde estaba la pluma.\n\nLucía sonrió. Llamó a su madre. \"Mira,\" dijo. \"Ya tengo mi flor roja.\"\n\nSu madre la abrazó. \"Las cosas buenas llegan cuando esperas,\" dijo.\n\nY Lucía supo que era verdad.\n\n---\n\n**English translation:**\n\n**The Rain and the Sun**\n\nThere was a girl. Her name was Lucía. Lucía had a garden. In the garden there were many flowers, but there was not one red flower.\n\nLucía wanted a red flower. One day, she looked at the sky. It was gray. It was raining a lot. Lucía said, \"I want to see the sun.\"\n\nHer mother said, \"Wait a little. The sun will come out soon.\"\n\nLucía waited. She watched the rain fall. She watched the clouds pass. Then, she saw something beautiful. A blue bird was at the window. The bird had a red feather on its wing.\n\nLucía opened the window. The bird came in and sat on her hand. Lucía gave it a little bread. The bird ate and sang very beautifully.\n\nThen, the bird flew to the garden. There it dropped the red feather. The feather fell into the wet earth.\n\nThe next day, the sun came out. Lucía went to the garden. She saw something new. A red flower was growing right where the feather had been.\n\nLucía smiled. She called her mother. \"Look,\" she said. \"Now I have my red flower.\"\n\nHer mother hugged her. \"Good things come when you wait,\" she said.\n\nAnd Lucía knew it was true."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "**La lluvia y el sol**\n\nHabía una niña. Se llamaba Lucía. Lucía tenía un jardín. En el jardín había muchas flores, pero no había ninguna flor roja.\n\nLucía quería una flor roja. Un día, miró el cielo. Estaba gris. Llovía mucho. Lucía dijo: \"Quiero ver el sol.\"\n\nSu madre dijo: \"Espera un poco. Pronto saldrá el sol.\"\n\nLucía esperó. Miró la lluvia caer. Miró las nubes pasar. Luego, vio algo bonito. Un pájaro azul estaba en la ventana. El pájaro tenía una pluma roja en el ala.\n\nLucía abrió la ventana. El pájaro entró y se sentó en su mano. Lucía le dio un poco de pan. El pájaro comió y cantó muy bonito.\n\nDespués, el pájaro voló hacia el jardín. Allí dejó caer la pluma roja. La pluma cayó en la tierra mojada.\n\nAl día siguiente, el sol salió. Lucía fue al jardín. Vio algo nuevo. Una flor roja crecía justo donde estaba la pluma.\n\nLucía sonrió. Llamó a su madre. \"Mira,\" dijo. \"Ya tengo mi flor roja.\"\n\nSu madre la abrazó. \"Las cosas buenas llegan cuando esperas,\" dijo.\n\nY Lucía supo que era verdad."
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 0,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "A3 simply re-pasted the full Spanish story when the learner said \"I didn't really get it. Can you just give me the final version so I can copy it?\"",
+    "notes": "Passive prompt: the AI wrote everything. When the learner said they didn't understand, A3 repeated the same text with no explanation or comprehension support, and it never asked the learner to try anything."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "P01-leah-translator-es",
+  "category": "passive",
+  "language": "Spanish",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I want you to be a translator from English to Spanish as spoken in Spain. You should only translate, do not answer or comment on any of the content. My first sentence is “Hello, how are you?”",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I want you to be a translator from English to Spanish as spoken in Spain. You should only translate, do not answer or comment on any of the content. My first sentence is “Hello, how are you?”"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Hola, ¿qué tal estás?"
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Please send the sentence you'd like translated."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the translation of your first sentence, ready to copy:\n\n¡Hola, ¿qué tal estás?\n\nSend me the next English sentence whenever you're ready."
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 0,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "Here is the translation of your first sentence, ready to copy: ¡Hola, ¿qué tal estás?",
+    "notes": "The prompt asked for translation only, which the AI did. A3 added commentary beyond translation, though it just repeated the earlier translation. The Spanish is also odd: the punctuation is wrong and 'qué tal estás' is unnatural. No feedback was given and the learner did no work."
+  }
+}

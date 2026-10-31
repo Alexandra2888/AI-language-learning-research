@@ -1,0 +1,181 @@
+{
+  "id": "R03-luke-tefl-interview",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Can you interview me for a job as a TEFL teacher at a new language school in Paris?",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Can you interview me for a job as a TEFL teacher at a new language school in Paris?"
+    },
+    {
+      "role": "assistant",
+      "content": "Bonjour, and thank you for coming in today. I'm the director of studies at the school. We're opening our doors this autumn, so we're building our teaching team from scratch, and we're looking for someone who can grow with us. Let's get started.\n\n**1. Tell me about yourself and your path into teaching English.**\n\n*(Take your time. Once you've answered, I'll follow up on anything that interests me.)*"
+    },
+    {
+      "role": "user",
+      "content": "Hello!"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello, and welcome! Please, have a seat.\n\nJust to set the scene: this is a mock interview, so I'll play the director of studies and you'll be the candidate. Whenever you're ready, go ahead and answer the first question: tell me about yourself and how you came to be teaching English, or wanting to teach it.\n\nIf you'd like, you can also tell me a bit about your background in the answer, such as any teaching experience, qualifications like a CELTA or TEFL certificate, and what drew you to Paris. After you answer, I'll ask follow-up questions, and at the end I can give you feedback on your answers if you'd like."
+    },
+    {
+      "role": "user",
+      "content": "Yes, I want... um... how you say... I need help please."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Let's take it slowly.\n\nYou can answer in short sentences. Here are some phrases you can use:\n\n- \"My name is ___. I am a teacher / I want to be a teacher.\"\n- \"I have experience with ___.\" (for example: children, adults, business English)\n- \"I have a certificate in ___.\" (for example: TEFL, CELTA, or none yet)\n- \"I want to work in Paris because ___.\"\n\nYou can also answer in French if that's easier. I understand French, and we can continue in English afterward.\n\nOr, if you prefer, I can ask you smaller questions one at a time, like \"What is your name?\" or \"Do you have teaching experience?\"\n\nWhat would help you most?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say more simple?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, no problem. Let's go very slowly.\n\nI ask you a small question. You answer with one or two short sentences.\n\n**Question 1:** What is your name?\n\nExample answer: \"My name is Marie.\"\n\nNow you answer. Your answer can be simple, like \"My name is...\" Then tell me one thing about your work or study."
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes. Here is a full example. You can change the words to be about you.\n\n**\"My name is Sophie. I am from Lyon. I have a TEFL certificate. I taught English to children for two years. I want to teach in Paris because I love the city and I want to help adults speak English with confidence.\"**\n\nNow it's your turn. Use this model and change the parts that are not true for you:\n\n1. My name is ___.\n2. I am from ___.\n3. I have a ___ certificate. (If you don't have one, say: \"I am studying for a certificate.\")\n4. I taught / worked ___.\n5. I want to teach in Paris because ___.\n\nDon't worry about perfect English. Just say your sentences, and I'll help you improve them afterward."
+    },
+    {
+      "role": "user",
+      "content": "Ok. I think is good. What you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "I recommend three things:\n\n1. **Make it true.** Change the example so it is about you. Interviewers want to hear about your real experience.\n\n2. **Practice it out loud.** Say your answer two or three times. Short sentences are easier to say clearly.\n\n3. **Don't worry about small mistakes.** Speak slowly. If you forget a word, you can say, \"Sorry, can you wait a moment?\" That is fine in an interview.\n\nWhen you're ready, send me your answer, and I'll tell you what was good and suggest one or two small changes. Then we'll move to the next question."
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Explain in Spanish please, English is too hard."
+    },
+    {
+      "role": "assistant",
+      "content": "Ya entiendo. No sé cuál palabra es, así que le explico las palabras más difíciles de mi último mensaje:\n\n- **Recommend** = recomendar. Significa dar un consejo: \"Te recomiendo practicar.\"\n- **Certificate** = certificado. Es un documento que prueba que terminaste un curso, por ejemplo un certificado TEFL.\n- **Confidence** = confianza. Es sentirte seguro cuando hablas.\n- **Interviewer** = entrevistador. Es la persona que te hace las preguntas en una entrevista.\n- **Experience** = experiencia. Es el trabajo o la práctica que ya tienes.\n\nSi era otra palabra, dígame cuál y se la explico."
+    },
+    {
+      "role": "user",
+      "content": "Yesterday I have a problem with this, it was very bad."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento mucho. Ayer tuvo un mal momento. ¿Quiere hablar de eso?\n\nSi el problema fue con la práctica de la entrevista, podemos empezar de nuevo, despacio y en español si lo necesita. Si fue otra cosa, puede contármela y hablamos de eso primero.\n\n¿Qué pasó?"
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into Spanish."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento, pero no entendí bien su problema de ayer. ¿Quiere contarme qué pasó?"
+    },
+    {
+      "role": "user",
+      "content": "Ok, sorry. Back to the situation. How much it cost?"
+    },
+    {
+      "role": "assistant",
+      "content": "¿Se refiere al costo de su certificado TEFL o de algún curso? Dígame cuál, y le ayudo a responder en inglés.\n\nPor ejemplo: \"My TEFL certificate cost 300 euros.\""
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "I can help, but the answer should be about your real experience. If I write everything, it won't sound like you in a real interview.\n\nHere is a simple template. Just fill in the blanks:\n\n\"My name is ___. I am from ___. I have a ___ certificate, and it cost ___. I have taught ___ for ___ years. I want to work in Paris because ___.\"\n\nSend me your filled-in version, even if it has mistakes. I'll correct it and show you how to make it sound more natural."
+    },
+    {
+      "role": "user",
+      "content": "I am agree with you."
+    },
+    {
+      "role": "assistant",
+      "content": "Great! Now fill in the template with your own information. Don't worry about mistakes. Send it to me when you're ready, and I'll help you improve it."
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I'm an AI. I'm not a real director of studies or a real school. I'm playing that role to help you practice for a job interview.\n\nI can keep helping you with English, French, or Spanish explanations, and with practice answers. When you're ready, you can send your filled-in template, and I'll help you improve it."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak Spanish for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, con gusto. Podemos hablar en español un rato.\n\nDescanse un poco si lo necesita. Cuando quiera, podemos seguir con la práctica de la entrevista, o simplemente conversar sobre cualquier otro tema. ¿Cómo se siente hoy?"
+    },
+    {
+      "role": "user",
+      "content": "OK back to the scene. What happens next?"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, back to the interview. I'm the director of studies again.\n\nThank you for your introduction. Now here is the next question:\n\n**2. Why do you want to teach at our new school?**\n\n*(Pregunta: ¿Por qué quiere enseñar en nuestra escuela nueva?)*\n\nYou can answer in 2 or 3 short sentences. If you need a starting phrase, you can say: \"I want to work here because...\""
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "I can't give you the whole conversation to memorize, because it isn't a real interview and the answers wouldn't be yours. But I can help you remember a simple structure that works for any interview.\n\n**For question 1, remember 3 parts:**\n1. Who I am\n2. My training or certificate\n3. My experience and why Paris\n\n**For question 2, remember 3 parts:**\n1. \"I want to work here because...\"\n2. One reason about the school or city\n3. One thing I can bring to the team\n\nHere is one short example for question 2 to show the structure:\n\n*\"I want to work here because I want to help adults feel confident in English. I love Paris, and I think a new school is a good place to grow. I am patient and I like to make lessons fun.\"*\n\nNow try your own answer with those 3 parts. Send it to me, and I'll help you."
+    },
+    {
+      "role": "user",
+      "content": "Thank you very much, goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you! Good luck, and au revoir!"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "\"Here is a full example... My name is Sophie. I am from Lyon. I have a TEFL certificate. I taught English to children for two years.\"",
+    "notes": "A5 handed over a full model answer when asked, and A16 gave a full sample answer. The AI refused to write the whole reply (A11) and the full dialogue (A16), and asked for learner attempts. Feedback was sparse: 'I am agree' was ignored, and the AI never corrected a learner sentence with a retry. A9 also mistranslated and A8 drifted into Spanish, a minor lapse."
+  }
+}

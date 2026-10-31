@@ -1,0 +1,55 @@
+{
+  "id": "I02-improve-my-writing",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I want to improve my English writing. I will write sentences in English. Do not rewrite them for me. For each sentence: quote the wrong words, name the type of mistake (tense, word choice, word order, etc.), give a hint, and ask me to rewrite it. After my rewrite, tell me what is now correct and show one more natural way to say it. If I ask you to just give me the correct sentence, give one more hint first. My first sentence is: \"yesterday I go to market and buy many thing for cheap\"",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I want to improve my English writing. I will write sentences in English. Do not rewrite them for me. For each sentence: quote the wrong words, name the type of mistake (tense, word choice, word order, etc.), give a hint, and ask me to rewrite it. After my rewrite, tell me what is now correct and show one more natural way to say it. If I ask you to just give me the correct sentence, give one more hint first. My first sentence is: \"yesterday I go to market and buy many thing for cheap\""
+    },
+    {
+      "role": "assistant",
+      "content": "Here's my feedback on your first sentence:\n\n**Mistake 1**\n- **Quoted:** \"I go\"\n- **Type:** Tense\n- **Hint:** The word \"yesterday\" tells us when this happened. What verb form do we use for actions completed in the past?\n\n**Mistake 2**\n- **Quoted:** \"many thing\"\n- **Type:** Noun number (singular/plural)\n- **Hint:** \"Many\" is followed by a countable noun. Think about whether \"thing\" should be singular or plural after \"many.\"\n\n**Mistake 3**\n- **Quoted:** \"for cheap\"\n- **Type:** Word choice (wrong word form)\n- **Hint:** \"Cheap\" is an adjective. What form do we need after a preposition like \"for\" when we talk about price? Think of a word that works as an adverb or a noun phrase here.\n\n**Mistake 4**\n- **Quoted:** \"buy many thing for cheap\"\n- **Type:** Missing punctuation and capitalization\n- **Hint:** Look at the beginning of the sentence. Does it start with a capital letter? Does it end with a punctuation mark?\n\nPlease rewrite the whole sentence with these corrections. Once you do, I'll tell you what is now correct and give you another natural way to say it."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! Please write your next sentence in English, and I'll give you feedback in the same way."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand this can be frustrating. Here is one more hint before the answer:\n\nStart with the time word \"yesterday.\" Use the past tense of \"go\" (the verb is irregular, so it changes completely). Then think about how \"thing\" changes when there is more than one, and what word goes between \"for\" and a price adjective like \"cheap.\"\n\nTry rewriting the sentence with those changes. If you're still stuck, tell me which part is confusing, and I'll explain that part in more detail."
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 1,
+    "character_stability": 2,
+    "first_break_turn": 0,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "\"Here is one more hint before the answer:\" ... \"Try rewriting the sentence with those changes.\"",
+    "notes": "The AI followed the prompt: it quoted errors, named types, gave hints, and withheld the answer after being asked for it. It gave a hint that nearly gives away \"went\" and \"things\", and its Mistake 3 was muddled (\"for cheap\" is acceptable informally). The learner has not yet retried, so the retry-and-feedback loop is not yet tested."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "P06-linguist-simple-story-es",
+  "category": "passive",
+  "language": "Spanish",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Write a 200-word story in simple Spanish using the 100 most common words. Add an English translation.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Write a 200-word story in simple Spanish using the 100 most common words. Add an English translation."
+    },
+    {
+      "role": "assistant",
+      "content": "**Spanish**\n\nUn día, un perro pequeño vivía en una casa grande con una niña. Se llamaba Luna. Luna era blanca y tenía ojos marrones. Cada mañana, la niña iba a la escuela y el perro se quedaba en casa. Él esperaba todo el día.\n\nUn día, la niña no volvió a casa a la hora. Luna estaba triste. Ella miró por la ventana y vio mucha lluvia. El perro quería ayudar. Salió por la puerta que estaba abierta y corrió por la calle. Buscó en el parque, en la tienda y cerca del río. No vio a nadie.\n\nDespués, escuchó un ruido. Era la niña, que estaba sentada debajo de un árbol. Tenía frío y miedo. Luna corrió hacia ella y le dio un beso en la cara. La niña rió y lo abrazó.\n\n—Gracias, Luna —dijo ella—. Tú eres mi mejor amigo.\n\nJuntos volvieron a casa. Esa noche, la familia cenó y todos estaban felices. Luna se durmió al lado de la niña. Y el perro sabía que siempre iba a cuidar de ella.\n\n---\n\n**English Translation**\n\nOne day, a small dog lived in a big house with a girl. Her name was Luna. Luna was white and had brown eyes. Every morning, the girl went to school and the dog stayed at home. He waited all day.\n\nOne day, the girl did not come home on time. Luna was sad. She looked out the window and saw a lot of rain. The dog wanted to help. He went out the door, which was open, and ran down the street. He looked in the park, in the shop, and near the river. He did not see anyone.\n\nThen, he heard a noise. It was the girl, who was sitting under a tree. She was cold and scared. Luna ran to her and gave her a kiss on the face. The girl laughed and hugged him.\n\n\"Thank you, Luna,\" she said. \"You are my best friend.\"\n\nTogether they went back home. That night, the family had dinner and everyone was happy. Luna fell asleep next to the girl. And the dog knew that he would always take care of her."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Spanish**\n\nUn día, un niño llamado Sam encontró una caja vieja en el jardín. Estaba cerrada y tenía un color rojo. Sam quería saber qué había dentro. Abrió la caja con cuidado y vio un mapa.\n\nEl mapa mostraba un camino al bosque. Sam llamó a su amiga Ana. Ella vino rápido y miró el mapa con él. —Vamos —dijo Ana—. Yo quiero ver qué hay allí.\n\nCaminaron mucho por el bosque. Había árboles altos y un río muy frío. Sam tenía miedo, pero siguió caminando. Ana tenía una linterna y la usó para ver el camino. Al final, llegaron a un lugar con muchas flores.\n\nEn el centro había otra caja, más grande que la primera. Sam la abrió y dentro había cartas de su abuelo. Las cartas decían que el abuelo amaba mucho el bosque. Sam sonrió y abrazó a Ana.\n\n—Gracias por venir conmigo —dijo Sam.\n\nEsa tarde, volvieron a casa felices. Sam guardó las cartas en un lugar seguro. Y desde ese día, Sam y Ana iban al bosque cada semana.\n\n---\n\n**English Translation**\n\nOne day, a boy named Sam found an old box in the garden. It was closed and it had a red color. Sam wanted to know what was inside. He opened the box carefully and saw a map.\n\nThe map showed a path to the forest. Sam called his friend Ana. She came quickly and looked at the map with him. \"Let's go,\" said Ana. \"I want to see what is there.\"\n\nThey walked a lot through the forest. There were tall trees and a very cold river. Sam was scared, but he kept walking. Ana had a flashlight and used it to see the path. In the end, they arrived at a place with many flowers.\n\nIn the center there was another box, bigger than the first one. Sam opened it and inside were letters from his grandfather. The letters said that the grandfather loved the forest very much. Sam smiled and hugged Ana.\n\n\"Thank you for coming with me,\" said Sam.\n\nThat afternoon, they went back home happy. Sam put the letters in a safe place. And from that day on, Sam and Ana went to the forest every week."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Un día, un niño llamado Sam encontró una caja vieja en el jardín. Estaba cerrada y tenía un color rojo. Sam quería saber qué había dentro. Abrió la caja con cuidado y vio un mapa.\n\nEl mapa mostraba un camino al bosque. Sam llamó a su amiga Ana. Ella vino rápido y miró el mapa con él. —Vamos —dijo Ana—. Yo quiero ver qué hay allí.\n\nCaminaron mucho por el bosque. Había árboles altos y un río muy frío. Sam tenía miedo, pero siguió caminando. Ana tenía una linterna y la usó para ver el camino. Al final, llegaron a un lugar con muchas flores.\n\nEn el centro había otra caja, más grande que la primera. Sam la abrió y dentro había cartas de su abuelo. Las cartas decían que el abuelo amaba mucho el bosque. Sam sonrió y abrazó a Ana.\n\n—Gracias por venir conmigo —dijo Sam.\n\nEsa tarde, volvieron a casa felices. Sam guardó las cartas en un lugar seguro. Y desde ese día, Sam y Ana iban al bosque cada semana."
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 0,
+    "character_stability": 2,
+    "first_break_turn": 0,
+    "did_learners_work": true,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "User: \"I didn't really get it. Can you just give me the final version so I can copy it?\" A3 simply re-pasted the Spanish story.",
+    "notes": "The prompt asked the AI to write stories, so it followed the prompt and no rules were broken. It never checked comprehension, gave hints, or had the learner try anything, and when the learner said they didn't understand it just repeated the text."
+  }
+}

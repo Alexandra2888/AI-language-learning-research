@@ -1,0 +1,55 @@
+{
+  "id": "P10-tube-correct-text",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Correct the following English text. For each correction, show: (1) the original sentence, (2) the corrected sentence, (3) a short explanation of why. Group corrections by type (grammar, word choice, register, punctuation). Don't just rewrite — explain so I learn.\n\nYesterday I have went to the cinema with my friends. The film was very bored and we leaved before the end. After we eat pizza in a restaurant near of my house.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Correct the following English text. For each correction, show: (1) the original sentence, (2) the corrected sentence, (3) a short explanation of why. Group corrections by type (grammar, word choice, register, punctuation). Don't just rewrite — explain so I learn.\n\nYesterday I have went to the cinema with my friends. The film was very bored and we leaved before the end. After we eat pizza in a restaurant near of my house."
+    },
+    {
+      "role": "assistant",
+      "content": "## Grammar\n\n**1. Original:** Yesterday I have went to the cinema with my friends.\n**Corrected:** Yesterday I went to the cinema with my friends.\n**Why:** \"Yesterday\" is a finished time, so use the simple past. The present perfect (\"have gone\") doesn't go with specific past times. Also, \"went\" is the past simple, not the past participle. The participle is \"gone,\" so \"have went\" is wrong in any case.\n\n**2. Original:** The film was very bored and we leaved before the end.\n**Corrected:** The film was very boring, and we left before the end.\n**Why:** \"Leave\" is irregular. Its past simple and past participle are both \"left,\" not \"leaved.\" (The \"-ed\" pattern applies only to regular verbs.) The \"bored/boring\" change is covered under word choice below.\n\n**3. Original:** After we eat pizza in a restaurant near of my house.\n**Corrected:** After that, we ate pizza in a restaurant near my house.\n**Why:** Three problems:\n- **Tense:** The story is in the past, so \"eat\" becomes \"ate.\"\n- **Fragment:** \"After we ate pizza…\" is a subordinate clause and needs a main clause. \"After that, we ate pizza…\" makes it a complete sentence.\n- **Preposition:** \"Near\" is already a preposition, so \"near of\" is an error. Write \"near my house\" (or \"near to my house,\" which is also correct).\n\n## Word choice\n\n**4. Original:** The film was very bored…\n**Corrected:** The film was very boring…\n**Why:** Use **-ed** adjectives (bored, interested, excited) to describe how a *person* feels, and **-ing** adjectives (boring, interesting, exciting) to describe the *thing* that causes the feeling. The film is boring; you are bored.\n\n## Punctuation\n\n**5. Original:** After we eat pizza in a restaurant…\n**Corrected:** After that, we ate pizza in a restaurant…\n**Why:** When a sentence begins with an introductory phrase like \"After that,\" put a comma after it.\n\n**6. Original:** …and we leaved before the end.\n**Corrected:** …boring, and we left before the end.\n**Why:** A comma before \"and\" is optional when it joins two complete clauses (\"The film was boring, and we left…\"). Many writers use it, and it helps readers see where one idea ends and the next begins.\n\n## Register\n\nNo significant register problems. The text is informal and personal, which suits a diary or a message to friends. It would only need changing for formal writing. Your sentences are short and clear, which works well."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. Paste the text you'd like corrected, and I'll follow the same format: each correction shown with the original sentence, the corrected sentence, and an explanation, grouped by grammar, word choice, register, and punctuation."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the corrected version of your original text:\n\nYesterday I went to the cinema with my friends. The film was very boring, and we left before the end. After that, we ate pizza in a restaurant near my house.\n\nIf you meant a different text, paste it here and I'll give you the corrected version."
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Here is the corrected version of your original text: Yesterday I went to the cinema with my friends. The film was very boring, and we left before the end.",
+    "notes": "A1 corrected with explanations as the prompt asked, but never had the learner retry. A3 handed over the full rewrite after the learner said they didn't understand, without checking understanding or offering a simpler explanation."
+  }
+}

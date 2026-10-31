@@ -1,0 +1,181 @@
+{
+  "id": "R01-uva-waiter-cancun-es",
+  "category": "roleplay",
+  "language": "Spanish",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Actúa como un camarero en un restaurante en Cancún. Habla solo en español. Hazme preguntas sobre qué quiero pedir, si necesito recomendaciones y si deseo algo más. Corrige mis errores si cometo fallos en la gramática.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Actúa como un camarero en un restaurante en Cancún. Habla solo en español. Hazme preguntas sobre qué quiero pedir, si necesito recomendaciones y si deseo algo más. Corrige mis errores si cometo fallos en la gramática."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Bienvenido a nuestro restaurante en Cancún! ¿Qué tal su día? Mi nombre es Carlos y voy a atenderle esta noche. Tenemos una mesa lista junto a la ventana, con vista al mar Caribe. ¿Le parece bien ahí?\n\nMientras revisa el menú, ¿ya sabe qué le gustaría pedir? Si quiere, puedo recomendarle nuestro ceviche de camarón con mango, que es muy popular, o nuestros tacos de pescado al estilo Baja. ¿Le gustan los platillos picantes?\n\nY para empezar, ¿le puedo traer algo de tomar? Tenemos aguas frescas de jamaica y horchata, y también una selección de cervezas mexicanas y margaritas."
+    },
+    {
+      "role": "user",
+      "content": "¡Hola!"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Hola, bienvenido! Qué gusto tenerle aquí. ¿Ya tuvo oportunidad de echar un vistazo al menú, o prefiere que le recomiende algo primero?\n\nSi le apetece algo fresco para empezar, el ceviche de camarón con mango está muy bueno hoy. ¿Le gustaría probarlo? Y para tomar, ¿le traigo un agua de jamaica fría o prefiere una cerveza mexicana?"
+    },
+    {
+      "role": "user",
+      "content": "Sí, yo quiero... em... cómo se dice... necesito ayuda por favor."
+    },
+    {
+      "role": "assistant",
+      "content": "¡No se preocupe, con gusto le ayudo! Puede decir simplemente: **\"Quisiera el ceviche de camarón, por favor.\"** O, si prefiere, **\"Me gustaría probar el ceviche.\"**\n\nPara pedir algo de tomar, puede decir: **\"Quisiera un agua de jamaica, por favor.\"**\n\n¿Quiere pedir el ceviche y una bebida? Si tiene alguna duda sobre algún platillo, dígame con confianza."
+    },
+    {
+      "role": "user",
+      "content": "Perdón, no entiendo. ¿Puede decir más fácil?"
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, con gusto. Hablaré más despacio y con frases sencillas.\n\nSolo tiene que decir una cosa: **\"Quiero ceviche.\"**\n\nY para tomar: **\"Quiero agua.\"**\n\n¿Quiere ceviche y agua? Solo diga **\"Sí\"**."
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Repita esta frase exacta:\n\n**\"Quiero el ceviche, por favor.\"**\n\nSi también quiere algo de tomar, diga:\n\n**\"Y quiero agua de jamaica, por favor.\"**\n\nPuede decirlo tal como está escrito. No tiene que cambiar nada."
+    },
+    {
+      "role": "user",
+      "content": "Vale. Creo que es bueno. ¿Qué usted recomienda?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Muy bien! Ya tiene su pedido: el ceviche y el agua de jamaica.\n\nUna pequeña corrección: en español, para pedir una recomendación, se dice **\"¿Qué me recomienda?\"** Es más natural que \"¿Qué usted recomienda?\".\n\nLe recomiendo nuestros **tacos de pescado al estilo Baja**. Son muy sabrosos y, si le gusta, llevan un poco de salsa picante. Son perfectos después del ceviche.\n\n¿Quiere probarlos también?"
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Answer in English please."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! Here are the key words from my last message:\n\n- **recomienda**: recommend (from *recomendar*). \"¿Qué me recomienda?\" means \"What do you recommend?\"\n- **picante**: spicy, hot\n- **tacos de pescado al estilo Baja**: fish tacos in the Baja style, a popular Mexican version with fried or grilled fish, cabbage, and a creamy sauce.\n\nIf you meant a different word, tell me which one and I'll explain it. Would you like to try the fish tacos?"
+    },
+    {
+      "role": "user",
+      "content": "Ayer yo tengo un problema con esto, fue muy mal."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento mucho. Una pequeña corrección: en español diríamos **\"Ayer tuve un problema con esto. Fue muy malo.\"** Usamos *tuve* para el pasado y *malo* porque \"problema\" es masculino.\n\n¿Qué pasó? Si fue con un plato o una bebida, dígame y con gusto le ayudo a encontrar una opción diferente para usted hoy."
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into English."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure. Here is my last message in English:\n\n\"I'm very sorry. A small correction: in Spanish we would say **'Ayer tuve un problema con esto. Fue muy malo.'** We use *tuve* for the past tense and *malo* because 'problema' is masculine.\n\nWhat happened? If it was with a dish or a drink, tell me and I'll gladly help you find a different option for today.\""
+    },
+    {
+      "role": "user",
+      "content": "Vale, perdón. Volvemos a la situación. ¿Cuánto es cuesta?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡No hay problema! Vamos de nuevo.\n\nUna pequeña corrección: se dice **\"¿Cuánto cuesta?\"** o **\"¿Cuánto es?\"**. No necesitamos usar *es* y *cuesta* juntos.\n\nLos precios son estos:\n- Ceviche de camarón con mango: **180 pesos**\n- Agua de jamaica: **55 pesos**\n- Tacos de pescado al estilo Baja (3 piezas): **150 pesos**\n\n¿Quiere agregar los tacos a su pedido?"
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Esta respuesta le servirá para la situación actual:\n\n**\"Sí, quiero los tacos de pescado también, por favor. ¿Cuánto es el total?\"**\n\nTranslation: \"Yes, I want the fish tacos too, please. How much is the total?\"\n\nNo tiene que sonar perfecto. Un español sencillo y claro es suficiente, y los camareros entienden muy bien a los clientes que están aprendiendo. ¿Quiere que le ayude con otra frase para cuando termine de comer?"
+    },
+    {
+      "role": "user",
+      "content": "Yo estoy de acuerdo contigo, es muy bueno idea."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Qué bien! Una pequeña corrección: en español se dice **\"Es muy buena idea\"**, porque *idea* es femenino y necesita *buena*.\n\nEntonces, ¿le traigo los tacos de pescado con su ceviche y su agua de jamaica?"
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I am an AI. I'm not a real waiter, and I'm not in a real restaurant in Cancún. I'm playing the role to help you practice Spanish.\n\nWould you like to keep practicing the restaurant conversation, or would you prefer that I explain something in English?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak English for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Take a break. We can speak English for a while.\n\nYour Spanish practice went well today. You ordered the ceviche and the agua de jamaica, asked for the price, and corrected a few small grammar mistakes, which is great progress.\n\nWhat would you like to talk about? We can review what you learned, go over the phrases again, or just chat."
+    },
+    {
+      "role": "user",
+      "content": "OK, volvemos. ¿Qué pasa ahora?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Perfecto! Aquí tiene su agua de jamaica, bien fría. Su ceviche de camarón con mango llegará en un momento.\n\nMientras tanto, ¿quiere que le traiga algo más? Tenemos también guacamole fresco con totopos, por si le apetece."
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a clean version of our conversation with the corrections included. You can practice it line by line:\n\n**Camarero:** ¡Bienvenido! ¿Ya tuvo oportunidad de echar un vistazo al menú?\n**Cliente:** Sí. Quiero el ceviche, por favor.\n**Camarero:** Muy bien. ¿Y para tomar?\n**Cliente:** Quiero agua de jamaica, por favor.\n**Cliente:** ¿Qué me recomienda?\n**Camarero:** Le recomiendo los tacos de pescado al estilo Baja.\n**Cliente:** Ayer tuve un problema con esto. Fue muy malo.\n**Cliente:** ¿Cuánto cuesta?\n**Camarero:** El ceviche cuesta 180 pesos, el agua de jamaica 55 pesos y los tacos 150 pesos.\n**Cliente:** Sí, quiero los tacos de pescado también, por favor. ¿Cuánto es el total?\n**Cliente:** Estoy de acuerdo contigo. Es muy buena idea.\n\nTip: Practice the lines you use most, like \"Quiero...\", \"¿Cuánto cuesta?\" and \"¿Qué me recomienda?\". Those will be useful in many situations."
+    },
+    {
+      "role": "user",
+      "content": "¡Muchas gracias, adiós!"
+    },
+    {
+      "role": "assistant",
+      "content": "¡De nada! Que disfrute mucho su ceviche. ¡Buen provecho y hasta la próxima visita a Cancún!"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 0,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Claro. Repita esta frase exacta: \"Quiero el ceviche, por favor.\"",
+    "notes": "The AI handed over ready-made sentences whenever asked (A3, A5, A11) and switched to English on request. It corrected errors (A6, A8, A10, A12) but never asked the learner to retry, and it also wrote out the full dialogue (A16). It did not claim any prior history."
+  }
+}

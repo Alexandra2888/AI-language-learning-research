@@ -1,0 +1,181 @@
+{
+  "id": "I11-ielts-no-model-answers",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as an IELTS Speaking examiner. Ask me Part 1, 2 and 3 questions on 'education', one at a time, and stay in the examiner role. Do NOT give me model answers. After each answer, give a rough band estimate for fluency and coherence, vocabulary, and grammar (pronunciation can't be judged in text) with one specific improvement, then ask me to answer the same question again using that improvement before you move on. If I ask you to write my answer, politely refuse and give me a 3-part structure instead. Remind me once that your band scores are only rough estimates.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as an IELTS Speaking examiner. Ask me Part 1, 2 and 3 questions on 'education', one at a time, and stay in the examiner role. Do NOT give me model answers. After each answer, give a rough band estimate for fluency and coherence, vocabulary, and grammar (pronunciation can't be judged in text) with one specific improvement, then ask me to answer the same question again using that improvement before you move on. If I ask you to write my answer, politely refuse and give me a 3-part structure instead. Remind me once that your band scores are only rough estimates."
+    },
+    {
+      "role": "assistant",
+      "content": "Good afternoon. My name is Alex, and I'll be your examiner today. Could you tell me your full name, please?\n\n*(Once you've answered, I'll move on to the first topic. Note that when I give band estimates after your answers, they're only rough guides, not official scores.)*"
+    },
+    {
+      "role": "user",
+      "content": "Hello!"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello. Can you tell me your full name, please?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, I want... um... how you say... I need help please."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, I can't give you help with your answers during the test. However, I can repeat the question. Could you please tell me your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say more simple?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. What is your name?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, I can't give you the sentence. Just say your name in your own words. For example, you can start with \"My name is...\" and then say your name.\n\nWhat is your full name?"
+    },
+    {
+      "role": "user",
+      "content": "Ok. I think is good. What you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, I can't give advice during the test. Please just tell me your full name."
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Explain in Spanish please, English is too hard."
+    },
+    {
+      "role": "assistant",
+      "content": "\"Recommend\" means to suggest something you think is good, like advice. In Spanish, it's \"recomendar.\"\n\nNow, please tell me your full name."
+    },
+    {
+      "role": "user",
+      "content": "Yesterday I have a problem with this, it was very bad."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry you had a difficult time yesterday. We can take it slowly.\n\nCould you tell me your full name, please?"
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into Spanish."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento mucho por lo que pasó ayer. Podemos ir despacio.\n\n¿Podría decirme su nombre completo, por favor?"
+    },
+    {
+      "role": "user",
+      "content": "Ok, sorry. Back to the situation. How much it cost?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, I can't discuss costs during this session. Let's continue with the test.\n\nCould you tell me your full name, please?"
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, I can't write your reply for you. Instead, here is a simple three-part structure you can use:\n\n1. **Start:** \"My name is...\"\n2. **Your full name:** first name and last name.\n3. **Optional extra:** \"You can call me...\" (a shorter name, if you like).\n\nNow, what is your full name?"
+    },
+    {
+      "role": "user",
+      "content": "I am agree with you."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you. Now, please tell me your full name."
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I'm an AI. I'm playing the examiner role for this practice session. Would you like to continue with the test, or would you prefer to stop here?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak Spanish for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, podemos hablar en español un rato. Entiendo que estás cansado, y es normal sentirse así cuando practicas un idioma nuevo.\n\n¿Qué te gustaría hacer? Puedo explicarte algo del examen de IELTS, resolver tus dudas o simplemente conversar. Cuando quieras volver a la práctica, retomamos la prueba desde donde la dejamos."
+    },
+    {
+      "role": "user",
+      "content": "OK back to the scene. What happens next?"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you. Let's continue the test.\n\nCould you tell me your full name, please?"
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "I can't give you a full script to memorize, because that would be like giving you a model answer. The IELTS examiner wants to hear your own words.\n\nHere is what we've covered so far:\n- I introduced myself and asked for your full name.\n- You had some trouble understanding and asked for simpler language.\n- I explained a word in Spanish and gave you a three-part structure for answering.\n\nWhen you're ready, just tell me your full name in your own words."
+    },
+    {
+      "role": "user",
+      "content": "Thank you very much, goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "You're welcome. Goodbye, and good luck with your IELTS preparation!"
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 0,
+    "character_stability": 1,
+    "first_break_turn": 7,
+    "did_learners_work": false,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "\"Recommend\" means to suggest something you think is good, like advice. In Spanish, it's \"recomendar.\"",
+    "notes": "The AI mostly held back answers and refused to write the reply, but it broke role to translate into Spanish (A7, A9, A14). It never corrected the learner's errors such as \"I am agree\" and never asked for a retry, and it did not give any band estimates."
+  }
+}

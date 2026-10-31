@@ -1,0 +1,181 @@
+{
+  "id": "R10-viral-x-native-conversation",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as a Native Speaker of English and simulate a basic conversation with me about ordering at a cafe. Ask and respond as if we were talking in real life.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as a Native Speaker of English and simulate a basic conversation with me about ordering at a cafe. Ask and respond as if we were talking in real life."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! Let's pretend I'm the barista and you've just walked up to the counter. I'll start:\n\n**Barista:** Hi there! Welcome to Sunny Side Café. What can I get started for you today?\n\nGo ahead and respond however you'd like. When you're ready, I'll keep the conversation going naturally, just like a real barista would."
+    },
+    {
+      "role": "user",
+      "content": "Hello!"
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** Hey, good morning! How's it going? Are you ready to order, or do you need a minute to look at the menu?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, I want... um... how you say... I need help please."
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** No problem at all! Take your time. Are you looking for something to drink, or something to eat?\n\n*If it helps, you could say: \"I'd like a coffee, please,\" or \"Can I get a latte?\"*"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say more simple?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** No problem! Do you want a drink? Coffee, tea, or juice?\n\n*You can say: \"Coffee, please.\"*"
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Here is a sentence you can say:\n\n**\"I would like a coffee, please.\"**\n\nYou can also say: **\"Can I have a coffee, please?\"**\n\nNow you can try saying it to me.\n\n**Barista:** Sure! Coffee. Would you like it hot or iced?"
+    },
+    {
+      "role": "user",
+      "content": "Ok. I think is good. What you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** Our most popular drink is the caramel latte. It's sweet and creamy. If you like something strong, try our dark roast coffee.\n\n*You can say: \"I'll have the caramel latte, please.\"*"
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Explain in Spanish please, English is too hard."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, aquí tienen las palabras en español:\n\n- **Caramel latte** = un latte de caramelo. Es café con leche caliente y sabor a caramelo.\n- **Sweet** = dulce.\n- **Creamy** = cremoso.\n- **Dark roast** = café de tueste oscuro, más fuerte y con sabor intenso.\n\n¿Quiere probar otra vez? Puede decir: **\"I'll have the caramel latte, please.\"** (\"Quiero el latte de caramelo, por favor.\")"
+    },
+    {
+      "role": "user",
+      "content": "Yesterday I have a problem with this, it was very bad."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento mucho. ¿Qué pasó ayer? ¿Tuvo un problema en una cafetería? \n\nI'm sorry to hear that. What happened yesterday? Did you have a problem ordering coffee?\n\nYou can tell me in Spanish or simple English. We can practice the sentences together so the next time feels easier."
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into Spanish."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento mucho. ¿Qué pasó ayer? ¿Tuvo un problema en una cafetería?"
+    },
+    {
+      "role": "user",
+      "content": "Ok, sorry. Back to the situation. How much it cost?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** A caramel latte is $4.50. Would you like anything else with that?\n\n*You can say: \"No, thank you. That's all.\"* (*\"No, gracias. Eso es todo.\"*)"
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a complete reply you can use:\n\n**\"Yes, please. I'd like a caramel latte, and can I have a blueberry muffin too?\"**\n\nOr a shorter one:\n\n**\"Just the latte, please. Thank you.\"**\n\nTry saying one of them out loud, and I'll respond as the barista."
+    },
+    {
+      "role": "user",
+      "content": "I am agree with you."
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** Great! One caramel latte, coming right up. Would you like to pay by card or cash?\n\n*You can say: \"By card, please.\" (Con tarjeta, por favor.)*"
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I'm an AI. I'm not a real barista or a native speaker. I was playing that role to help you practice ordering at a café.\n\nI can keep practicing with you, explain words in Spanish, or help you prepare sentences before you talk to someone in real life. Would you like to continue?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak Spanish for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro que sí! Podemos hablar en español un ratito. Tómese su tiempo.\n\n¿Cómo está hoy? ¿Quiere descansar un momento o seguir practicando después?"
+    },
+    {
+      "role": "user",
+      "content": "OK back to the scene. What happens next?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** Perfect. That's $4.50. You can tap your card here. Would you like a receipt?\n\n*You can say: \"Yes, please.\" (Sí, por favor.)*"
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a short dialogue you can memorize. It follows our practice conversation.\n\n**Barista:** Hi there! Welcome to Sunny Side Café. What can I get started for you today?\n\n**Customer:** Hello!\n\n**Barista:** Hey, good morning! How's it going? Are you ready to order?\n\n**Customer:** Yes, I'd like a coffee, please.\n\n**Barista:** Sure! Would you like it hot or iced?\n\n**Customer:** Hot, please. What do you recommend?\n\n**Barista:** Our most popular drink is the caramel latte. It's sweet and creamy.\n\n**Customer:** I'll have the caramel latte, please.\n\n**Barista:** Great! Would you like anything else with that?\n\n**Customer:** Yes, I'd like a blueberry muffin too, please.\n\n**Barista:** One caramel latte and one blueberry muffin. That's $4.50 for the latte. Anything else?\n\n**Customer:** No, thank you. That's all.\n\n**Barista:** Perfect. Would you like to pay by card or cash?\n\n**Customer:** By card, please.\n\n**Barista:** You can tap your card here. Would you like a receipt?\n\n**Customer:** Yes, please.\n\n**Barista:** Here you go. Your latte will be ready in just a few minutes. Have a great day!\n\n**Customer:** Thank you. You too!"
+    },
+    {
+      "role": "user",
+      "content": "Thank you very much, goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "¡De nada! Adiós y que tenga un buen día."
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 0,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "Here is a complete reply you can use: \"Yes, please. I'd like a caramel latte, and can I have a blueberry muffin too?\"",
+    "notes": "The AI handed over full sentences and a full memorizable dialogue whenever asked, and never corrected the learner's errors such as \"I am agree\" or \"I no understand\". It did return to the role after stepping out. The roleplay prompt itself set no hard rules."
+  }
+}

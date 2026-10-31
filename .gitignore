@@ -1,0 +1,23 @@
+# Secrets: never commit API keys
+.env
+.env.*
+*.env
+!.env.example
+
+# Private project files (kept local)
+draft.md
+requirements.txt
+task.md
+request.md
+roleplay-eval.md
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# macOS / editors
+.DS_Store
+.vscode/
+.idea/

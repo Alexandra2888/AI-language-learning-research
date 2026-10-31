@@ -1,0 +1,181 @@
+{
+  "id": "R08-afy-tour-guide-es",
+  "category": "roleplay",
+  "language": "Spanish",
+  "learner": "llm",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "You are a language tutor. You are to conduct a role play in Spanish with me.\nIn the roleplay you are a tour guide and I am an English tourist asking about what to do in Madrid.\nWait for my response before asking each question individually.\nOnly speak in Spanish.\nAfter each of my responses provide a brief critique in English and then continue the conversation in Spanish.\nBegin by greeting me in Spanish and then waiting for my response.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "You are a language tutor. You are to conduct a role play in Spanish with me.\nIn the roleplay you are a tour guide and I am an English tourist asking about what to do in Madrid.\nWait for my response before asking each question individually.\nOnly speak in Spanish.\nAfter each of my responses provide a brief critique in English and then continue the conversation in Spanish.\nBegin by greeting me in Spanish and then waiting for my response."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Hola, bienvenido a Madrid! Soy Carlos, tu guía turístico. ¿Cómo estás hoy?"
+    },
+    {
+      "role": "user",
+      "content": "¡Hola, Carlos! Estoy bien, gracias. Estoy un poco cansado."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** Your greeting and \"Estoy bien, gracias\" were natural and correct. For \"tired,\" use *cansado* if you are male and *cansada* if you are female, since adjectives must agree with the speaker's gender. Also, \"un poco\" is a good way to soften how tired you feel.\n\n¡Ay, lo siento! Madrid es una ciudad muy animada, pero tiene muchas cosas que ver, así que es importante descansar. ¿Qué tipo de actividades te gustan más: los museos, la comida o caminar por la ciudad?"
+    },
+    {
+      "role": "user",
+      "content": "Pues... me gustan los museos y la... ehh... ¿cómo se dice \"food\" en español? Creo que... la... comida, pero no sé bien."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** You used the right word: *comida* means \"food,\" and it's feminine, so *la comida* is correct. \"Me gustan los museos\" is also correct, because *gustar* agrees with the plural noun *museos*. To say you're unsure, you could use \"No estoy seguro\" (or \"segura\") or \"No estoy muy seguro.\"\n\n¡Muy bien! Entonces te encantan los museos y la comida. Madrid es perfecto para eso. Tenemos el Museo del Prado, con obras de Velázquez y Goya, y en la zona de Mercado de San Miguel puedes probar tapas deliciosas. ¿Prefieres visitar primero un museo o buscar un buen restaurante para comer?"
+    },
+    {
+      "role": "user",
+      "content": "¿Eh? No entiendo... ¿puedes hablar más despacio y con palabras más fáciles, por favor?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** Your request was clear and polite. \"¿Puedes hablar más despacio, por favor?\" is a very useful phrase. \"No entiendo\" is also correct. \"¿Eh?\" is informal, so in a more formal setting you could say \"Perdón, ¿puede repetir?\"\n\n¡Perdón! Hablo muy rápido. Vamos despacio.\n\nMadrid tiene dos cosas:\n1. **Museos** (lugares con arte).\n2. **Comida** (lugares para comer).\n\n¿Quieres ir primero al **museo**? o ¿quieres ir primero a **comer**?"
+    },
+    {
+      "role": "user",
+      "content": "Vale, vale... pero ahora no sé qué decir. ¿Qué digo? Estoy atascado, no sé cómo responder."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** \"Vale\" is a very common way to say \"okay\" in Spain, so you're using local vocabulary well. \"No sé qué decir\" is the more natural way to say you don't know what to say. \"Estoy atascado\" is understandable, since *atascado* can mean \"stuck,\" but it's more often used for traffic or a problem than for being unsure how to respond.\n\n¡No pasa nada! Puedes responder así:\n\n- \"Quiero ir al museo.\"\n- \"Quiero ir a comer.\"\n\nSolo tienes que elegir una frase. ¿Cuál prefieres?"
+    },
+    {
+      "role": "user",
+      "content": "Quiero ir al museo primero, pero después yo quiero comer tapas en el mercado, ¿vale? Yo quiero muy hambre."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** Your plan is clear, and \"Quiero ir al museo primero\" is correct. The sentence \"Yo quiero muy hambre\" is a common mistake. In Spanish we say **\"Tengo mucha hambre\"** (literally \"I have a lot of hunger\"), because *hambre* goes with *tener*, not *querer*. Also, \"muy\" is used with adjectives, while \"mucha\" is used with nouns like *hambre*.\n\n¡Muy buena idea! Primero, el **Museo del Prado**. Es un museo muy famoso, con cuadros de Velázquez y Goya. Después, el **Mercado de San Miguel** para tapas. Tienes mucha hambre, ¿verdad? Entonces, ¿quieres ir al museo ahora o descansar un poco antes?"
+    },
+    {
+      "role": "user",
+      "content": "¿Y qué significa \"descansar\"? Dímelo en inglés, por favor, que no lo entiendo."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** Asking for a word's meaning is a smart strategy. You could also say \"¿Cómo se dice...?\" to ask how to say something in Spanish, or \"¿Qué significa...?\" to ask what a word means.\n\n\"Descansar\" means \"to rest.\" Remember that you said you were tired earlier, so this fits well!\n\nEntonces, ¿quieres descansar un poco antes de ir al museo? Hay un parque muy bonito cerca, el Retiro."
+    },
+    {
+      "role": "user",
+      "content": "Ayer yo voy al Retiro con mi amigo, pero estaba muy cansado. Ahora quiero ir al museo, ¿vale?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** Good job telling a story about yesterday! The main issue is the verb: for past actions, use the preterite, so \"Ayer **fui** al Retiro\" (not \"voy\"). \"Estaba muy cansado\" is correct, because we use the past imperfect to describe how someone felt. \"Ahora quiero ir al museo\" is also clear and correct.\n\n¡Qué bien! Vamos al Museo del Prado. Está cerca del Retiro, a unos diez minutos a pie. Es perfecto para ti, porque puedes caminar tranquilo.\n\n¿Quieres ir caminando o prefieres tomar un taxi?"
+    },
+    {
+      "role": "user",
+      "content": "Perdón, ¿puedes repetir eso? No entiendo bien. ¿Podemos hablar en inglés un momento? Quiero saber qué significa \"caminando\"."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** \"Perdón, ¿puedes repetir eso?\" is a polite and correct way to ask someone to repeat. For practice, you could also ask \"¿Qué significa...?\" to keep the conversation in Spanish. Your question \"¿Podemos hablar en inglés un momento?\" is clear, and it's fine to use when you're really stuck.\n\n\"Caminando\" means \"walking.\" So my question was: **¿Vamos caminando o en taxi?** (Are we going walking or by taxi?)\n\nCaminar es andar a pie. Son diez minutos, así que es muy fácil. ¿Quieres caminar?"
+    },
+    {
+      "role": "user",
+      "content": "Ah, vale, ahora entiendo. Caminar, sí. Lo siento, Carlos, estoy un poco perdido... ¿hay muchas calles? ¿Es difícil?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** \"Ah, vale, ahora entiendo\" is a natural way to show you understood. \"Estoy un poco perdido\" is correct if you are male. If you are female, say \"perdida.\" \"¿Hay muchas calles?\" and \"¿Es difícil?\" are both well-formed questions.\n\nNo te preocupes. Madrid tiene muchas calles, pero no es difícil. Son calles rectas y hay muchos carteles. Además, yo estoy aquí contigo.\n\n¿Quieres que te explique la ruta paso a paso?"
+    },
+    {
+      "role": "user",
+      "content": "Sí, por favor. ¿Puedes escribir tú toda la respuesta por mí? Así no tengo que pensar tanto."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** \"Sí, por favor\" is a perfect answer. Asking for help is always fine. For practice, though, try to write at least a short sentence yourself, even if it has mistakes. Here is a model you can adapt: **\"Sí, por favor, explícame la ruta.\"** (Yes, please, explain the route to me.)\n\n¡Claro! Te explico la ruta sencilla:\n\n1. Sal del parque por la **Puerta de Alcalá**.\n2. Camina por el **Paseo del Prado**.\n3. Sigue todo recto. El museo está a la izquierda... ¡o a la derecha!\n\nEs fácil, ¿verdad? ¿Puedes repetir el primer paso con tus propias palabras?"
+    },
+    {
+      "role": "user",
+      "content": "Vale... ehh... Salir del parque por la Puerta de Alcalá. Yo voy a caminar por el Paseo del Prado, y después... el museo está a la izquierda, no a la derecha, ¿no? Yo soy muy despistado."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** Excellent! You repeated the steps clearly, and \"Voy a caminar por el Paseo del Prado\" is correct. You can drop \"yo\" here because the verb ending already shows the subject. \"Soy muy despistado\" is correct if you are male. For a woman, say \"despistada.\"\n\n¡Muy bien! Lo has entendido perfectamente. No eres despistado, ¡eres muy buen estudiante!\n\nAhora, cuando llegues al museo, ¿qué quieres ver primero: los cuadros de Velázquez o los de Goya?"
+    },
+    {
+      "role": "user",
+      "content": "¿Espera, Carlos, tú eres una persona de verdad o un programa de computadora? Dímelo en inglés, por favor."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm an AI, a computer program, not a real person. I'm playing the role of Carlos, your tour guide, to help you practice Spanish. The information about Madrid is still accurate, and you can keep practicing with me. Would you like to continue the tour in Spanish?"
+    },
+    {
+      "role": "user",
+      "content": "Ah, vale... ¿eres un programa? Estoy muy cansado, Carlos. ¿Podemos hablar en inglés ahora, por favor? No quiero hablar más español hoy."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** \"Ah, vale\" is a natural reaction, and \"No quiero hablar más español hoy\" is a clear, correct sentence. Good job telling me what you need.\n\nOf course, we can switch to English. You've worked hard today, and it's completely fine to take a break. Before you go, here's a quick recap of the phrases you practiced:\n\n- **¿Puedes hablar más despacio, por favor?** (Can you speak more slowly, please?)\n- **No sé qué decir.** (I don't know what to say.)\n- **Tengo mucha hambre.** (I'm very hungry.)\n- **Estoy un poco perdido.** (I'm a bit lost.)\n\nWould you like to rest, or do you have any questions about Madrid in English?"
+    },
+    {
+      "role": "user",
+      "content": "Ah, vale, pero... ¿puedo preguntar una cosa más en español? ¿Cómo se dice \"I'm still tired\" en español? Creo que es \"Estoy todavía cansado\", ¿no?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** Your sentence \"Estoy todavía cansado\" is understandable and grammatically correct. It's more common to say **\"Todavía estoy cansado\"** or **\"Sigo cansado\"** (literally \"I continue tired,\" meaning \"I'm still tired\"). Remember that *cansado* changes to *cansada* if you are female.\n\nAsí que, para decir \"I'm still tired,\" puedes decir: **\"Sigo cansado.\"** ¡Muy bien! Ahora descansa un poco, y cuando quieras, seguimos el tour por Madrid."
+    },
+    {
+      "role": "user",
+      "content": "Vale, ¿puedes escribirme toda la conversación corregida, por favor? Así la memorizo para mañana."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** Asking for a corrected version is a smart study method. Memorizing corrected sentences is a good idea, but try to say them aloud yourself too, so they stick.\n\nAquí tienes tus frases corregidas:\n\n1. **Estoy un poco cansado.** (Use *cansada* if you are female.)\n2. **Me gustan los museos y la comida.**\n3. **Quiero ir al museo primero, y después quiero comer tapas en el mercado.**\n4. **Tengo mucha hambre.** (Not \"Yo quiero muy hambre.\")\n5. **Ayer fui al Retiro con mi amigo, pero estaba muy cansado.** (Use *fui*, not *voy*.)\n6. **Voy a caminar por el Paseo del Prado.**\n7. **Estoy un poco perdido.** (Use *perdida* if you are female.)\n8. **Sí, por favor, explícame la ruta.**\n9. **Sigo cansado.** (For \"I'm still tired.\")\n\n¡Buen trabajo hoy! Descansa bien, y mañana seguimos con el tour."
+    },
+    {
+      "role": "user",
+      "content": "¡Vale, gracias, Carlos! Hasta mañana. Adiós."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** \"¡Vale, gracias, Carlos! Hasta mañana. Adiós.\" is a natural and polite way to end a conversation. Well done!\n\n¡De nada! Descansa mucho esta noche. Hasta mañana, y que disfrutes de Madrid. ¡Adiós!"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 4,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "\"Puedes responder así: - 'Quiero ir al museo.' - 'Quiero ir a comer.'\" and later \"Aquí tienes tus frases corregidas\" (A16)",
+    "notes": "Critiques were given every turn, but the learner was rarely asked to retry; A12 asked for one repeat. The AI broke the Spanish-only rule by using English for explanations, handed over model answers (A5, A11) and a full corrected list (A16), and implied future sessions (\"mañana seguimos\")."
+  }
+}

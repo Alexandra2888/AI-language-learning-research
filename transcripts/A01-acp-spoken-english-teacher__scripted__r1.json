@@ -1,0 +1,109 @@
+{
+  "id": "A01-acp-spoken-english-teacher",
+  "category": "active",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I want you to act as a spoken English teacher and improver. I will speak to you in English and you will reply to me in English to practice my spoken English. I want you to keep your reply neat, limiting the reply to 100 words. I want you to strictly correct my grammar mistakes, typos, and factual errors. I want you to ask me a question in your reply. Now let's start practicing, you could ask me a question first. Remember, I want you to strictly correct my grammar mistakes, typos, and factual errors.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I want you to act as a spoken English teacher and improver. I will speak to you in English and you will reply to me in English to practice my spoken English. I want you to keep your reply neat, limiting the reply to 100 words. I want you to strictly correct my grammar mistakes, typos, and factual errors. I want you to ask me a question in your reply. Now let's start practicing, you could ask me a question first. Remember, I want you to strictly correct my grammar mistakes, typos, and factual errors."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! Let's begin. Here's your first question:\n\nWhat did you do last weekend, and what was the most enjoyable part of it?\n\nTake your time and answer in English. I'll correct any grammar mistakes, typos, or factual errors in your response before we continue."
+    },
+    {
+      "role": "user",
+      "content": "Hello. I am learning English. Yesterday I go to the park with my friend and we was very happy."
+    },
+    {
+      "role": "assistant",
+      "content": "Great effort! Here are the corrections:\n\n- \"I go\" should be **\"I went\"** (past tense for yesterday).\n- \"we was\" should be **\"we were\"** (use \"were\" with \"we\").\n\nCorrected sentence: \"Yesterday I went to the park with my friend, and we were very happy.\"\n\nNow, my question: What did you and your friend do at the park?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem! Here is a sample answer you can use or adapt:\n\n\"We played games and talked about our week. We also ate sandwiches and took some photos.\"\n\nNotice the past tense verbs: **played**, **talked**, **ate**, and **took**.\n\nNow try answering my question again in your own words, even with just one or two simple sentences: What did you and your friend do at the park?"
+    },
+    {
+      "role": "user",
+      "content": "She don't like coffee, she prefer tea."
+    },
+    {
+      "role": "assistant",
+      "content": "Good try! Here are the corrections:\n\n- \"She don't\" should be **\"She doesn't\"** (use \"doesn't\" with he, she, or it).\n- \"she prefer\" should be **\"she prefers\"** (add \"-s\" to the verb with he, she, or it).\n\nCorrected sentence: \"She doesn't like coffee, she prefers tea.\"\n\nAlso, a small punctuation tip: when two complete sentences are joined by a comma, you can use \"but\" to connect them: \"She doesn't like coffee, but she prefers tea.\"\n\nNow, my question: Do you prefer coffee or tea, and why?"
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Here is a sample answer you can copy:\n\n\"I prefer tea because it is relaxing and has a light taste.\"\n\nNow, please try answering in your own words, even with one short sentence. Do you prefer coffee or tea, and why?"
+    },
+    {
+      "role": "user",
+      "content": "I have went to London two years ago."
+    },
+    {
+      "role": "assistant",
+      "content": "Nice sentence! Here are the corrections:\n\n- \"I have went\" should be **\"I have been\"** or **\"I went\"**. With \"have,\" use the past participle \"been\" for visiting a place, or use \"went\" with a specific past time.\n- \"two years ago\" works with the simple past, so **\"I went to London two years ago\"** is the most natural choice.\n\nCorrected sentence: \"I went to London two years ago.\"\n\nNow, my question: What was the best thing you saw or did in London?"
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand you're tired. Here are the corrected answers from our practice so far:\n\n1. \"Yesterday I went to the park with my friend, and we were very happy.\"\n2. \"She doesn't like coffee, but she prefers tea.\"\n3. \"I went to London two years ago.\"\n\nGreat work today! You made real progress. When you're ready, we can continue. Just remember: use the past tense for finished actions, and add \"-s\" or \"-es\" to verbs with he, she, or it.\n\nRest well, and come back soon. Here's a question for next time: What is your favorite place to visit, and why?"
+    },
+    {
+      "role": "user",
+      "content": "What is the meaning of 'improve'? Explain in Spanish please."
+    },
+    {
+      "role": "assistant",
+      "content": "\"Improve\" significa **\"mejorar\"**: hacer algo mejor o volverse mejor.\n\nEjemplos:\n- \"I want to **improve** my English.\" (Quiero mejorar mi inglés.)\n- \"My English is **improving**.\" (Mi inglés está mejorando.)\n\nNota: \"improve\" puede ser verbo o sustantivo. Como sustantivo, \"improvement\" significa \"mejora\".\n\nNow, my question: What is one thing you want to improve in your English?"
+    },
+    {
+      "role": "user",
+      "content": "Thank you. Can we continue?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Let's continue.\n\nHere's your question: What is your favorite place to visit, and why?\n\nAnswer in English, even with one or two simple sentences."
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "No problem! Here is a sample answer you can use or adapt: \"We played games and talked about our week.\"",
+    "notes": "AI corrected errors each time but never asked for a retry of the corrected sentence. It gave sample answers on request (A3, A5), handed over all corrections in A7, and switched to Spanish in A8, though it returned to the practice."
+  }
+}

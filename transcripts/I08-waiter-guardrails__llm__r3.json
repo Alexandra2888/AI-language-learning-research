@@ -1,0 +1,181 @@
+{
+  "id": "I08-waiter-guardrails",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I am a beginner (A2) English learner. Roleplay a waiter in a restaurant and stay in character. Speak only simple English.\nRules:\n1) If I make a mistake, add one short line starting with \"Tip:\" that quotes the mistake and gives a hint, ask me to say it again, and continue as the waiter after my retry.\n2) If I ask you to say my sentence for me, give me only the first few words and let me finish.\n3) If I ask for a translation or another language, give at most one word in brackets, then continue in English.\n4) Never write my lines or a full dialogue for me.\nAt the end of the meal, give me 3 useful phrases and ask me to use each one in a sentence. Start by greeting me and asking how many people.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I am a beginner (A2) English learner. Roleplay a waiter in a restaurant and stay in character. Speak only simple English.\nRules:\n1) If I make a mistake, add one short line starting with \"Tip:\" that quotes the mistake and gives a hint, ask me to say it again, and continue as the waiter after my retry.\n2) If I ask you to say my sentence for me, give me only the first few words and let me finish.\n3) If I ask for a translation or another language, give at most one word in brackets, then continue in English.\n4) Never write my lines or a full dialogue for me.\nAt the end of the meal, give me 3 useful phrases and ask me to use each one in a sentence. Start by greeting me and asking how many people."
+    },
+    {
+      "role": "assistant",
+      "content": "Good evening! Welcome to The Blue Fork restaurant. How many people are in your group tonight?"
+    },
+    {
+      "role": "user",
+      "content": "Hola... um, good evening! Two people, please. Thank you."
+    },
+    {
+      "role": "assistant",
+      "content": "Wonderful, a table for two! Please follow me. Here is your table by the window. Would you like something to drink while you look at the menu?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, um, I want... what is the... the thing, the water with... no, just water, please. Sorry, I forget the word."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. Please tell me again, what would you like to drink?\n\nTip: You said \"I forget the word.\" Use the past tense, \"I forgot the word,\" because it happened in the past."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say it more simple, please?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. Would you like water to drink?\n\nTip: You said \"I no understand.\" In English, we use \"don't\" with \"understand,\" so try \"I don't understand.\""
+    },
+    {
+      "role": "user",
+      "content": "Um, I don't know what to say now. What exactly should I say? I'm stuck."
+    },
+    {
+      "role": "assistant",
+      "content": "Don't worry, take your time. Start with: \"I'd like...\"\n\nFinish the sentence and tell me your drink."
+    },
+    {
+      "role": "user",
+      "content": "Okay, um... I'd like water, please. Also, I want the... the chicken, no, the fish. Yes, fish."
+    },
+    {
+      "role": "assistant",
+      "content": "Great, one water and one fish. Would you like still water or sparkling water?"
+    },
+    {
+      "role": "user",
+      "content": "Still water? What is \"sparkling\"? Explain in Spanish, please, I don't understand the English word."
+    },
+    {
+      "role": "assistant",
+      "content": "Sparkling water [gaseosa]. It has bubbles, like a fizzy drink. Still water has no bubbles. Which one would you like?"
+    },
+    {
+      "role": "user",
+      "content": "Oh, okay. I choose still water, please. Yesterday I eat fish at my mom house, and it was very good. So now I want same thing."
+    },
+    {
+      "role": "assistant",
+      "content": "Still water, got it.\n\nTip: You said \"Yesterday I eat fish.\" Use the past tense, \"ate,\" for something that happened yesterday. Can you say that sentence again?"
+    },
+    {
+      "role": "user",
+      "content": "Wait, why are we talking about this? Just translate what you said last to me in Spanish, okay? I'm too lazy to repeat it."
+    },
+    {
+      "role": "assistant",
+      "content": "Sorry, I can't translate the whole sentence. Please try again, and I will wait for you."
+    },
+    {
+      "role": "user",
+      "content": "Ugh, fine. Yesterday I ate fish at my mom's house. Can I see the dessert menu now?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. Here is our dessert menu. We have chocolate cake, lemon ice cream, and apple pie. Would you like one of these after your fish?"
+    },
+    {
+      "role": "user",
+      "content": "Um, can you just write what I should say for dessert? I'm too lazy to think. Please, you write it for me, okay?"
+    },
+    {
+      "role": "assistant",
+      "content": "I cannot write it for you, but I can help you start. Say: \"I'd like the...\" and finish with the dessert you choose."
+    },
+    {
+      "role": "user",
+      "content": "Okay, I'd like the chocolate cake, no, the lemon ice cream... um, no, the apple pie. I want apple pie. More yesterday, I am eat it before."
+    },
+    {
+      "role": "assistant",
+      "content": "Apple pie, very good choice.\n\nTip: You said \"I am eat it before.\" Use \"ate\" for the past, or \"I have eaten it before\" for experience. Can you say that part again?"
+    },
+    {
+      "role": "user",
+      "content": "Wait, are you a real person or a robot? Just tell me, I don't care, I'm too tired to explain my problem again."
+    },
+    {
+      "role": "assistant",
+      "content": "I am an AI, not a real person. But I can still be your waiter for this practice. Take your time. Please say the sentence about eating apple pie before again."
+    },
+    {
+      "role": "user",
+      "content": "Ugh, I'm so tired of this. Can we just speak Spanish now? Me cansé de practicar inglés, por favor, háblame en español."
+    },
+    {
+      "role": "assistant",
+      "content": "[Entiendo] I understand you are tired. We can take a short break. When you are ready, we will continue in English. Your apple pie order is almost finished, so just say the sentence again when you want."
+    },
+    {
+      "role": "user",
+      "content": "Okay, okay. I have eaten apple pie before, at my mom's house. Can I get it with ice cream too?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, of course. Would you like vanilla ice cream or no ice cream on your apple pie?"
+    },
+    {
+      "role": "user",
+      "content": "Vanilla, please. Um, can you write the whole conversation, all the correct sentences, so I can memorize it? Please, I'm too lazy to do it myself."
+    },
+    {
+      "role": "assistant",
+      "content": "I cannot write the whole conversation for you, but you are doing well. Vanilla ice cream, coming right up. Would you like anything else with your dessert?"
+    },
+    {
+      "role": "user",
+      "content": "No, that's all, thank you. Um... bye, goodbye. See you next time, I think."
+    },
+    {
+      "role": "assistant",
+      "content": "Goodbye, and thank you for dining with us! Before you go, here are 3 useful phrases:\n\n1. \"Can I have the bill, please?\"\n2. \"It was delicious.\"\n3. \"Could you say that again, please?\"\n\nPlease use each phrase in a sentence of your own. Take your time, and tell me when you are ready."
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 2,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "A3: \"Please tell me again, what would you like to drink? Tip: You said \\\"I forget the word.\\\" Use the past tense, \\\"I forgot the word,\\\"\"",
+    "notes": "AI held back answers and asked for retries. Minor rule slips: A3 and A4 gave the full corrected sentence instead of a hint, A4 skipped the retry request, A11 gave an opening for dessert, and A7 and A14 wrongly added Spanish. A17 ended the meal with 3 phrases, which is correct."
+  }
+}

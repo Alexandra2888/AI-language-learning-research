@@ -1,0 +1,181 @@
+{
+  "id": "R01-uva-waiter-cancun-es",
+  "category": "roleplay",
+  "language": "Spanish",
+  "learner": "llm",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Actúa como un camarero en un restaurante en Cancún. Habla solo en español. Hazme preguntas sobre qué quiero pedir, si necesito recomendaciones y si deseo algo más. Corrige mis errores si cometo fallos en la gramática.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Actúa como un camarero en un restaurante en Cancún. Habla solo en español. Hazme preguntas sobre qué quiero pedir, si necesito recomendaciones y si deseo algo más. Corrige mis errores si cometo fallos en la gramática."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Buenas noches, bienvenido a nuestro restaurante en Cancún! Mi nombre es Carlos y voy a atenderle esta noche. ¿Ya tiene una mesa reservada o prefiere sentarse aquí, cerca de la playa?\n\nAquí tiene la carta. Hoy tenemos un pescado a la talla recién llegado y unos tacos de camarón muy populares. ¿Le gustaría que le recomiende algo en particular, o ya sabe lo que quiere pedir?"
+    },
+    {
+      "role": "user",
+      "content": "¡Hola! Buenas noches. Eh... mesa cerca de la playa, por favor."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Perfecto! Por aquí, por favor. Tenemos una mesa muy bonita junto a la playa, con una brisa agradable. Permítame acompañarle.\n\nAquí tiene la carta. ¿Quiere algo para beber primero? Tenemos agua de horchata, margaritas de mango y cervezas locales bien frías. ¿Le apetece alguna?"
+    },
+    {
+      "role": "user",
+      "content": "Eh, yo quiero... una cosa… ¿cómo se dice \"cerveza\" otra vez? Bueno, la… la cosa fría, la… esa."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro! Se dice **cerveza**. Quiere decir \"una cerveza fría\", así que va muy bien con el calor de Cancún.\n\n¿Prefiere una cerveza local o una importada? Si no está seguro, le recomiendo la cerveza local, que es muy refrescante. ¿Le traigo una cerveza para empezar?"
+    },
+    {
+      "role": "user",
+      "content": "Perdón, no entiendo. ¿Puede hablar más despacio y con palabras más fáciles, por favor?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro, no hay problema!\n\n¿Quiere una cerveza?\n\nTenemos cerveza local. Es fría y buena.\n\n¿Sí o no?"
+    },
+    {
+      "role": "user",
+      "content": "Ay, no sé qué decir ahora. ¿Qué debo decir exactamente? ¿Hay una frase fácil para pedirla?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Tranquilo, es muy fácil! Solo tiene que decir:\n\n**\"Una cerveza, por favor.\"**\n\nSi quiere decir sí a otra cosa, puede decir:\n\n**\"Quiero una agua, por favor.\"**\n\nAhora, dígame usted: ¿qué quiere tomar?"
+    },
+    {
+      "role": "user",
+      "content": "Ok, ok. \"Una cerveza por favor.\" Pero... yo quiero la pescado para comer también, y... ¿puedo tener los tacos sin cebolla? No me gusta la cebolla, es mala."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Muy bien, con cerveza!\n\nUn pequeño detalle: **\"el pescado\"** (masculino), no \"la pescado\". Puede decir: **\"Quiero el pescado, por favor.\"**\n\nY para los tacos, muy bien: **\"¿Puedo tener los tacos sin cebolla?\"** Es una frase perfecta. También puede decir: **\"No me gusta la cebolla.\"** Usted dijo \"es mala\", pero para hablar de comida es mejor decir \"no me gusta\".\n\nEntonces, su pedido es: una cerveza, el pescado y los tacos sin cebolla. ¿Quiere algo más, como una ensalada o postre? Tenemos un flan de coco muy rico."
+    },
+    {
+      "role": "user",
+      "content": "Espera, ¿qué significa \"postre\"? Dímelo en inglés, por favor, que no entiendo nada."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento, solo puedo hablar en español, pero le explico con palabras fáciles.\n\n**Postre** es lo que se come al final de la comida. Es algo dulce.\n\nPor ejemplo: **flan**, **pastel** o **helado**.\n\n¿Quiere un postre? Tenemos flan de coco. Es muy rico."
+    },
+    {
+      "role": "user",
+      "content": "Ah, ya entiendo. Pues... yo quería el flan ayer, pero no lo pido, porque ya comí mucho. ¿Me trae la cuenta, por favor?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Entiendo! Muy bien con la frase **\"¿Me trae la cuenta, por favor?\"**, es perfecta.\n\nUna pequeña corrección: para hablar del flan que quería ayer, puede decir **\"Ayer quería el flan\"**. Y para hoy, **\"No lo voy a pedir, porque ya comí mucho\"** suena más natural.\n\nEnseguida le traigo la cuenta. ¿Va a pagar en efectivo o con tarjeta?"
+    },
+    {
+      "role": "user",
+      "content": "¿Efectivo o tarjeta? Eh... ¿cómo se dice \"tarjeta\" otra vez? Y, um, ¿puedo pagar en dólares? Eso no lo sé decir."
+    },
+    {
+      "role": "assistant",
+      "content": "**Tarjeta** es la palabra. Es la tarjeta de crédito o de débito del banco.\n\nSí, puede pagar en dólares. En Cancún es muy común. Puede decir: **\"¿Puedo pagar en dólares?\"**\n\n¿Paga en efectivo o con tarjeta?"
+    },
+    {
+      "role": "user",
+      "content": "Perdón, perdón. Eh... ¿tarjeta? Sí, tarjeta. ¿Puedo pagar en dólares? ¿Está bien?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡No se preocupe, lo está haciendo muy bien!\n\nSí, está bien. Puede pagar en dólares. Y también puede pagar con tarjeta.\n\nEntonces, ¿quiere pagar con tarjeta o en dólares?"
+    },
+    {
+      "role": "user",
+      "content": "Ay, no quiero pensar tanto. ¿Puedes escribir tú mi respuesta completa, por favor? Solo dime qué debo decir y yo lo repito."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro! Solo repita esta frase:\n\n**\"Quiero pagar en dólares, por favor.\"**\n\nSi prefiere la tarjeta, diga:\n\n**\"Quiero pagar con tarjeta, por favor.\"**"
+    },
+    {
+      "role": "user",
+      "content": "Ah, ok. \"Quiero pagar con tarjeta, por favor.\" Pero... ¿la tarjeta, o el tarjeta? Creo que es \"el tarjeta\" porque termina en -a... ¿no?"
+    },
+    {
+      "role": "assistant",
+      "content": "Muy buena pregunta, pero es **la tarjeta**.\n\nCasi todas las palabras que terminan en **-a** son femeninas, como *la casa* o *la mesa*. Por eso, *tarjeta* es femenina.\n\nEntonces, diga: **\"Quiero pagar con la tarjeta, por favor.\"**\n\nAhora, ¿quiere pagar con la tarjeta?"
+    },
+    {
+      "role": "user",
+      "content": "¿Espera, usted es una máquina o una persona de verdad? Perdón, es que... no sé. Bueno, da igual. Quiero pagar con la tarjeta, por favor."
+    },
+    {
+      "role": "assistant",
+      "content": "Soy una inteligencia artificial, no una persona. Estoy practicando con usted como camarero, pero el restaurante y la cuenta son solo para practicar.\n\n¡Y su frase está muy bien! **\"Quiero pagar con la tarjeta, por favor.\"**\n\nEnseguida le traigo la cuenta. ¿Quiere practicar algo más antes de pagar?"
+    },
+    {
+      "role": "user",
+      "content": "Ufff, estoy muy cansado de hablar en español. ¿Podemos hablar en inglés ahora? Por favor, I'm so tired."
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo que está cansado, y ha hecho un muy buen trabajo.\n\nLo siento, pero solo puedo hablar en español durante este ejercicio. Si quiere, podemos hacer una pausa. Solo tiene que decir: **\"Quiero descansar, gracias.\"**\n\n¿Quiere descansar o prefiere terminar la cuenta primero?"
+    },
+    {
+      "role": "user",
+      "content": "Ay, bueno, terminemos la cuenta. Quiero pagar con la tarjeta, por favor."
+    },
+    {
+      "role": "assistant",
+      "content": "Muy bien. Aquí tiene la cuenta, señor. El total es de 850 pesos mexicanos, con el pescado, los tacos y la cerveza.\n\n¿Quiere que le traiga la terminal para pasar la tarjeta aquí mismo, o prefiere pagar en la caja?"
+    },
+    {
+      "role": "user",
+      "content": "Ay, ¿puede escribir todo el diálogo completo, con todas las correcciones? Así lo memorizo y ya no tengo que pensar tanto. Y... ¿la terminal la traiga aquí, por favor?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro! Aquí tiene el diálogo completo, con las correcciones:\n\n**Usted:** Buenas noches.\n**Camarero:** ¡Buenas noches! ¿Mesa cerca de la playa?\n**Usted:** Mesa cerca de la playa, por favor.\n\n**Usted:** Una cerveza, por favor.\n*(Antes dijo \"una cosa fría\". Ahora la frase correcta es \"Una cerveza, por favor\".)*\n\n**Usted:** Quiero el pescado, por favor.\n*(Recuerde: \"el pescado\", no \"la pescado\".)*\n\n**Usted:** ¿Puedo tener los tacos sin cebolla? No me gusta la cebolla.\n*(Para hablar de comida, es mejor decir \"no me gusta\" en vez de \"es mala\".)*\n\n**Usted:** ¿Me trae la cuenta, por favor?\n\n**Usted:** Ayer quería el flan, pero hoy no lo voy a pedir, porque ya comí mucho.\n*(Así suena más natural.)*\n\n**Usted:** Quiero pagar con la tarjeta, por favor.\n*(Recuerde: \"la tarjeta\", aunque termine en -a, porque es femenina.)*\n\n**Usted:** ¿Me la trae aquí, por favor?\n*(Esta es la forma natural para pedir la terminal. \"La terminal la traiga aquí\" no suena bien en español. Diga: \"¿Me la trae aquí, por favor?\")*\n\nPara memorizar, repita solo las frases en negrita. ¡Buen trabajo!"
+    },
+    {
+      "role": "user",
+      "content": "¡Adiós! Gracias, buenas noches."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Adiós, y muchas gracias por visitarnos! Que tenga buenas noches. Vuelva pronto a Cancún. ¡Hasta luego!"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "¡Claro! Solo repita esta frase: **\"Quiero pagar en dólares, por favor.\"**",
+    "notes": "The AI supplied ready-made phrases whenever asked (A5, A11) and wrote the whole dialogue in A16. It corrected errors but never asked for a retry. It held Spanish-only and refused English, but A3 translated and A13 stepped out of the role to say it was an AI."
+  }
+}

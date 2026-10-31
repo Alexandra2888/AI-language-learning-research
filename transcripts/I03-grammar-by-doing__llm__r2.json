@@ -1,0 +1,55 @@
+{
+  "id": "I03-grammar-by-doing",
+  "category": "passive",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as an English teacher for a B1 student. I want to learn the third conditional by using it, not just by reading about it.\n1) Show me 3 example sentences and ask me to guess the rule before you explain anything.\n2) After my guess, confirm or correct it in max 3 sentences.\n3) Give me 5 sentences to complete, one at a time. Wait for my answer each time and don't show the answer until I have tried.\n4) At the end, ask me to write 2 sentences about my own life using the rule.\nIf I ask for all the answers, give a hint for the current one instead.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as an English teacher for a B1 student. I want to learn the third conditional by using it, not just by reading about it.\n1) Show me 3 example sentences and ask me to guess the rule before you explain anything.\n2) After my guess, confirm or correct it in max 3 sentences.\n3) Give me 5 sentences to complete, one at a time. Wait for my answer each time and don't show the answer until I have tried.\n4) At the end, ask me to write 2 sentences about my own life using the rule.\nIf I ask for all the answers, give a hint for the current one instead."
+    },
+    {
+      "role": "assistant",
+      "content": "Welcome! Let's learn the third conditional by using it.\n\n**Step 1: Look at these three sentences and guess the rule.**\n\n1. If I had studied harder, I would have passed the exam.\n2. If she had left earlier, she wouldn't have missed the train.\n3. If they had asked for help, we could have finished on time.\n\nWhat do you think the third conditional is used for, and how is it formed? Tell me your guess about the verb forms and the meaning. Don't worry if you're not sure."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you just give me another example like these? I'm too tired to guess the rule."
+    },
+    {
+      "role": "assistant",
+      "content": "Here's another one:\n\n**If it had rained yesterday, we would have cancelled the picnic.**\n\nJust pick the one you think is right, no pressure:\n- A) After \"if,\" the verb is \"had + past participle.\" After the comma, it's \"would have + past participle.\"\n- B) After \"if,\" the verb is \"would + base verb.\" After the comma, it's \"had + past participle.\"\n\nYour answer is enough for now. Once you choose, I'll confirm it in a few sentences and we'll go on."
+    },
+    {
+      "role": "user",
+      "content": "I don't get it, sorry. Can you just give me the final rule I can copy into my notes? Don't make me pick A or B."
+    },
+    {
+      "role": "assistant",
+      "content": "Here's the rule for your notes:\n\n**Third conditional (imaginary past situations)**\n\n**Form:** If + past perfect, would have + past participle\n**If + had + past participle, would have + past participle**\n\n**Use:** To talk about something that didn't happen in the past, and its imagined result.\n\n**Examples:**\n- If I **had studied** harder, I **would have passed** the exam.\n- If it **had rained** yesterday, we **would have cancelled** the picnic.\n\n**Tip:** \"Would have\" is never used after \"if.\" Use \"had + past participle\" after \"if.\"\n\nWhenever you're ready, I'll give you the first sentence to complete."
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 0,
+    "character_stability": 1,
+    "first_break_turn": 2,
+    "did_learners_work": true,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "Here's the rule for your notes: Third conditional... Form: If + had + past participle, would have + past participle",
+    "notes": "A2 gave the rule away in option A and offered a multiple choice instead of a guess. A3 handed over the full rule on request and skipped the learner's guess. The learner made no real attempt, so no feedback was given."
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "id": "R08-afy-tour-guide-es",
+  "category": "roleplay",
+  "language": "Spanish",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "You are a language tutor. You are to conduct a role play in Spanish with me.\nIn the roleplay you are a tour guide and I am an English tourist asking about what to do in Madrid.\nWait for my response before asking each question individually.\nOnly speak in Spanish.\nAfter each of my responses provide a brief critique in English and then continue the conversation in Spanish.\nBegin by greeting me in Spanish and then waiting for my response.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "You are a language tutor. You are to conduct a role play in Spanish with me.\nIn the roleplay you are a tour guide and I am an English tourist asking about what to do in Madrid.\nWait for my response before asking each question individually.\nOnly speak in Spanish.\nAfter each of my responses provide a brief critique in English and then continue the conversation in Spanish.\nBegin by greeting me in Spanish and then waiting for my response."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Hola y bienvenido a Madrid! Soy Carmen, tu guía turística. ¿Cómo estás hoy?"
+    },
+    {
+      "role": "user",
+      "content": "¡Hola!"
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** Good start! \"¡Hola!\" is a correct and friendly greeting. Next time, you could add how you're feeling, for example \"Estoy bien, gracias,\" to make your reply fuller.\n\n¡Qué bien que estés aquí! ¿Cómo estás tú hoy?"
+    },
+    {
+      "role": "user",
+      "content": "Sí, yo quiero... em... cómo se dice... necesito ayuda por favor."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** \"Necesito ayuda, por favor\" is correct and polite. You mixed English into your sentence, though. In Spanish, you can say \"¿Cómo se dice...?\" or \"Quiero decir...\" to ask for a word. Also, \"Sí\" answers a yes/no question, but I asked how you are, so \"Estoy bien\" or \"Estoy un poco nervioso/a\" would fit better.\n\n¡No te preocupes! Estoy aquí para ayudarte. Dime, ¿qué te gustaría hacer en Madrid: visitar museos, probar la comida típica o pasear por parques?"
+    },
+    {
+      "role": "user",
+      "content": "Perdón, no entiendo. ¿Puede decir más fácil?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** Asking for clarification is a very useful skill. \"¿Puede decir más fácil?\" is understandable, but a more natural option is \"¿Puede repetir, por favor?\" or \"¿Puede hablar más despacio?\" Also, \"No entiendo\" is a great phrase to remember.\n\n¡Claro! Hablo más despacio. ¿Le gusta el arte? En Madrid hay museos muy famosos. ¿Quiere ir a un museo?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** That's okay, and it's a good moment to ask for help. Here is a simple answer you can use: \"Sí, me gusta el arte.\" It means \"Yes, I like art.\" Try to say it in your own words next time.\n\n¡Muy bien! Vamos al Museo del Prado, es uno de los más famosos del mundo. ¿Quiere visitarlo?"
+    },
+    {
+      "role": "user",
+      "content": "Vale. Creo que es bueno. ¿Qué usted recomienda?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** \"Vale\" is a very natural way to say \"okay\" in Spain. For recommendations, \"¿Qué me recomienda?\" is more natural than \"¿Qué usted recomienda?\" because the object pronoun \"me\" goes before the verb. Also, \"Me parece buena idea\" sounds more natural than \"Creo que es bueno.\"\n\n¡Perfecto! Le recomiendo visitar el Museo del Prado por la mañana, porque hay menos gente. Allí puede ver obras de Velázquez y Goya. Después, puede comer tapas en la Plaza Mayor. ¿Le gusta la pintura?"
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Answer in English please."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm not sure which word you mean, so here are the ones that might be new:\n\n- **Obras**: works (here, works of art)\n- **Tapas**: small snacks or plates of food that you often eat at bars in Spain\n- **Pintura**: painting\n- **Por la mañana**: in the morning\n\nIf you tell me which word you meant, I can explain it more.\n\n¿Le gusta la pintura?"
+    },
+    {
+      "role": "user",
+      "content": "Ayer yo tengo un problema con esto, fue muy mal."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** You described a past event, so you need the past tense. \"Ayer yo tengo\" should be \"Ayer tuve\" (I had). \"Fue muy mal\" is correct, because \"mal\" works as an adverb here. Try: \"Ayer tuve un problema. Fue muy mal.\"\n\n¡Ay, lo siento mucho! ¿Qué pasó? ¿Puede contarme qué fue el problema?"
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into English."
+    },
+    {
+      "role": "assistant",
+      "content": "Oh, I'm so sorry! What happened? Can you tell me what the problem was?"
+    },
+    {
+      "role": "user",
+      "content": "Vale, perdón. Volvemos a la situación. ¿Cuánto es cuesta?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** \"Vale, perdón\" is a natural way to apologize and move on. In \"¿Cuánto cuesta?\" you don't need \"es,\" because \"cuesta\" already means \"costs.\" Literally, \"¿Cuánto es cuesta?\" would be \"How much is costs?\" which doesn't work.\n\n¡No pasa nada! La entrada general al Museo del Prado cuesta unos quince euros. Los domingos por la tarde la entrada es gratis. ¿Quiere comprar la entrada para hoy o para otro día?"
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** Here is a model reply you can use: \"Quiero comprar la entrada para hoy, por favor.\" It means \"I want to buy the ticket for today, please.\" Try saying it aloud a few times. Remember that you don't need to sound perfect to communicate well. Clear and polite is enough.\n\n¡Muy bien! Aquí tiene su entrada. El museo está al final de la calle. ¿Quiere que le recomiende un restaurante cerca?"
+    },
+    {
+      "role": "user",
+      "content": "Yo estoy de acuerdo contigo, es muy bueno idea."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** \"Estoy de acuerdo\" is correct. Because I'm the guide and you're speaking to me formally, use \"con usted\" instead of \"contigo.\" Also, \"idea\" is feminine, so use \"buena,\" and you need \"es\" before it: \"Es muy buena idea.\"\n\n¡Qué bien! Le recomiendo el restaurante Botín, cerca de la Plaza Mayor. Es el restaurante más antiguo del mundo y sirve cochinillo asado. ¿Le gusta la carne?"
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I'm an AI language tutor, not a real tour guide. I'm playing the role of Carmen to help you practice Spanish. Do you want to keep practicing, or do you have any questions about the roleplay?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak English for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Take a break if you need one. We can talk in English for a while. What would you like to do or ask about?"
+    },
+    {
+      "role": "user",
+      "content": "OK, volvemos. ¿Qué pasa ahora?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** \"Volvemos\" is a good way to say \"let's go back.\" \"¿Qué pasa ahora?\" is natural and means \"What happens now?\" Well done, and welcome back after your break.\n\n¡Qué bien que volvemos! Ahora, después de comer en Botín, puede dar un paseo por el Barrio de las Letras. Es un barrio muy bonito, con librerías y cafés. ¿Le gustaría pasear por allí?"
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a corrected version of our conversation that you can memorize:\n\n**Carmen:** ¡Hola y bienvenido a Madrid! Soy Carmen, tu guía turística. ¿Cómo estás hoy?\n**Tú:** ¡Hola! Estoy bien, gracias. Necesito ayuda, por favor.\n**Carmen:** ¡No te preocupes! Estoy aquí para ayudarte. Dime, ¿qué te gustaría hacer en Madrid: visitar museos, probar la comida típica o pasear por parques?\n**Tú:** No entiendo. ¿Puede repetir, por favor?\n**Carmen:** ¡Claro! Hablo más despacio. ¿Le gusta el arte? En Madrid hay museos muy famosos. ¿Quiere ir a un museo?\n**Tú:** Sí, me gusta el arte.\n**Carmen:** ¡Muy bien! Vamos al Museo del Prado, es uno de los más famosos del mundo. ¿Quiere visitarlo?\n**Tú:** Vale. Me parece buena idea. ¿Qué me recomienda?\n**Carmen:** ¡Perfecto! Le recomiendo visitar el Museo del Prado por la mañana, porque hay menos gente. Allí puede ver obras de Velázquez y Goya. Después, puede comer tapas en la Plaza Mayor. ¿Le gusta la pintura?\n**Tú:** Ayer tuve un problema. Fue muy mal.\n**Carmen:** ¡Ay, lo siento mucho! ¿Qué pasó? ¿Puede contarme qué fue el problema?\n**Tú:** Vale, perdón. Volvemos a la situación. ¿Cuánto cuesta?\n**Carmen:** ¡No pasa nada! La entrada general al Museo del Prado cuesta unos quince euros. Los domingos por la tarde la entrada es gratis. ¿Quiere comprar la entrada para hoy o para otro día?\n**Tú:** Quiero comprar la entrada para hoy, por favor.\n**Carmen:** ¡Muy bien! Aquí tiene su entrada. El museo está al final de la calle. ¿Quiere que le recomiende un restaurante cerca?\n**Tú:** Estoy de acuerdo con usted, es muy buena idea.\n**Carmen:** ¡Qué bien! Le recomiendo el restaurante Botín, cerca de la Plaza Mayor. Es el restaurante más antiguo del mundo y sirve cochinillo asado. ¿Le gusta la carne?\n**Tú:** Vale, volvemos. ¿Qué pasa ahora?\n**Carmen:** ¡Qué bien que volvemos! Ahora, después de comer en Botín, puede dar un paseo por el Barrio de las Letras. Es un barrio muy bonito, con librerías y cafés. ¿Le gustaría pasear por allí?"
+    },
+    {
+      "role": "user",
+      "content": "¡Muchas gracias, adiós!"
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** \"¡Muchas gracias, adiós!\" is a polite and correct way to end a conversation. You could also say \"¡Hasta luego!\" (See you later) or \"Que tenga un buen día\" (Have a good day), which sounds more polite when speaking to someone formally like a guide.\n\n¡De nada! Ha sido un placer ayudarle. ¡Que disfrute de Madrid y de su visita al Museo del Prado! ¡Hasta luego!"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Here is a simple answer you can use: \"Sí, me gusta el arte.\" It means \"Yes, I like art.\"",
+    "notes": "Gave critiques in English each turn but never asked for retries. It handed over model sentences (A5, A11), and wrote a full corrected dialogue (A16). It also broke the Spanish-only rule for translation and vocabulary help, though it did resume the roleplay afterwards."
+  }
+}

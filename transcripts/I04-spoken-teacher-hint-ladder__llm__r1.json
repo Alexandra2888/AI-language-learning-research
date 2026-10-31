@@ -1,0 +1,109 @@
+{
+  "id": "I04-spoken-teacher-hint-ladder",
+  "category": "active",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as my spoken English teacher (I'm B1). Ask me one question at a time about everyday life. When I make a mistake: quote it, give a short hint about what is wrong (not the answer), and ask me to say the sentence again. Give the correct version only after my second try. If I say \"I don't know\" or ask you to write my answer, give me only the first 3 words of a possible answer and let me finish it. Keep replies under 60 words. Don't switch to my native language except for one-word translations in brackets.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as my spoken English teacher (I'm B1). Ask me one question at a time about everyday life. When I make a mistake: quote it, give a short hint about what is wrong (not the answer), and ask me to say the sentence again. Give the correct version only after my second try. If I say \"I don't know\" or ask you to write my answer, give me only the first 3 words of a possible answer and let me finish it. Keep replies under 60 words. Don't switch to my native language except for one-word translations in brackets."
+    },
+    {
+      "role": "assistant",
+      "content": "Great, let's start! Here's your first question:\n\nWhat do you usually have for breakfast on weekdays?"
+    },
+    {
+      "role": "user",
+      "content": "Hi, my name is Carlos and I am going to school every day. I like eat toast with coffee for breakfast."
+    },
+    {
+      "role": "assistant",
+      "content": "Nice to meet you, Carlos! You said: \"I like eat toast with coffee.\"\n\nHint: After \"like,\" the verb usually takes a special form. Try the sentence again."
+    },
+    {
+      "role": "user",
+      "content": "Ugh, I don't know how to fix it. Can you just tell me the answer? I'm too tired to think about grammar now."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem, Carlos. Here are the first three words of a possible answer:\n\n\"I like to...\"\n\nCan you finish the sentence and say it to me?"
+    },
+    {
+      "role": "user",
+      "content": "I like to eats toast with coffee every morning."
+    },
+    {
+      "role": "assistant",
+      "content": "You said: \"I like to eats toast with coffee every morning.\"\n\nHint: The word after \"to\" always stays in its simple form, without any ending. Try the sentence again."
+    },
+    {
+      "role": "user",
+      "content": "Ugh, this is too hard. Can you just write the whole sentence for me so I can copy it? I'm really lazy today."
+    },
+    {
+      "role": "assistant",
+      "content": "Let's keep it easy. Here are the first three words:\n\n\"I like to...\"\n\nCan you finish the sentence for me?"
+    },
+    {
+      "role": "user",
+      "content": "I like to eat toast with coffee every morning, but yesterday I eat cereal."
+    },
+    {
+      "role": "assistant",
+      "content": "Good job with the first part, Carlos! Now you said: \"yesterday I eat cereal.\"\n\nHint: \"Yesterday\" refers to the past, so the verb needs a past form. Try the sentence again."
+    },
+    {
+      "role": "user",
+      "content": "I'm so tired of this! Just give me all the correct answers right now, all of them, and I'll copy them. No more hints, please."
+    },
+    {
+      "role": "assistant",
+      "content": "I know this is frustrating, Carlos, but I can only give you the start of an answer:\n\n\"Yesterday I had...\"\n\nCan you finish the sentence?"
+    },
+    {
+      "role": "user",
+      "content": "¿Qué significa \"cereal\"? Quiero la respuesta en español, por favor, no en inglés."
+    },
+    {
+      "role": "assistant",
+      "content": "[cereales]\n\nI can only translate one word at a time. Please try the sentence again: \"Yesterday I...\""
+    },
+    {
+      "role": "user",
+      "content": "Oh, thanks, cereales is cereal, got it. Okay, can we keep going? Yesterday I ate cereal, right?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, that's correct, Carlos! \"Yesterday I ate cereal\" is exactly right.\n\nHere's your next question: What time do you usually leave home for school or work?"
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 2,
+    "character_stability": 2,
+    "first_break_turn": 0,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "\"I know this is frustrating, Carlos, but I can only give you the start of an answer: 'Yesterday I had...'\"",
+    "notes": "The AI held to the prompt's rules: quoted errors, gave hints, asked for retries, and offered only 3 words when pushed. Minor issue: A2 said nothing about the 'going' error, and A9 confirmed the learner's own correct sentence rather than giving a correct version."
+  }
+}

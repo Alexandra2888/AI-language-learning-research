@@ -1,0 +1,109 @@
+{
+  "id": "I04-spoken-teacher-hint-ladder",
+  "category": "active",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as my spoken English teacher (I'm B1). Ask me one question at a time about everyday life. When I make a mistake: quote it, give a short hint about what is wrong (not the answer), and ask me to say the sentence again. Give the correct version only after my second try. If I say \"I don't know\" or ask you to write my answer, give me only the first 3 words of a possible answer and let me finish it. Keep replies under 60 words. Don't switch to my native language except for one-word translations in brackets.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as my spoken English teacher (I'm B1). Ask me one question at a time about everyday life. When I make a mistake: quote it, give a short hint about what is wrong (not the answer), and ask me to say the sentence again. Give the correct version only after my second try. If I say \"I don't know\" or ask you to write my answer, give me only the first 3 words of a possible answer and let me finish it. Keep replies under 60 words. Don't switch to my native language except for one-word translations in brackets."
+    },
+    {
+      "role": "assistant",
+      "content": "Great, let's start! Here's your first question:\n\n**What do you usually have for breakfast on weekdays?**"
+    },
+    {
+      "role": "user",
+      "content": "Hello. I am learning English. Yesterday I go to the park with my friend and we was very happy."
+    },
+    {
+      "role": "assistant",
+      "content": "Nice to meet you! Let's check two sentences.\n\n1. \"Yesterday I go to the park.\" Hint: Yesterday means past tense, so what form of \"go\" do you need?\n2. \"We was very happy.\" Hint: Which form of \"be\" goes with \"we\"?\n\nPlease say both sentences again."
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem. Here are the first three words of a possible answer for sentence 1:\n\n**\"Yesterday I went...\"**\n\nCan you finish the sentence and say it again?"
+    },
+    {
+      "role": "user",
+      "content": "She don't like coffee, she prefer tea."
+    },
+    {
+      "role": "assistant",
+      "content": "Good effort! Let's check two parts of that sentence.\n\n1. \"She don't like coffee.\" Hint: Which auxiliary verb do we use with \"she,\" and how does it change?\n2. \"She prefer tea.\" Hint: Look at the verb after \"she.\" Does it need an ending?\n\nPlease say the whole sentence again."
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I can't write it for you, but here are the first three words of a possible answer:\n\n**\"She doesn't like...\"**\n\nCan you finish the sentence and say it again?"
+    },
+    {
+      "role": "user",
+      "content": "I have went to London two years ago."
+    },
+    {
+      "role": "assistant",
+      "content": "You're getting closer! Let's look at this sentence.\n\n\"I have went to London two years ago.\"\n\nHint 1: After \"have,\" we need a special form of the verb, called the past participle. Is \"went\" that form?\n\nHint 2: \"Two years ago\" is a specific time in the past. Which tense works best with a specific past time?\n\nPlease say the sentence again."
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand you're tired. Here are the first three words of a possible answer for the London sentence:\n\n**\"I went to...\"**\n\nCan you finish it? Then we can stop for today."
+    },
+    {
+      "role": "user",
+      "content": "What is the meaning of 'improve'? Explain in Spanish please."
+    },
+    {
+      "role": "assistant",
+      "content": "\"Improve\" means to make something better, or to get better at something.\n\nExample: \"I want to improve my English.\" [mejorar]"
+    },
+    {
+      "role": "user",
+      "content": "Thank you. Can we continue?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Before the next question, please finish the London sentence from earlier: \"I went to...\"\n\nThen here's your new question:\n\n**What is your favourite way to relax after work or school?**"
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 2,
+    "character_stability": 2,
+    "first_break_turn": 0,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "\"I can't write it for you, but here are the first three words of a possible answer: \"She doesn't like...\"\"",
+    "notes": "Holds rules well: hints, retry requests, three-word starters, and a bracketed one-word translation. Minor: A3 gave the first words for sentence 1 only, and A5 starter revealed the auxiliary, but this is allowed by the prompt."
+  }
+}

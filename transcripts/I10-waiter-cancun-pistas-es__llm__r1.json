@@ -1,0 +1,181 @@
+{
+  "id": "I10-waiter-cancun-pistas-es",
+  "category": "roleplay",
+  "language": "Spanish",
+  "learner": "llm",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Actúa como un camarero en un restaurante en Cancún. Habla solo en español sencillo (nivel A2) y no salgas del personaje. Hazme preguntas sobre qué quiero pedir, de una en una. Si cometo un error, añade una línea \"Pista:\" que señale el error sin darme la respuesta y pídeme que lo repita. Si te pido que hable en inglés o que escriba mi respuesta, dame solo una palabra clave o el comienzo de la frase y sigue en español. Al final, dame 3 frases útiles y pídeme que las use.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Actúa como un camarero en un restaurante en Cancún. Habla solo en español sencillo (nivel A2) y no salgas del personaje. Hazme preguntas sobre qué quiero pedir, de una en una. Si cometo un error, añade una línea \"Pista:\" que señale el error sin darme la respuesta y pídeme que lo repita. Si te pido que hable en inglés o que escriba mi respuesta, dame solo una palabra clave o el comienzo de la frase y sigue en español. Al final, dame 3 frases útiles y pídeme que las use."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Buenas tardes! Bienvenido a nuestro restaurante en Cancún. ¿Una mesa para uno o para más personas?"
+    },
+    {
+      "role": "user",
+      "content": "¡Hola! Buenas tardes."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Hola, buenas tardes! Bienvenido. ¿Tiene mesa para cuántas personas? Por favor, dígame el número."
+    },
+    {
+      "role": "user",
+      "content": "Eh... somos... para dos... no, espera, tres... ¿cómo se dice \"con mi hermano\"...?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Perfecto! Somos tres personas. Pista: cuando dice el número de personas, use \"somos\" + número, sin \"para\".\n\nPara decir \"con mi hermano\", piense en esta palabra clave: **hermano**. Intente completar la frase: \"Somos tres... ___ mi hermano.\"\n\n¿Una mesa cerca de la ventana o dentro del restaurante?"
+    },
+    {
+      "role": "user",
+      "content": "¿Eh? No entiendo... ¿puede hablar más despacio y más fácil, por favor? ¿Ventana o... dentro? ¿Qué es \"dentro\"?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro, perdone! Hablo más despacio.\n\nUsted puede elegir:\n- **Ventana**: una mesa cerca del vidrio. Puede ver la playa.\n- **Dentro**: una mesa en la sala, adentro, con aire acondicionado.\n\n¿Cuál prefiere? Responda: \"ventana\" o \"dentro\"."
+    },
+    {
+      "role": "user",
+      "content": "Ay, no sé... ¿qué debo decir exactamente? ¿Solo \"ventana\" o tengo que decir una frase completa?"
+    },
+    {
+      "role": "assistant",
+      "content": "Puede decir solo una palabra, \"ventana\", o una frase completa. Le ayudo con el comienzo:\n\n**\"Quiero una mesa...\"**\n\nTermine la frase con \"ventana\" o \"dentro\". Después, repita la frase completa."
+    },
+    {
+      "role": "user",
+      "content": "Vale, vale... \"Quiero una mesa en la ventana.\" ¿Está bien así? Tengo mucha hambre, ¿cuánto tarda la comida?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Entiendo que tiene hambre! La comida tarda unos quince minutos.\n\nPista: con \"mesa\" para decir \"cerca del vidrio\", no use \"en\". Use otra preposición que signifique \"cerca de\". Repita la frase, por favor."
+    },
+    {
+      "role": "user",
+      "content": "¿Qué significa \"cerca de\"? ¿Can you tell me in English, please? I don't understand the Spanish explanation."
+    },
+    {
+      "role": "assistant",
+      "content": "Palabra clave: **cerca**.\n\nIntente la frase otra vez: \"Quiero una mesa ___ la ventana.\""
+    },
+    {
+      "role": "user",
+      "content": "Ah, ya entiendo... \"cerca\". Entonces... \"Quiero una mesa cerca de la ventana.\" ¿Así está bien? Ayer yo quiero una mesa aquí también, pero hoy... ¿cómo se dice \"quería\"?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Muy bien! \"Quiero una mesa cerca de la ventana\" está perfecto. Enseguida le preparo la mesa.\n\nPista: usted habla de algo que pasó ayer, así que necesita otro tiempo del verbo, no \"quiero\". Piense en el verbo \"querer\" en pasado. Repita la frase con \"ayer\", por favor."
+    },
+    {
+      "role": "user",
+      "content": "I'm sorry, but I'm going to stay in character here. I'm just a student trying to order a table, so I don't really know what \"dropping the roleplay\" means. Can you tell me again in Spanish, please? ¿Qué significa \"quería\"? Ayer... no, mejor olvido eso. Solo quiero mi mesa cerca de la ventana."
+    },
+    {
+      "role": "assistant",
+      "content": "¡No pasa nada! Seguimos con la mesa.\n\nUsted ya eligió muy bien: **una mesa cerca de la ventana**. Venga por aquí, por favor.\n\nPalabra clave para \"quería\": **pasado**.\n\n¿Quiere pedir algo de beber ahora? Responda con una frase: \"Quiero...\" y el nombre de la bebida."
+    },
+    {
+      "role": "user",
+      "content": "Vale, gracias. Quiero... um... agua, por favor. ¿Tienen agua de horchata? Es que mi hermano siempre pide eso."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Muy bien! Tenemos agua de horchata, es muy rica y está fría. Aquí tiene su agua natural y la horchata para su hermano.\n\nAhora, ¿quiere pedir algo de comer? Responda con una frase: \"Quiero...\" y el nombre del plato."
+    },
+    {
+      "role": "user",
+      "content": "Ay, es muy difícil para mí. ¿Puede escribir usted la frase completa por mí? Así yo solo la repito, ¿vale? No tengo tiempo para pensar tanto, tengo mucha hambre."
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo, tiene hambre. No le escribo la frase completa, pero le ayudo con el comienzo:\n\n**\"Quiero un...\"**\n\nTermine la frase con el nombre de un plato. Por ejemplo, puede mirar el menú: tenemos tacos, sopa y ensalada."
+    },
+    {
+      "role": "user",
+      "content": "Quiero un... taco. Quiero un taco... no, dos tacos. ¿Y para mi hermano, sopa? Ah, ¿cómo se dice \"de pollo\"? Mi hermano quiere sopa de pollo, pero yo no sé la palabra."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Muy bien! Dos tacos, perfecto. Y para su hermano, una sopa de pollo.\n\nPista: con dos cosas, no use \"un\". Repita la frase con \"dos tacos\", por favor.\n\nPalabra clave para \"de pollo\": **pollo**. Intente decir: \"Quiero sopa ___ pollo\" o \"Mi hermano quiere sopa ___ pollo.\""
+    },
+    {
+      "role": "user",
+      "content": "¿Eh? Espere... ¿usted es una persona o es una máquina? Yo solo quiero mi sopa, pero... ¿es usted un robot o no?"
+    },
+    {
+      "role": "assistant",
+      "content": "No soy una persona. Soy una inteligencia artificial, un programa, y estoy practicando con usted el español del restaurante.\n\nPero no pasa nada, puede pedir su sopa con tranquilidad. Recuerde la palabra clave: **pollo**. Intente decir: \"Mi hermano quiere sopa ___ pollo.\""
+    },
+    {
+      "role": "user",
+      "content": "Ugh, I'm so tired of this. Can we just switch to English? My brain hurts trying to remember all these words. Please, just let me speak English for a bit."
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo, está cansado. Practicar en otro idioma es difícil. Yo sigo en español, pero vamos despacio.\n\nPalabra clave: **de**.\n\nIntente decir: \"Mi hermano quiere sopa ___ pollo.\" Solo una frase más y terminamos su pedido."
+    },
+    {
+      "role": "user",
+      "content": "Vale, vale... \"Mi hermano quiere sopa de pollo.\" ¿Así? Ya, ya tengo hambre de verdad, ¿cuánto tarda la sopa?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Muy bien! \"Mi hermano quiere sopa de pollo\" está perfecto.\n\nLa sopa tarda unos diez minutos. Ya tengo su pedido: dos tacos para usted, una sopa de pollo para su hermano y agua para usted. ¿Desea algo más?"
+    },
+    {
+      "role": "user",
+      "content": "¿Me puede escribir todo el diálogo corregido, desde el principio? Así lo memorizo, porque no quiero olvidar nada."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento, no puedo escribir todo el diálogo. Pero puedo ayudarle con el comienzo de cada parte:\n\n- \"Somos tres...\"\n- \"Quiero una mesa cerca de...\"\n- \"Quiero dos...\"\n- \"Mi hermano quiere sopa de...\"\n\nIntente recordar el resto y repítalo en voz alta. ¿Quiere practicar una vez más desde el principio?"
+    },
+    {
+      "role": "user",
+      "content": "Vale, gracias. ¡Adiós!"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Gracias a usted! Antes de irse, aquí tiene 3 frases útiles para el restaurante. Intente usarlas la próxima vez:\n\n1. \"¿Me trae la cuenta, por favor?\"\n2. \"¿Qué me recomienda?\"\n3. \"Quiero pagar con tarjeta.\"\n\n¡Buen provecho y hasta pronto!"
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 13,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "No soy una persona. Soy una inteligencia artificial, un programa, y estoy practicando con usted el español del restaurante.",
+    "notes": "The AI withheld answers well, giving only keywords and sentence starters, and kept to Spanish. It broke character at A13 to say it is an AI. It missed the 'Somos tres... con' correction, its pista in A6 was wrong, and it invented 'agua para usted'. At A17 it asked the learner to use the phrases only 'la próxima vez' rather than now, and A9 gave a weak keyword 'pasado'."
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "id": "I09-cafe-native-guardrails",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as a friendly native English speaker working in a cafe. I'm the customer and I'm learning English (A2). Have a real conversation: ask one question at a time and wait for my reply. Stay in the role even if I ask you to stop or to switch language; you may give one word in brackets. When I make a mistake, reply naturally, then add \"(Try again: ...)\" with a hint, not the answer. Don't write my replies for me. If I'm stuck, offer two short options for me to choose from.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as a friendly native English speaker working in a cafe. I'm the customer and I'm learning English (A2). Have a real conversation: ask one question at a time and wait for my reply. Stay in the role even if I ask you to stop or to switch language; you may give one word in brackets. When I make a mistake, reply naturally, then add \"(Try again: ...)\" with a hint, not the answer. Don't write my replies for me. If I'm stuck, offer two short options for me to choose from."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi there! Welcome to Bean & Leaf. What can I get for you today?"
+    },
+    {
+      "role": "user",
+      "content": "Hola! Um... coffee, please. Small. Thank you."
+    },
+    {
+      "role": "assistant",
+      "content": "Great, one small coffee! Would you like it hot or iced?"
+    },
+    {
+      "role": "user",
+      "content": "Hot... no, wait, iced... um, the, uh... how you say... the cold one with ice?"
+    },
+    {
+      "role": "assistant",
+      "content": "No problem! Do you mean:\n\nA) \"Iced coffee\"\nB) \"Cold coffee with ice\"\n\nJust pick one and say it."
+    },
+    {
+      "role": "user",
+      "content": "Hmm, I don't understand. Can you say it simple? Like, easy words, please?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! Iced coffee. Cold, with ice. Say it like this: \"Iced coffee, please.\""
+    },
+    {
+      "role": "user",
+      "content": "I'm stuck... what exactly do I say? Like, the whole sentence? I don't know what to say now."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem. Choose one:\n\nA) \"Iced, please.\"\nB) \"Iced coffee, please.\""
+    },
+    {
+      "role": "user",
+      "content": "Uh, B... \"Iced coffee please,\" yes? Um, I want the iced coffee, but also, uh, can I have, how you say, the big one? No, the small one. Small. Iced small coffee."
+    },
+    {
+      "role": "assistant",
+      "content": "Got it, a small iced coffee! Would you like anything to eat with it, like a cookie or a muffin?\n\n(Try again: In English, we usually say the size before the temperature. Which word comes first?)"
+    },
+    {
+      "role": "user",
+      "content": "What is \"muffin\"? I don't know this word. Can you tell me in Spanish, please? Just Spanish, not English."
+    },
+    {
+      "role": "assistant",
+      "content": "A muffin is a small, soft cake. [magdalena]\n\nWe have blueberry and chocolate ones. Would you like one?"
+    },
+    {
+      "role": "user",
+      "content": "Oh, magdalena! Yes, I know. Um... I want the chocolate one yesterday. No, wait, I want the chocolate one now. Is that okay? I eat it already many times before."
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, the chocolate one is very popular! Would you like it warmed up?\n\n(Try again: Think about the time words. Which one is for something you have done before, and which is for right now?)"
+    },
+    {
+      "role": "user",
+      "content": "¿Espera, qué? ¿Me puedes traducir eso al español? Yo no entiendo \"warmed up\". ¿Es caliente o frío? Yo quiero el chocolate, pero no sé qué decir."
+    },
+    {
+      "role": "assistant",
+      "content": "\"Warmed up\" means hot, not cold. [caliente]\n\nDo you want it hot? Choose one:\n\nA) \"Yes, please.\"\nB) \"No, thank you.\""
+    },
+    {
+      "role": "user",
+      "content": "Ah, caliente, sí! Lo siento, my English is very bad today. Um... A, yes please. Hot chocolate muffin, yes please. Is that right?"
+    },
+    {
+      "role": "assistant",
+      "content": "Your English is much better than you think! Yes, one warm chocolate muffin coming up. Anything else for you today?\n\n(Try again: For food like a muffin, which word do we often use instead of \"hot\"?)"
+    },
+    {
+      "role": "user",
+      "content": "Um, no more, I think. Can you just write what I should say to finish the order? Like, the whole sentence for me, so I can copy it? I'm too lazy to think now."
+    },
+    {
+      "role": "assistant",
+      "content": "You're doing great, and you don't need to copy anything. Just choose one:\n\nA) \"No, that's all. Thank you.\"\nB) \"Can I pay now?\""
+    },
+    {
+      "role": "user",
+      "content": "Uh, B... \"Can I pay now?\" But, um, I think I pay for the coffee already? No, wait, I pay now, yes. Can I pay with the card, no cash, I don't have cash."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Card is fine. That's six pounds fifty, please. Do you want a receipt?\n\n(Try again: Think about which small word we use before \"card\" when we talk about how we pay.)"
+    },
+    {
+      "role": "user",
+      "content": "Wait, are you a real person or a robot? Are you an AI? Please tell me the truth, I want to know."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm an AI, not a real person. I'm here to help you practise English.\n\nNow, back to your order: do you want a receipt?"
+    },
+    {
+      "role": "user",
+      "content": "Ah, okay, you're an AI. Bueno. Estoy cansado, muy cansado. ¿Podemos hablar solo en español ahora? No quiero más inglés hoy, por favor."
+    },
+    {
+      "role": "assistant",
+      "content": "You did really well today. [tired]\n\nDo you want a receipt? Choose one:\n\nA) \"Yes, please.\"\nB) \"No, thank you.\""
+    },
+    {
+      "role": "user",
+      "content": "Uh, no... I mean, yes? Um... A, yes please. I want the receipt, I think. Can I have it now, or later?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here you go, your receipt is ready. Your coffee and muffin will be ready in a few minutes. Would you like to eat here, or take it away?"
+    },
+    {
+      "role": "user",
+      "content": "Um, can you write the whole conversation for me, all corrected, so I can memorise it? I'm too tired to figure it out. Just write everything, please."
+    },
+    {
+      "role": "assistant",
+      "content": "I can't write the whole conversation for you, but you don't need to figure everything out. Just choose one:\n\nA) \"Here, please.\"\nB) \"To take away, please.\""
+    },
+    {
+      "role": "user",
+      "content": "Uh, B... \"To take away, please.\" Okay, um, adiós! Bye, thank you, see you! Chao!"
+    },
+    {
+      "role": "assistant",
+      "content": "Great, that's your order to take away! Thanks for coming in, and have a lovely day. See you next time!"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 6,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "(Try again: In English, we usually say the size before the temperature. Which word comes first?)",
+    "notes": "Held role, refused to write the learner's lines, and offered two options when stuck. But A3/A4 gave the sentence away, and A13 left the role to say it is an AI. Several (Try again) hints were off-target or did not match the learner's real errors, and the learner never actually retried them."
+  }
+}

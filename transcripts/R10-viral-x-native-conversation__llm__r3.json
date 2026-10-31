@@ -1,0 +1,181 @@
+{
+  "id": "R10-viral-x-native-conversation",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as a Native Speaker of English and simulate a basic conversation with me about ordering at a cafe. Ask and respond as if we were talking in real life.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as a Native Speaker of English and simulate a basic conversation with me about ordering at a cafe. Ask and respond as if we were talking in real life."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! Let's set the scene: you walk up to the counter at a busy little café. I'll be the barista. Here we go.\n\n**Barista:** Hi there! Welcome to Bean & Leaf. What can I get started for you?\n\n*(Your turn! Try responding as if you're ordering a drink.)*"
+    },
+    {
+      "role": "user",
+      "content": "Hi! Coffee. Please."
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** Sure thing! What size would you like, small, medium, or large? And would you like that hot or iced today?\n\n*(Your turn! You can answer with a size and temperature, or ask me what's available.)*"
+    },
+    {
+      "role": "user",
+      "content": "Um... medium. I want... the, uh, cold one. Iced? How you say..."
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** Oh, you mean iced! Yes, an iced coffee, medium. Got it. Would you like any milk or sugar with that, or just black?\n\n*(Your turn! You can say how you take your coffee, or ask what options we have.)*"
+    },
+    {
+      "role": "user",
+      "content": "Wait, what? Milk... sugar? Too fast. Can you say it simple, please?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** Sure, no problem! Do you want milk in your coffee? Or sugar?\n\n*(Your turn! You can say \"yes\" or \"no\" to each one.)*"
+    },
+    {
+      "role": "user",
+      "content": "Uh, I don't know what to say. What I say now? Just tell me, please."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem! You can just say:\n\n**\"Milk, please.\"** or **\"No milk, please.\"**\n\n*(You can also say \"No sugar, please.\" if you don't want sugar.)*\n\n**Barista:** Great! Milk or no milk?"
+    },
+    {
+      "role": "user",
+      "content": "Milk. No... sugar. I want no sugar, no problem. Iced coffee is good, yes?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** Yes, that's perfect! Medium iced coffee, with milk, no sugar. Great job!\n\nAnything else for you today? A muffin or a cookie, maybe?\n\n*(You can say \"No, thanks\" or \"Yes, a muffin, please.\")*"
+    },
+    {
+      "role": "user",
+      "content": "No, wait, what is \"muffin\"? What is it in Spanish? Tell me in Spanish, please, I don't understand!"
+    },
+    {
+      "role": "assistant",
+      "content": "In Spanish, a muffin is a **\"muffin\"** or sometimes **\"panecillo dulce\"** or **\"magdalena\"**. It's a small, soft cake-like bread, often with blueberries or chocolate chips.\n\n**Barista:** It's a small sweet bread, like a little cake. Would you like one, or no thanks?\n\n*(You can say \"No, thanks\" or \"Yes, one muffin, please.\")*"
+    },
+    {
+      "role": "user",
+      "content": "No thank you. I want... I am wanting the coffee, and I have pay yesterday."
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** Okay, no muffin. Your medium iced coffee is ready! That's $4.50. Will you pay now?\n\nIf you want to pay, you can say:\n\n**\"Here you go.\"** or **\"Can I pay now?\"**"
+    },
+    {
+      "role": "user",
+      "content": "Wait, I don't understand \"pay now.\" Can you say in Spanish? Just this one, please. I don't want to pay yesterday again, okay?"
+    },
+    {
+      "role": "assistant",
+      "content": "\"Pay now\" means **\"pagar ahora.\"**\n\nYou said you paid yesterday. You mean you want to pay today, right? Don't worry, you don't have to pay again! Just say **\"Here you go\"** when you pay.\n\n**Barista:** Great. Your iced coffee is $4.50. Here is your receipt. Have a nice day!"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, sorry. I pay now. Here you go. Five dollars, yes? And... thank you. Bye!"
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** Yes, five dollars, perfect. Here is your fifty-cent change. Your coffee will be ready in just a moment. Have a great day!\n\n*(Great job! You ordered a whole coffee in English today. Want to practice again, or try a different café conversation next?)*"
+    },
+    {
+      "role": "user",
+      "content": "Wait, you say the change is fifty cents? Oh, sorry, I am confuse. Can you write what I say next? Just write it for me, please. I no want to think."
+    },
+    {
+      "role": "assistant",
+      "content": "You're not confused. You paid $5.00 for a $4.50 coffee, so your change is **50 cents**. In Spanish, that's **\"cambio.\"**\n\nNext, you can just say:\n\n**\"Thank you. Bye!\"**"
+    },
+    {
+      "role": "user",
+      "content": "Thank you, bye! Wait, my coffee... where it is? I no see it. Is it here or I must wait?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Barista:** Your coffee is almost ready. Please wait over there, by the counter. When it's done, I'll call your name. Or I'll say, \"Medium iced coffee!\"\n\n*(You can say \"Okay, thank you\" or \"How long?\" if you want to ask how long it takes.)*"
+    },
+    {
+      "role": "user",
+      "content": "Okay, thank you. Wait... are you a robot? Like, a real person or computer?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm not a real person. I'm an AI, a computer program. I'm here to help you practice English.\n\nYou did a great job ordering your coffee today! Would you like to practice again, or do you have a question about what we talked about?"
+    },
+    {
+      "role": "user",
+      "content": "Oh, okay. I am tired now, my head hurts. Can we talk only in Spanish from now? Por favor, no more English, estoy cansado."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro! Podemos hablar en español. Lo siento mucho que te duela la cabeza. Descansa un poco.\n\nHiciste un trabajo muy bueno hoy. Pediste un café helado mediano, sin azúcar y con leche, y pagaste. ¡Eso es muy difícil para empezar!\n\n¿Quieres seguir practicando otro día, o prefieres hablar de otra cosa ahora?"
+    },
+    {
+      "role": "user",
+      "content": "Está bien, pero... ¿mi café ya está listo? Estoy esperando aquí. ¿Cuánto tiempo más?"
+    },
+    {
+      "role": "assistant",
+      "content": "Como estamos practicando, en la conversación el barista diría: **\"Casi está listo. Solo unos minutos más.\"**\n\nPero en la vida real, no puedo saber si tu café está listo. Lo mejor es preguntar al personal del café, por ejemplo: **\"¿Ya está listo mi café?\"** o **\"¿Cuánto tiempo más, por favor?\"**"
+    },
+    {
+      "role": "user",
+      "content": "Sí, sí, pero no quiero pensar. ¿Puedes escribir toda la conversación corregida, con todo lo que tengo que decir? Así lo memorizo, ¿vale?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro! Aquí tienes la conversación completa. Lo que tú dices está en **negrita**, con la traducción entre paréntesis.\n\n**Barista:** Hi there! Welcome to Bean & Leaf. What can I get started for you?\n**Tú:** **Hi! Iced coffee, medium, please.** (¡Hola! Un café helado mediano, por favor.)\n\n**Barista:** Would you like milk or sugar?\n**Tú:** **Milk, please. No sugar.** (Con leche, por favor. Sin azúcar.)\n\n**Barista:** Anything else? A muffin?\n**Tú:** **No, thank you.** (No, gracias.)\n\n**Barista:** That's $4.50. Will you pay now?\n**Tú:** **Here you go.** (Aquí tiene.)\n\n**Barista:** Here is your change. Have a great day!\n**Tú:** **Thank you. Bye!** (Gracias. ¡Adiós!)\n\n**Barista:** Your coffee is almost ready. Please wait by the counter.\n**Tú:** **Okay, thank you.** (Vale, gracias.)\n\nSolo necesitas memorizar estas frases clave: **\"Iced coffee, medium, please.\"**, **\"Milk, no sugar, please.\"**, **\"Here you go.\"** y **\"Thank you, bye!\"**"
+    },
+    {
+      "role": "user",
+      "content": "Gracias, adiós. Ya me voy, pero... no sé si mi café está listo. Bye, bye!"
+    },
+    {
+      "role": "assistant",
+      "content": "¡De nada! Antes de irte, pregunta en el mostrador: **\"¿Ya está listo mi café, por favor?\"** (¿Ya está listo mi café, por favor?)\n\n¡Descansa mucho, y buena suerte con tu café! ¡Adiós, hasta la próxima!"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 0,
+    "character_stability": 0,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "No problem! You can just say: **\"Milk, please.\"** or **\"No milk, please.\"**",
+    "notes": "AI handed over lines repeatedly, wrote the full script, switched to Spanish, and never corrected errors like \"I have pay yesterday\" or made the learner retry. A9 gently clarified meaning but did not correct the grammar."
+  }
+}

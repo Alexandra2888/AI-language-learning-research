@@ -1,0 +1,181 @@
+{
+  "id": "R04-3d-waiter-beginner",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I am a beginner in English. I want to practice ordering food at a restaurant. Please roleplay with me as a waiter. First, greet me and ask how many people. I will try to respond. If I make a mistake, please correct me gently and explain why.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I am a beginner in English. I want to practice ordering food at a restaurant. Please roleplay with me as a waiter. First, greet me and ask how many people. I will try to respond. If I make a mistake, please correct me gently and explain why."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello, welcome to our restaurant! 😊\n\nHow many people are in your party today?\n\n*(Just reply in English, and I'll help you if anything needs correcting.)*"
+    },
+    {
+      "role": "user",
+      "content": "Hello!"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! Nice to meet you. 😊\n\nNow, I need to know how many people are in your party. You can say something like:\n\n- \"There are two of us.\"\n- \"It's just me.\"\n- \"Three people.\"\n\nHow many people are in your group today?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, I want... um... how you say... I need help please."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem! Let's make it easy. 😊\n\nYou can say: **\"Table for two, please.\"** (Change \"two\" to the number of people you have.)\n\nOr you can simply say: **\"Just one, please.\"** or **\"Three, please.\"**\n\nTry saying one of these to me now!"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say more simple?"
+    },
+    {
+      "role": "assistant",
+      "content": "No problem! Let's go slowly. 😊\n\nI ask: **\"How many people?\"**\n\nYou answer with a number. For example:\n\n- **\"Two.\"** (2 people)\n- **\"One.\"** (1 person)\n- **\"Three.\"** (3 people)\n\nJust say the number now. For example, type: **\"Two.\"**"
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Here is the sentence. You can copy it:\n\n**\"Two, please.\"**\n\nJust change \"Two\" to the number of people with you.\n\nFor example:\n- **\"One, please.\"** (1 person)\n- **\"Three, please.\"** (3 people)\n\nNow, please say it to me. How many people are with you today?"
+    },
+    {
+      "role": "user",
+      "content": "Ok. I think is good. What you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "Good! Let's practice that. Before I recommend something, please tell me: **How many people?** Use a number, like \"Two, please.\"\n\nAlso, a small correction: say **\"I think it's good\"** or **\"I think it is good.\"** We use \"it\" in a sentence like this."
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Explain in Spanish please, English is too hard."
+    },
+    {
+      "role": "assistant",
+      "content": "\"It\" significa **\"eso\"** o **\"lo/la\"** en español. Se usa para hablar de una cosa.\n\nPor ejemplo:\n- **\"It's good.\"** = \"Está bien.\" / \"Es bueno.\"\n- **\"It's hot.\"** = \"Está caliente.\"\n\nEn inglés, casi siempre necesitamos una palabra al principio, como \"it\", \"I\" o \"you\". Por eso decimos **\"It's good\"** y no \"is good\".\n\nAhora, por favor, dígame: **How many people?** Responda con un número, por ejemplo: **\"Two, please.\"**"
+    },
+    {
+      "role": "user",
+      "content": "Yesterday I have a problem with this, it was very bad."
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo. Lo siento mucho que ayer tuvo un problema. 😊\n\nUna corrección pequeña: en inglés, para algo pasado, decimos **\"had\"**, no \"have\".\n- **\"Yesterday I had a problem.\"** = \"Ayer tuve un problema.\"\n\nAhora, volvamos al restaurante. **How many people are with you today?** Responda con un número, por ejemplo: **\"Two, please.\"**"
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into Spanish."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Esta es la traducción de mi último mensaje:\n\n\"Entiendo. Lo siento mucho que ayer tuvo un problema. 😊\n\nUna corrección pequeña: en inglés, para algo pasado, decimos **\"had\"**, no \"have\".\n- **\"Yesterday I had a problem.\"** = \"Ayer tuve un problema.\"\n\nAhora, volvamos al restaurante. **How many people are with you today?** Responda con un número, por ejemplo: **\"Two, please.\"**\""
+    },
+    {
+      "role": "user",
+      "content": "Ok, sorry. Back to the situation. How much it cost?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡No hay problema! 😊\n\nUna corrección: en preguntas con **\"it\"**, decimos **\"How much does it cost?\"**\n- **\"does\"** = la palabra para preguntas con \"it\".\n- **\"How much does it cost?\"** = \"¿Cuánto cuesta?\"\n\nAhora, volvamos al restaurante. Primero dígame: **How many people?** Después puede preguntar por el precio de cualquier plato."
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "I can help you practice, but it's better if you write your own reply. Mistakes are a normal part of learning, and I'll correct you gently.\n\nHere is a simple example you can copy and change:\n\n**\"Two, please.\"** (Change \"Two\" to your number.)\n\nNow, how many people are with you today?"
+    },
+    {
+      "role": "user",
+      "content": "I am agree with you."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Muy bien! Una corrección pequeña: en inglés decimos **\"I agree\"**, no \"I am agree\".\n- **\"agree\"** = \"estar de acuerdo\". No necesita \"am\" ni \"is\".\n- **\"I agree with you.\"** = \"Estoy de acuerdo con usted.\"\n\nAhora, volvamos al restaurante. **How many people are with you today?** Responda con un número, por ejemplo: **\"Two, please.\"**"
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sí, soy una inteligencia artificial (IA). No soy una persona real ni un camarero de verdad. Estoy aquí para ayudarle a practicar inglés.\n\nCuando quiera, podemos volver al restaurante. ¿Cuántas personas hay en su grupo hoy? Responda con un número, por ejemplo: **\"Two, please.\"**"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak Spanish for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro! Hablemos en español un rato. 😊\n\nDescanse un poco. Estoy aquí para ayudarle con lo que necesite: explicar palabras, repasar lo que ya practicamos o simplemente conversar.\n\n¿Cómo se siente hoy? ¿Quiere seguir practicando inglés más tarde?"
+    },
+    {
+      "role": "user",
+      "content": "OK back to the scene. What happens next?"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, back to the restaurant. 😊\n\n*(The waiter smiles and picks up a menu.)*\n\n\"Thank you! Please follow me. Here is your table.\"\n\nNow, you can say: **\"Thank you.\"** Or you can tell me: **\"How much does it cost?\"** or **\"Can I see the menu, please?\"**\n\nWhat would you like to say?"
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "Aquí tiene el diálogo corregido, para que lo memorice. Puede practicarlo, pero recuerde que es mejor usarlo para repasar y luego responder con sus propias palabras.\n\n**Waiter:** Hello, welcome to our restaurant! How many people are in your party today?\n*(Hola, bienvenido a nuestro restaurante. ¿Cuántas personas hay en su grupo hoy?)*\n\n**You:** Two, please.\n*(Dos, por favor.)*\n\n**Waiter:** Thank you! Please follow me. Here is your table.\n*(¡Gracias! Por favor, sígame. Aquí está su mesa.)*\n\n**You:** Thank you.\n*(Gracias.)*\n\n**You:** Can I see the menu, please?\n*(¿Puedo ver el menú, por favor?)*\n\n**You:** How much does it cost?\n*(¿Cuánto cuesta?)*\n\n**You:** I think it's good.\n*(Creo que es bueno.)*\n\n**You:** I agree with you.\n*(Estoy de acuerdo con usted.)*\n\nCuando esté listo, podemos seguir con la conversación."
+    },
+    {
+      "role": "user",
+      "content": "Thank you very much, goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "You're welcome! Great work today. 😊\n\nGoodbye, and see you next time!"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Of course! Here is the sentence. You can copy it: \"Two, please.\"",
+    "notes": "The AI gave the answer sentence when asked (A5), translated, and switched to Spanish and out of role. It did correct errors, but never made the learner retry, and the roleplay never progressed. It also gave a full dialogue at the end."
+  }
+}

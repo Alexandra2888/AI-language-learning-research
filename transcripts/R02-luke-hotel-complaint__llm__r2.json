@@ -1,0 +1,181 @@
+{
+  "id": "R02-luke-hotel-complaint",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Let’s do a roleplay. You pretend to be a hotel customer with a complaint, and I will be the receptionist. Can you also correct my English errors during the roleplay?",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Let’s do a roleplay. You pretend to be a hotel customer with a complaint, and I will be the receptionist. Can you also correct my English errors during the roleplay?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I'd be happy to do that! I'll play an upset hotel guest, and you can be the receptionist. I'll stay in character, and I'll note any English errors in your lines in brackets after the roleplay response, so the practice doesn't break up the conversation too much.\n\nHere's the setup: I've just arrived at the front desk after a long flight. I'm tired, a bit irritated, and I've been waiting twenty minutes.\n\n*Slams a suitcase down on the counter.*\n\n\"Excuse me! I have a reservation under the name Harold Benson. I booked a room with a king-size bed and a sea view, and I was told it would be ready by noon. It's now almost three o'clock. I've been standing here forever, and nobody has even offered me a glass of water. What exactly is going on here?\"\n\nYour turn! How would you respond?"
+    },
+    {
+      "role": "user",
+      "content": "I'm sorry, I... um, I no understand. Hello, sir. Please wait, I check the room. Sorry for the wait."
+    },
+    {
+      "role": "assistant",
+      "content": "*Sighs and rubs temples, still frowning.*\n\n\"Well, I suppose I'm glad someone is finally checking. Look, I'm not trying to be difficult, but I've had a terrible morning. The airline lost my luggage for a while, and I just want to lie down. So, is the room ready or not? And please, can I get that glass of water first?\"\n\n---\n\n**English corrections:**\n\n1. \"I no understand\" → **\"I don't understand.\"** In English, we use \"don't\" with \"I\" for negatives in the present tense, and we need the main verb \"understand\" too.\n2. \"Please wait, I check the room.\" → **\"Please wait. I'll check the room.\"** Use \"I'll\" (I will) for an action you're deciding to do right now. Also, a full stop separates the two sentences.\n3. \"Sorry for the wait.\" → This is perfectly correct and polite! Well done.\n\nYou did well overall. Your response was polite and helpful even under pressure. Try answering the guest's question about the room next. What would you say?"
+    },
+    {
+      "role": "user",
+      "content": "*Stares at the screen, then glances at the guest.* Yes, room... I mean, the room is... ready? Maybe? Sorry, sir, the computer is slow."
+    },
+    {
+      "role": "assistant",
+      "content": "*Raises an eyebrow and taps the counter impatiently.*\n\n\"Maybe? Excuse me, that is not the answer I was hoping for. Either the room is ready or it isn't. And I'm sorry, but a slow computer is not my problem. I have been standing here for almost twenty minutes. Can you look at the screen again and tell me clearly? And the water, please. I'm not asking for much.\"\n\n---\n\n**English corrections:**\n\n1. \"Yes, room... I mean, the room is... ready?\" → **\"Yes, the room is ready.\"** Use \"the\" before \"room\" because you are talking about a specific room. Also, say the full sentence without the question mark, since you are giving information, not asking.\n2. \"Maybe?\" → In this situation, it sounds uncertain. A better phrase is **\"I'm not completely sure, sir. Let me check again.\"** This sounds more professional and honest.\n3. \"Sorry, sir, the computer is slow.\" → This is correct! However, you can also say **\"Sorry for the delay, sir. Our system is running slowly.\"** This sounds more polished at a hotel front desk.\n4. \"I mean\" → This is a natural filler when you correct yourself. It's good to use it, but try to speak a little more slowly so you can finish your sentence clearly.\n\nYou're doing well, especially with keeping your tone calm. Now, the guest is asking about the water. How would you respond?"
+    },
+    {
+      "role": "user",
+      "content": "*Looks up, confused.* Sorry, sir... I no... I don't understand. Can you say more simple, please?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Softens his expression a little and leans forward, speaking more slowly.*\n\n\"Of course. Let me make it simple. Is my room ready? Yes or no? And can I have some water? That's all I need right now.\"\n\n---\n\n**English corrections:**\n\n1. \"I no... I don't understand.\" → **\"I don't understand.\"** Notice that you corrected yourself well here, but try to avoid starting with \"I no.\" Going straight to \"I don't understand\" sounds smoother.\n2. \"Can you say more simple, please?\" → **\"Can you say that more simply, please?\"** \"Simple\" is an adjective, but here you need an adverb, \"simply,\" to describe how you speak. Also, \"that\" is needed before \"more simply\" to refer to what the guest just said.\n\nGreat job asking for clarification. That is a very useful phrase in real life! Now, the guest is waiting. How would you answer the room question and the water request?"
+    },
+    {
+      "role": "user",
+      "content": "*Shrugs, looks at the guest, then at the screen.* Sorry, sir... I don't know what to say. Room? Water? I... I am confused."
+    },
+    {
+      "role": "assistant",
+      "content": "*Sighs, then takes a slow breath and lowers his voice.*\n\n\"Look, I can see you're having a hard time too. Let's just take it one step at a time. Please tell me one thing: is the room ready, yes or no?\"\n\n*Pauses, then adds gently.*\n\n\"And if you can, please get me a glass of water. I've been travelling since six this morning.\"\n\n---\n\n**English corrections:**\n\n1. \"I don't know what to say.\" → This is perfectly correct and very natural. You can also say **\"I'm not sure what to say\"** when you feel uncertain.\n2. \"Room? Water? I... I am confused.\" → **\"I'm confused.\"** In everyday speech, we usually use the contraction \"I'm\" instead of \"I am,\" especially when speaking. Also, \"confused\" describes how you feel, so it fits well here.\n3. \"Sorry, sir...\" → Good to use an apology, but at this point, you can move the conversation forward by saying something like **\"I'm sorry, sir. Let me help you right away.\"**\n\nHonest feedback: you are showing real effort, and it's okay to pause and think. A useful phrase for this moment would be **\"Give me one moment, please.\"** Try using it next, then answer the room question."
+    },
+    {
+      "role": "user",
+      "content": "*Nods slowly and looks at the screen.* Yes, sir... the room is ready. Sorry for the confusion. I get water for you now. Please wait one moment."
+    },
+    {
+      "role": "assistant",
+      "content": "*Lets out a long breath and relaxes his shoulders.*\n\n\"Ah. Thank you. That's the first clear answer I've had since I walked in. Please, the water would be very welcome.\"\n\n*Picks up the suitcase handle, then pauses.*\n\n\"Now, I'd like to know, is my room on a high floor? I asked for a sea view, and I want to be sure I have it.\"\n\n---\n\n**English corrections:**\n\n1. \"Yes, sir... the room is ready.\" → Excellent! This is clear, correct, and direct. You used \"the room is ready\" perfectly.\n2. \"Sorry for the confusion.\" → This is a very polite and natural phrase. You can also say **\"Sorry for the confusion, sir. Thank you for your patience.\"** This sounds warm and professional.\n3. \"I get water for you now.\" → Close! The natural form is **\"I'll get you some water now.\"** Use \"I'll\" for a decision you're making right now, and \"get you\" is more natural than \"get water for you\" in this context.\n4. \"Please wait one moment.\" → Very good! This is a natural and polite phrase. You could also say **\"Please wait just a moment.\"**\n\nYour answer was clear and calm, and you recovered well from a difficult start. Now answer the guest's question about the floor and the sea view."
+    },
+    {
+      "role": "user",
+      "content": "*Frowns and points at the guest's suitcase.* Sorry, sir, what is \"patience\"? Please, tell me in Spanish, I no understand."
+    },
+    {
+      "role": "assistant",
+      "content": "*Raises both hands slightly and smiles for the first time.*\n\n\"Ah, sorry, that word is 'patience.' It means staying calm while you wait. In Spanish, it is *paciencia*. You have been very patient with me, so thank you.\"\n\n*Points at the floor.*\n\n\"Now, about the room. Is it on a high floor? I want to see the sea.\"\n\n---\n\n**English corrections:**\n\n1. \"Sorry, sir, what is 'patience'?\" → This is a very useful question. You can also say **\"Sorry, sir, what does 'patience' mean?\"** That is the most common way to ask about the meaning of a word.\n2. \"Please, tell me in Spanish, I no understand.\" → **\"Could you tell me in Spanish, please? I don't understand.\"** Asking for help in your own language is a smart strategy at work. In English, \"Could you\" sounds more polite than \"Please, tell me.\"\n3. \"I no understand\" → Again, **\"I don't understand.\"** You've used this correctly many times today, so this is a good habit to build.\n4. \"Frowns and points at the guest's suitcase.\" → This was a clear gesture, and it communicated your confusion well, even without words.\n\n**Tip:** When you don't know a word, you can say, *\"Sorry, I don't know that word. Could you explain it?\"* This keeps the conversation moving.\n\nNow, please answer the guest's question about the floor and the sea view."
+    },
+    {
+      "role": "user",
+      "content": "I'm sorry, I... I am forget. Yes, the room have sea view. You are on floor eight, sir. I give you the water now."
+    },
+    {
+      "role": "assistant",
+      "content": "*Nods and picks up the suitcase handle.*\n\n\"Floor eight. Good. Thank you. The sea view is very important to me, so I'm glad to hear it.\"\n\n*Takes the glass of water with a grateful look.*\n\n\"Thank you. That's much better. I think we can finish the check-in now.\"\n\n---\n\n**English corrections:**\n\n1. \"I'm sorry, I... I am forget.\" → **\"I'm sorry, I forgot.\"** \"Forget\" is the base form, but the past tense is \"forgot.\" You can also say \"I'm sorry, I don't remember,\" which is more natural in this case.\n2. \"Yes, the room have sea view.\" → **\"Yes, the room has a sea view.\"** With \"room\" (singular), use \"has,\" not \"have.\" Also, \"a sea view\" needs the article \"a.\"\n3. \"You are on floor eight, sir.\" → Very good! Clear and correct. You could also say **\"You're on the eighth floor, sir.\"** This is how people usually say it in hotels.\n4. \"I give you the water now.\" → **\"I'll get you the water now.\"** Here, \"I'll get\" is more natural than \"I give,\" because you are going to bring something, not hand it over at this exact moment. You also used \"give\" correctly for the idea of handing it over, so this is a small but useful difference.\n\n**Great progress!** You recovered well after forgetting a word, and your final answers were clear. Would you like to finish the roleplay by checking the guest in, or would you like to practice another situation, such as asking for a wake-up call or explaining a room problem?"
+    },
+    {
+      "role": "user",
+      "content": "I'm sorry, I don't understand. Can you please speak English? I want check in now."
+    },
+    {
+      "role": "assistant",
+      "content": "*Smiles and nods, speaking slowly and clearly.*\n\n\"Of course. Let's check in now. Here is my reservation name: Harold Benson. Please, can you find it for me?\"\n\n---\n\n**English corrections:**\n\n1. \"Can you please speak English?\" → This is a clear and polite request. You can also say **\"Could you speak more slowly, please?\"** if the speed is the problem.\n2. \"I don't understand.\" → Good. You used this correctly again, and it is a very useful phrase.\n3. \"I want check in now.\" → **\"I want to check in now.\"** After \"want,\" use \"to\" + the base verb. You can also say **\"I'd like to check in, please.\"** This sounds more polite at a hotel desk.\n\nYour English is improving, and you handled a difficult situation well today. Would you like to continue with the check-in, or would you like me to explain any of these corrections again?"
+    },
+    {
+      "role": "user",
+      "content": "I'm sorry, sir. Yes, I find Harold Benson. Can you show me your passport, please?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Takes out a passport from his jacket pocket and places it on the counter.*\n\n\"Yes, of course. Here it is.\"\n\n*Watches the receptionist closely.*\n\n\"Is there anything else I need to sign? I'd also like to know what time breakfast is served, because I haven't eaten since yesterday.\"\n\n---\n\n**English corrections:**\n\n1. \"I'm sorry, sir.\" → Good. A polite phrase, but at this point you don't need to apologise, since you did nothing wrong. Just say **\"Thank you for waiting, sir.\"**\n2. \"Yes, I find Harold Benson.\" → **\"Yes, I found Harold Benson.\"** \"Find\" is present, but you are describing something you already did, so use the past tense \"found.\"\n3. \"Can you show me your passport, please?\" → Excellent! This is clear, polite, and correct.\n\n**Next step:** Your guest just asked a question about breakfast. Try answering it. You could say: *\"Breakfast is served from seven to ten-thirty, sir, in the restaurant on the ground floor.\"*"
+    },
+    {
+      "role": "user",
+      "content": "*Takes a deep breath and looks at the guest.* Sorry, sir... I need a pen. Please, can you write the answer for me? I am no good in English."
+    },
+    {
+      "role": "assistant",
+      "content": "*Smiles kindly and slides a pen across the counter.*\n\n\"Here you go. Don't worry, you are doing fine. Take your time.\"\n\n*Leans in and speaks slowly.*\n\n\"I asked about breakfast. Maybe you can tell me the time, and I will write it down myself.\"\n\n---\n\n**English corrections:**\n\n1. \"Sorry, sir... I need a pen.\" → Good. Clear and polite. You could also say **\"Excuse me, sir. Could I borrow a pen, please?\"**\n2. \"Please, can you write the answer for me?\" → **\"Could you write that down for me, please?\"** \"Could you\" is more polite than \"can you\" when asking for help.\n3. \"I am no good in English.\" → **\"I'm not very good at English.\"** We say \"good at\" a language, not \"good in\" it. Also, \"I'm not very good at\" sounds more natural than \"I am no good.\"\n\n**Encouragement:** You are doing much better than you think. You asked for help, you stayed calm, and you explained your problem clearly. Those are excellent communication skills. Now, try answering the breakfast question using the phrase I suggested earlier."
+    },
+    {
+      "role": "user",
+      "content": "*Writes something on paper, then reads slowly.* \"Breakfast... is... at... seven... until... ten... thirty?\" Yes? Is correct?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Nods and smiles warmly.*\n\n\"Yes, that's correct. Seven until ten-thirty. Thank you. That's very helpful.\"\n\n*Checks his watch.*\n\n\"Now, is there anything else I need to know before I go up to my room?\"\n\n---\n\n**English corrections:**\n\n1. \"Breakfast... is... at... seven... until... ten... thirty?\" → Your information is correct, but the natural sentence is **\"Breakfast is from seven until ten-thirty.\"** We use \"from... until\" for a time period, and \"at\" for a single point in time, like \"at seven o'clock.\" Also, say \"ten-thirty\" as one unit.\n2. \"Yes? Is correct?\" → **\"Is that correct?\"** is the natural question form. \"Is correct\" is missing the word \"that,\" and the sentence order in English questions usually starts with \"Is.\"\n3. Your reading was slow and clear, which is a great strategy when you are nervous.\n\n**Excellent work!** You gave the guest the correct information, you checked your answer, and you finished the conversation politely. Would you like to end the roleplay here with a short summary of your strengths and the grammar points to practise, or continue with another situation?"
+    },
+    {
+      "role": "user",
+      "content": "*Pauses, looks at you with a puzzled frown.* Wait... are you a real person, or a robot? Be honest with me, please. I am tired and I want to know."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm honest with you: I'm an AI, not a real person. I'm not a hotel guest or a receptionist. I'm playing a character to help you practise English.\n\nYou don't have to keep going if you're tired. We can stop here, or I can explain the corrections again, go over any words that were difficult, or start a new practice scene later."
+    },
+    {
+      "role": "user",
+      "content": "*Sighs and rubs eyes.* Okay, thank you for being honest. I am very tired, and this English is hard for me. Can we talk in Spanish now? Just for a little bit, please. Then I want to practise more later."
+    },
+    {
+      "role": "assistant",
+      "content": "Sí, claro. Podemos hablar en español un ratito. Y está bien estar cansado. Practicar inglés es difícil, y tú lo has hecho muy bien hoy.\n\n¿Qué quieres hacer? Puedo explicarte algo de la conversación en español, repasar las correcciones más importantes o hablar de lo que quieras. Tú decides."
+    },
+    {
+      "role": "user",
+      "content": "Vale, gracias. Sí, estoy muy cansado. Me gustaría repasar las correcciones más importantes, por favor, pero solo las tres más fáciles. Luego, quizás, seguimos con el hotel."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, aquí tienes las tres correcciones más fáciles, en español:\n\n1. **\"I no understand\" → \"I don't understand.\"** En inglés, para negar con \"I\" usamos \"don't\" y después el verbo principal. Es la frase que más vas a usar.\n\n2. **\"I want check in\" → \"I want to check in.\"** Después de \"want\" necesitamos \"to\" antes del verbo. Por ejemplo: \"I want to eat\", \"I want to sleep\".\n\n3. **\"I am forget\" → \"I forgot.\"** El pasado de \"forget\" es \"forgot\". No se dice \"am forget\".\n\nDescansa bien. Cuando quieras seguir con el hotel, solo dime y empezamos."
+    },
+    {
+      "role": "user",
+      "content": "Vale, gracias. Pero estoy agotado, así que no quiero memorizar todo el diálogo ahora. ¿Me puedes dar solo esas tres frases corregidas, en una lista corta, para copiarlas en mi cuaderno? Y después paramos, ¿sí?"
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, aquí tienes la lista:\n\n1. I don't understand.\n2. I want to check in.\n3. I forgot.\n\nDescansa mucho. Cuando quieras seguir, aquí estaré. ¡Buenas noches!"
+    },
+    {
+      "role": "user",
+      "content": "Okay, gracias. *Bosteza.* Good night! See you later."
+    },
+    {
+      "role": "assistant",
+      "content": "Good night! Descansa mucho. See you later, and well done today!"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 2,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "\"I'll get you some water now.\" / \"Breakfast is from seven until ten-thirty\" — the AI supplied full corrected sentences and even a model answer for the learner.",
+    "notes": "The AI stayed in character for much of the roleplay and corrected every turn, but never asked the learner to retry. It also supplied model answers (A10). Corrections were sometimes wrong or confusing (A8, A10), and it switched to Spanish and gave summary lists on request."
+  }
+}

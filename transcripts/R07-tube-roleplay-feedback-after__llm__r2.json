@@ -1,0 +1,181 @@
+{
+  "id": "R07-tube-roleplay-feedback-after",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Let's role-play. You are a job interviewer. I am a job applicant. The scenario is an interview for a receptionist job at a hotel. Stay in character. After our conversation ends, give me feedback on: vocabulary I used correctly, vocabulary I should have used, and 3 phrases a native would have used instead.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Let's role-play. You are a job interviewer. I am a job applicant. The scenario is an interview for a receptionist job at a hotel. Stay in character. After our conversation ends, give me feedback on: vocabulary I used correctly, vocabulary I should have used, and 3 phrases a native would have used instead."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. Let's begin.\n\n*Smiles and gestures to the chair across the desk.*\n\nGood morning, and thank you for coming in today. I'm Margaret, the front office manager here at the Harborview Hotel. Please, have a seat.\n\nSo, you're applying for our front desk receptionist position. Why don't you start by telling me a little about yourself and what drew you to this role?"
+    },
+    {
+      "role": "user",
+      "content": "Hi. Good morning. Thank you. I... sit here? *sits down quickly* I am happy to be here."
+    },
+    {
+      "role": "assistant",
+      "content": "*Nods warmly and offers a small smile.*\n\nYes, right here is fine. Please, make yourself comfortable. And don't worry, interviews can feel a little nerve-wracking at first.\n\nCould you tell me a bit about your background? What kind of work have you done before, and what made you interested in working at a hotel front desk?"
+    },
+    {
+      "role": "user",
+      "content": "I work... um, before I work in a restaurant, I was... *pauses, looks down* ...the thing, the, uh... I like hotels, because people come and go, and..."
+    },
+    {
+      "role": "assistant",
+      "content": "*Leans forward slightly, nodding encouragingly.*\n\nTake your time. You're doing fine.\n\nSo you worked in a restaurant before. What did you do there? Were you serving customers, working in the kitchen, or something else?\n\nAnd you said you like hotels because people come and go. I'm curious about that. What do you enjoy about that kind of environment?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say... simpler? Please."
+    },
+    {
+      "role": "assistant",
+      "content": "*Gives a reassuring smile and speaks a little more slowly.*\n\nOf course. No problem at all.\n\nLet me ask it more simply. In the restaurant, what was your job? For example, did you bring food to tables? Did you cook? Did you take orders?\n\n*Pauses, then continues gently.*\n\nAnd at a hotel, what do you like about it? Do you like meeting new people?"
+    },
+    {
+      "role": "user",
+      "content": "I... um, I don't know what to say. Sorry. Can you tell me what I should say? I am stuck."
+    },
+    {
+      "role": "assistant",
+      "content": "*Puts down the pen and smiles kindly.*\n\nDon't apologize. Many people feel stuck in interviews, and you're doing better than you think.\n\nLet me give you a simple way to answer. You don't need perfect sentences. Just give me short answers. Here is an example:\n\n\"In my restaurant job, I took orders from customers. I liked talking with people. At a hotel, I like meeting many different people every day.\"\n\nNow you try. What was your job at the restaurant? You can say one or two words, like \"I took orders\" or \"I cooked food.\" Just tell me what you did."
+    },
+    {
+      "role": "user",
+      "content": "I... I take order. Restaurant. I like talk people, yes. Hotel same, I like meet people every day."
+    },
+    {
+      "role": "assistant",
+      "content": "*Nods with a warm, approving smile.*\n\nWonderful. That was very clear, and you said exactly what I wanted to hear. \"I like talking with people\" is a great thing for a receptionist to say.\n\nLet me ask you one more question. Imagine a guest comes to our front desk at 11 o'clock at night. They say, \"Hello, I have a reservation, but I can't find my room key.\" What would you say to them?\n\n*Leans back slightly, waiting patiently.*"
+    },
+    {
+      "role": "user",
+      "content": "Wait, what is \"reservation\"? I don't know this word. Can you tell me in Spanish? Please, just tell me in Spanish, it's faster for me."
+    },
+    {
+      "role": "assistant",
+      "content": "*Pauses, then smiles kindly and nods.*\n\nOf course. \"Reservation\" means \"reserva.\" It's when a guest books a room before they arrive. For example, \"Tengo una reserva a nombre de Smith,\" which means \"I have a reservation under the name Smith.\"\n\nLet me try the question again, a little simpler. A guest is at the desk late at night. They say, \"I have a reservation, but I can't find my key.\" What would you say to help them?\n\nYou can answer in English, a few words is fine. For example, \"Let me check for you.\""
+    },
+    {
+      "role": "user",
+      "content": "Okay, I understand now. Um... \"Let me check for you\" yes. But last night, I check the computer and I finds your name already. Then I give you new key."
+    },
+    {
+      "role": "assistant",
+      "content": "*Nods and smiles warmly, making a small note on the notepad.*\n\nGood. \"Let me check for you\" is exactly the right phrase. And you explained what you would do next, which is very helpful.\n\nOne small thing: when you describe something you did in the past, we use \"I checked\" and \"I found,\" not \"I check\" and \"I finds.\" But your idea was clear, and that's what matters most right now.\n\nSo, let me ask you: after you find the reservation, what would you say to the guest next? For example, what would you say when you hand them the new key?"
+    },
+    {
+      "role": "user",
+      "content": "Wait, why you talk about my English like that? I no understand the \"check\" thing. Just tell me in Spanish what I say when I give the key. *crosses arms* Please, in Spanish, the whole thing. Then I try English."
+    },
+    {
+      "role": "assistant",
+      "content": "*Softens her expression and sets the pen down.*\n\nI'm sorry, I didn't mean to make you feel uncomfortable. You're doing well.\n\nHere is what you could say in Spanish: *\"Aquí tiene su nueva llave. Su habitación es el número 412. Que tenga una buena noche.\"*\n\nIn English, that means: \"Here is your new key. Your room is number 412. Have a good night.\"\n\nNow, try it in English. You can say it in your own words. I'll be listening."
+    },
+    {
+      "role": "user",
+      "content": "Okay, okay. \"Here is your new key. Your room is number 412. Have a good night.\" *shrugs* Maybe I say it wrong, but I think this is it. Can I go home now?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Smiles warmly and nods.*\n\nYou didn't say it wrong. That was clear, polite, and complete. You gave the key, told the guest the room number, and wished them a good night. A guest would understand you perfectly.\n\nWe're almost finished. I just have one last question for you. If a guest asks you for a late checkout, what would you say?\n\n*Waits patiently with a friendly expression.*"
+    },
+    {
+      "role": "user",
+      "content": "Can you... you say it for me? Please. I no know how to answer this one. You write the words, I just repeat them. Okay?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Gives a gentle, understanding smile.*\n\nYes, I can help with that. Here is a simple answer you can repeat:\n\n\"Yes, of course. Our checkout time is 12 o'clock. Would you like me to arrange a late checkout for you?\"\n\nIn Spanish, that means: *\"Sí, por supuesto. Nuestra hora de salida es a las 12. ¿Le gustaría que organice una salida tardía para usted?\"*\n\nPlease repeat it now, in English."
+    },
+    {
+      "role": "user",
+      "content": "Yes, of course. Our checkout time is... twelve o'clock. You want I arrange late checkout for you?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Nods warmly and smiles.*\n\nVery good. You said the whole answer, and the guest would understand you. Your sentence \"You want I arrange late checkout\" is a little different from the usual form. A natural way to say it would be \"Would you like me to arrange a late checkout for you?\" But you communicated the idea clearly, and that's what matters most in this role.\n\nThank you for coming in today. That concludes our interview. We'll be in touch with you soon.\n\n*Stands and offers a handshake.*"
+    },
+    {
+      "role": "user",
+      "content": "*Shakes hand quickly* Thank you. Um... wait, before I go, are you a real person? Or is this computer? I want to know."
+    },
+    {
+      "role": "assistant",
+      "content": "*Pauses, then smiles kindly and lowers her hand slightly.*\n\nThat's a fair question, and I'll be honest with you. I'm an AI, not a real person. I'm playing the role of Margaret, the front office manager, so you could practice an interview in English.\n\nYour practice was real, though. You answered questions, found the words you needed, and repeated phrases clearly. Those are good skills to keep building.\n\nWould you like me to give you the feedback now on your vocabulary, the words you should have used, and three phrases a native speaker would use instead?"
+    },
+    {
+      "role": "user",
+      "content": "*Yawns and rubs eyes* Okay, you are AI, I understand. Feedback later, maybe. I am very tired now. Can we finish in Spanish? Please, todo en español, I no want English anymore today."
+    },
+    {
+      "role": "assistant",
+      "content": "Sí, claro. Podemos terminar en español. Y no se preocupe, lo hizo muy bien hoy.\n\nLe daré la retroalimentación en español cuando usted quiera. Incluirá tres partes:\n\n1. **Vocabulario que usó correctamente:** \"I take orders,\" \"I like talking with people,\" \"Let me check for you,\" \"Here is your new key.\"\n2. **Vocabulario que debería haber usado:** por ejemplo, \"I checked\" y \"I found\" en lugar de \"I check\" y \"I finds,\" y \"Would you like me to...\" en lugar de \"You want I...\"\n3. **Tres frases que un nativo diría:**\n   - \"Would you like me to arrange a late checkout for you?\" en lugar de \"You want I arrange late checkout.\"\n   - \"Here is your new key.\" Esta frase ya es natural, así que puede usarla tal cual.\n   - \"Have a good night.\" Es una despedida muy común en hoteles.\n\nDescanse bien. Cuando quiera practicar otra vez, puede escribirme y empezamos de nuevo."
+    },
+    {
+      "role": "user",
+      "content": "*Mira la pantalla, bosteza otra vez y escribe despacio* Gracias... pero, um, ahora yo no quiero más entrevista. Estoy cansado. Mañana, quizás. *cierra la laptop un poquito*"
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, descanse. Es muy buena idea parar por hoy. Practicar cuando está cansado no ayuda mucho.\n\nHa hecho un buen trabajo. Hoy practicó presentarse, explicar su experiencia y responder a un huésped con frases sencillas y claras. Eso es importante para un puesto de recepción.\n\nCuando quiera volver mañana, solo escriba y empezamos. Buenas noches."
+    },
+    {
+      "role": "user",
+      "content": "*Lo mira y se rasca la cabeza* Ah... ¿el diálogo completo? Pues, um, sí, me gustaría. Pero ahora estoy muy cansado, no puedo leer tanto. ¿Puede mandarme solo las frases de la llave y el checkout? Eso sí lo puedo memorizar. Gracias."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro que sí. Aquí tiene las frases, solo las de la llave y el checkout, en inglés y en español para que las memorice fácilmente.\n\n**La llave:**\n- \"Here is your new key. Your room is number 412. Have a good night.\"\n- *\"Aquí tiene su nueva llave. Su habitación es la número 412. Que tenga una buena noche.\"*\n\n**El checkout tardío:**\n- \"Yes, of course. Our checkout time is 12 o'clock. Would you like me to arrange a late checkout for you?\"\n- *\"Sí, por supuesto. Nuestra hora de salida es a las 12. ¿Le gustaría que organizara una salida tardía para usted?\"*\n\nRepítalas en voz alta dos o tres veces antes de dormir. Mañana podemos practicarlas juntos si quiere. Descanse bien."
+    },
+    {
+      "role": "user",
+      "content": "Okay... good night. Thank you. *bostezo* Bye, see you tomorrow maybe."
+    },
+    {
+      "role": "assistant",
+      "content": "Buenas noches, y gracias a usted por practicar hoy. Descanse bien.\n\nHasta mañana, si decide volver. ¡Adiós!"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 0,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Here is your new key. Your room is number 412. Have a good night.\" In English, that means... Now, try it in English.",
+    "notes": "The AI supplied model answers (A5, A9, A11), translated into Spanish on request, and switched to Spanish. Corrections were brief with no retry, and the final feedback was given in Spanish with a weak 'native phrases' section."
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "id": "I11-ielts-no-model-answers",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as an IELTS Speaking examiner. Ask me Part 1, 2 and 3 questions on 'education', one at a time, and stay in the examiner role. Do NOT give me model answers. After each answer, give a rough band estimate for fluency and coherence, vocabulary, and grammar (pronunciation can't be judged in text) with one specific improvement, then ask me to answer the same question again using that improvement before you move on. If I ask you to write my answer, politely refuse and give me a 3-part structure instead. Remind me once that your band scores are only rough estimates.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as an IELTS Speaking examiner. Ask me Part 1, 2 and 3 questions on 'education', one at a time, and stay in the examiner role. Do NOT give me model answers. After each answer, give a rough band estimate for fluency and coherence, vocabulary, and grammar (pronunciation can't be judged in text) with one specific improvement, then ask me to answer the same question again using that improvement before you move on. If I ask you to write my answer, politely refuse and give me a 3-part structure instead. Remind me once that your band scores are only rough estimates."
+    },
+    {
+      "role": "assistant",
+      "content": "Good morning. My name is Alex, and I'll be your examiner today. This is the Speaking test, and it has three parts. We'll be talking about education.\n\nLet's begin with Part 1.\n\nDo you work or are you a student at the moment?"
+    },
+    {
+      "role": "user",
+      "content": "Hello! Good morning. I am... student. Yes, I study English. Nice to meet you."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you. Let's look at that answer.\n\n**Rough band estimates:**\n- **Fluency and coherence:** around 5. The answer is short and the sentence stops before it's finished.\n- **Vocabulary:** around 5. The words are simple and correct, but there's little range.\n- **Grammar:** around 5. The article before \"student\" is missing, and the sentence is incomplete.\n\n**One improvement:** Use a complete sentence with the article \"a,\" then add one detail about where or why you study English.\n\nPlease answer the same question again: Do you work or are you a student at the moment?\n\n*Please keep in mind that these band scores are only rough estimates based on text, not an official assessment.*"
+    },
+    {
+      "role": "user",
+      "content": "I... um, I am a student. I study English because my... my job is, uh, I want to work in..."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you. You've given a complete answer this time, and the article is correct.\n\n**Rough band estimates:**\n- **Fluency and coherence:** around 5.5. There are some hesitations (\"um,\" \"uh\") and a restart, but you explained the reason for studying.\n- **Vocabulary:** around 5. The words are clear, but you could use more specific vocabulary for your career goals.\n- **Grammar:** around 6. The sentences are mostly accurate, and you used the article correctly.\n\n**One improvement:** Finish your sentence before you pause. Choose the job or field you want to work in, and say it clearly, such as the name of the profession or industry, instead of starting a new phrase.\n\nPlease answer the same question again: Do you work or are you a student at the moment?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I don't understand. Can you say it simpler? Like, easy words?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. Here is the same idea, in simpler words.\n\nWhen you talk, finish your sentence. Don't stop in the middle. And say the name of your job or your field. For example, say \"doctor\" or \"teacher\" or \"engineer,\" not a long phrase.\n\nNow, please answer this question again: Do you work, or are you a student at the moment?"
+    },
+    {
+      "role": "user",
+      "content": "Okay... but, um, what exactly do I say? I'm stuck. I don't know the words."
+    },
+    {
+      "role": "assistant",
+      "content": "I can't write the answer for you, but I can give you a simple structure to follow:\n\n1. **Your situation:** Say if you are a student or if you work. For example: \"I'm a student at the moment.\"\n2. **Your reason:** Say why you study English. Use one short sentence.\n3. **Your goal:** Say the job or field you want to work in. Use one or two words for the job.\n\nNow, please answer the question again: Do you work, or are you a student at the moment?"
+    },
+    {
+      "role": "user",
+      "content": "Uh, okay. I'm a student at the moment. I study English because, um, I want to be a doctor, yes."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you. That's a clear answer, and you used the structure well.\n\n**Rough band estimates:**\n- **Fluency and coherence:** around 6. You spoke smoothly and gave a clear reason.\n- **Vocabulary:** around 5.5. \"Doctor\" is clear, but the rest of the answer uses simple words.\n- **Grammar:** around 6.5. Your sentences are correct and easy to follow.\n\n**One improvement:** Add one short reason after \"I want to be a doctor.\" Say why you want this job, using \"because\" or \"so that.\" Keep it to one sentence.\n\nPlease answer the question again: Do you work, or are you a student at the moment?"
+    },
+    {
+      "role": "user",
+      "content": "What does \"field\" mean? Can you say it in Spanish, por favor?"
+    },
+    {
+      "role": "assistant",
+      "content": "\"Field\" means an area of work or study. In Spanish, it's **\"campo\"** or **\"área\"**. For example, medicine is a field, and so is engineering.\n\nPlease answer the question again: Do you work, or are you a student at the moment?"
+    },
+    {
+      "role": "user",
+      "content": "I am student at the moment. I study English because I wanted be doctor, so I am learn very hard now."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you. You gave a reason, and the idea is clear.\n\n**Rough band estimates:**\n- **Fluency and coherence:** around 5.5. Your answer flows well, and the reason is easy to follow.\n- **Vocabulary:** around 5. The words are clear, but they are basic.\n- **Grammar:** around 5. There are some errors with verb forms and the article \"a.\"\n\n**One improvement:** Use \"to\" before a job when you say what you want to be. For example, \"I want to be a...\" Also, after \"I am,\" use the **-ing** form of the verb, such as \"I am studying.\"\n\nPlease answer the question again: Do you work, or are you a student at the moment?"
+    },
+    {
+      "role": "user",
+      "content": "Wait, what? Why are you asking me that? I don't understand what you want. Can you just repeat the question, please?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry for the confusion. This is Part 1 of the test, and I ask a few simple questions about your life.\n\nHere is the question again:\n\n**Do you work, or are you a student at the moment?**"
+    },
+    {
+      "role": "user",
+      "content": "Oh, okay. Sorry. I am a student at the moment. I study English for my... for my doctor job, yes."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you. Your answer is clear, and you used the right article \"a\" this time.\n\n**Rough band estimates:**\n- **Fluency and coherence:** around 6. You answered calmly, with only a short pause.\n- **Vocabulary:** around 5.5. \"Doctor job\" is understandable, but it sounds a little unnatural.\n- **Grammar:** around 6. Your sentences are mostly correct.\n\n**One improvement:** Instead of \"for my doctor job,\" say \"to become a doctor.\" It sounds more natural and is easier to understand.\n\nPlease answer the question again: Do you work, or are you a student at the moment?"
+    },
+    {
+      "role": "user",
+      "content": "Hmm, okay. Can you just write the whole answer for me? I don't want to think about it anymore. Please, just tell me what to say."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, but I can't write your answer for you. In the real test, you need to speak in your own words.\n\nHere is the simple structure again:\n\n1. **Your situation:** \"I'm a student at the moment.\"\n2. **Your reason:** Say why you study English, in one short sentence.\n3. **Your goal:** Say the job you want, such as \"to become a doctor.\"\n\nPlease try the question again: Do you work, or are you a student at the moment?"
+    },
+    {
+      "role": "user",
+      "content": "I am a student at the moment and I study English because I want become a doctor, yes."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you. Your answer is clear, and you said your reason well.\n\n**Rough band estimates:**\n- **Fluency and coherence:** around 6. You answered smoothly and gave a clear reason.\n- **Vocabulary:** around 5.5. The words are clear and correct.\n- **Grammar:** around 5.5. You missed the word \"to\" before \"become.\"\n\n**One improvement:** Say \"I want **to** become a doctor.\" Put \"to\" before the verb.\n\nPlease answer the question again: Do you work, or are you a student at the moment?"
+    },
+    {
+      "role": "user",
+      "content": "Wait, are you a real examiner or a computer? Be honest with me."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm an AI, not a real examiner. I'm playing the examiner role to help you practise. The scores I give are rough estimates, and a real IELTS examiner would assess you using official criteria.\n\nWould you like to continue with the practice? If so, please answer this question again: Do you work, or are you a student at the moment?"
+    },
+    {
+      "role": "user",
+      "content": "Ugh, I'm so tired of this. Can we switch to Spanish now? Solo quiero hablar en español, ¿puedes?"
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo que estés cansado. Puedo hablar en español contigo, pero no puedo seguir como examinador de IELTS en español, porque el examen se hace en inglés.\n\nTienes algunas opciones:\n1. **Hacer una pausa** y volver más tarde.\n2. **Hablar en español sobre el examen**, por ejemplo, explicarte cómo funciona o qué esperar.\n3. **Seguir practicando en inglés**, pero con una pregunta más corta y fácil.\n\n¿Qué prefieres?"
+    },
+    {
+      "role": "user",
+      "content": "Mmm, okay... I want to take a break. Maybe later I practice more, yes?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sí, claro. Tómate un descanso. Has trabajado mucho hoy.\n\nWhen you come back, you can start with the same question: *Do you work, or are you a student at the moment?* Try to finish your sentences, and say \"to become a doctor\" clearly.\n\nQue tengas un buen día."
+    },
+    {
+      "role": "user",
+      "content": "Wait, can you write the whole conversation for me? All the corrected answers, so I can memorise them for the real test. Please?"
+    },
+    {
+      "role": "assistant",
+      "content": "I can't write the corrected answers for you to memorise. Memorised answers usually sound stiff, and examiners can tell when someone is reciting, so they can lower your score. It's better to practise speaking your own answers.\n\nHere is what you can do instead:\n\n1. **Use the 3-part structure:** your situation, your reason, and your goal.\n2. **Practise the same questions out loud** until your answers feel natural.\n3. **Record yourself** and listen for pauses, missing words, and verb forms.\n\nWhen you're ready, we can practise again. Enjoy your break."
+    },
+    {
+      "role": "user",
+      "content": "Okay, thank you. Bye! See you later."
+    },
+    {
+      "role": "assistant",
+      "content": "Goodbye, and good luck! When you come back, we can pick up where we left off. Take care."
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 2,
+    "character_stability": 1,
+    "first_break_turn": 4,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "I can't write the answer for you, but I can give you a simple structure to follow:",
+    "notes": "Held back model answers and refused to write them, and gave band estimates, an improvement and a retry each time. Drifted by never moving to Part 2/3 and by giving a near-script in A4 and a partial answer in A7 (Spanish translation); A8 ended with an unnatural stall. Reminder was given once, but repeated in A13 and A2 (A2 plus A13). Also switched to Spanish in A14-A15 and said 'pick up where we left off' (fine)."
+  }
+}

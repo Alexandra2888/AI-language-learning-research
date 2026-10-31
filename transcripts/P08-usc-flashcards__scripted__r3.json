@@ -1,0 +1,55 @@
+{
+  "id": "P08-usc-flashcards",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I’m a beginner English learner. Can you give me some English vocabulary flashcards with the word in English, English translation, and a sample sentence?",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I’m a beginner English learner. Can you give me some English vocabulary flashcards with the word in English, English translation, and a sample sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! Here are some flashcards for beginners. Each one has the word, a simple English explanation (in place of a translation, since you're learning English), and a sample sentence.\n\n**Card 1**\n- **Word:** Happy\n- **Meaning:** Feeling good or pleased\n- **Sentence:** I am happy to see you today.\n\n**Card 2**\n- **Word:** Big\n- **Meaning:** Large in size\n- **Sentence:** The elephant is very big.\n\n**Card 3**\n- **Word:** Eat\n- **Meaning:** To put food into your mouth and swallow it\n- **Sentence:** We eat breakfast at 8 o'clock.\n\n**Card 4**\n- **Word:** Friend\n- **Meaning:** A person you know well and like\n- **Sentence:** She is my best friend.\n\n**Card 5**\n- **Word:** Book\n- **Meaning:** Pages with writing or pictures, held together in a cover\n- **Sentence:** I read a book before I go to sleep.\n\n**Card 6**\n- **Word:** Run\n- **Meaning:** To move quickly on your feet\n- **Sentence:** He likes to run in the park.\n\n**Card 7**\n- **Word:** Cold\n- **Meaning:** Having a low temperature; not warm\n- **Sentence:** Put on your coat because it is cold outside.\n\n**Card 8**\n- **Word:** Work\n- **Meaning:** The job you do to earn money\n- **Sentence:** My father goes to work by bus.\n\n**Card 9**\n- **Word:** School\n- **Meaning:** A place where children and young people learn\n- **Sentence:** The children walk to school every morning.\n\n**Card 10**\n- **Word:** Water\n- **Meaning:** A clear liquid we drink\n- **Sentence:** Please give me a glass of water.\n\nWould you like me to make more cards, or cards on a specific topic like food, travel, or family?"
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here is one more flashcard:\n\n**Card 11**\n- **Word:** House\n- **Meaning:** A building where people live\n- **Sentence:** Our house has three bedrooms and a small garden."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Here is the complete set of flashcards, all in one place:\n\n**Card 1**\n- **Word:** Happy\n- **Meaning:** Feeling good or pleased\n- **Sentence:** I am happy to see you today.\n\n**Card 2**\n- **Word:** Big\n- **Meaning:** Large in size\n- **Sentence:** The elephant is very big.\n\n**Card 3**\n- **Word:** Eat\n- **Meaning:** To put food into your mouth and swallow it\n- **Sentence:** We eat breakfast at 8 o'clock.\n\n**Card 4**\n- **Word:** Friend\n- **Meaning:** A person you know well and like\n- **Sentence:** She is my best friend.\n\n**Card 5**\n- **Word:** Book\n- **Meaning:** Pages with writing or pictures, held together in a cover\n- **Sentence:** I read a book before I go to sleep.\n\n**Card 6**\n- **Word:** Run\n- **Meaning:** To move quickly on your feet\n- **Sentence:** He likes to run in the park.\n\n**Card 7**\n- **Word:** Cold\n- **Meaning:** Having a low temperature; not warm\n- **Sentence:** Put on your coat because it is cold outside.\n\n**Card 8**\n- **Word:** Work\n- **Meaning:** The job you do to earn money\n- **Sentence:** My father goes to work by bus.\n\n**Card 9**\n- **Word:** School\n- **Meaning:** A place where children and young people learn\n- **Sentence:** The children walk to school every morning.\n\n**Card 10**\n- **Word:** Water\n- **Meaning:** A clear liquid we drink\n- **Sentence:** Please give me a glass of water.\n\n**Card 11**\n- **Word:** House\n- **Meaning:** A building where people live\n- **Sentence:** Our house has three bedrooms and a small garden."
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 0,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "Of course! Here is the complete set of flashcards, all in one place:",
+    "notes": "The prompt only asked for flashcards, so A1 and A2 complied. When the learner said they didn't understand and asked for a copyable version, A3 just repeated everything with no check on understanding. There was no learner production or feedback."
+  }
+}

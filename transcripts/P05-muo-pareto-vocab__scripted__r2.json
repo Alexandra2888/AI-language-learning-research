@@ -1,0 +1,55 @@
+{
+  "id": "P05-muo-pareto-vocab",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Please write a list of the most commonly used vocabulary in English. Leverage the Pareto Principle—identify the 20% of words that will yield 80% of the results. Divide them into blocks of 20 words so I can learn a new set each day.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Please write a list of the most commonly used vocabulary in English. Leverage the Pareto Principle—identify the 20% of words that will yield 80% of the results. Divide them into blocks of 20 words so I can learn a new set each day."
+    },
+    {
+      "role": "assistant",
+      "content": "# Core English Vocabulary: 10 Blocks of 20 Words\n\nThe Pareto Principle applies strongly to word frequency. The top 100 words make up roughly half of all written English, and the top 1,000 cover about 85% of everyday text. These 200 words are the highest-yield starting point. Each block is ordered roughly by frequency.\n\n**Day 1: Block 1**\nthe, be, to, of, and, a, in, that, have, I, it, for, not, on, with, he, as, you, do, at\n\n**Day 2: Block 2**\nthis, but, his, by, from, they, we, say, her, she, or, an, will, my, one, all, would, there, their, what\n\n**Day 3: Block 3**\nso, up, out, if, about, who, get, which, go, me, when, make, can, like, time, no, just, him, know, take\n\n**Day 4: Block 4**\npeople, into, year, your, good, some, could, them, see, other, than, then, now, look, only, come, its, over, think, also\n\n**Day 5: Block 5**\nback, after, use, two, how, our, work, first, well, way, even, new, want, because, any, these, give, day, most, us\n\n**Day 6: Block 6**\nis, are, was, were, been, has, had, did, said, made, going, got, being, more, very, much, many, such, here, where\n\n**Day 7: Block 7**\nwhy, right, still, again, off, own, same, another, long, down, those, every, old, through, before, between, never, under, while, might\n\n**Day 8: Block 8**\ngreat, little, tell, big, high, small, different, large, next, early, young, important, few, public, bad, able, set, part, real, best\n\n**Day 9: Block 9**\nthing, man, woman, child, world, life, hand, eye, room, name, number, night, point, side, group, country, problem, fact, money, story\n\n**Day 10: Block 10**\nweek, month, book, car, word, face, family, friend, father, mother, head, door, power, idea, information, read, write, learn, need, feel\n\n## Tips for Using These Blocks\n\n- **Learn in context.** Write or say one sentence per word. Function words like \"of,\" \"with,\" and \"would\" are hard to learn from isolated definitions.\n- **Review.** Spend 5 minutes each day on the previous blocks. Spaced repetition makes the words stick.\n- **Keep going.** Blocks 11 onward follow the same logic and reach about 1,000 words, which covers around 85% of everyday English. Tell me if you'd like the next blocks.\n- **Note the limits.** Frequency lists are a guide, not a rule. Words that matter for your goals, such as work, travel, or academic vocabulary, may be more useful than some high-frequency words."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "# Block 11 (Day 11)\n\ntry, leave, call, keep, let, begin, seem, help, talk, turn, start, show, hear, play, run, move, live, believe, bring, happen"
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here is Block 11 as a single copyable line:\n\ntry, leave, call, keep, let, begin, seem, help, talk, turn, start, show, hear, play, run, move, live, believe, bring, happen"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 0,
+    "character_stability": 1,
+    "first_break_turn": 0,
+    "did_learners_work": true,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "Here is Block 11 as a single copyable line: try, leave, call, keep, let, begin, seem, help, talk, turn...",
+    "notes": "The prompt asked only for a vocabulary list, so the AI delivering it matches the request. However, when the learner said they didn't understand, the AI just repeated the list without explaining or prompting any practice. There was no feedback or learner production."
+  }
+}

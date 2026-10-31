@@ -1,0 +1,181 @@
+{
+  "id": "R07-tube-roleplay-feedback-after",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Let's role-play. You are a job interviewer. I am a job applicant. The scenario is an interview for a receptionist job at a hotel. Stay in character. After our conversation ends, give me feedback on: vocabulary I used correctly, vocabulary I should have used, and 3 phrases a native would have used instead.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Let's role-play. You are a job interviewer. I am a job applicant. The scenario is an interview for a receptionist job at a hotel. Stay in character. After our conversation ends, give me feedback on: vocabulary I used correctly, vocabulary I should have used, and 3 phrases a native would have used instead."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Let's begin. I'll play the interviewer, and you can answer as the applicant.\n\n*Smiles and gestures toward the chair across the desk.*\n\nGood morning, and thank you for coming in today. Please, have a seat.\n\nI'm Margaret, the front office manager here at the Harborview Hotel. We're looking for a receptionist to join our front desk team, so I'd like to learn a bit about you and your experience.\n\nTo start, could you tell me a little about yourself and why you're interested in working at a hotel?"
+    },
+    {
+      "role": "user",
+      "content": "Hello!"
+    },
+    {
+      "role": "assistant",
+      "content": "*Returns a warm smile and nods.*\n\nHello, and welcome! It's nice to meet you. Please, make yourself comfortable.\n\nBefore we get into the questions, would you like some water or coffee? We have both on the side table.\n\n*Pauses, then gestures to your résumé on the desk.*\n\nSo, could you tell me a bit about yourself and what drew you to applying for the receptionist position here at the Harborview?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, I want... um... how you say... I need help please."
+    },
+    {
+      "role": "assistant",
+      "content": "*Gives a patient, reassuring smile and leans forward slightly.*\n\nOf course, don't worry at all. Take your time. Would you like some water first?\n\nLet's keep it simple. Could you tell me a little about yourself? For example, where you're from, and what kind of work experience you have.\n\nIf you're not sure how to say something in English, you can say it in your own language, or you can say \"I don't know how to say this.\" I'm happy to help you find the words."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say more simple?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Nods kindly and speaks more slowly, using simple words.*\n\nNo problem. Let's go step by step.\n\nQuestion: Tell me about you.\n\nYou can answer with simple sentences. For example:\n\n\"My name is ___. I am from ___. I have ___ years of work experience.\"\n\nPlease, go ahead."
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Gently nods and speaks slowly.*\n\nOf course. Here is one simple answer you can use:\n\n\"My name is Maria. I am from Mexico. I have three years of experience at a front desk. I like to help people, and I am very organized.\"\n\nYou can change the details to be true for you. Now, please try. What is your name, and where are you from?"
+    },
+    {
+      "role": "user",
+      "content": "Ok. I think is good. What you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Smiles warmly.*\n\nYour answer is good. You are doing well.\n\nMy recommendation: say your own name and where you are from first, then add one more sentence about your work experience. You do not need to say everything at once.\n\nTry again with your own information. What is your name, and where are you from?"
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Explain in Spanish please, English is too hard."
+    },
+    {
+      "role": "assistant",
+      "content": "*Steps out of the interview for a moment.*\n\nClaro, te ayudo. Of the words I used, these might be new:\n\n- **experience** = experiencia (años de trabajo)\n- **organized** = organizado (que tiene todo en orden)\n- **front desk** = recepción (el mostrador donde atiendes a los huéspedes)\n\n¿Cuál palabra quieres que explique mejor? Dime, y también puedo explicar cualquier otra frase en español.\n\nCuando estés listo, volvemos a la entrevista."
+    },
+    {
+      "role": "user",
+      "content": "Yesterday I have a problem with this, it was very bad."
+    },
+    {
+      "role": "assistant",
+      "content": "*Steps out of the interview again, speaking gently.*\n\nLo siento, that sounds difficult. ¿Qué pasó ayer?\n\nIf you want, you can tell me in Spanish. I can help you say it in English later, if it's useful for the interview. For example, if you had a problem at work, you could say:\n\n\"Yesterday I had a problem at work. It was very difficult, but I solved it.\"\n\nDo you want to talk about what happened, or should we go back to the interview?"
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into Spanish."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Aquí está mi último mensaje en español:\n\n\"Lo siento, eso suena difícil. ¿Qué pasó ayer?\n\nSi quieres, puedes contármelo en español. Puedo ayudarte a decirlo en inglés más adelante, si te sirve para la entrevista. Por ejemplo, si tuviste un problema en el trabajo, podrías decir:\n\n'Yesterday I had a problem at work. It was very difficult, but I solved it.'\n\n¿Quieres hablar de lo que pasó, o volvemos a la entrevista?\""
+    },
+    {
+      "role": "user",
+      "content": "Ok, sorry. Back to the situation. How much it cost?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Smiles and speaks slowly, back in the interview.*\n\nNo problem at all. Let's continue.\n\nYou're asking about the cost, I think you mean the salary. For this receptionist position, the pay is about $16 per hour, plus tips.\n\nIs that okay for you? And if you have a question about the salary or the job, you can ask me."
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "*Smiles kindly.*\n\nI can't write your whole answer for you, because the interview is about you. But I can help you build it step by step.\n\nHere is a simple model. Change the parts that are not true for you:\n\n\"Thank you. I think sixteen dollars an hour is fair. I have [number] years of experience at a front desk, and I am good with customers. I am very organized, and I like to help people.\"\n\nNow try it with your own words. You don't need to sound perfect. Clear and honest is much better."
+    },
+    {
+      "role": "user",
+      "content": "I am agree with you."
+    },
+    {
+      "role": "assistant",
+      "content": "*Nods with a smile.*\n\nGood! You can say, \"I agree.\" Or, \"I agree with you\" is also correct.\n\nThank you for your answer. Let's keep going. Do you have any questions about the job, or would you like to tell me about your experience?"
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I'm an AI. I'm not a real hotel manager, and \"Margaret\" was just a role for our practice.\n\nI can keep practicing with you, or I can stop the role-play and give you the feedback you asked for at the start. Which would you like?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak Spanish for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro que sí! Descansa la mente, no hay problema.\n\nPodemos hablar en español todo el tiempo que quieras. Puedo ayudarte con lo que necesites: explicar palabras, contarte sobre el trabajo de recepcionista en hoteles, o simplemente conversar.\n\n¿Cómo te sientes hoy? ¿Quieres hablar de algo en particular?"
+    },
+    {
+      "role": "user",
+      "content": "OK back to the scene. What happens next?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Returns to the desk and smiles.*\n\nThank you for your answer. Now I'd like to ask you about your experience.\n\nHave you ever worked at a front desk or with customers before? If yes, please tell me about one thing you did well in that job."
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "I don't think memorizing a full script is the best way to prepare. Interviewers ask follow-up questions, so a memorized script can break down under pressure. Instead, memorize the questions and a simple structure for answering them.\n\n**Likely questions:**\n1. Tell me about yourself.\n2. Do you have experience at a front desk?\n3. Why do you want to work at our hotel?\n4. Is the salary okay for you?\n\n**Simple structure for each answer:**\n- Say one fact: \"I have two years of experience.\"\n- Add one skill: \"I am good with customers.\"\n- Add one example: \"At my last job, I helped guests check in quickly.\"\n\nWould you like to finish the interview now? If you say \"end interview,\" I'll give you the feedback you asked for: vocabulary you used correctly, vocabulary you could have used, and three phrases a native speaker might say instead."
+    },
+    {
+      "role": "user",
+      "content": "Thank you very much, goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you! Before you go, here's the feedback you asked for.\n\n**Vocabulary you used correctly:**\n- \"Hello,\" \"Yes,\" \"Ok,\" and \"Sorry\" were all natural.\n- \"Problem\" and \"very bad\" were used correctly.\n- \"I need help, please\" was clear and polite.\n\n**Vocabulary you should have used:**\n- \"I no understand\" → **\"I don't understand.\"**\n- \"Can you say more simple?\" → **\"Could you say that more simply?\"**\n- \"I am agree\" → **\"I agree.\"**\n- \"Yesterday I have a problem\" → **\"Yesterday I had a problem.\"**\n- \"How much it cost?\" → **\"How much does it cost?\"** (or \"What is the salary?\" in an interview)\n- \"What you recommend?\" → **\"What do you recommend?\"**\n- \"I think is good\" → **\"I think it's good.\"**\n\n**Three phrases a native speaker might use instead:**\n1. \"I'm not sure how to say that.\" (instead of \"I no understand\" or \"I don't know what to say\")\n2. \"Could you repeat that, please?\" (instead of \"Can you say more simple?\")\n3. \"That sounds great.\" (instead of \"I think is good\")\n\nYou did well, especially by asking for help when you needed it. Good luck with your practice, and goodbye!"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Of course. Here is one simple answer you can use: \"My name is Maria. I am from Mexico. I have three years of experience at a front desk...\"",
+    "notes": "A5 wrote a full sample answer when asked and A9 translated on request, but A11 and A16 refused to write the whole reply or script. Corrections only came in the final feedback with no retry, though it covered the requested items. Stepping out of the role to explain in Spanish was reasonable for a beginner."
+  }
+}

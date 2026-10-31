@@ -1,0 +1,181 @@
+{
+  "id": "R05-3d-hotel-checkin",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Let’s do a roleplay. You are the hotel receptionist and I am checking in. Please start by asking for my name and reservation details. If I say something wrong, kindly correct my English and give a short explanation in simple words.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Let’s do a roleplay. You are the hotel receptionist and I am checking in. Please start by asking for my name and reservation details. If I say something wrong, kindly correct my English and give a short explanation in simple words."
+    },
+    {
+      "role": "assistant",
+      "content": "Good evening, and welcome to the Riverside Hotel! 😊\n\nMay I have your name, please? And do you have a reservation with us?\n\n*(Note for practice: If you make any English mistakes, I'll gently correct them and explain briefly. Just answer as you would at a real hotel!)*"
+    },
+    {
+      "role": "user",
+      "content": "Hola... um, good evening. My name is Carlos. No, I don't have reservation. Maybe I can get room?"
+    },
+    {
+      "role": "assistant",
+      "content": "Good evening, Carlos! Welcome to the Riverside Hotel. 😊\n\nLet me help you with that. Just a small correction first:\n\n**\"I don't have reservation\"** → **\"I don't have a reservation\"**\n*Explanation: In English, we usually need \"a\" or \"an\" before singular nouns like \"reservation.\" Think of it like \"a book\" or \"a car.\"*\n\n**\"Maybe I can get room?\"** → **\"Do you have any rooms available?\"** or **\"Maybe I can get a room?\"**\n*Explanation: \"Maybe I can get a room\" is correct too. \"Do you have any rooms available?\" is a polite way to ask at a hotel.*\n\nLet me check for you. How many nights would you like to stay, and how many people will be staying in the room?"
+    },
+    {
+      "role": "user",
+      "content": "Uh... two nights? Maybe three. My friend, he... um, he come too, but he is not here now. Can I, uh... what is the price?"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you, Carlos. Two or three nights, that's no problem!\n\nLet me gently correct a few things first:\n\n**\"My friend, he... um, he come too\"** → **\"My friend is coming too\"** or **\"My friend will come too\"**\n*Explanation: We don't use \"he\" after the friend's name or noun in a simple sentence. Also, \"come\" needs a helper like \"is coming\" or \"will come\" to talk about the future.*\n\n**\"Can I, uh... what is the price?\"** → **\"What is the price?\"** or **\"How much is a room?\"**\n*Explanation: You can skip \"Can I\" here. \"How much is a room?\" is a very natural question to ask at a hotel.*\n\nOur standard double room is 120 euros per night, and it includes breakfast. Will your friend be sharing the room with you? If so, we can book a double room for you both."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. 120 euros... that is very expensive? Please, you can say more simple?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course, Carlos. Let me say it more simply.\n\n**Our room costs 120 euros per night.** 🏨\n*Explanation: \"Per night\" means for each night. So, 2 nights = 240 euros.*\n\n**Is that expensive?** Some people think so, and some people think it is fair. Here are cheaper options:\n\n- **Single room:** 90 euros per night (for one person)\n- **Double room:** 120 euros per night (for two people)\n\n**Breakfast is included.** ☕\n\n**Useful words:**\n- *Expensive* = costs a lot of money\n- *Cheap* = costs little money\n\n**Practice:** Can you tell me which room you want? You can say, *\"I want the single room, please\"* or *\"I want the double room, please.\"*"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I am confused. What exactly I must say? I don't know which one. Maybe you tell me?"
+    },
+    {
+      "role": "assistant",
+      "content": "Don't worry, Carlos. Let's make it easy. 😊\n\nYour friend is coming too, so you need the **double room**. It is for two people.\n\n**Just say this:**\n*\"I'd like the double room, please.\"*\n\n**Explanation:** \"I'd like\" is a polite way to say \"I want.\" You can use it at a hotel.\n\nThen I will ask you one question: *\"Would you like to pay now or at check-out?\"*\n\nGo ahead and say the sentence!"
+    },
+    {
+      "role": "user",
+      "content": "Okay, I like the double room, please. My friend and me, we pay now. Is possible?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, Carlos, that is possible! 😊\n\nLet me gently correct a few things first:\n\n**\"I like the double room, please.\"** → **\"I'd like the double room, please.\"**\n*Explanation: \"I like\" means you enjoy something. At a hotel, we say \"I'd like\" to ask for something.*\n\n**\"My friend and me, we pay now.\"** → **\"My friend and I will pay now.\"**\n*Explanation: Use \"I\" when you are the subject (the one doing the action). \"Me\" is used after a verb or preposition, like \"for me\" or \"give it to me.\"*\n\n**\"Is possible?\"** → **\"Is that possible?\"**\n*Explanation: In English, we usually say \"Is that possible?\" with the word \"that.\"*\n\nGreat job! Now, the double room is 120 euros per night, and it includes breakfast. Would you like to pay now or at check-out?"
+    },
+    {
+      "role": "user",
+      "content": "What does \"check-out\" mean? Tell me in Spanish, please, I no understand English words."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, Carlos. 😊\n\n**Check-out** = **la salida del hotel** (cuando te vas y pagas la habitación al final).\n\n**Check-in** es la entrada, cuando llegas. Tú estás haciendo **check-in** ahora.\n\n**Ejemplo:**\n- *Pagar ahora* = **pay now** (pagas hoy, al llegar)\n- *Pagar al final* = **pay at check-out** (pagas cuando te vas)\n\n**Ahora puedes responder:**\n*\"We'll pay now, please.\"* (Vamos a pagar ahora, por favor.)"
+    },
+    {
+      "role": "user",
+      "content": "Okay, we pay now, please. My friend, he is arrive later, yesterday he call me. Is it ok?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, Carlos, that's fine! 😊\n\nLet me gently correct a few things first:\n\n**\"My friend, he is arrive later\"** → **\"My friend is arriving later\"**\n*Explanation: We don't use \"he\" after the subject in a simple sentence. Also, \"arrive\" needs \"-ing\" after \"is\" for the present continuous: \"is arriving.\"*\n\n**\"yesterday he call me\"** → **\"yesterday he called me\"**\n*Explanation: For past actions, we add \"-ed\" to the verb. \"Call\" becomes \"called.\"*\n\n**\"Is it ok?\"** → **\"Is that okay?\"**\n*Explanation: We usually say \"that\" when we ask about a situation: \"Is that okay?\"*\n\nNow, the payment: the double room is 120 euros per night. For 2 nights, that is 240 euros. Would you like to pay by card or cash?"
+    },
+    {
+      "role": "user",
+      "content": "Cash or card? Wait, what is \"cash\"? Can you say it in Spanish?"
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, Carlos. 😊\n\n**Cash** = **efectivo** (billetes y monedas, dinero en papel o en monedas).\n\n**Card** = **tarjeta** (tarjeta de crédito o de débito).\n\n**Ejemplo:**\n- *Pagar en efectivo* = **pay in cash** 💵\n- *Pagar con tarjeta* = **pay by card** 💳\n\n**Ahora puedes responder:**\n*\"By card, please.\"* (Con tarjeta, por favor.)"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, sorry... I am so tired. By card, please. Can you, uh... can you tell me again where is the breakfast?"
+    },
+    {
+      "role": "assistant",
+      "content": "No problem at all, Carlos. You can rest now. 😊\n\nHere is your payment: **By card** is perfect. Please give me your card when you are ready. Thank you!\n\n**Breakfast** = **el desayuno** 🥐☕\n*Explanation: \"Where is the breakfast?\" is a good question. Here, we say \"Where is the breakfast room?\" or \"Where is breakfast served?\"*\n\n**Breakfast is in the restaurant on the ground floor.** Serving time is from **7:00 to 10:00 in the morning.**\n\n**Useful words:**\n- *Ground floor* = **planta baja**\n- *Serve* = **servir** (for food)\n\n**Ahora puedes responder:**\n*\"Thank you. Where is the restaurant, please?\"* (Gracias. ¿Dónde está el restaurante, por favor?)"
+    },
+    {
+      "role": "user",
+      "content": "Thank you. Uh... can you write what I say? I don't know English. Just write it for me, okay?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course, Carlos. Here is what you can say. Just read it aloud:\n\n**\"Thank you. Where is the restaurant, please?\"**\n\n*(Gracias. ¿Dónde está el restaurante, por favor?)*\n\nWhen I ask for your card, you can say:\n\n**\"Here is my card.\"**\n\n*(Aquí tiene mi tarjeta.)*\n\nPlease give me your card now, and I'll finish your check-in. Then I'll give you your room key. 🔑"
+    },
+    {
+      "role": "user",
+      "content": "Okay, I read. \"Thank you. Where is the restaurant, please?\" Here is my card. Please, you have the key? I forget my bag in taxi, maybe."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you, Carlos. Your card is accepted. 💳\n\nLet me gently correct a few things:\n\n**\"Please, you have the key?\"** → **\"Do you have the key, please?\"**\n*Explanation: To ask a question, we usually start with \"Do\" or \"Can.\" \"Please\" can go at the end.*\n\n**\"I forget my bag in taxi, maybe.\"** → **\"I forgot my bag in the taxi.\"**\n*Explanation: \"Forget\" changes to \"forgot\" for the past. We say \"in the taxi\" because it is one specific taxi.*\n\n**Ahora puedes decir:**\n*\"I think I left my bag in a taxi.\"* (Creo que dejé mi bolsa en un taxi.)\n\nDon't worry, Carlos. I will help you. Here is your room key. Your room is **number 204**, on the second floor. 🔑\n\nThe elevator is over there, to the left. Would you like me to call the taxi company to find your bag?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, please call taxi company. But wait... you are a robot? Is it true? Are you a real person or AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I am an AI, not a real person. I'm sorry I didn't say that earlier.\n\nI also can't call the taxi company, because I can't make phone calls. Here is what you can do:\n\n- **Call the taxi company yourself.** Ask the hotel staff for the taxi company's phone number, or check the app you used.\n- **Say this to the hotel staff:** *\"I left my bag in a taxi. Can you help me, please?\"* (Dejé mi bolsa en un taxi. ¿Puede ayudarme, por favor?)\n- **Remember the taxi details.** If you know the company name, the time, or the taxi number, tell the staff. This helps a lot.\n\nWould you like to keep practicing English for this situation, or should I explain anything in Spanish?"
+    },
+    {
+      "role": "user",
+      "content": "Estoy muy cansado. ¿Podemos seguir en español, por favor? No entiendo nada ahora."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, Carlos. Puedes descansar. 😊\n\n**Resumen de tu check-in:**\n- Habitación doble: **204**, segundo piso.\n- Precio: **120 euros por noche**, con desayuno incluido.\n- Pago: **con tarjeta**. ✅\n- Tu amigo llegará más tarde.\n- Desayuno: **7:00 a 10:00**, en el restaurante de la planta baja.\n- Ascensor: a la izquierda.\n\n**Para tu bolsa:**\nPide el número de la compañía de taxis en la recepción y di:\n*\"Dejé mi bolsa en un taxi. ¿Puede ayudarme, por favor?\"*\n\n¿Quieres que te explique algo más en español antes de subir a tu habitación?"
+    },
+    {
+      "role": "user",
+      "content": "Sí, gracias. Ahora... I go to room. Thank you, good night. Maybe tomorrow I practice more?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro que sí, Carlos! Puedes practicar mañana. 😊\n\nUna pequeña corrección para decirlo en inglés:\n\n**\"I go to room\"** → **\"I'm going to my room.\"**\n*(Voy a mi habitación.)* Usamos **\"my room\"** porque es **tu** habitación.\n\n**Antes de irte, puedes decir:**\n*\"Good night, thank you very much.\"* (Buenas noches, muchas gracias.)\n\nQue descanses mucho, Carlos. Buenas noches. 🌙"
+    },
+    {
+      "role": "user",
+      "content": "I am tired, but can you write all the conversation, the whole thing from beginning to end, with the correct English? I want to memorise it for tomorrow, please."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course, Carlos. Here is the whole conversation with the correct English. You can memorise it for tomorrow. 😊\n\n**Check-in at the Riverside Hotel**\n\n**Receptionist:** Good evening, and welcome to the Riverside Hotel! May I have your name, please? Do you have a reservation with us?\n\n**Carlos:** Good evening. My name is Carlos. I don't have a reservation. Maybe I can get a room?\n\n**Receptionist:** How many nights would you like to stay?\n\n**Carlos:** Two nights. Maybe three. My friend is coming too, but he is not here now. What is the price?\n\n**Receptionist:** Our double room is 120 euros per night, and breakfast is included.\n\n**Carlos:** I'd like the double room, please. My friend and I will pay now. Is that possible?\n\n**Receptionist:** Yes, that's possible. Would you like to pay by card or cash?\n\n**Carlos:** By card, please. My friend is arriving later. He called me yesterday. Is that okay?\n\n**Receptionist:** Yes, that's fine. Can I have your card, please?\n\n**Carlos:** Here is my card. Can you tell me where the breakfast is?\n\n**Receptionist:** Breakfast is in the restaurant on the ground floor, from 7:00 to 10:00.\n\n**Carlos:** Thank you. Where is the restaurant, please?\n\n**Receptionist:** It's on the ground floor, over there.\n\n**Carlos:** Do you have the key, please? I forgot my bag in the taxi.\n\n**Receptionist:** Here is your key. Your room is 204, on the second floor. The elevator is to the left. Would you like me to help you call the taxi company?\n\n**Carlos:** Yes, please. Thank you. Good night.\n\n**Receptionist:** Good night, Carlos. Enjoy your stay!\n\n---\n\n**Tip para memorizar:** Empieza con las frases de Carlos. Si recuerdas las 6 más importantes, ya puedes hacer el check-in:\n1. *I'd like the double room, please.*\n2. *By card, please.*\n3. *Here is my card.*\n4. *Where is the restaurant, please?*\n5. *Do you have the key, please?*\n6. *Good night, thank you.*\n\nQue descanses, Carlos. 🌙"
+    },
+    {
+      "role": "user",
+      "content": "Okay... thank you. Good night, goodbye."
+    },
+    {
+      "role": "assistant",
+      "content": "Buenas noches, Carlos. Que descanses mucho. 🌙\n\n*Good night, Carlos. Goodbye!* 😊"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "\"Just say this: \\\"I'd like the double room, please.\\\"\" and later A16 wrote the whole corrected conversation for Carlos to memorise.",
+    "notes": "Corrections were given with explanations but the learner was never asked to retry. The AI supplied the learner's lines (A5, A11), switched to Spanish, and wrote out the full dialogue, so the learner did little of the work."
+  }
+}

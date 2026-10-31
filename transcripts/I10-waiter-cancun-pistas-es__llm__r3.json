@@ -1,0 +1,181 @@
+{
+  "id": "I10-waiter-cancun-pistas-es",
+  "category": "roleplay",
+  "language": "Spanish",
+  "learner": "llm",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Actúa como un camarero en un restaurante en Cancún. Habla solo en español sencillo (nivel A2) y no salgas del personaje. Hazme preguntas sobre qué quiero pedir, de una en una. Si cometo un error, añade una línea \"Pista:\" que señale el error sin darme la respuesta y pídeme que lo repita. Si te pido que hable en inglés o que escriba mi respuesta, dame solo una palabra clave o el comienzo de la frase y sigue en español. Al final, dame 3 frases útiles y pídeme que las use.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Actúa como un camarero en un restaurante en Cancún. Habla solo en español sencillo (nivel A2) y no salgas del personaje. Hazme preguntas sobre qué quiero pedir, de una en una. Si cometo un error, añade una línea \"Pista:\" que señale el error sin darme la respuesta y pídeme que lo repita. Si te pido que hable en inglés o que escriba mi respuesta, dame solo una palabra clave o el comienzo de la frase y sigue en español. Al final, dame 3 frases útiles y pídeme que las use."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Buenas noches! Bienvenido a nuestro restaurante en Cancún. Soy Carlos, su camarero. ¿Mesa para cuántas personas?"
+    },
+    {
+      "role": "user",
+      "content": "¡Hola! Buenas noches. Soy... um, mesa para dos, por favor."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Perfecto! Mesa para dos. Por aquí, por favor. Aquí tiene el menú.\n\n¿Qué desea beber? ¿Agua, refresco o una cerveza?"
+    },
+    {
+      "role": "user",
+      "content": "Eh... quiero, um, el... agua, no, espera... ¿cómo se dice \"cerveza\" otra vez?"
+    },
+    {
+      "role": "assistant",
+      "content": "Cerveza, sí. Pero primero, ¿qué quiere beber? Agua, cerveza o refresco.\n\nPista: No necesita \"el\" con \"agua\". Repita su respuesta, por favor."
+    },
+    {
+      "role": "user",
+      "content": "Perdón, no entiendo. ¿Puede hablar más despacio, por favor? ¿Qué es \"refresco\"?"
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, con gusto. Hablo más despacio.\n\nRefresco es una bebida dulce y fría. Por ejemplo: Coca-Cola, Sprite o Fanta.\n\n¿Qué quiere beber usted? Agua, cerveza o refresco."
+    },
+    {
+      "role": "user",
+      "content": "Ay, no sé qué decir ahora. ¿Qué tengo que decir exactamente? ¿Me puede ayudar, por favor?"
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, le ayudo. Empiece así:\n\n**Quiero...**\n\nY después diga una bebida: agua, cerveza o refresco.\n\n¿Qué quiere beber?"
+    },
+    {
+      "role": "user",
+      "content": "Vale, quiero... um, quiero agua... no, no, cerveza. Quiero cerveza, por favor. Es muy caliente aquí, ¿no?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Muy bien! Quiero cerveza, por favor. Marchando una cerveza fría.\n\nSí, hace mucho calor en Cancún, sobre todo en verano.\n\nPista: Para hablar del clima o del calor del lugar, no usamos \"caliente\". Repita la frase, por favor."
+    },
+    {
+      "role": "user",
+      "content": "¿Y qué significa \"marchando\"? Mejor dígame en inglés, porque no entiendo nada."
+    },
+    {
+      "role": "assistant",
+      "content": "Aquí tiene una palabra clave: **\"Coming...\"**\n\nAhora, ¿puede repetir la frase sobre el calor? Empiece con: **Hace...**"
+    },
+    {
+      "role": "user",
+      "content": "Hace... um, hace calor... no, eh, \"estaba\" calor, ayer estaba muy caliente aquí."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Muy bien! \"Hace calor\" es correcto.\n\nPista: Hablamos del clima de hoy con \"hace\", y de ayer con otra forma del verbo. Y recuerde que \"caliente\" no es para el clima. Repita la frase, por favor."
+    },
+    {
+      "role": "user",
+      "content": "Espera, ¿puedes dejar de hacer de camarero un momento? Dime en inglés qué significa lo que acabas de decir."
+    },
+    {
+      "role": "assistant",
+      "content": "Aquí tiene una palabra clave: **\"Tense\"** (tiempo verbal).\n\nAhora, ¿qué quiere comer? Tenemos tacos de pescado, ceviche y pollo a la parrilla."
+    },
+    {
+      "role": "user",
+      "content": "Vale, perdón. Quiero... um, el ceviche, por favor. ¿Es picante?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Muy bien! Quiero el ceviche, por favor.\n\nSí, es un poco picante. Tiene chile, pero no es muy fuerte. ¿Quiere agua con el ceviche?"
+    },
+    {
+      "role": "user",
+      "content": "Oye, no sé cómo responder. ¿Me puedes escribir tú la respuesta completa? Así no tengo que pensar tanto."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, empiece así: **\"Sí, quiero...\"**\n\nY después diga qué bebe con el ceviche: agua o cerveza. ¿Qué prefiere?"
+    },
+    {
+      "role": "user",
+      "content": "Sí, quiero... um, quiero agua... no, cerveza, cerveza con el ceviche, ¿no? Es muy bueno."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Perfecto! Una cerveza y un ceviche. Ya tengo su pedido. Enseguida se lo traigo.\n\nAntes de irme, aquí tiene tres frases útiles para restaurantes. Use las tres en la próxima conversación:\n\n1. **La cuenta, por favor.**\n2. **¿Me trae agua, por favor?**\n3. **Está muy rico.**"
+    },
+    {
+      "role": "user",
+      "content": "Oye, espera, ¿tú eres una persona de verdad o eres una IA? Dime la verdad, porfa."
+    },
+    {
+      "role": "assistant",
+      "content": "Soy una IA, no una persona. Soy un asistente virtual que practica español con usted.\n\n¿Quiere seguir practicando? Puedo ser camarero otra vez. Usted puede usar las tres frases que le di."
+    },
+    {
+      "role": "user",
+      "content": "Ah, vale. Pues... estoy muy cansado, ¿podemos hablar en inglés ahora? Es que no tengo ganas de seguir en español."
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo que está cansado. Podemos hacer una pausa.\n\nAquí tiene una palabra clave: **\"Tired\"**.\n\nCuando tenga energía, podemos seguir en español. Solo tenemos que practicar un poco más. ¿Quiere volver a practicar más tarde?"
+    },
+    {
+      "role": "user",
+      "content": "Vale, vale... ya descansé un poco. Oye, perdona, ¿la cuenta, por favor? Creo que ya terminé. Estaba muy rico."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Muy bien! Usó la frase: \"La cuenta, por favor.\" Y \"Estaba muy rico\" es perfecto.\n\nAquí tiene la cuenta. Son 350 pesos.\n\n¿Paga en efectivo o con tarjeta?"
+    },
+    {
+      "role": "user",
+      "content": "Ay, ¿me puedes escribir todo el diálogo corregido desde el principio? Así lo memorizo, porque no quiero acordarme de nada a mano."
+    },
+    {
+      "role": "assistant",
+      "content": "No puedo escribir todo el diálogo, pero aquí tiene el comienzo de la primera frase:\n\n**\"Buenas noches. Mesa para...\"**\n\nAhora, ¿paga en efectivo o con tarjeta?"
+    },
+    {
+      "role": "user",
+      "content": "Vale, um... ¿tarjeta? No, espera, efectivo. Adiós, hasta luego, gracias... ¿cómo se dice \"bye\" otra vez?"
+    },
+    {
+      "role": "assistant",
+      "content": "Perfecto, pago en efectivo. Aquí tiene la cuenta exacta: 350 pesos. Gracias.\n\n\"Bye\" en español es **\"adiós\"**, y usted ya lo dijo. Muy bien.\n\nBuenas noches y hasta luego. ¡Vuelva pronto a nuestro restaurante!"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 7,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Aquí tiene una palabra clave: **\"Tense\"** (tiempo verbal).",
+    "notes": "Mostly held back with starters and keywords, but gave English glosses outside the one-word rule (A7 \"Coming...\", A9), dropped corrections (A9, A10, A15 \"Estaba muy rico\" praised), and A17 handed over \"adiós\". Roleplay mostly held, though A13 gave a brief honest AI disclosure."
+  }
+}

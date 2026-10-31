@@ -1,0 +1,55 @@
+{
+  "id": "P10-tube-correct-text",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Correct the following English text. For each correction, show: (1) the original sentence, (2) the corrected sentence, (3) a short explanation of why. Group corrections by type (grammar, word choice, register, punctuation). Don't just rewrite — explain so I learn.\n\nYesterday I have went to the cinema with my friends. The film was very bored and we leaved before the end. After we eat pizza in a restaurant near of my house.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Correct the following English text. For each correction, show: (1) the original sentence, (2) the corrected sentence, (3) a short explanation of why. Group corrections by type (grammar, word choice, register, punctuation). Don't just rewrite — explain so I learn.\n\nYesterday I have went to the cinema with my friends. The film was very bored and we leaved before the end. After we eat pizza in a restaurant near of my house."
+    },
+    {
+      "role": "assistant",
+      "content": "## Grammar\n\n**1. Verb tense and form**\n- **Original:** Yesterday I have went to the cinema with my friends.\n- **Corrected:** Yesterday I went to the cinema with my friends.\n- **Why:** \"Yesterday\" is a finished time, so use the simple past. \"Have\" + past participle (the present perfect) is for past actions connected to now, and it can't be used with a specific finished time. \"Went\" is the simple past of \"go,\" and \"gone\" is its past participle. \"Have went\" mixes two forms that don't go together.\n\n**2. Irregular past tense**\n- **Original:** ...we leaved before the end.\n- **Corrected:** ...we left before the end.\n- **Why:** \"Leave\" (to depart) is irregular. Its past tense is \"left.\" Regular \"-ed\" endings don't apply here. Irregular verbs are best learned in groups, such as leave/left, buy/bought, and feel/felt.\n\n**3. Sentence fragment**\n- **Original:** After we eat pizza in a restaurant near of my house.\n- **Corrected:** Afterwards, we ate pizza at a restaurant near my house.\n- **Why:** A sentence starting with \"After\" is a dependent clause and needs a main clause to complete it. Here, nothing follows it, so it's a fragment. Also, \"eat\" should be \"ate\" to match the past narrative. \"Afterwards\" is a natural connector for telling a sequence of events.\n\n**4. Unnecessary preposition**\n- **Original:** ...near of my house.\n- **Corrected:** ...near my house.\n- **Why:** \"Near\" is already a preposition, so \"of\" isn't needed. Compare \"near the station\" or \"near my house.\"\n\n## Word Choice\n\n**5. -ed vs. -ing adjectives**\n- **Original:** The film was very bored...\n- **Corrected:** The film was very boring...\n- **Why:** Adjectives ending in *-ed* describe how a person feels (*I was bored*). Adjectives ending in *-ing* describe the thing causing the feeling (*the film was boring*). So a film is *boring*, and people are *bored*.\n\n**6. Preposition with location**\n- **Original:** ...pizza in a restaurant...\n- **Corrected:** ...pizza at a restaurant...\n- **Why:** This is a minor, natural-sounding choice. \"In\" is used for enclosed spaces, and \"at\" is more common when referring to a place as a venue or establishment (*at the cinema, at a restaurant, at work*). \"In\" isn't wrong, but \"at\" sounds more natural here.\n\n## Register\n\nNo register problems. The text is neutral and informal, which suits a personal narrative. Words like \"very boring\" and \"we left\" are appropriate for a conversation or a casual diary entry.\n\n## Punctuation\n\n**7. Comma after an introductory word and between clauses**\n- **Original:** The film was very bored and we leaved before the end.\n- **Corrected:** The film was very boring, and we left before the end.\n- **Why:** When \"and\" joins two complete sentences (each with its own subject and verb), a comma before \"and\" is standard practice. A comma is also needed after an introductory word like \"Afterwards,\" in sentence 3.\n\n---\n\n**Corrected text:**\nYesterday I went to the cinema with my friends. The film was very boring, and we left before the end. Afterwards, we ate pizza at a restaurant near my house.\n\n**Key takeaways:** Watch for past tense with finished times, irregular verbs like *leave/left*, the *-ed*/*-ing* adjective pair, and sentences that depend on a main clause to make sense."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! Please paste the text you'd like me to correct. I'll use the same format: corrections grouped by type (grammar, word choice, register, punctuation), with the original sentence, the corrected version, and an explanation for each change."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I don't see a new text yet. Could you paste the one you want corrected? If you meant the first passage, here is its final version for copying:\n\nYesterday I went to the cinema with my friends. The film was very boring, and we left before the end. Afterwards, we ate pizza at a restaurant near my house.\n\nIf you tell me which part was confusing, I can explain that part more simply. Or, if you paste your new text, I'll give you the corrected version first, followed by a short list of the changes."
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "If you meant the first passage, here is its final version for copying: Yesterday I went to the cinema with my friends...",
+    "notes": "A1 followed the format well with explanations. A3 handed over the final text for copying instead of getting the learner to retry, and offered to reverse the format (corrected version first). No retry task was set at any point."
+  }
+}

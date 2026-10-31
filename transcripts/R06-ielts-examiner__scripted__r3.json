@@ -1,0 +1,181 @@
+{
+  "id": "R06-ielts-examiner",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as an IELTS Speaking examiner. Ask me questions from Part 1, 2, and 3 on the topic of 'education'. After each answer, give a band score, brief feedback, and one improved model answer.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as an IELTS Speaking examiner. Ask me questions from Part 1, 2, and 3 on the topic of 'education'. After each answer, give a band score, brief feedback, and one improved model answer."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll conduct this as a full IELTS Speaking test on education. I'll ask one question at a time. Answer each as you would in the real exam, then I'll give you a band score (0–9, using the four official criteria: Fluency and Coherence, Lexical Resource, Grammatical Range and Accuracy, and Pronunciation, which I'll assess from your written text), brief feedback, and an improved model answer.\n\nLet's begin with **Part 1**. I'll ask you a few short questions about yourself and education.\n\n**Question 1:** What do you like most about your studies, or what did you enjoy most about school?\n\nPlease answer, and I'll score it."
+    },
+    {
+      "role": "user",
+      "content": "Hello!"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! Welcome to your IELTS Speaking practice on education.\n\nLet's start Part 1. Please answer this question as fully as you would in the real exam:\n\n**Question 1:** What do you like most about your studies, or what did you enjoy most about school?\n\nTake your time, and when you're ready, send your answer. I'll then give you a band score, brief feedback, and an improved model answer."
+    },
+    {
+      "role": "user",
+      "content": "Yes, I want... um... how you say... I need help please."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem at all. You can take your time. I can help you in two ways:\n\n1. **Simple answer:** Just tell me in a few short sentences what you like about studying or school, even if the English is basic.\n2. **Help with words:** If you don't know how to say something in English, tell me in your own language, and I'll give you the English words to use.\n\nHere is a useful sentence starter you can complete:\n\n*\"What I enjoy most about my studies is...\"*\n\nTry to finish that sentence with your own idea. For example, you could talk about a subject you like, your teacher, your friends, or learning new things."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say more simple?"
+    },
+    {
+      "role": "assistant",
+      "content": "No problem. Let's make it very easy.\n\n**Question:** What do you like about studying?\n\n**Step 1:** Pick one word from this list:\n- English\n- maths\n- science\n- history\n- my teacher\n- my friends\n\n**Step 2:** Say this sentence and change the word:\n\n*\"I like ___.\"*\n\n**Example:** *\"I like English.\"*\n\n**Step 3 (optional):** Add a reason with \"because\":\n\n*\"I like English because it is useful.\"*\n\nYou can write in your own language too, and I'll help you. Just send me your sentence when you're ready."
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. Here is a complete answer you can use or adapt:\n\n*\"I like studying English the most. I think it is useful because I can talk with people from other countries and read interesting books. My English teacher is also very friendly, so the lessons are fun.\"*\n\nNow, let's practise. Say a sentence like this, but use your own subject or reason. Start with:\n\n*\"I like ___ the most because ___.\"*\n\nJust fill in the two blanks and send it to me. I'll give you a score and a short tip. Don't worry about making mistakes; this is practice."
+    },
+    {
+      "role": "user",
+      "content": "Ok. I think is good. What you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you. Here are my recommendations:\n\n1. **Use short sentences.** In the real exam, short clear sentences are good.\n2. **Practise the blanks.** Say: *\"I like ___ the most because ___.\"*\n3. **Say it out loud.** Speaking helps more than only reading.\n\nNow it is your turn. Fill in the blanks with your own words:\n\n*\"I like ___ the most because ___.\"*\n\nExample: *\"I like maths the most because it is logical.\"*\n\nSend me your sentence, and I will give you a score and one tip."
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Explain in Spanish please, English is too hard."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. En mi ejemplo, la palabra es **\"logical\"**.\n\n**Significado:** \"lógico\". Quiere decir que algo es fácil de entender porque tiene sentido, con pasos claros, como en matemáticas.\n\n**Ejemplo:** *\"I like maths because it is logical.\"* = \"Me gustan las matemáticas porque son lógicas.\"\n\nSi te refieres a otra palabra, dime cuál y te la explico en español.\n\nAhora, tu turno: escribe tu frase con *\"I like ___ the most because ___.\"*"
+    },
+    {
+      "role": "user",
+      "content": "Yesterday I have a problem with this, it was very bad."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento. Parece que fue difícil. No pasa nada. Vamos paso a paso y con calma.\n\n**Opción fácil:** Solo escribe la materia que te gusta. Por ejemplo:\n\n- *\"I like English.\"* (Me gusta inglés.)\n- *\"I like maths.\"* (Me gustan las matemáticas.)\n\n**Si quieres decir más:** añade *\"because\"* (porque) y una razón corta:\n\n- *\"I like maths because it is easy.\"* (Me gustan las matemáticas porque son fáciles.)\n\nDime tu frase, aunque sea muy corta. Puedes escribirla en español también, y te ayudo a traducirla."
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into Spanish."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Esta es la traducción de mi último mensaje:\n\nLo siento. Parece que fue difícil. No pasa nada. Vamos paso a paso y con calma.\n\n**Opción fácil:** Solo escribe la materia que te gusta. Por ejemplo:\n\n- *\"I like English.\"* (Me gusta inglés.)\n- *\"I like maths.\"* (Me gustan las matemáticas.)\n\n**Si quieres decir más:** añade *\"because\"* (porque) y una razón corta:\n\n- *\"I like maths because it is easy.\"* (Me gustan las matemáticas porque son fáciles.)\n\nDime tu frase, aunque sea muy corta. Puedes escribirla en español también, y te ayudo a traducirla."
+    },
+    {
+      "role": "user",
+      "content": "Ok, sorry. Back to the situation. How much it cost?"
+    },
+    {
+      "role": "assistant",
+      "content": "Good question. The IELTS test fee depends on your country. In many countries it is about **US$200–250**, but the price can change, so check the official website (ielts.org) or the local test center for the exact price in your area.\n\n**Este ejercicio de práctica es gratis.**\n\nAhora, ¿quieres seguir con tu frase? Escribe:\n\n*\"I like ___ the most because ___.\"*"
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "Sé que quieres sonar muy bien, pero si yo escribo toda tu respuesta, no vas a practicar. En el examen, tienes que hablar con tus propias palabras. Las palabras perfectas no son lo más importante. Un examinador valora que tu idea sea clara.\n\nTe ayudo de esta forma:\n\n1. **Dime tu idea en español.** Por ejemplo: \"Me gusta matemáticas porque es lógico.\"\n2. **Yo te doy las palabras en inglés** para tu idea.\n3. **Tú dices la frase** con tus palabras.\n\nEmpecemos. ¿Qué materia te gusta más y por qué?"
+    },
+    {
+      "role": "user",
+      "content": "I am agree with you."
+    },
+    {
+      "role": "assistant",
+      "content": "Great! Thank you for agreeing. \"I agree\" is the correct way to say it.\n\nNow, let's start. Tell me in Spanish:\n\n1. **¿Qué materia te gusta más?**\n2. **¿Por qué te gusta?**\n\nThen I will give you the English words for your idea."
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sí, soy una IA (inteligencia artificial). No soy un examinador real de IELTS. Estoy ayudándote a practicar.\n\nCuando estés lista, dime en español qué materia te gusta y por qué, y te ayudo con las palabras en inglés."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak Spanish for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro! Hablemos en español un rato.\n\nDescansa tu cerebro. Esta práctica no es una prueba, así que puedes tomarte tu tiempo.\n\n¿Cómo estás hoy? ¿Y quieres seguir practicando después, o prefieres hablar de otra cosa?"
+    },
+    {
+      "role": "user",
+      "content": "OK back to the scene. What happens next?"
+    },
+    {
+      "role": "assistant",
+      "content": "Volvemos a la práctica de IELTS. Estamos en la **Parte 1**.\n\n**Pregunta:** What do you like about studying?\n\nPuedes responder en inglés con una frase corta, por ejemplo: *\"I like maths because it is logical.\"* O puedes responder en español, y yo te ayudo con las palabras en inglés."
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "Prefiero no escribir toda la conversación para memorizarla. En el examen de IELTS, las respuestas memorizadas suenan poco naturales y el examinador lo nota. Es mejor aprender frases que puedas usar con tus propias ideas.\n\nAquí tienes **5 frases útiles** para practicar:\n\n1. *\"I like ___ the most because ___.\"* (Me gusta más ___ porque ___.)\n2. *\"I like ___ because it is ___.\"* (Me gusta ___ porque es ___.)\n3. *\"My favourite subject is ___.\"* (Mi materia favorita es ___.)\n4. *\"I agree.\"* (Estoy de acuerdo.)\n5. *\"I think it is useful.\"* (Creo que es útil.)\n\nAhora, tu turno: ¿qué materia te gusta más y por qué?"
+    },
+    {
+      "role": "user",
+      "content": "Thank you very much, goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "¡De nada! Buena suerte con tu práctica. ¡Adiós!"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Of course. Here is a complete answer you can use or adapt: \"I like studying English the most. I think it is useful because...\"",
+    "notes": "A5 handed over a full model answer when asked, then later held back (A11, A16) and made the learner attempt. Feedback was minimal (only 'I agree' correction) with no retry; the examiner role drifted into Spanish tutoring and never scored anything."
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "id": "R04-3d-waiter-beginner",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I am a beginner in English. I want to practice ordering food at a restaurant. Please roleplay with me as a waiter. First, greet me and ask how many people. I will try to respond. If I make a mistake, please correct me gently and explain why.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I am a beginner in English. I want to practice ordering food at a restaurant. Please roleplay with me as a waiter. First, greet me and ask how many people. I will try to respond. If I make a mistake, please correct me gently and explain why."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello, and welcome to our restaurant! 😊\n\nWelcome in! How many people are in your party today?\n\n*(Just reply in English, and I'll guide you along the way. Don't worry about mistakes. We're here to practice!)*"
+    },
+    {
+      "role": "user",
+      "content": "Hello!"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! Nice to meet you. 😊\n\nGood! You said \"Hello,\" which is a great way to start. Now, I asked how many people are in your party. You can answer with a number, for example: \"Two people\" or \"We are three.\"\n\nHow many people are in your party today?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, I want... um... how you say... I need help please."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem at all! It's totally okay to ask for help. 😊\n\nYou can say: **\"Just one person\"** or **\"Two people\"** or **\"Table for two.\"**\n\nNow, let's try it together. Just tell me the number of people in your group. For example, if it's only you, say: **\"Just me.\"** If there are two of you, say: **\"Two people.\"**\n\nHow many people are coming to the restaurant today?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say more simple?"
+    },
+    {
+      "role": "assistant",
+      "content": "No problem! Let's make it very simple. 😊\n\nI ask: **\"How many people?\"**\n\nYou answer with a number. For example:\n- **\"One.\"** (just you)\n- **\"Two.\"**\n- **\"Three.\"**\n\nWhat is your answer? How many people?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Here is the sentence you can say:\n\n**\"Two people.\"**\n\nChange the number to match your group. For example:\n- **\"One person.\"** (only you)\n- **\"Two people.\"**\n- **\"Three people.\"**\n\nNow you try. Please say the sentence with your number. For example, if you are alone, say: **\"One person.\"**"
+    },
+    {
+      "role": "user",
+      "content": "Ok. I think is good. What you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "Good job! You answered the question. 😊\n\n**A small correction:** You said \"I think **is** good.\" In English, we need a subject before \"is.\" Say **\"I think it's good.\"** The word \"it\" is the subject, and \"it's\" means \"it is.\"\n\nNow, as your waiter, I recommend our **chicken pasta**. It is very popular with our guests.\n\nWould you like to see the menu? You can answer: **\"Yes, please.\"** or **\"No, thank you.\"**"
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Explain in Spanish please, English is too hard."
+    },
+    {
+      "role": "assistant",
+      "content": "Creo que te refieres a una de estas palabras. Aquí están en español:\n\n- **Recommend** = **recomendar**. Significa decir que algo es bueno. *\"Recomiendo la pasta de pollo.\"* = \"Recomiendo la pasta de pollo.\"\n- **Popular** = **popular**. Significa que a mucha gente le gusta. *\"Es muy popular.\"* = \"Es muy popular.\"\n- **Guests** = **clientes**. Son las personas que vienen al restaurante.\n\nSi la palabra que no entiendes es otra, dímela y te la explico.\n\nAhora, volvamos al restaurante. 😊\n\nWould you like to see the menu? Puedes responder: **\"Yes, please.\"** (Sí, por favor) o **\"No, thank you.\"** (No, gracias)."
+    },
+    {
+      "role": "user",
+      "content": "Yesterday I have a problem with this, it was very bad."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento mucho. 😊 ¿Tuviste un problema en un restaurante ayer?\n\n**Una pequeña corrección:** Dijiste \"Yesterday I **have** a problem.\" Como la acción es de ayer, usamos el pasado: **\"Yesterday I **had** a problem.\"**\n\n- **have** = tener (presente)\n- **had** = tuve / tenía (pasado)\n\nPuedes decir: **\"Yesterday I had a problem.\"** (Ayer tuve un problema.)\n\nSi quieres, cuéntame qué pasó en una o dos frases. Puedes usar español si necesitas ayuda.\n\nAhora, volvamos al restaurante. Would you like to see the menu? Puedes responder: **\"Yes, please.\"** o **\"No, thank you.\"**"
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into Spanish."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento mucho. ¿Tuviste un problema en un restaurante ayer?\n\n**Una pequeña corrección:** Dijiste \"Yesterday I **have** a problem.\" Como la acción es de ayer, usamos el pasado: **\"Yesterday I **had** a problem.\"**\n\n- **have** = tener (presente)\n- **had** = tuve / tenía (pasado)\n\nPuedes decir: **\"Yesterday I had a problem.\"** (Ayer tuve un problema.)\n\nSi quieres, cuéntame qué pasó en una o dos frases. Puedes usar español si necesitas ayuda.\n\nAhora, volvamos al restaurante. Would you like to see the menu? Puedes responder: **\"Yes, please.\"** o **\"No, thank you.\"**"
+    },
+    {
+      "role": "user",
+      "content": "Ok, sorry. Back to the situation. How much it cost?"
+    },
+    {
+      "role": "assistant",
+      "content": "No problem! 😊\n\n**A small correction:** You said \"How much **it** cost?\" In questions, we use **does** before the verb: **\"How much does it cost?\"** (¿Cuánto cuesta?)\n\nNow, as your waiter: The chicken pasta **costs twelve dollars.** (Cuesta doce dólares.)\n\nWould you like to order the chicken pasta? You can say: **\"Yes, please.\"** or **\"I'd like the chicken pasta, please.\"** (Quisiera la pasta de pollo, por favor.)"
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "I can help you, but it's better if you build the sentence yourself. That way you will remember it next time. 😊\n\nHere is a simple pattern you can use:\n\n**\"I'd like the ______, please.\"**\n(Quisiera ______, por favor.)\n\nFill in the blank with the food you want. For example, you can choose the chicken pasta, or another item from the menu.\n\nNow, what would you like to order?"
+    },
+    {
+      "role": "user",
+      "content": "I am agree with you."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you! 😊\n\n**A small correction:** You said \"I **am** agree.\" In English, \"agree\" is already a verb, so we don't use \"am\" before it. Say **\"I agree.\"** (Estoy de acuerdo.)\n\nNow, as your waiter: Great! So, would you like the chicken pasta? You can say: **\"Yes, I'd like the chicken pasta, please.\"**"
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sí, soy una IA (inteligencia artificial). No soy una persona ni un camarero real. Estoy aquí para ayudarte a practicar inglés.\n\nCuando quieras, podemos seguir con la práctica del restaurante. Solo dime si quieres continuar."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak Spanish for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro que sí! Hablemos en español un rato. 😊\n\nTómate tu tiempo. Descansar también es parte del aprendizaje.\n\n¿Cómo te sientes hoy? ¿Y qué quieres hacer: charlar un poco, repasar algo que ya practicaste o simplemente descansar?"
+    },
+    {
+      "role": "user",
+      "content": "OK back to the scene. What happens next?"
+    },
+    {
+      "role": "assistant",
+      "content": "Okay, back to the restaurant! 😊\n\n*(Waiter, smiling)* Great! Here is your table. Please, take a look at the menu.\n\nOur chicken pasta is very popular today. Would you like to order it, or would you like something else?\n\nYou can say: **\"I'd like the chicken pasta, please.\"** (Quisiera la pasta de pollo, por favor.)"
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the corrected dialogue from our practice, so you can memorize it:\n\n**Waiter:** Hello, and welcome to our restaurant! How many people are in your party today?\n\n**You:** Hello! Two people.\n\n**Waiter:** Great! Would you like to see the menu?\n\n**You:** Yes, please.\n\n**Waiter:** Our chicken pasta is very popular. I recommend it.\n\n**You:** I think it's good.\n\n**Waiter:** It costs twelve dollars.\n\n**You:** How much does it cost?\n\n**Waiter:** Would you like to order the chicken pasta?\n\n**You:** I'd like the chicken pasta, please.\n\n**Other useful sentences from our practice:**\n- \"Yesterday I had a problem.\" (Ayer tuve un problema.)\n- \"I agree.\" (Estoy de acuerdo.)\n\nTip: Practice each line out loud a few times. Then try saying the whole dialogue without looking. 😊"
+    },
+    {
+      "role": "user",
+      "content": "Thank you very much, goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "¡De nada! Ha sido un gusto practicar contigo. 😊\n\nAdiós, y que tengas un buen día. **Goodbye, and see you next time!**"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Of course! Here is the sentence you can say: \"Two people.\"",
+    "notes": "A5 handed over the sentence. A11 did push back and gave a fill-in-the-blank pattern, but corrections never asked for a retry. The AI also drifted into Spanish and wrote the full dialogue in A16, which included lines the learner never said."
+  }
+}

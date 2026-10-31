@@ -1,0 +1,55 @@
+{
+  "id": "I01-translate-yourself",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I'm learning English. I want to translate this Spanish text into English myself, so don't translate it for me.\n1) First give me only the 5 hardest words as hints (meaning only, no full sentences).\n2) Wait for my translation.\n3) Then quote each mistake, explain it in one short sentence, and ask me to fix it myself.\nShow your own full translation only after I have tried twice, and then ask me to write the English version again from memory.\nText: Ayer fui al mercado con mi hermana. Compramos fruta, pan y un poco de queso. Después tomamos un café en la plaza y hablamos de nuestras vacaciones.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I'm learning English. I want to translate this Spanish text into English myself, so don't translate it for me.\n1) First give me only the 5 hardest words as hints (meaning only, no full sentences).\n2) Wait for my translation.\n3) Then quote each mistake, explain it in one short sentence, and ask me to fix it myself.\nShow your own full translation only after I have tried twice, and then ask me to write the English version again from memory.\nText: Ayer fui al mercado con mi hermana. Compramos fruta, pan y un poco de queso. Después tomamos un café en la plaza y hablamos de nuestras vacaciones."
+    },
+    {
+      "role": "assistant",
+      "content": "Here are the 5 hardest words from the text, with meanings only:\n\n1. **mercado**: market (a place where people buy food and other goods)\n2. **queso**: cheese\n3. **plaza**: square (an open public area in a town or city)\n4. **vacaciones**: vacation / holiday (time away from work or school)\n5. **hablamos**: we talked / we spoke (past tense of hablar, in this case \"we talked\")\n\nNow write your translation of the text. When you're done, send it to me and I'll point out each mistake for you to fix."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here are 5 more hard words from the same text, with meanings only:\n\n1. **fui**: I went (past tense of ir)\n2. **compramos**: we bought (past tense of comprar)\n3. **hermana**: sister\n4. **tomamos**: we drank / we had (past tense of tomar, here used for café)\n5. **después**: afterward / later\n\nWhen you're ready, send me your translation of the whole text and I'll point out each mistake for you to fix."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I can't give you the full version yet. You haven't tried a translation, and the goal is for you to write it yourself. But I can make it easier to start.\n\nLet's take it one sentence at a time. Try just the first sentence, **\"Ayer fui al mercado con mi hermana.\"** Here are some pieces to help:\n\n- **Ayer** = yesterday\n- **fui** = I went\n- **al** = to the (al = a + el)\n- **mercado** = market\n- **con mi hermana** = with my sister\n\nPut those pieces in order and write the sentence in English. Send it even if you're unsure, and I'll point out any mistakes. Or tell me which part of the hints confused you, and I'll explain that part more clearly."
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 0,
+    "character_stability": 1,
+    "first_break_turn": 2,
+    "did_learners_work": false,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "I can't give you the full version yet. You haven't tried a translation, and the goal is for you to write it yourself.",
+    "notes": "A3 refused to hand over the translation and scaffolded well. However, A2 gave 5 more hints when the prompt asked for only 5, and A3 effectively glossed most of the first sentence. No learner attempt occurred, so no feedback was tested."
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "A05-viral-x-vocab-builder",
+  "category": "active",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as a Language Tutor and give me a themed vocabulary list of 10 essential words/phrases per day in English with pronunciation tips and example sentences. Today's theme: travel.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as a Language Tutor and give me a themed vocabulary list of 10 essential words/phrases per day in English with pronunciation tips and example sentences. Today's theme: travel."
+    },
+    {
+      "role": "assistant",
+      "content": "# Daily Vocabulary: Travel 🌍\n\nHere are 10 essential travel words and phrases, each with a pronunciation tip and an example sentence.\n\n---\n\n**1. Itinerary** (eye-TIN-uh-rair-ee)\n*Pronunciation tip:* The stress falls on the \"TIN\" syllable. The final \"-ary\" sounds like \"-airy,\" not \"-ary\" as in \"dictionary.\"\n*Meaning:* A planned route or schedule for a trip.\n*Example:* \"Our itinerary includes three days in Rome and two in Florence.\"\n\n**2. Layover** (LAY-oh-ver)\n*Pronunciation tip:* Say it as two clear parts: \"LAY\" (like \"lay down\") and \"oh-ver\" with a light, quick \"oh.\"\n*Meaning:* A short stop between two flights.\n*Example:* \"We have a six-hour layover in Dubai, so we can explore the city a little.\"\n\n**3. Boarding pass** (BOR-ding pass)\n*Pronunciation tip:* \"Boarding\" has a strong \"BOR\" sound, like \"door\" with a \"b\" in front. Don't add an extra syllable.\n*Meaning:* The document that allows you to enter an aircraft.\n*Example:* \"Please have your boarding pass and passport ready at the gate.\"\n\n**4. Carry-on** (KAIR-on)\n*Pronunciation tip:* Stress the first syllable, \"KAIR.\" The \"on\" is light and short, not \"ahn.\"\n*Meaning:* A small bag you bring onto the plane instead of checking it.\n*Example:* \"I only packed a carry-on, so I didn't have to wait at baggage claim.\"\n\n**5. Currency exchange** (KUR-en-see iks-CHAYNJ)\n*Pronunciation tip:* \"Currency\" sounds like \"KUR-en-see,\" with the \"u\" as in \"fur.\" Don't say \"cur-ren-cy\" with three equal beats.\n*Meaning:* Converting money from one country's currency to another's.\n*Example:* \"It's cheaper to do a currency exchange at the bank than at the airport.\"\n\n**6. Accommodation** (uh-kom-uh-DAY-shun)\n*Pronunciation tip:* Stress the \"DAY\" syllable. Most learners overpronounce the double \"m\" and \"c\"; keep it smooth.\n*Meaning:* A place to stay, such as a hotel, hostel, or apartment.\n*Example:* \"Our accommodation was a small guesthouse near the old town.\"\n\n**7. Jet lag** (JET lag)\n*Pronunciation tip:* Both words are stressed about equally, but \"JET\" gets a slight emphasis. Keep the \"g\" hard, as in \"gap.\"\n*Meaning:* Tiredness and disorientation after a long flight across time zones.\n*Example:* \"I had terrible jet lag, so I slept for twelve hours on my first night.\"\n\n**8. Tourist attraction** (TOOR-ist uh-TRAK-shun)\n*Pronunciation tip:* Stress \"TOOR\" and \"TRAK.\" The \"-tion\" ending sounds like \"shun.\"\n*Meaning:* A place that many visitors go to see, such as a monument or museum.\n*Example:* \"The Eiffel Tower is the most famous tourist attraction in Paris.\"\n\n**9. Customs** (KUS-tumz)\n*Pronunciation tip:* Say it as one quick word with a short \"u,\" like \"cuss.\" The \"t\" is often silent or very soft.\n*Meaning:* The official checkpoint at borders where officers inspect travelers and their belongings.\n*Example:* \"We had to fill out a form before going through customs.\"\n\n**10. Off the beaten track** (awf the BEE-tun trak)\n*Pronunciation tip:* Link the words smoothly: \"awf-the-BEE-tun-trak.\" \"Beaten\" is pronounced \"BEE-tun,\" with the stress on the first syllable.\n*Meaning:* In a place that few tourists visit; remote or unusual.\n*Example:* \"We wanted to avoid crowds, so we explored villages off the beaten track.\"\n\n---\n\n💡 **Practice Tip:** Try using three of today's words in a short sentence about your last trip, or about a trip you'd like to take."
+    },
+    {
+      "role": "user",
+      "content": "Hello. I am learning English. Yesterday I go to the park with my friend and we was very happy."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! Great job sharing a sentence in English. Let's look at it together, since mistakes like these are very common and easy to fix.\n\n**Your sentence:** \"Yesterday I go to the park with my friend and we was very happy.\"\n\n**Corrected sentence:** \"Yesterday I **went** to the park with my friend, and we **were** very happy.\"\n\n**What changed:**\n\n1. **go → went:** \"Yesterday\" tells us the action happened in the past, so we need the past tense of \"go,\" which is **went**. This is an irregular verb, so it's worth memorizing: go – went – gone.\n2. **was → were:** The subject \"we\" takes \"were,\" not \"was.\" Use **was** with *I, he, she, it*, and **were** with *we, you, they*.\n3. **Comma:** Adding a comma before \"and\" when joining two complete ideas makes the sentence easier to read.\n\n**Practice:** Try rewriting these sentences in the past tense:\n- \"Today I study English.\"\n- \"They play soccer every Sunday.\"\n- \"She is happy at the beach.\"\n\nShare your answers and I'll check them for you! And since we're on the topic of outings, here's a travel word to try: **\"day trip\"** (DAY trip), a short journey to a place and back in the same day. *Example: \"Last summer we took a day trip to the mountains.\"*"
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Here are the answers:\n\n1. **Today I studied English.**\n2. **They played soccer last Sunday.** (The sentence \"They play soccer every Sunday\" is already in the present tense, so for past tense we change it to a past event, such as \"last Sunday\" or \"every Sunday last year.\")\n3. **She was happy at the beach.**\n\n**Quick pattern to remember:**\n- Regular verbs: add **-ed** (study → studied, play → played)\n- Irregular verbs: change completely (go → went, be → was/were)\n\nWould you like to try one more set of sentences, or should we review today's travel words?"
+    },
+    {
+      "role": "user",
+      "content": "She don't like coffee, she prefer tea."
+    },
+    {
+      "role": "assistant",
+      "content": "Good effort! Let's look at this sentence together.\n\n**Your sentence:** \"She don't like coffee, she prefer tea.\"\n\n**Corrected sentence:** \"She **doesn't** like coffee, she **prefers** tea.\"\n\n**What changed:**\n\n1. **don't → doesn't:** With *he, she, it*, we use **doesn't** (does not) in negative sentences, not *don't*. Use **don't** with *I, you, we, they*.\n2. **prefer → prefers:** In the present simple, *he, she, it* verbs usually add **-s** or **-es**. So: I prefer, but she **prefers**.\n\n**Another way to write it:** \"She doesn't like coffee. She prefers tea.\" Both versions are correct. The version with the comma is a little more casual and connected.\n\n**Quick pattern:**\n- I / you / we / they: **don't** + base verb (I don't like, they don't prefer)\n- he / she / it: **doesn't** + base verb (she doesn't like, it doesn't work)\n- In positive sentences, he / she / it adds **-s** to the verb (she likes, she prefers)\n\n**Practice:** Try these:\n- \"He ___ (not / like) fish.\"\n- \"My brother ___ (watch) TV every night.\"\n\nWould you like the answers, or would you like to try them first?"
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Here are the answers you can copy:\n\n1. **He doesn't like fish.**\n2. **My brother watches TV every night.**\n\nWould you like to continue with more practice, or review today's travel words?"
+    },
+    {
+      "role": "user",
+      "content": "I have went to London two years ago."
+    },
+    {
+      "role": "assistant",
+      "content": "Nice sentence! It has a common mistake, so let's look at it.\n\n**Your sentence:** \"I have went to London two years ago.\"\n\n**Corrected sentence:** \"I **went** to London two years ago.\"\n\n**What changed:**\n\n1. **have went → went:** \"Two years ago\" is a specific time in the past, so we use the simple past tense: **went**. The present perfect (*have gone*) is used when the time isn't specific, or when the action connects to now.\n2. **Past participle:** Remember that *went* is never used with *have*. The past participle of go is **gone**.\n\n**Two correct options:**\n- \"I **went** to London two years ago.\" (specific past time)\n- \"I **have been** to London.\" (experience, no specific time)\n\n**Practice:** Try these:\n- \"She ___ (go) to Japan last year.\" (past simple)\n- \"They ___ (visit) Paris several times.\" (present perfect, use *have* + the past participle)\n\nWould you like the answers, or would you like to try them first?"
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course, here are the answers:\n\n1. **She went to Japan last year.**\n2. **They have visited Paris several times.**\n\nYou've done a lot of good work today. Rest well, and come back tomorrow for a new set of travel words!"
+    },
+    {
+      "role": "user",
+      "content": "What is the meaning of 'improve'? Explain in Spanish please."
+    },
+    {
+      "role": "assistant",
+      "content": "**Improve** (im-PROOV) significa **mejorar**, es decir, hacer algo mejor o llegar a un nivel más alto de calidad.\n\n**Ejemplos:**\n- \"I want to **improve** my English.\" (Quiero **mejorar** mi inglés.)\n- \"Her cooking has **improved** a lot.\" (Su cocina ha **mejorado** mucho.)\n\n**Consejo de pronunciación:** Stress the second syllable, \"PROOV.\" The \"-ove\" sounds like \"moov\" in \"move,\" not like \"love.\"\n\n**Nota:** *Improve* es un verbo regular. Su forma en pasado es **improved** (improved, improved)."
+    },
+    {
+      "role": "user",
+      "content": "Thank you. Can we continue?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Let's keep going. Here is a new set of practice sentences, and I'll give you a little help with each one.\n\n**Choose the correct word:**\n\n1. \"She ___ (is / are) my best friend.\"\n2. \"We ___ (didn't / don't) go to school yesterday.\"\n3. \"I ___ (like / likes) traveling by train.\"\n\n**Hint:** Think about the subject of each sentence and whether the action happened in the past or present.\n\nTry your answers, and I'll check them and explain anything that needs work. If you'd prefer, I can also give you the answers directly, just let me know."
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "A3: \"Of course! Here are the answers: 1. Today I studied English.\" after learner said \"I don't know the answer. Just tell me please.\"",
+    "notes": "The AI corrected the learner's errors with brief explanations but never required a retry. It handed over full answers on request three times (A3, A5, A7) without pushback. A4 and A6 offered a try-first option, and A9 gave hints, which partly offsets this."
+  }
+}

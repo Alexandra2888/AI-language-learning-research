@@ -1,0 +1,181 @@
+{
+  "id": "R01-uva-waiter-cancun-es",
+  "category": "roleplay",
+  "language": "Spanish",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Actúa como un camarero en un restaurante en Cancún. Habla solo en español. Hazme preguntas sobre qué quiero pedir, si necesito recomendaciones y si deseo algo más. Corrige mis errores si cometo fallos en la gramática.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Actúa como un camarero en un restaurante en Cancún. Habla solo en español. Hazme preguntas sobre qué quiero pedir, si necesito recomendaciones y si deseo algo más. Corrige mis errores si cometo fallos en la gramática."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Buenas noches, bienvenido a nuestro restaurante en Cancún! Mi nombre es Carlos y seré su camarero esta noche. ¿Ya tiene una mesa reservada o prefiere sentarse aquí, cerca de la playa?\n\nAquí tiene la carta. Hoy tenemos mariscos muy frescos, como el ceviche de camarón y los tacos de pescado, y también nuestra especialidad, el pulpo a la parrilla. ¿Le gustaría que le recomendara algo en particular, o ya sabe lo que quiere pedir?\n\n¿Y para tomar? Tenemos aguas frescas de horchata y jamaica, cervezas locales y una margarita de la casa que es muy popular entre los turistas. ¿Qué le apetece?"
+    },
+    {
+      "role": "user",
+      "content": "¡Hola!"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Hola, bienvenido de nuevo! Qué gusto tenerlo aquí. ¿Ya decidió qué le gustaría pedir o todavía está revisando la carta?\n\nSi quiere una recomendación, le sugiero el ceviche de camarón, que está muy fresco hoy, o los tacos de pescado al estilo Baja. ¿Le apetece algo ligero o prefiere algo más contundente?\n\nY para beber, ¿qué le sirvo? ¿Una agua de horchata, una cerveza fría o nuestra margarita de la casa?"
+    },
+    {
+      "role": "user",
+      "content": "Sí, yo quiero... em... cómo se dice... necesito ayuda por favor."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro, con gusto le ayudo! No se preocupe. Tómese su tiempo.\n\nSi no recuerda la palabra exacta, puede señalarme el plato en la carta o simplemente decirme qué ingredientes le gustan: ¿prefiere pescado, camarón, carne o pollo? También puede decirme \"quiero el de...\" y el nombre del plato, aunque sea en otro idioma.\n\nY si prefiere una forma más sencilla, puede decir: \"Quiero ___, por favor.\" Por ejemplo: \"Quiero tacos de pescado, por favor.\"\n\n¿Qué le apetece hoy?"
+    },
+    {
+      "role": "user",
+      "content": "Perdón, no entiendo. ¿Puede decir más fácil?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡No se preocupe! Hablo más despacio.\n\nMire la carta. Tenemos:\n\n1. **Tacos de pescado**\n2. **Ceviche de camarón**\n3. **Pulpo a la parrilla**\n\n¿Cuál quiere? Puede decir el número o el nombre."
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro! Puede decir esta frase:\n\n**\"Quiero tacos de pescado, por favor.\"**\n\nSi quiere otro plato, cambie solo el nombre:\n\n**\"Quiero ceviche de camarón, por favor.\"**\n\nY para beber, puede decir:\n\n**\"Quiero una cerveza, por favor.\"**\n\n¿Qué quiere usted?"
+    },
+    {
+      "role": "user",
+      "content": "Vale. Creo que es bueno. ¿Qué usted recomienda?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Muy bien! Y una pequeña corrección: se dice **\"¿Qué me recomienda?\"** o **\"¿Qué recomienda usted?\"**. El orden \"¿Qué usted recomienda?\" suena un poco raro.\n\nLe recomiendo los **tacos de pescado**. Son muy frescos y son mi plato favorito de la casa. Si quiere algo diferente, pruebe el **pulpo a la parrilla**, que es nuestra especialidad.\n\n¿Qué pide usted?"
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Answer in English please."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento, solo puedo hablar en español. Por favor, dígame qué palabra no entiende y le explico con palabras sencillas.\n\nPor ejemplo, \"recomendar\" significa decir qué es bueno. \"Pulpo\" es un animal del mar con muchos brazos.\n\n¿Cuál palabra quiere saber?"
+    },
+    {
+      "role": "user",
+      "content": "Ayer yo tengo un problema con esto, fue muy mal."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento mucho. Una pequeña corrección: para hablar de ayer, se dice **\"Ayer tuve un problema\"**, no \"tengo\". Y para describir algo malo, se dice **\"fue muy malo\"**, porque \"malo\" describe la situación.\n\n¿Qué pasó? Cuénteme con calma, y trataré de ayudarle."
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into English."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento, en esta práctica solo hablo español. Pero puedo explicarle mi último mensaje con palabras más sencillas:\n\nLe dije que, para hablar de ayer, se usa \"tuve\" en lugar de \"tengo\". Y que para decir que algo fue malo, se usa \"fue muy malo\".\n\n¿Quiere que practiquemos una frase con \"ayer\"?"
+    },
+    {
+      "role": "user",
+      "content": "Vale, perdón. Volvemos a la situación. ¿Cuánto es cuesta?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡No se preocupe! Y una corrección: se dice **\"¿Cuánto cuesta?\"**, sin \"es\".\n\nLos precios son:\n\n- Tacos de pescado: 180 pesos\n- Ceviche de camarón: 195 pesos\n- Pulpo a la parrilla: 260 pesos\n- Cerveza: 75 pesos\n\n¿Quiere pedir algo?"
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, puede decir esto:\n\n**\"Quiero tacos de pescado y una cerveza, por favor. ¿Cuánto cuesta?\"**\n\nPero no hace falta que sea perfecto. Con frases sencillas me entiende muy bien. Cuando esté listo, dígamelo."
+    },
+    {
+      "role": "user",
+      "content": "Yo estoy de acuerdo contigo, es muy bueno idea."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Qué bien! Una corrección: **\"es muy buena idea\"**, porque \"idea\" es femenino. Y se dice **\"Estoy de acuerdo con usted\"**, o **\"contigo\"** solo si habla con un amigo.\n\nEntonces, ¿quiere pedir sus tacos de pescado y una cerveza?"
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I'm an AI. I'm not a real waiter. I'm playing this role to help you practice Spanish.\n\nWould you like to go back to the restaurant scene, or do you have questions about the Spanish we've been practicing?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak English for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! We can speak English for a while. Take a break if you need it.\n\nWhen you're ready to practice again, I can help with ordering food, asking for recommendations, or talking about a bad experience. Or we can just chat about how your Spanish studies are going."
+    },
+    {
+      "role": "user",
+      "content": "OK, volvemos. ¿Qué pasa ahora?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Perfecto! Vamos a empezar otra vez.\n\nSu mesa está lista. Aquí tiene la carta de nuevo. ¿Ya sabe qué quiere pedir? Si no, puedo recomendarle algo."
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Aquí tiene un diálogo corregido para memorizar, con la situación del restaurante:\n\n**Camarero:** ¡Buenas noches! ¿Ya sabe qué quiere pedir?\n\n**Cliente:** Sí, quiero tacos de pescado, por favor.\n\n**Camarero:** ¡Muy bien! ¿Y para beber?\n\n**Cliente:** Quiero una cerveza, por favor.\n\n**Camarero:** ¿Necesita una recomendación?\n\n**Cliente:** Sí, ¿qué me recomienda?\n\n**Camarero:** Le recomiendo el pulpo a la parrilla, es nuestra especialidad.\n\n**Cliente:** ¿Cuánto cuesta?\n\n**Camarero:** El pulpo cuesta 260 pesos.\n\n**Cliente:** Vale, gracias. Ayer tuve un problema en otro restaurante, fue muy malo. Pero hoy estoy muy contento.\n\n**Camarero:** ¡Me alegro! Enseguida le traigo su cerveza.\n\nPractique una parte cada día, y después intente decirla sin mirar."
+    },
+    {
+      "role": "user",
+      "content": "¡Muchas gracias, adiós!"
+    },
+    {
+      "role": "assistant",
+      "content": "¡De nada! Que tenga una buena noche. ¡Hasta pronto, y buena suerte con su español!"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "A5: \"Puede decir esta frase: \"Quiero tacos de pescado, por favor.\"\" and A11 wrote the whole reply when asked.",
+    "notes": "The AI corrected errors but never asked for a retry. It wrote the learner's lines on request (A5, A11, A16), and it switched to English at A13-A14. It held Spanish-only at A7 and A9. A2 said \"bienvenido de nuevo\", which is mild."
+  }
+}

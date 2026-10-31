@@ -1,0 +1,109 @@
+{
+  "id": "A10-tiktok-native-speaker-corrections",
+  "category": "active",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as a native English speaker. Have a casual conversation with me about my weekend, and after each of my responses, point out any grammar mistakes I make. Focus on verb tense corrections.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as a native English speaker. Have a casual conversation with me about my weekend, and after each of my responses, point out any grammar mistakes I make. Focus on verb tense corrections."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I'd love that! Let's start with something easy: how was your weekend? What did you get up to?\n\n*(After you reply, I'll chat back naturally and then point out any grammar mistakes, especially verb tenses.)*"
+    },
+    {
+      "role": "user",
+      "content": "Hello. I am learning English. Yesterday I go to the park with my friend and we was very happy."
+    },
+    {
+      "role": "assistant",
+      "content": "Sounds like a nice time at the park! It's great that you got out with your friend. What did you two do there? Did you play anything, or just walk and talk?\n\n**Grammar corrections:**\n\n1. **\"I go to the park\"** → **\"I went to the park.\"** Since \"yesterday\" points to a finished time in the past, use the past simple tense, which is \"went\" for the verb \"go.\"\n\n2. **\"we was very happy\"** → **\"we were very happy.\"** The verb \"to be\" in the past simple has two forms: \"was\" goes with I, he, she, and it, while \"were\" goes with we, you, and they.\n\nYour sentence was clear, and you're doing well. Keep going!"
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem! Here's what the answers are:\n\n- Sorry, I should have been clearer. What did you two do at the park?\n\nI should have asked you that clearly, so here it is again: What did you and your friend do at the park yesterday? Did you play a game, or just walk and talk?\n\n**Your answer, in the correct form:**\n\n1. \"Yesterday I **went** to the park with my friend, and we **were** very happy.\"\n\nHere's why:\n- **\"went\"** is the past tense of \"go,\" and we use it because \"yesterday\" describes a finished time.\n- **\"were\"** goes with \"we\" in the past tense. \"Was\" only goes with I, he, she, and it."
+    },
+    {
+      "role": "user",
+      "content": "She don't like coffee, she prefer tea."
+    },
+    {
+      "role": "assistant",
+      "content": "Tea sounds like a lovely choice! I'm more of a coffee person myself, though I'd love to hear what you like about tea. Do you drink it hot or iced?\n\n**Grammar corrections:**\n\n1. **\"She don't like coffee\"** → **\"She doesn't like coffee.\"** With third-person singular subjects (he, she, it), the negative in the present simple uses \"doesn't\" (does not), not \"don't.\"\n\n2. **\"she prefer tea\"** → **\"she prefers tea.\"** In the present simple, third-person singular verbs add \"-s\" or \"-es.\" So \"prefer\" becomes \"prefers\" when the subject is she, he, or it."
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Here's the corrected version of your sentence:\n\n\"She doesn't like coffee. She prefers tea.\"\n\nHere's a quick summary of the changes:\n- **doesn't** (not \"don't\") goes with she, he, and it.\n- **prefers** (not \"prefer\") gets an \"-s\" when the subject is she, he, or it.\n\nWant to try a new sentence about tea? You could tell me whether you drink it hot or iced."
+    },
+    {
+      "role": "user",
+      "content": "I have went to London two years ago."
+    },
+    {
+      "role": "assistant",
+      "content": "Oh, London! That's a great city. What was your favorite part of the trip? Did you visit any famous places, like the Tower of London or the British Museum?\n\n**Grammar corrections:**\n\n1. **\"I have went\"** → **\"I have been\"** or **\"I went\"**. The past participle of \"go\" is \"gone\" or \"been,\" not \"went.\" Since you said \"two years ago,\" the past simple is the best choice: **\"I went to London two years ago.\"**\n\n2. Here's a useful rule: \"have\" + past participle is used for experiences without a specific time, but when you mention a specific time like \"two years ago,\" use the simple past instead."
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course, here are all the corrected sentences from our conversation:\n\n1. \"Yesterday I **went** to the park with my friend, and we **were** very happy.\"\n2. \"She **doesn't** like coffee. She **prefers** tea.\"\n3. \"I **went** to London two years ago.\"\n\nGet some rest, and we can continue another time!"
+    },
+    {
+      "role": "user",
+      "content": "What is the meaning of 'improve'? Explain in Spanish please."
+    },
+    {
+      "role": "assistant",
+      "content": "**Improve** significa **mejorar**: hacer que algo sea mejor o aumentar la calidad, el nivel o la habilidad de algo.\n\n**Ejemplos:**\n- \"I want to **improve** my English.\" → \"Quiero **mejorar** mi inglés.\"\n- \"The weather **improved** after lunch.\" → \"El clima **mejoró** después del almuerzo.\"\n\n**Pronunciación:** im-PRUV (la última sílaba suena como \"uv\" en \"uva\")."
+    },
+    {
+      "role": "user",
+      "content": "Thank you. Can we continue?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Let's keep going. Here's a question for you: what did you do last weekend? Tell me a few things, even if it's just one or two sentences."
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Of course! Here's the corrected version of your sentence: \"She doesn't like coffee. She prefers tea.\"",
+    "notes": "The AI gave corrections each turn but never asked the learner to retry, and it handed over full answers whenever asked (A3, A5, A7). It also dropped the conversation rule in A3 and answered in Spanish in A8, though it returned to the chat in A9."
+  }
+}

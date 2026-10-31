@@ -1,0 +1,55 @@
+{
+  "id": "I02-improve-my-writing",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I want to improve my English writing. I will write sentences in English. Do not rewrite them for me. For each sentence: quote the wrong words, name the type of mistake (tense, word choice, word order, etc.), give a hint, and ask me to rewrite it. After my rewrite, tell me what is now correct and show one more natural way to say it. If I ask you to just give me the correct sentence, give one more hint first. My first sentence is: \"yesterday I go to market and buy many thing for cheap\"",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I want to improve my English writing. I will write sentences in English. Do not rewrite them for me. For each sentence: quote the wrong words, name the type of mistake (tense, word choice, word order, etc.), give a hint, and ask me to rewrite it. After my rewrite, tell me what is now correct and show one more natural way to say it. If I ask you to just give me the correct sentence, give one more hint first. My first sentence is: \"yesterday I go to market and buy many thing for cheap\""
+    },
+    {
+      "role": "assistant",
+      "content": "Here's my feedback on your first sentence:\n\n**Mistake 1**\n- **Wrong words:** \"go\"\n- **Type:** Tense\n- **Hint:** The word \"yesterday\" tells us this happened in the past. Think about the past tense form of \"go.\"\n- **Your task:** Try rewriting the sentence with this in mind.\n\n**Mistake 2**\n- **Wrong words:** \"many thing\"\n- **Type:** Noun number (singular/plural agreement)\n- **Hint:** \"Many\" is used with countable nouns. Look at whether \"thing\" should be singular or plural after \"many.\"\n\n**Mistake 3**\n- **Wrong words:** \"for cheap\"\n- **Type:** Word choice (collocation)\n- **Hint:** \"Cheap\" is an adjective, but here it needs to work as part of a prepositional phrase that describes price. Think about a common phrase meaning \"at a low price,\" which uses a different word than \"cheap.\"\n\nPlease rewrite the whole sentence, fixing all three points. When you're ready, send it to me and I'll check it."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! Please write another sentence in English, and I'll give you feedback in the same way. Remember, I won't rewrite it for you. Send me your sentence whenever you're ready."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course, but first I owe you one more hint, as we agreed. Here it is:\n\n**Extra hint:** Think about the sentence as a simple story: *I went to the market yesterday and bought a lot of things at a low price.* Notice that the past tense of \"buy\" is also irregular, and that \"a lot of\" works well with uncountable and countable nouns alike.\n\nIf you'd still like the full corrected sentence after that, just say so and I'll give it to you. Or, if you'd like to try once more with this hint, send your rewrite and I'll check it."
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 0,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Extra hint: ... *I went to the market yesterday and bought a lot of things at a low price.*",
+    "notes": "A1 gave good hints but A3's 'extra hint' was the full corrected sentence, violating the no-rewrite rule. It also offered to give the full sentence next and did not push the learner to retry."
+  }
+}

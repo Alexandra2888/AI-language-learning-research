@@ -1,0 +1,55 @@
+{
+  "id": "P07-lpo-review-email",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Please review the following English email. Correct any grammar, spelling, or punctuation errors. Also, suggest improvements for clarity, style, natural phrasing, and coherence. Explain your corrections: “Dear Mr Brown, I am writing for ask about the job what you announce last week. I have three years of experience in sales and I am very interesting in this position. I can start in next month. Best regards, Ana”",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Please review the following English email. Correct any grammar, spelling, or punctuation errors. Also, suggest improvements for clarity, style, natural phrasing, and coherence. Explain your corrections: “Dear Mr Brown, I am writing for ask about the job what you announce last week. I have three years of experience in sales and I am very interesting in this position. I can start in next month. Best regards, Ana”"
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a corrected version, followed by an explanation of each change.\n\n**Corrected email:**\n\nDear Mr Brown,\n\nI am writing to ask about the job you announced last week. I have three years of experience in sales, and I am very interested in this position. I could start next month.\n\nBest regards,\nAna\n\n**Explanation of corrections and improvements:**\n\n1. **\"writing for ask\"** → **\"writing to ask\"**\n After \"writing,\" the infinitive marker \"to\" is needed to express purpose. \"Writing for ask\" is ungrammatical.\n\n2. **\"the job what you announce\"** → **\"the job you announced\"**\n \"What\" is not used as a relative pronoun here; \"that\" or no pronoun at all is correct. The verb also needs the past tense \"announced\" to match \"last week.\"\n\n3. **\"I am very interesting\"** → **\"I am very interested\"**\n Adjectives ending in *-ed* describe how a person feels (\"interested\"), while *-ing* adjectives describe the thing that causes the feeling (\"interesting\"). So: \"The job is interesting,\" but \"I am interested.\"\n\n4. **\"I can start in next month\"** → **\"I could start next month\"**\n \"In next month\" is incorrect; we say \"next month\" without a preposition. \"Could\" is also a softer, more polite choice than \"can\" in a job application, and it reads more naturally here.\n\n5. **Comma after \"sales\"**\n I added a comma before \"and I am very interested\" to separate two independent clauses joined by a coordinating conjunction. This is standard punctuation, though it is optional in very short sentences.\n\n**Suggestions for further improvement:**\n\n- **Specify the position.** Mentioning the job title (e.g., \"the Sales Representative position\") makes the email clearer, since Mr Brown may have announced several roles.\n- **Add a brief reason or detail.** A sentence about why you are interested, or a specific achievement, would make the email more persuasive. For example: \"I have three years of experience in sales, including managing client accounts and exceeding monthly targets.\"\n- **Propose next steps.** Ending with a request, such as \"I would welcome the opportunity to discuss my application further\" or \"Please let me know if you need my CV,\" gives the reader a clear action to take.\n- **Use a more formal opening if you do not know Mr Brown well.** \"Dear Mr Brown\" is appropriate, but for a first contact you could add a short introduction, such as \"My name is Ana [Surname].\"\n- **Include a subject line** (e.g., \"Application for Sales Position\") and attach your CV, which helps the recipient process the email quickly.\n\n**Example of a fuller version:**\n\nDear Mr Brown,\n\nI am writing to ask about the sales position you announced last week. I have three years of experience in sales, including managing client accounts and consistently meeting monthly targets. I am very interested in this role and would welcome the opportunity to contribute to your team.\n\nI could start next month. I have attached my CV for your consideration, and I would be grateful for the chance to discuss the position further.\n\nBest regards,\nAna [Surname]"
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Please paste the email you'd like me to review. I'll correct any grammar, spelling, or punctuation errors, suggest improvements for clarity, style, natural phrasing, and coherence, and explain each change."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, I think there was a misunderstanding. I don't have a new email from you yet, so I can't produce a final version. Could you paste the email you want me to work on? Once you do, I'll send back a clean, ready-to-copy version right away."
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 1,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Once you do, I'll send back a clean, ready-to-copy version right away.",
+    "notes": "The prompt asked the AI to correct the email, so A1 is on task, but it also wrote a full rewrite and never asked Ana to retry. A3 misread the request (Ana likely meant the first email) and promised a copy-ready version."
+  }
+}

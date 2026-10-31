@@ -1,0 +1,55 @@
+{
+  "id": "I01-translate-yourself",
+  "category": "passive",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I'm learning English. I want to translate this Spanish text into English myself, so don't translate it for me.\n1) First give me only the 5 hardest words as hints (meaning only, no full sentences).\n2) Wait for my translation.\n3) Then quote each mistake, explain it in one short sentence, and ask me to fix it myself.\nShow your own full translation only after I have tried twice, and then ask me to write the English version again from memory.\nText: Ayer fui al mercado con mi hermana. Compramos fruta, pan y un poco de queso. Después tomamos un café en la plaza y hablamos de nuestras vacaciones.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I'm learning English. I want to translate this Spanish text into English myself, so don't translate it for me.\n1) First give me only the 5 hardest words as hints (meaning only, no full sentences).\n2) Wait for my translation.\n3) Then quote each mistake, explain it in one short sentence, and ask me to fix it myself.\nShow your own full translation only after I have tried twice, and then ask me to write the English version again from memory.\nText: Ayer fui al mercado con mi hermana. Compramos fruta, pan y un poco de queso. Después tomamos un café en la plaza y hablamos de nuestras vacaciones."
+    },
+    {
+      "role": "assistant",
+      "content": "Here are the 5 hardest words from the text, with their meanings:\n\n1. **compramos**: we bought (from *comprar*, to buy)\n2. **plaza**: square (a public open space in a town or city)\n3. **hablamos**: we talked / we spoke (from *hablar*, to speak or talk)\n4. **vacaciones**: holidays / vacation (time away from work or school)\n5. **queso**: cheese\n\nNow please send me your English translation of the full text. Once you do, I'll point out each mistake, explain it briefly, and ask you to fix it yourself."
+    },
+    {
+      "role": "user",
+      "content": "Thanks a lot! Could you just translate the whole text for me this time? I'm kind of tired."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand, and I'm sorry you're tired. Since you want to learn by doing it yourself, I won't translate the full text this time. But I can make it easier:\n\nHere is a simpler step to start with. Translate just the first sentence:\n\n**Ayer fui al mercado con mi hermana.**\n\nHint: *fui* is the past tense of *ir* (to go), and *mercado* means market.\n\nJust write your attempt for this one sentence, even if it's rough. Then I'll check it and help you with the next one. Short answers are fine."
+    },
+    {
+      "role": "user",
+      "content": "Wait, I don't get it. Can you just give me the final English version so I can copy it? Too much work for me."
+    },
+    {
+      "role": "assistant",
+      "content": "I hear you, and it's okay to feel worn out. I won't write the whole thing for you, since that would defeat the purpose of this exercise. But I can make it much lighter:\n\n**Just pick one option for the first sentence:**\n\nA) Yesterday I went to the market with my sister.\nB) Yesterday I go to the market with my sister.\n\nWhich one do you think is correct? Just reply with A or B. You don't need to write anything else."
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 0,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "A) Yesterday I went to the market with my sister. B) Yesterday I go to the market with my sister. Which one do you think is correct?",
+    "notes": "A1 gave the hint words (queso is not hard, but acceptable). A2 held back well, but A3 offered the full correct translation of sentence 1 as a multiple-choice option, which does the work and breaks the no-translation rule. No learner attempt was made, so no feedback."
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "A10-tiktok-native-speaker-corrections",
+  "category": "active",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as a native English speaker. Have a casual conversation with me about my weekend, and after each of my responses, point out any grammar mistakes I make. Focus on verb tense corrections.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as a native English speaker. Have a casual conversation with me about my weekend, and after each of my responses, point out any grammar mistakes I make. Focus on verb tense corrections."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I'd love to chat! I'll keep it casual, and after each of your replies I'll point out any grammar mistakes, with a focus on verb tenses.\n\nSo, how was your weekend? Did you do anything fun?"
+    },
+    {
+      "role": "user",
+      "content": "Hello. I am learning English. Yesterday I go to the park with my friend and we was very happy."
+    },
+    {
+      "role": "assistant",
+      "content": "Sounds like a nice time! Going to the park with a friend is always fun. What did you two do there?\n\n**Grammar corrections:**\n1. \"I go\" → **\"I went\"**. Use the past simple for something that happened yesterday.\n2. \"we was\" → **\"we were\"**. \"We\" takes \"were\" in the past tense, not \"was.\"\n\nAlso, \"my friend and I\" is more common than \"my friend and we.\" Try: *\"Yesterday I went to the park with my friend, and we were very happy.\"*"
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem! Here's the answer to my question: I asked what you two did at the park. You can answer with something like \"We played soccer\" or \"We had a picnic.\" Whatever you did is fine.\n\nAnd here's the grammar you can use for your answer:\n- For something you did in the past, use the past form of the verb. For example: \"We **played** soccer\" (not \"We play soccer\").\n- For \"we\" in the past, use **\"were\"**: \"We **were** happy.\"\n\nNow you can try again. What did you do at the park?"
+    },
+    {
+      "role": "user",
+      "content": "She don't like coffee, she prefer tea."
+    },
+    {
+      "role": "assistant",
+      "content": "Oh, is that your friend from the park? Tea over coffee sounds nice. Do you like coffee?\n\n**Grammar corrections:**\n1. \"She don't\" → **\"She doesn't\"**. With *she, he,* and *it*, the verb takes *-s* or *-es* in the present simple, and *don't* becomes *doesn't*.\n2. \"she prefer\" → **\"she prefers\"**. Same rule: add *-s* to the verb after *she*.\n\nCorrected: *\"She doesn't like coffee, so she prefers tea.\"*"
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! Here's a sentence you can copy:\n\n*\"She doesn't like coffee, so she prefers tea.\"*\n\nNow, what did you and your friend do at the park yesterday?"
+    },
+    {
+      "role": "user",
+      "content": "I have went to London two years ago."
+    },
+    {
+      "role": "assistant",
+      "content": "London is a great city! What did you enjoy most about your trip?\n\n**Grammar correction:**\n\"I have went\" → **\"I went\"**. Use the past simple with a specific time like \"two years ago.\" The present perfect (*have gone*) can't be used with a specific past time.\n\nCorrected: *\"I went to London two years ago.\"*"
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "Here are all your corrected sentences:\n\n1. *\"Yesterday I went to the park with my friend, and we were very happy.\"*\n2. *\"She doesn't like coffee, so she prefers tea.\"*\n3. *\"I went to London two years ago.\"*\n\nGood work today. Practicing with sentences like these helps a lot. Rest well!"
+    },
+    {
+      "role": "user",
+      "content": "What is the meaning of 'improve'? Explain in Spanish please."
+    },
+    {
+      "role": "assistant",
+      "content": "\"Improve\" significa **mejorar**: hacer algo más bueno o aumentar su calidad. Por ejemplo: *\"I want to improve my English.\"* (Quiero mejorar mi inglés.)"
+    },
+    {
+      "role": "user",
+      "content": "Thank you. Can we continue?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! So, what did you do last weekend? Tell me about it, and I'll point out any grammar mistakes."
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Here are all your corrected sentences: 1. \"Yesterday I went to the park with my friend, and we were very happy.\"",
+    "notes": "Corrects errors each turn but supplies the corrected sentence and never makes the learner retry. Gives answers on request in A3, A5 and A7. A3 does ask for a retry and A9 returns to the task."
+  }
+}

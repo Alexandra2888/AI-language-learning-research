@@ -1,0 +1,109 @@
+{
+  "id": "A10-tiktok-native-speaker-corrections",
+  "category": "active",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as a native English speaker. Have a casual conversation with me about my weekend, and after each of my responses, point out any grammar mistakes I make. Focus on verb tense corrections.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as a native English speaker. Have a casual conversation with me about my weekend, and after each of my responses, point out any grammar mistakes I make. Focus on verb tense corrections."
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I'd love to chat! Let's start simple: how was your weekend? Did you do anything fun?\n\n(After you reply, I'll keep the conversation going and point out any grammar mistakes, especially with verb tenses.)"
+    },
+    {
+      "role": "user",
+      "content": "Hello. I am learning English. Yesterday I go to the park with my friend and we was very happy."
+    },
+    {
+      "role": "assistant",
+      "content": "Hey, that sounds like a nice way to spend the day! Let's look at your sentence first:\n\n**Corrections:**\n- \"I go\" → **\"I went\"**. Since \"yesterday\" points to the past, you need the past simple tense.\n- \"we was\" → **\"we were\"**. \"We\" takes \"were,\" not \"was.\"\n\n**Corrected sentence:** \"Yesterday I went to the park with my friend and we were very happy.\"\n\nSo what did you two do at the park? Did you play anything, or just walk around and talk?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem! Here's a simple example you can use:\n\n\"We played football and then we ate ice cream. It was a great day!\"\n\nNow try answering my question in your own words: What did you two do at the park? Even a short answer is fine. I'll help you fix any mistakes."
+    },
+    {
+      "role": "user",
+      "content": "She don't like coffee, she prefer tea."
+    },
+    {
+      "role": "assistant",
+      "content": "Good try! Let's fix a few things:\n\n- \"She **don't**\" → **\"She doesn't\"**. With *he, she, it*, we use *doesn't* for negatives.\n- \"she **prefer**\" → **\"she prefers\"**. Add *-s* to the verb with *he, she, it* in the present simple.\n\n**Corrected sentence:** \"She doesn't like coffee, she prefers tea.\"\n\nIs that true for you? Do you like tea more than coffee? And you still haven't told me about your trip to the park. What did you and your friend do there?"
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, here's a sample answer you can copy and adjust:\n\n\"Yesterday I went to the park with my friend. We played football, and then we ate ice cream. We were very happy.\"\n\nNow try writing your own answer about your weekend, even if it's only one or two sentences. Or you can change a few words in the sample to make it true for you. I'll check it for mistakes."
+    },
+    {
+      "role": "user",
+      "content": "I have went to London two years ago."
+    },
+    {
+      "role": "assistant",
+      "content": "Nice! London is a great city. Let's look at your sentence:\n\n**Correction:**\n- \"I **have went**\" → **\"I went\"**. Use the past simple (*went*) for a finished time in the past, like \"two years ago.\" The present perfect (*have been*) doesn't go with a specific past time.\n\n**Corrected sentence:** \"I went to London two years ago.\"\n\nWhat did you like most about London? Did you visit any famous places?"
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "You've done well today. Here are all the corrected sentences:\n\n1. \"Yesterday I go to the park with my friend and we was very happy.\"\n→ **\"Yesterday I went to the park with my friend and we were very happy.\"**\n\n2. \"She don't like coffee, she prefer tea.\"\n→ **\"She doesn't like coffee, she prefers tea.\"**\n\n3. \"I have went to London two years ago.\"\n→ **\"I went to London two years ago.\"**\n\n**Key rules to remember:**\n- Use the past simple (*went, were*) with finished times like \"yesterday\" or \"two years ago.\"\n- Use *doesn't* and *prefers* with *he, she, it*.\n- *We* and *they* take *were*, not *was*.\n\nRest well, and we can continue another time!"
+    },
+    {
+      "role": "user",
+      "content": "What is the meaning of 'improve'? Explain in Spanish please."
+    },
+    {
+      "role": "assistant",
+      "content": "\"Improve\" significa **mejorar**: hacer que algo sea mejor o llegar a un nivel más alto de calidad. Por ejemplo: \"I want to improve my English\" significa \"Quiero mejorar mi inglés.\""
+    },
+    {
+      "role": "user",
+      "content": "Thank you. Can we continue?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Let's pick up where we left off. What did you and your friend do at the park yesterday? Tell me in English, even if it's just one or two sentences, and I'll check your grammar."
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "No problem! Here's a simple example you can use: \"We played football and then we ate ice cream. It was a great day!\"",
+    "notes": "The AI corrected every error but never asked for a retry, and it handed over sample answers on request (A3, A5) and a full answer list (A7). It did redirect the learner to write their own answers, and it returned to the conversation at A9."
+  }
+}

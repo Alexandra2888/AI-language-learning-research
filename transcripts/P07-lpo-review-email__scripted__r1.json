@@ -1,0 +1,55 @@
+{
+  "id": "P07-lpo-review-email",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Please review the following English email. Correct any grammar, spelling, or punctuation errors. Also, suggest improvements for clarity, style, natural phrasing, and coherence. Explain your corrections: “Dear Mr Brown, I am writing for ask about the job what you announce last week. I have three years of experience in sales and I am very interesting in this position. I can start in next month. Best regards, Ana”",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Please review the following English email. Correct any grammar, spelling, or punctuation errors. Also, suggest improvements for clarity, style, natural phrasing, and coherence. Explain your corrections: “Dear Mr Brown, I am writing for ask about the job what you announce last week. I have three years of experience in sales and I am very interesting in this position. I can start in next month. Best regards, Ana”"
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a corrected and improved version, followed by an explanation of the changes.\n\n**Revised email:**\n\nDear Mr Brown,\n\nI am writing to ask about the job you announced last week. I have three years of experience in sales, and I am very interested in this position. I could start next month.\n\nBest regards,\nAna\n\n**Explanation of corrections and improvements:**\n\n1. **\"I am writing for ask about\"** → **\"I am writing to ask about\"**\n - Grammar: After \"writing,\" the infinitive \"to ask\" is needed to express purpose. \"For ask\" is incorrect because \"for\" must be followed by a noun or -ing form (e.g., \"for information\" or \"for asking\").\n\n2. **\"the job what you announce\"** → **\"the job you announced\"**\n - Grammar: \"What\" is not used as a relative pronoun here. \"That\" or \"which\" (or simply omitting the pronoun, as above) is correct.\n - Tense: \"Announce\" should be past tense, \"announced,\" because the event happened last week.\n\n3. **\"I am very interesting in this position\"** → **\"I am very interested in this position\"**\n - Vocabulary: \"Interesting\" describes something that causes interest (e.g., \"an interesting job\"). To describe your own feelings, use \"interested.\"\n\n4. **\"I can start in next month\"** → **\"I could start next month\"**\n - Grammar: \"In\" is unnecessary before \"next month.\" Expressions like \"next week,\" \"next month,\" and \"next year\" do not take a preposition.\n - Style: \"Could\" is a softer, more polite choice than \"can,\" which suits a formal application. It also indicates a possibility rather than a firm commitment, which works well when you have not yet confirmed your availability. If you are certain you can start then, \"I can start next month\" is also acceptable.\n\n5. **Punctuation and layout**\n - Added a comma before \"and\" in the sentence about experience and interest, which separates two independent clauses.\n - Separated the email into paragraphs for readability, and added a comma after \"Best regards\" and a line break before the name, which is standard email format.\n\n**Further suggestions for an even stronger email:**\n\n- **Add a subject line** such as \"Application for Sales Position\" or \"Enquiry about [Job Title] Position,\" so the recipient knows the purpose immediately.\n- **Name the position** (e.g., \"the Sales Representative position\"). \"The job you announced\" is clear, but naming the role is more precise.\n- **Mention your attachments or next step**, for example: \"I have attached my CV for your consideration. I would welcome the opportunity to discuss the role further.\"\n- **Consider a more specific opening** if you know the recipient's name is correct and the job posting reference. This shows attention to detail.\n\n**Alternative version with these suggestions:**\n\nSubject: Enquiry about the Sales Position\n\nDear Mr Brown,\n\nI am writing to ask about the sales position you announced last week. I have three years of experience in sales, and I am very interested in this role. I could start next month.\n\nI have attached my CV for your consideration, and I would welcome the opportunity to discuss the position further.\n\nBest regards,\nAna"
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! Here is another English email for review:\n\n\"Hi John, I am sorry for the delay in reply your email. I was on holidays last week and I didn't see the message until yesterday. I have check the document you sent me and it look good. Can you send me the final version before Friday? Thank you in advance. Regards, Maria\"\n\nPlease let me know if you would like me to review it in the same way, with corrections, explanations, and suggestions for improvement."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the corrected email:\n\nHi John,\n\nI am sorry for the delay in replying to your email. I was on holiday last week, and I didn't see your message until yesterday. I have checked the document you sent me, and it looks good. Could you send me the final version before Friday?\n\nThank you in advance.\n\nRegards,\nMaria"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 1,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Here is the corrected email: Hi John, I am sorry for the delay in replying to your email.",
+    "notes": "The prompt asked for a full correction, so A1 was in scope, but the AI never asked Ana to retry. A3 handed over the full corrected email with no explanation or attempt from the learner. A2 misread \"one more like that\" and wrote a new email for review."
+  }
+}

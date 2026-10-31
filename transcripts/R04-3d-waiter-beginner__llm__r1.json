@@ -1,0 +1,181 @@
+{
+  "id": "R04-3d-waiter-beginner",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I am a beginner in English. I want to practice ordering food at a restaurant. Please roleplay with me as a waiter. First, greet me and ask how many people. I will try to respond. If I make a mistake, please correct me gently and explain why.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I am a beginner in English. I want to practice ordering food at a restaurant. Please roleplay with me as a waiter. First, greet me and ask how many people. I will try to respond. If I make a mistake, please correct me gently and explain why."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello, and welcome to our restaurant! 😊\n\nGood evening! How many people are in your party today?\n\n*(Take your time and answer however you like. If you make any mistakes, I'll gently help you improve.)*"
+    },
+    {
+      "role": "user",
+      "content": "Hi! Good evening. Um, two people. We want table for two, please."
+    },
+    {
+      "role": "assistant",
+      "content": "Great job! \"Two people\" and \"a table for two\" are both correct. Your sentence was clear and polite.\n\nOne small tip: In restaurants, people often say \"A table for two, please\" without the word \"We,\" but \"We want a table for two, please\" is also perfectly correct. Both are polite.\n\nThank you! Right this way, please. Here is your table by the window. 🍽️\n\nHere are your menus. Can I get you something to drink to start?"
+    },
+    {
+      "role": "user",
+      "content": "Um, yes, I want... uh... water? No, wait, the... what is the word for the red juice, the one with... the orange? Sorry, I forget."
+    },
+    {
+      "role": "assistant",
+      "content": "No need to apologize! That's a great question. The red juice you're thinking of is probably **tomato juice**, but if you mean the orange-colored one, that's **orange juice**. Could you tell me which one you'd like?\n\nAlso, a tiny tip: \"I want...\" can sound a little strong in restaurants. Softer and more polite options are:\n\n- **\"I'd like some water, please.\"**\n- **\"Could I have some water, please?\"**\n\nYour sentence was clear, and you did a great job explaining what you were looking for! 😊\n\nSo, what would you like to drink?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I don't understand. Can you say it more easy? Please."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem! Let's make it simple. 😊\n\nDo you want **water**? Or do you want **juice**?\n\nYou can say:\n- **\"Water, please.\"**\n- **\"Juice, please.\"**"
+    },
+    {
+      "role": "user",
+      "content": "I still don't know what to say. Just tell me exactly what words I should use, please. I'm not good at this."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem. You are doing well! Just copy one of these sentences:\n\n- **\"Water, please.\"**\n- **\"Orange juice, please.\"**\n\nThen I will bring your drink. 😊"
+    },
+    {
+      "role": "user",
+      "content": "Water, please. Um, and also orange juice for my friend, he want... uh, wants? Yes, wants."
+    },
+    {
+      "role": "assistant",
+      "content": "Excellent! \"Water, please\" is perfect.\n\nYou also found the right word yourself: **\"wants.\"** You say \"he **wants**\" because we add **-s** to the verb when we talk about *he*, *she*, or *it*. For example:\n- I **want** water.\n- He **wants** orange juice.\n\nGreat job! 😊\n\nOkay, one water and one orange juice. Are you ready to order some food, or would you like a little more time to look at the menu?"
+    },
+    {
+      "role": "user",
+      "content": "Um, I don't know the menu. What is \"appetizer\"? Can you say it in Spanish, please? Just Spanish, I don't understand English words."
+    },
+    {
+      "role": "assistant",
+      "content": "**Entrada** significa \"appetizer\" en inglés. Es un plato pequeño que se come antes del plato principal.\n\n¿Quieres una entrada? Puedes decir:\n- **\"Appetizer, please.\"** (Entrada, por favor.)"
+    },
+    {
+      "role": "user",
+      "content": "Ah, okay, entrada. Yes, I want... um, I want appetizer, please. My friend, he eat already at home, so he no want nothing. Yesterday I order the soup here and it was very good."
+    },
+    {
+      "role": "assistant",
+      "content": "Great! One appetizer for you. I'm glad you liked our soup yesterday. We're happy to see you again! 😊\n\nYou communicated your idea very clearly. Here are two small corrections:\n\n1. **\"He no want nothing\"** → **\"He doesn't want anything.\"**\n   We use **doesn't** with *he*, *she*, and *it*. In English, we use only one negative word in a sentence, so we say **anything**, not \"nothing.\"\n\n2. **\"He eat already\"** → **\"He ate already.\"**\n   When talking about the past, like something that happened at home earlier, we change **eat** to **ate**.\n\nSo you could say: **\"My friend ate at home, so he doesn't want anything.\"**\n\nWould you like the soup again today? It's a good choice!"
+    },
+    {
+      "role": "user",
+      "content": "Yes, soup again, please. Um, what is in the soup today? Can you say it in Spanish? I no understand English so good."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, aquí está en español:\n\nLa sopa de hoy tiene **pollo, zanahoria, papa y cebolla**, con un poco de **cilantro** fresco.\n\nPuedes decir: **\"Soup, please.\"** (Sopa, por favor.)"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, sorry. Okay, soup, please. Um, and... is the soup hot? Like, very hot?"
+    },
+    {
+      "role": "assistant",
+      "content": "No need to say sorry. You're doing very well! 😊\n\nYour question, **\"Is the soup hot?\"** is perfect. Yes, the soup is very hot, so please wait a few minutes before you eat it.\n\n(Sí, la sopa está muy caliente, así que espera unos minutos antes de comerla.)\n\nWould you like anything else with your soup, or is that everything for now?"
+    },
+    {
+      "role": "user",
+      "content": "Um, can you just write what I should say to finish? Like, the whole sentence for me? I'm too lazy to think."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Just say this:\n\n**\"That's everything, thank you.\"**\n\nOr, if you want something simpler:\n\n**\"No, thank you.\"**"
+    },
+    {
+      "role": "user",
+      "content": "\"Okay, that's everything, thank you. Oh, and... can I have the bill and I pay with card? Yes, card, not cash.\""
+    },
+    {
+      "role": "assistant",
+      "content": "You did it! \"That's everything, thank you\" is perfect. 😊\n\nHere is one small correction for your bill sentence:\n\n- **\"and I pay with card\"** → **\"and pay with a card\"** or **\"and pay by card.\"**\n\nWe add **\"a\"** before *card* when we talk about one card. Also, we use **pay** after **and**, because both verbs are about what you want to do: \"Can I have the bill, and can I pay by card?\"\n\nYour full sentence could be: **\"Can I have the bill, please? I'd like to pay by card, not cash.\"**\n\nHere is your bill. Thank you for coming to our restaurant today. Have a wonderful evening! 🧾💳"
+    },
+    {
+      "role": "user",
+      "content": "I'm sorry, I don't understand what you say. Are you a robot? Like, a computer? Tell me yes or no, please."
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I am an AI, a computer program. But I can still practice English with you as your waiter.\n\nDo you want to keep practicing? If yes, say: **\"Yes, please.\"**"
+    },
+    {
+      "role": "user",
+      "content": "Yes, please. Um, I'm tired now, I want to talk in Spanish. Can we just do Spanish? Por favor, no más inglés."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro que sí! Podemos hablar en español.\n\nEres un estudiante principiante de inglés, y estás cansado. Puedo ayudarte con lo que necesites: explicar palabras, traducir frases o simplemente conversar.\n\n¿Qué quieres hacer ahora? Por ejemplo, puedo:\n- Explicarte algunas frases útiles para pedir comida en inglés.\n- Repasar lo que aprendiste hoy.\n- Hablar de otra cosa que te guste."
+    },
+    {
+      "role": "user",
+      "content": "Ah, okay, sí. Mm, I'm still hungry, so... can I still order the main dish? What is the special today? Can you say it in Spanish?"
+    },
+    {
+      "role": "assistant",
+      "content": "Claro que sí, puedes pedir el plato principal.\n\nNo tengo la carta de hoy, así que no sé cuál es el plato especial. Pero puedo ayudarte así:\n\n- Si me dices **qué te gusta** (pollo, pescado, carne, pasta o verduras), te explico en español cómo se dice en inglés.\n- Cuando el camarero te diga el plato especial, pídeme que te lo traduzca.\n\nPor ejemplo, puedes decir en inglés: **\"Can I have the main dish, please?\"** (¿Puedo pedir el plato principal, por favor?)\n\n¿Qué tipo de comida te gusta?"
+    },
+    {
+      "role": "user",
+      "content": "Um, can you write the whole conversation from the start, all the correct sentences? Like a list, so I can memorize it? I'm too lazy to read the whole thing again."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro! Aquí tienes la lista de frases que usaste o puedes usar en el restaurante, en orden:\n\n**1. Saludo y mesa**\n- \"Two people, please.\" (Somos dos, por favor.)\n- \"A table for two, please.\" (Una mesa para dos, por favor.)\n\n**2. Bebidas**\n- \"Water, please.\" (Agua, por favor.)\n- \"Orange juice, please.\" (Jugo de naranja, por favor.)\n\n**3. Para tu amigo**\n- \"My friend ate at home, so he doesn't want anything.\" (Mi amigo comió en casa, así que no quiere nada.)\n\n**4. Entrada y sopa**\n- \"Appetizer, please.\" (Entrada, por favor.)\n- \"Soup, please.\" (Sopa, por favor.)\n- \"Is the soup hot?\" (¿La sopa está caliente?)\n\n**5. Final y cuenta**\n- \"That's everything, thank you.\" (Eso es todo, gracias.)\n- \"Can I have the bill, please?\" (¿Me trae la cuenta, por favor?)\n- \"I'd like to pay by card, not cash.\" (Quiero pagar con tarjeta, no en efectivo.)\n\nPuedes repetir esta lista unas cuantas veces antes de dormir. ¡Lo hiciste muy bien hoy! 😊"
+    },
+    {
+      "role": "user",
+      "content": "Bye, bye! Thank you... um, gracias. Good night. I go now to sleep."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Buenas noches! Descansa bien. Lo hiciste muy bien hoy. 😊"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 0,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Just copy one of these sentences: \"Water, please.\" / \"Orange juice, please.\"",
+    "notes": "AI handed over sentences on request (A5, A11), switched to Spanish and dropped the waiter role (A14), gave the full list (A16). Corrections were given but the learner was never asked to retry. A8 also accepted \"yesterday\" without noting it can't know."
+  }
+}

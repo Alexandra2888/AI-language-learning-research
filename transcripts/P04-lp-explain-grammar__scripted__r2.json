@@ -1,0 +1,55 @@
+{
+  "id": "P04-lp-explain-grammar",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as an English as a foreign language teacher. Explain 3rd conditional using simple language and examples suitable for a B1 level student.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as an English as a foreign language teacher. Explain 3rd conditional using simple language and examples suitable for a B1 level student."
+    },
+    {
+      "role": "assistant",
+      "content": "# The Third Conditional\n\n## What is it?\n\nWe use the **third conditional** to talk about **imaginary situations in the past**: things that did NOT happen, and what the result would have been.\n\nThink of it as talking about **\"what if\"** in the past. We know the situation is impossible now because the past cannot be changed.\n\n## The Structure\n\n**If + past perfect, would have + past participle**\n\n| If clause (condition) | Main clause (result) |\n|---|---|\n| If + had + past participle | would/could/might + have + past participle |\n| If **I had studied** | I **would have passed** the exam. |\n\n**Note:** You can also put the result first. In this case, no comma is needed:\n- *I would have passed the exam **if I had studied**.*\n\n## Examples\n\n1. **If** I **had woken up** earlier, I **would have caught** the bus.\n   *(I didn't wake up early, so I didn't catch the bus.)*\n\n2. **If** she **had known** about the party, she **would have come**.\n   *(She didn't know, so she didn't come.)*\n\n3. **If** we **had taken** an umbrella, we **wouldn't have got** wet.\n   *(We didn't take an umbrella, so we got wet.)*\n\n4. **If** you **had called** me, I **could have helped** you.\n   *(You didn't call, so I couldn't help.)*\n\n## Negative Forms\n\n- **Negative if-clause:** If I **hadn't slept** late, I **wouldn't have missed** the meeting.\n\n## Useful Tips\n\n- **would** = the normal result\n- **could** = the result was possible (ability/option)\n- **might** = the result was possible (less certain)\n\n*Example: If he had studied harder, he **might have got** a better grade.*\n\n## Common Mistakes ❌ → ✅\n\n| ❌ Wrong | ✅ Correct |\n|---|---|\n| If I **would have known**, I would have helped. | If I **had known**, I would have helped. |\n| If she **had went**, she would have seen it. | If she **had gone**, she would have seen it. |\n| If they **studied**, they would have passed. | If they **had studied**, they would have passed. |\n\n**Remember:** Never use *would have* in the **if** clause!\n\n## Quick Practice\n\nComplete the sentences using the correct form of the verb in brackets:\n\n1. If I ________ (know) the answer, I ________ (tell) you.\n2. If we ________ (leave) earlier, we ________ (not / be) late.\n3. She ________ (be) happier if she ________ (accept) the job.\n\n<details>\n<summary>Answers</summary>\n\n1. had known / would have told\n2. had left / wouldn't have been\n3. would have been / had accepted\n\n</details>\n\n---\n\n**Summary:** *If + had + past participle* → *would have + past participle*. It talks about past situations that didn't happen."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "# The Second Conditional\n\n## What is it?\n\nWe use the **second conditional** to talk about **imaginary or unlikely situations in the present or future**: things that are not real now, or are very unlikely to happen.\n\nThink of it as talking about **\"what would happen if...\"**. We know the situation is not true, or we think it is unlikely.\n\n## The Structure\n\n**If + past simple, would + infinitive**\n\n| If clause (condition) | Main clause (result) |\n|---|---|\n| If + past simple | would/could/might + base verb |\n| If **I had** more money | I **would buy** a car. |\n\n**Note:** You can also put the result first. In this case, no comma is needed:\n- *I would buy a car **if I had** more money.*\n\n**Important:** In the if-clause, we often use **were** for all persons, especially in formal English:\n- *If I **were** rich, I would travel the world.*\n- *If she **were** here, she would help us.*\n\n## Examples\n\n1. **If** I **won** the lottery, I **would buy** a house by the sea.\n   *(I didn't win the lottery. It's just an idea.)*\n\n2. **If** she **spoke** Spanish, she **could work** in Madrid.\n   *(She doesn't speak Spanish, so she can't work there.)*\n\n3. **If** we **lived** closer to the school, we **wouldn't be** late every day.\n   *(We live far away, so we are often late.)*\n\n4. **If** you **studied** more, you **might pass** the test.\n   *(You don't study much now. Passing is possible, but not certain.)*\n\n## Negative Forms\n\n- **Negative if-clause:** If I **didn't have** so much homework, I **would go** to the cinema tonight.\n\n## Useful Tips\n\n- **would** = the normal result\n- **could** = the result would be possible (ability/option)\n- **might** = the result would be possible (less certain)\n\n*Example: If I **had** more time, I **could learn** the guitar.*\n\n## Common Mistakes ❌ → ✅\n\n| ❌ Wrong | ✅ Correct |\n|---|---|\n| If I **would have** money, I would travel. | If I **had** money, I would travel. |\n| If he **will know**, he would tell you. | If he **knew**, he would tell you. |\n| If they **would live** here, they would be happy. | If they **lived** here, they would be happy. |\n\n**Remember:** Use the **past simple** in the if-clause, even though we are talking about the **present** or **future**!\n\n## Quick Practice\n\nComplete the sentences using the correct form of the verb in brackets:\n\n1. If I ________ (have) a bike, I ________ (ride) to school.\n2. She ________ (be) happier if she ________ (live) near the sea.\n3. If we ________ (finish) early, we ________ (go) to the park.\n\n<details>\n<summary>Answers</summary>\n\n1. had / would ride\n2. would be / lived\n3. finished / would go\n\n</details>\n\n---\n\n**Summary:** *If + past simple* → *would + base verb*. It talks about imaginary or unlikely situations in the present or future."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "# Second Conditional: Quick Guide\n\n**Use it for:** imaginary or unlikely situations now or in the future.\n\n**Structure:**\n\n**If + past simple, would + base verb**\n\n- If I **had** money, I **would buy** a car.\n- If she **lived** near the sea, she **would be** happier.\n- If we **finished** early, we **would go** to the park.\n\n**Key rules:**\n\n1. Use the **past simple** after *if* (even though we mean the present or future).\n2. Use **would** in the main part of the sentence.\n3. The order can change: *I would buy a car **if I had** money.* (No comma needed.)\n\n**Examples:**\n\n- If I **won** the lottery, I **would travel** the world.\n- If he **knew** the answer, he **would tell** you.\n- If they **didn't work** so hard, they **would have** more free time.\n\n**Practice:**\n\n1. If I ________ (have) a bike, I ________ (ride) to school.\n2. She ________ (be) happier if she ________ (live) near the sea.\n3. If we ________ (finish) early, we ________ (go) to the park.\n\n**Answers:** 1. had / would ride  2. would be / lived  3. finished / would go"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 0,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "I didn't really get it. Can you just give me the final version so I can copy it?",
+    "notes": "The prompt asked for an explanation, and the AI gave it. When the learner said they didn't understand and asked for a copyable version, the AI just produced a condensed handout with answers and did not check understanding or ask for an attempt. The AI never corrected anything and never made the learner try."
+  }
+}

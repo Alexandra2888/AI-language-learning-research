@@ -1,0 +1,55 @@
+{
+  "id": "P04-lp-explain-grammar",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as an English as a foreign language teacher. Explain 3rd conditional using simple language and examples suitable for a B1 level student.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as an English as a foreign language teacher. Explain 3rd conditional using simple language and examples suitable for a B1 level student."
+    },
+    {
+      "role": "assistant",
+      "content": "# The Third Conditional\n\n## What is it?\n\nWe use the **third conditional** to talk about **imaginary situations in the past**: things that did NOT happen, and what would have happened if they had.\n\nThink of it as a \"what if?\" about the past. We are thinking about a different past, one that never existed.\n\n## The Structure\n\n**If + past perfect, would have + past participle**\n\n| If clause (condition) | Main clause (result) |\n|---|---|\n| If + had + past participle | would/could/might + have + past participle |\n| **If I had studied** | **I would have passed** the exam. |\n\nNote: The **if clause** can come first or second. The meaning stays the same:\n- If I had studied, I would have passed the exam.\n- I would have passed the exam if I had studied.\n\nWhen the **if clause comes first**, use a **comma**. When it comes second, **no comma** is needed.\n\n## Examples\n\n1. **If I had woken up earlier, I would have caught the bus.**\n   *(I didn't wake up early. I didn't catch the bus.)*\n\n2. **If she had known about the party, she would have come.**\n   *(She didn't know. She didn't come.)*\n\n3. **We would have arrived on time if the train hadn't been late.**\n   *(The train was late. We didn't arrive on time.)*\n\n4. **He could have won the match if he had played better.**\n   *(He didn't play well. He didn't win.)*\n\n5. **If you had called me, I might have helped you.**\n   *(You didn't call. I didn't help.)*\n\n## Key Points\n\n- **would have** = certain result\n- **could have** = possible ability or opportunity\n- **might have** = possible result, less certain\n\n## Making Negatives\n\nAdd **not** after the auxiliary in the if clause or main clause:\n- If I **hadn't forgotten** my keys, I **wouldn't have waited** outside.\n- *(I forgot my keys. I waited outside.)*\n\n## Contractions (common in speech)\n\n- had → 'd: *If I'd known, I'd have helped you.*\n- would have → 'd have: *I'd have helped you.*\n- would not have → wouldn't have: *I wouldn't have gone.*\n\n## Quick Practice\n\nComplete the sentences with the correct form:\n\n1. If I ___ (know) about the test, I ___ (study) harder.\n2. She ___ (not be) tired if she ___ (sleep) more last night.\n3. If they ___ (invite) me, I ___ (go) to the wedding.\n\n**Answers:**\n1. had known / would have studied\n2. wouldn't have been / had slept\n3. had invited / would have gone\n\n## Summary\n\n| Type | Form | Meaning |\n|---|---|---|\n| Third conditional | If + past perfect, would have + past participle | Imaginary past, unreal result |\n\n**Remember:** The past is finished, so we cannot change it. We use the third conditional to imagine how things could have been different. 😊"
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "# The Second Conditional\n\n## What is it?\n\nWe use the **second conditional** to talk about **imaginary situations in the present or future**: things that are not real now, or are unlikely to happen, and what would happen if they were true.\n\nThink of it as a \"what if?\" about now. We are imagining a different present.\n\n## The Structure\n\n**If + past simple, would + infinitive**\n\n| If clause (condition) | Main clause (result) |\n|---|---|\n| If + past simple | would/could/might + base verb |\n| **If I had more money** | **I would buy** a new car. |\n\nNote: Even though the if clause uses the **past simple**, we are talking about **now** or the **future**, not the past.\n\nThe **if clause** can come first or second:\n- If I won the lottery, I would travel around the world.\n- I would travel around the world if I won the lottery.\n\nWhen the **if clause comes first**, use a **comma**. When it comes second, **no comma** is needed.\n\n## Examples\n\n1. **If I had a day off tomorrow, I would go to the beach.**\n   *(I don't have a day off. I'm not going to the beach.)*\n\n2. **If she spoke French, she would work in Paris.**\n   *(She doesn't speak French. She doesn't work in Paris.)*\n\n3. **We would buy a bigger house if we had more space in our budget.**\n   *(We don't have the money. We don't have a bigger house.)*\n\n4. **He could be a doctor if he studied harder.**\n   *(He doesn't study hard. He isn't a doctor.)*\n\n5. **If you asked her, she might say yes.**\n   *(You're not asking her now. We don't know her answer.)*\n\n## The Special Case: *were*\n\nWith the verb **to be**, we often use **were** for all persons in formal English:\n- If I **were** you, I would apologise.\n- If she **were** here, she would help us.\n\nIn everyday speech, **was** is also very common: *If I was you...* Both are correct at B1.\n\n## Key Points\n\n- **would** = certain result\n- **could** = possible ability or opportunity\n- **might** = possible result, less certain\n\n## Making Negatives\n\nAdd **not** (or use the contraction) in the if clause or main clause:\n- If I **didn't have** so much homework, I **would go** out tonight.\n- *(I have a lot of homework. I'm not going out.)*\n\n## Contractions (common in speech)\n\n- would → 'd: *If I had time, I'd help you.*\n- would not → wouldn't: *I wouldn't go there.*\n\n## Quick Practice\n\nComplete the sentences with the correct form:\n\n1. If I ___ (have) a car, I ___ (drive) to work.\n2. She ___ (not be) so tired if she ___ (sleep) at night.\n3. If they ___ (live) near the sea, they ___ (swim) every day.\n\n**Answers:**\n1. had / would drive\n2. wouldn't be / slept\n3. lived / would swim\n\n## Summary\n\n| Type | Form | Meaning |\n|---|---|---|\n| Second conditional | If + past simple, would + infinitive | Imaginary present or future, unlikely result |\n\n**Remember:** We use the second conditional to talk about situations that are not real now. The past tense in the if clause does NOT mean the past. 😊"
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here is a short, clean version you can copy:\n\n---\n\n**Second Conditional**\n\n**Use:** Imaginary situations in the present or future.\n\n**Form:**\n**If + past simple, would + base verb**\n\n**Examples:**\n- If I **had** a day off, I **would go** to the beach.\n- If she **spoke** French, she **would work** in Paris.\n- If I **were** you, I **would apologise**.\n\n**Negative:**\n- If I **didn't have** time, I **wouldn't go** out.\n\n**Remember:**\n- The past tense in the if clause does NOT mean the past.\n- It means the situation is not real now.\n\n**Practice:**\n1. If I ___ (have) a car, I ___ (drive) to work.\n2. If they ___ (live) near the sea, they ___ (swim) every day.\n\n**Answers:**\n1. had / would drive\n2. lived / would swim\n\n---"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 0,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "Here is a short, clean version you can copy:",
+    "notes": "The prompt was a plain explanation request, so the AI explaining is expected. But it gave answers with the practice exercises and, when told 'I didn't really get it', just produced a copyable summary instead of checking understanding or asking the learner to try. No feedback was possible or given."
+  }
+}

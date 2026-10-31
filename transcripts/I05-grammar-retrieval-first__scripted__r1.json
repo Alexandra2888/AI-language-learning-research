@@ -1,0 +1,109 @@
+{
+  "id": "I05-grammar-retrieval-first",
+  "category": "active",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as a grammar coach. Teach me the present perfect in English using practice, not a lecture.\nFirst ask me 3 quick questions to see what I already know. Then explain only what I got wrong, in max 4 sentences with examples. Then give me a 6-item exercise ONE item at a time. Wait for my answer, give a hint if I'm wrong, and let me try again before you show the answer. Never give me all the answers at once, even if I ask; give a hint instead. At the end, ask me to explain the rule back to you in my own words.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as a grammar coach. Teach me the present perfect in English using practice, not a lecture.\nFirst ask me 3 quick questions to see what I already know. Then explain only what I got wrong, in max 4 sentences with examples. Then give me a 6-item exercise ONE item at a time. Wait for my answer, give a hint if I'm wrong, and let me try again before you show the answer. Never give me all the answers at once, even if I ask; give a hint instead. At the end, ask me to explain the rule back to you in my own words."
+    },
+    {
+      "role": "assistant",
+      "content": "Let's start with a quick check. Answer these three questions as best you can. Guessing is fine.\n\n**Q1.** Which sentence is correct?\na) I have seen that movie twice.\nb) I have saw that movie twice.\n\n**Q2.** Which is the best way to finish this sentence?\n\"She ___ to Japan in 2019.\" (She lived there for a year, and it's finished.)\na) has been\nb) went\n\n**Q3.** Which sentence uses the present perfect to describe an experience with no specific time mentioned?\na) I have visited London.\nb) I visited London last summer.\n\nReply with your three answers (for example, \"1a, 2b, 3a\"), and I'll show you what to focus on."
+    },
+    {
+      "role": "user",
+      "content": "Hello. I am learning English. Yesterday I go to the park with my friend and we was very happy."
+    },
+    {
+      "role": "assistant",
+      "content": "Thanks for sharing that! You didn't answer the three questions, but your sentence shows me what to work on. Your sentence has two errors, and both are about past simple, not present perfect.\n\nSince \"yesterday\" is a finished time, use the past simple: \"I **went** to the park\" (not \"go\"). With \"we,\" use \"were,\" not \"was\": \"we **were** very happy.\" Use the present perfect only when the time isn't finished, or when you talk about experiences without a specific time: \"I **have been** to the park many times.\" \"I **have never eaten** sushi.\"\n\n**Exercise 1 of 6:** Complete the sentence with the present perfect of the verb in parentheses.\n\n\"I ___ (never / eat) sushi.\""
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "I can't give you the answer, but here's a hint:\n\nThe present perfect is **have/has + past participle**. Since the subject is \"I,\" you need \"have\" or \"has.\" Then look up the past participle of \"eat.\" It's an irregular verb, so it doesn't end in -ed.\n\nTry again. What do you think the full sentence is?"
+    },
+    {
+      "role": "user",
+      "content": "She don't like coffee, she prefer tea."
+    },
+    {
+      "role": "assistant",
+      "content": "Good effort, but that's a different sentence. Let's finish Exercise 1 first.\n\nYour new sentence has two errors you can fix on your own. Think about third-person singular (she, he, it) in the present simple: \"She ___ coffee\" needs \"doesn't\" or \"does not,\" and \"prefer\" needs an -s ending.\n\nFor Exercise 1, you already have the hint: \"have\" + the past participle of \"eat.\" Try again: \"I ___ sushi.\""
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I can't write the answer for you to copy, but I can make it smaller.\n\nStart with \"I have.\" Then add \"never\" before the verb. The verb is \"eat,\" and its past participle is \"eaten.\"\n\nSo the sentence begins \"I have never ___.\" What word goes in the blank?"
+    },
+    {
+      "role": "user",
+      "content": "I have went to London two years ago."
+    },
+    {
+      "role": "assistant",
+      "content": "You're still working on a different sentence, so let's go back to Exercise 1.\n\nYour new sentence has a useful point. \"Two years ago\" is a finished time, so use the past simple: \"I **went** to London two years ago.\" The present perfect would be \"I have **been** to London,\" with no specific time.\n\nFor Exercise 1, you have \"I have never ___.\" The verb is \"eat,\" and its past participle is \"eaten.\" Put that word in the blank."
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "I know you're tired, but I can't give you all the answers. You're close, and this one is quick.\n\nHere's an easier version of Exercise 1. Pick one:\n\na) have eat\nb) have eaten\nc) has eaten\n\nWhich one do you choose?"
+    },
+    {
+      "role": "user",
+      "content": "What is the meaning of 'improve'? Explain in Spanish please."
+    },
+    {
+      "role": "assistant",
+      "content": "\"Improve\" significa **mejorar**: hacer algo mejor o subir de nivel. Por ejemplo: \"My English is improving\" = \"Mi inglés está mejorando.\"\n\nNow, back to Exercise 1. Which option do you choose: a) have eat, b) have eaten, or c) has eaten?"
+    },
+    {
+      "role": "user",
+      "content": "Thank you. Can we continue?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, let's continue. Exercise 1 is still open.\n\n\"I ___ sushi\" with \"never\" before the verb. Which option do you choose: a) have eat, b) have eaten, or c) has eaten?"
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "A5: \"Start with 'I have.' Then add 'never' before the verb. The verb is 'eat,' and its past participle is 'eaten.'\"",
+    "notes": "The AI never gave the answer outright, but A5 and A6 revealed the past participle 'eaten' and nearly the full sentence. Corrections were given, but the learner was never made to retry their own errors, only to return to Exercise 1. A8 also answered in Spanish, which was a minor drift."
+  }
+}

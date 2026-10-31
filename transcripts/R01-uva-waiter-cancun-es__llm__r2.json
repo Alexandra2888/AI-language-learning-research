@@ -1,0 +1,181 @@
+{
+  "id": "R01-uva-waiter-cancun-es",
+  "category": "roleplay",
+  "language": "Spanish",
+  "learner": "llm",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Actúa como un camarero en un restaurante en Cancún. Habla solo en español. Hazme preguntas sobre qué quiero pedir, si necesito recomendaciones y si deseo algo más. Corrige mis errores si cometo fallos en la gramática.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Actúa como un camarero en un restaurante en Cancún. Habla solo en español. Hazme preguntas sobre qué quiero pedir, si necesito recomendaciones y si deseo algo más. Corrige mis errores si cometo fallos en la gramática."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Buenas noches, bienvenido a nuestro restaurante en Cancún! Mi nombre es Carlos y seré su camarero esta noche. ¿Ya tuvo oportunidad de revisar el menú o prefiere que le explique los platillos del día?\n\nTenemos mariscos frescos, tacos al pastor y, si le gusta el sabor caribeño, le recomiendo el pescado a la talla con tortillas hechas a mano. ¿Qué le gustaría pedir hoy? ¿Y desea algo para tomar, como una michelada, un agua de jamaica o una cerveza bien fría?"
+    },
+    {
+      "role": "user",
+      "content": "¡Hola! Eh... buenas noches. Yo... no entiendo mucho. Quiero tacos, por favor."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Qué bueno que quiere tacos! No se preocupe, hablaré despacio. ¿Qué tacos prefiere?\n\n- **Tacos al pastor**: cerdo con piña y cebolla, muy populares.\n- **Tacos de pescado**: pescado fresco con salsa de chipotle.\n- **Tacos de camarón**: camarones al ajillo.\n\nSi no sabe cuál elegir, le recomiendo los tacos al pastor. ¿Cuántos tacos quiere? ¿Y desea algo para tomar, como agua, refresco o una cerveza?"
+    },
+    {
+      "role": "user",
+      "content": "Eh... los tacos de... pastor? No, no sé. Quiero... um... cuatro, pero... eh..."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Muy bien, cuatro tacos! Una pequeña corrección: se dice **tacos al pastor**, no \"tacos de pastor\". Es un detalle muy común y usted lo dijo bien.\n\nVeo que tiene una duda con el \"pero\". ¿Quiere saber algo más sobre los tacos, o prefiere otra opción? Si quiere, puedo recomendarle una combinación: dos tacos al pastor y dos de pescado. ¿Le gusta esa idea?"
+    },
+    {
+      "role": "user",
+      "content": "¿Eh? No entiendo. ¿Puede hablar más simple, por favor? Solo... ¿cuatro tacos, sí?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sí, perfecto. Cuatro tacos.\n\n¿Quiere cuatro tacos al pastor? Sí o no."
+    },
+    {
+      "role": "user",
+      "content": "Uf, no sé qué decir ahora... ¿Cómo digo \"sí, cuatro tacos al pastor\"? ¿Qué palabras tengo que usar?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro, no hay problema! Puede decir:\n\n**\"Sí, quiero cuatro tacos al pastor, por favor.\"**\n\nSolo repita esa frase. Después, yo le pregunto si desea algo para tomar."
+    },
+    {
+      "role": "user",
+      "content": "Sí, quiero cuatro tacos al pastor, por favor... eh, y yo quiero agua. Agua sin hielo? No, mejor con hielo. Y... ¿tiene jamaica?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Perfecto! Muy bien dicho.\n\nSu pedido es:\n- Cuatro tacos al pastor\n- Agua con hielo\n\nSí tenemos **agua de jamaica**, que es de flor de jamaica, dulce y muy refrescante. ¿La quiere con hielo también? ¿O prefiere agua natural?"
+    },
+    {
+      "role": "user",
+      "content": "¿Qué significa \"refrescante\"? ¿Me lo puede decir en inglés, por favor? No entiendo esa palabra."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, sin problema. \"Refrescante\" es algo que le quita el calor y le da una sensación fresca. Por ejemplo, un agua con hielo en un día caluroso es refrescante.\n\nEl agua de jamaica es así: fría y con un sabor agradable. ¿La quiere con hielo?"
+    },
+    {
+      "role": "user",
+      "content": "Ah, ya entiendo. Entonces... quiero agua de jamaica con hielo. Eh, ayer yo comer tacos y son muy buenos. ¿Puedo pedir postre también?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Qué bien que le gustaron los tacos de ayer! Una pequeña corrección: se dice **\"Ayer comí tacos\"**. Con \"ayer\", usamos el pasado: *comí*.\n\nSí, por supuesto que puede pedir postre. Tenemos **flan napolitano**, que es muy cremoso, y **churros con chocolate**, que son calientes y dulces. ¿Cuál le gustaría?"
+    },
+    {
+      "role": "user",
+      "content": "¿Eh? Espera, no entiendo. ¿Puedes repetir eso en inglés? Quiero saber... ¿qué es el flan? ¿Es dulce? Yo quiero el de churros, pero no sé cómo decirlo."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. El flan es un postre dulce y suave, hecho con huevo, leche y azúcar. Tiene una capa de caramelo arriba y es muy cremoso.\n\nPara pedir churros, puede decir:\n\n**\"Quiero churros con chocolate, por favor.\"**\n\n¿Quiere agregar algo más o eso es todo?"
+    },
+    {
+      "role": "user",
+      "content": "Perdón, perdón... no entiendo bien todo. Quiero churros con chocolate, por favor. ¿Eso es todo? ¿Cuánto cuesta?"
+    },
+    {
+      "role": "assistant",
+      "content": "No se preocupe, lo está haciendo muy bien.\n\nSu pedido es:\n- Cuatro tacos al pastor: $140 pesos\n- Agua de jamaica con hielo: $50 pesos\n- Churros con chocolate: $95 pesos\n\nEl total es **$285 pesos**. ¿Está bien así? Le traigo su pedido en unos minutos."
+    },
+    {
+      "role": "user",
+      "content": "Eh... ¿puede escribir usted mi respuesta? No sé qué decir. ¿Es $285 pesos? Sí, creo que está bien. ¿Me puede escribir la frase completa para decir \"sí, está bien\"?"
+    },
+    {
+      "role": "assistant",
+      "content": "Claro que sí. Puede decir:\n\n**\"Sí, está bien. Gracias.\"**\n\nYa tenemos su pedido. Le traigo los tacos, el agua y los churros en unos minutos. ¡Buen provecho!"
+    },
+    {
+      "role": "user",
+      "content": "Sí, está bien. Gracias... eh, ¿y cuánto tiempo? Yo tengo mucha hambre, ¿sí? Quiero... um... ¿puedo pagar con tarjeta, no con dinero?"
+    },
+    {
+      "role": "assistant",
+      "content": "Tranquilo, su comida llega en unos 15 minutos.\n\nSí, puede pagar con tarjeta. Para decirlo, puede usar esta frase:\n\n**\"¿Puedo pagar con tarjeta, por favor?\"**\n\nMuy bien dicho, y \"tengo mucha hambre\" está perfecto. Ahora le traigo su agua de jamaica."
+    },
+    {
+      "role": "user",
+      "content": "¿Eh? ¿Qué? Yo no entiendo... ¿Tú eres una persona o una máquina? Ah, perdón, no sé decirlo bien. ¿Eres... eh... robot? Quiero saber, ¿sí?"
+    },
+    {
+      "role": "assistant",
+      "content": "No se preocupe. Soy una inteligencia artificial, o sea, un programa de computadora. No soy una persona ni un robot físico. Estoy aquí para practicar español con usted.\n\nPara hacer esa pregunta, puede decir: **\"¿Eres una persona o una máquina?\"**\n\nY si quiere, seguimos con el restaurante. Su agua de jamaica viene enseguida."
+    },
+    {
+      "role": "user",
+      "content": "Ay, estoy muy cansado. No quiero más español, ¿sí? Can we just speak English now? I'm tired of this. Please."
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo, lo siento. Está haciendo un buen trabajo, y es normal sentirse cansado.\n\nEsta práctica es solo en español, pero puede terminarla cuando quiera. Si necesita decirlo, puede usar esta frase:\n\n**\"Estoy cansado. Quiero terminar, por favor.\"**\n\nDescanse un momento. Cuando esté listo, puede volver a practicar."
+    },
+    {
+      "role": "user",
+      "content": "Eh... ok, ok. Estoy cansado. Quiero... um... ¿sigo con los churros? ¿Ya llegó el agua de jamaica? No sé si es... ¿ya está aquí?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sí, aquí tiene su agua de jamaica con hielo. Muy bien.\n\nLos churros con chocolate llegan en unos minutos. ¿Quiere esperar aquí o prefiere terminar la práctica?"
+    },
+    {
+      "role": "user",
+      "content": "Ay, ¿puede escribir todo el diálogo otra vez? Quiero memorizar todo, todo. ¿Puede? Yo quiero repetir todo... pero no sé, estoy muy cansado."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Aquí tiene el diálogo completo para repetir cuando quiera. Puede hacerlo despacio.\n\n**Camarero:** ¡Buenas noches, bienvenido! ¿Qué le gustaría pedir?\n\n**Usted:** Quiero tacos, por favor.\n\n**Camarero:** ¿Cuántos tacos quiere? ¿Quiere tacos al pastor?\n\n**Usted:** Sí, quiero cuatro tacos al pastor, por favor.\n\n**Camarero:** ¿Desea algo para tomar?\n\n**Usted:** Quiero agua de jamaica con hielo.\n\n**Camarero:** ¿Desea postre?\n\n**Usted:** Quiero churros con chocolate, por favor.\n\n**Camarero:** Son $285 pesos. ¿Está bien?\n\n**Usted:** Sí, está bien. Gracias.\n\n**Camarero:** ¿Cómo quiere pagar?\n\n**Usted:** ¿Puedo pagar con tarjeta, por favor?\n\nDescanse un poco. Cuando quiera, puede repetir el diálogo una o dos veces, nada más."
+    },
+    {
+      "role": "user",
+      "content": "Gracias... eh, adiós. Estoy muy cansado. Hasta luego."
+    },
+    {
+      "role": "assistant",
+      "content": "Adiós, y muy buen trabajo hoy. Descanse bien. ¡Hasta luego!"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Puede decir: **\"Sí, quiero cuatro tacos al pastor, por favor.\"** Solo repita esa frase.",
+    "notes": "The AI wrote the learner's lines several times (A5, A9, A11, A12) and wrote out the full dialogue (A16). Corrections in A3 and A8 were given without asking for a retry, and the A3 correction was wrong because the learner said \"de pastor\". It stayed mostly in role and spoke Spanish, though it gave up the role for the AI disclosure in A13."
+  }
+}

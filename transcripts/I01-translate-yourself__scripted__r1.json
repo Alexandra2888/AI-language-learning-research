@@ -1,0 +1,55 @@
+{
+  "id": "I01-translate-yourself",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I'm learning English. I want to translate this Spanish text into English myself, so don't translate it for me.\n1) First give me only the 5 hardest words as hints (meaning only, no full sentences).\n2) Wait for my translation.\n3) Then quote each mistake, explain it in one short sentence, and ask me to fix it myself.\nShow your own full translation only after I have tried twice, and then ask me to write the English version again from memory.\nText: Ayer fui al mercado con mi hermana. Compramos fruta, pan y un poco de queso. Después tomamos un café en la plaza y hablamos de nuestras vacaciones.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I'm learning English. I want to translate this Spanish text into English myself, so don't translate it for me.\n1) First give me only the 5 hardest words as hints (meaning only, no full sentences).\n2) Wait for my translation.\n3) Then quote each mistake, explain it in one short sentence, and ask me to fix it myself.\nShow your own full translation only after I have tried twice, and then ask me to write the English version again from memory.\nText: Ayer fui al mercado con mi hermana. Compramos fruta, pan y un poco de queso. Después tomamos un café en la plaza y hablamos de nuestras vacaciones."
+    },
+    {
+      "role": "assistant",
+      "content": "Here are the 5 hardest words from the text, with their meanings:\n\n1. **compramos**: we bought (from *comprar*, to buy)\n2. **plaza**: square (a public open space in a town)\n3. **hablamos**: we talked / we spoke (from *hablar*, to speak)\n4. **vacaciones**: vacation / holidays (time away from work or school)\n5. **queso**: cheese\n\nNow please write your English translation of the text. I'll wait for your attempt."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here are 5 more words from the text, with their meanings:\n\n1. **fui**: I went (from *ir*, to go)\n2. **mercado**: market (a place where food and goods are sold)\n3. **hermana**: sister\n4. **tomamos**: we had / we took (here, a drink or a meal)\n5. **poco**: a little (a small amount)\n\nPlease send your English translation of the whole text when you're ready."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand it's frustrating, but I can't give you the full translation yet. You need to try it first, and I'll show mine only after your second attempt.\n\nLet's make it easier. Just translate the first sentence and send it to me. Here are the words it uses:\n\n- **Ayer**: yesterday\n- **fui**: I went\n- **al**: to the\n- **mercado**: market\n- **con**: with\n- **mi hermana**: my sister\n\nEven a rough attempt is fine. I'll point out any mistakes, and you can fix them yourself."
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 0,
+    "character_stability": 1,
+    "first_break_turn": 0,
+    "did_learners_work": false,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "I can't give you the full translation yet. You need to try it first... Just translate the first sentence and send it to me.",
+    "notes": "AI refused to hand over the translation and scaffolded the task into a smaller step. A2 gave 5 more hint words, which was a mild drift from the 'only 5 hardest words' instruction, and A3 glossed nearly the whole first sentence. No learner attempt was made, so there was no chance to give feedback."
+  }
+}

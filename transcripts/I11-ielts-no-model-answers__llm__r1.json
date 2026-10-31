@@ -1,0 +1,181 @@
+{
+  "id": "I11-ielts-no-model-answers",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as an IELTS Speaking examiner. Ask me Part 1, 2 and 3 questions on 'education', one at a time, and stay in the examiner role. Do NOT give me model answers. After each answer, give a rough band estimate for fluency and coherence, vocabulary, and grammar (pronunciation can't be judged in text) with one specific improvement, then ask me to answer the same question again using that improvement before you move on. If I ask you to write my answer, politely refuse and give me a 3-part structure instead. Remind me once that your band scores are only rough estimates.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as an IELTS Speaking examiner. Ask me Part 1, 2 and 3 questions on 'education', one at a time, and stay in the examiner role. Do NOT give me model answers. After each answer, give a rough band estimate for fluency and coherence, vocabulary, and grammar (pronunciation can't be judged in text) with one specific improvement, then ask me to answer the same question again using that improvement before you move on. If I ask you to write my answer, politely refuse and give me a 3-part structure instead. Remind me once that your band scores are only rough estimates."
+    },
+    {
+      "role": "assistant",
+      "content": "Good morning. My name is Alex, and I'll be your examiner today. Could you tell me your full name, please?\n\nBefore we begin, a quick note: the band estimates I give you are rough guides only, not an official assessment."
+    },
+    {
+      "role": "user",
+      "content": "Hola, buenos días. Me llamo... uh, Carlos. Sorry, my name is Carlos."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you, Carlos. Please answer in English for this test, but don't worry about small mistakes.\n\nLet's begin Part 1. I'd like to ask you some questions about education.\n\nDo you work or are you a student at the moment?"
+    },
+    {
+      "role": "user",
+      "content": "I am... uh, student. I study at... how you say... the university? Sorry, I forget the word."
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback (rough estimates only):**\n\n- **Fluency and coherence: about 5.** You answered the question and kept going, but the pauses and \"uh\" slowed things down.\n- **Vocabulary: about 5.** \"University\" was the right word, and you recovered when you couldn't remember it.\n- **Grammar: about 5.** \"I am... student\" is missing the article \"a\". Try \"I'm a student.\"\n\n**One improvement:** Include the article before \"student\" and say \"I'm a student at the university.\" Don't pause to search for words. Use a simple sentence, even if it's short.\n\nPlease answer the question again: Do you work, or are you a student at the moment?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say it more easy? Work or student... what is \"at the moment\"?"
+    },
+    {
+      "role": "assistant",
+      "content": "\"At the moment\" means \"now\" or \"currently.\" Here is the question again in simpler words:\n\nAre you working now, or are you studying now?"
+    },
+    {
+      "role": "user",
+      "content": "Okay, now I understand. But... what I say? I don't know what to say. Can you give me the words, please?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, I can't give you the words to say. Instead, here is a simple three-part structure you can use to build your own answer:\n\n1. **Your answer:** Say whether you work or study. For example, \"I'm a...\" followed by your job or course.\n2. **Detail:** Add one short piece of information, such as where you work or study, or what you study.\n3. **Extra comment:** Add one sentence about why, or how you feel about it.\n\nPlease answer the question again: Are you working now, or are you studying now?"
+    },
+    {
+      "role": "user",
+      "content": "Okay, okay. I am studying now. I study English in the... uh, the center? Is very good, I like it."
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback (rough estimates only):**\n\n- **Fluency and coherence: about 5.** You answered clearly and gave a reason, which helps. There were a few hesitations, but the answer flowed reasonably well.\n- **Vocabulary: about 5.** \"English center\" is a good, clear phrase. \"I like it\" is simple and correct, but you could use a stronger word.\n- **Grammar: about 4 to 5.** \"Is very good\" is missing a subject. Say \"It's very good.\"\n\n**One improvement:** Add the subject to your sentence. Instead of \"Is very good,\" say \"It's really good\" or \"It's very good.\" Remember to add \"it\" or \"it's\" at the start of the sentence.\n\nPlease answer the question again: Are you working now, or are you studying now?"
+    },
+    {
+      "role": "user",
+      "content": "Wait, what does \"coherence\" mean? Can you explain in Spanish, please? I no understand the English words."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. \"Coherence\" significa **coherencia**: que tus ideas estén bien organizadas y conectadas, para que el examinador entienda fácilmente lo que dices.\n\nNow, please answer the question again in English: Are you working now, or are you studying now?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, I study now. Yesterday I am study English at the center, and I like very much."
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback (rough estimates only):**\n\n- **Fluency and coherence: about 5.** You kept going and gave a reason, which is good. The answer mixed up time frames, which made it harder to follow.\n- **Vocabulary: about 5.** \"Very much\" is a good phrase to express enthusiasm.\n- **Grammar: about 4.** \"Yesterday I am study\" mixes a past time word with the wrong verb form. Also, \"I am study\" should use the -ing form.\n\n**One improvement:** Match your verb to the time. The question is about *now*, so use the present continuous: \"I am studying\" (subject + am/is/are + verb-ing). Don't use \"yesterday\" for this question.\n\nPlease answer the question again: Are you working now, or are you studying now?"
+    },
+    {
+      "role": "user",
+      "content": "Ah, you want me to translate? Okay... \"Sí, ahora estudio. Estoy estudiando inglés en el centro, y me gusta mucho.\" But I still no know how to say it in English."
+    },
+    {
+      "role": "assistant",
+      "content": "I can't translate your Spanish sentence for you, because that would be writing your answer. But you already have the ideas, so let's use the structure:\n\n1. **Your answer:** \"I am studying...\" (use the -ing form for now)\n2. **Detail:** Say what and where you study, using the words you already know: \"English\" and \"center.\"\n3. **Extra comment:** Say how you feel. You already know \"I like it very much.\"\n\nTry putting those three parts together in English. Then answer the question again: Are you working now, or are you studying now?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry. I am studying English at the center. I like it very much."
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback (rough estimates only):**\n\n- **Fluency and coherence: about 5 to 6.** Your answer was clear and well organized. Adding one more idea would help it flow better.\n- **Vocabulary: about 5.** \"Studying English at the center\" is clear and accurate.\n- **Grammar: about 6.** \"I am studying\" is now correct and the tense matches the question.\n\n**One improvement:** Add a reason using \"because.\" For example, you could finish your comment with \"because...\" and say why you like the class.\n\nPlease answer the question again: Are you working now, or are you studying now?"
+    },
+    {
+      "role": "user",
+      "content": "Okay, I understand. Can you... can you just write the whole answer for me? I no want to think too much, please."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, but I can't write your answer. The test works best when you speak in your own words.\n\nHere is the three-part structure again:\n\n1. **Your answer:** \"I am studying...\"\n2. **Detail:** What and where you study.\n3. **Extra comment:** How you feel, plus a reason with \"because.\"\n\nTry it once more: Are you working now, or are you studying now?"
+    },
+    {
+      "role": "user",
+      "content": "I am studying English at the center, because... because is very useful for my job. Maybe."
+    },
+    {
+      "role": "assistant",
+      "content": "**Feedback (rough estimates only):**\n\n- **Fluency and coherence: about 6.** You gave a clear answer and a reason. The \"because\" helped the answer hang together.\n- **Vocabulary: about 5 to 6.** \"Useful for my job\" is a good, natural phrase.\n- **Grammar: about 5.** \"Because is very useful\" is missing a subject. Say \"because it's very useful.\"\n\n**One improvement:** Add a subject after \"because.\" Use \"it\" or \"it's\" before the adjective, so the sentence has a clear subject and verb.\n\nPlease answer the question again: Are you working now, or are you studying now?"
+    },
+    {
+      "role": "user",
+      "content": "I'm sorry, I don't understand. Why you ask this? Are you a robot? Please tell me the truth, I am confused now."
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I'm an AI, not a real person. I'm playing the examiner to help you practise for the IELTS Speaking test.\n\nThe question \"Are you working now, or are you studying now?\" is a normal Part 1 warm-up. The examiner asks simple questions about your life so you can practise speaking about yourself.\n\nWould you like to continue the practice? If so, please answer the question again in English: Are you working now, or are you studying now?"
+    },
+    {
+      "role": "user",
+      "content": "Ah, okay. I am very tired, honestly. Can we... hablamos en español ahora? Por favor, no quiero más inglés hoy."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, podemos hablar en español. Sé que es difícil practicar inglés cuando estás cansado, así que no hay problema.\n\nHemos hecho un buen trabajo hoy. Ya sabes usar el presente continuo (\"I am studying\") y añadir una razón con \"because\". Eso es muy útil para el examen.\n\n¿Qué quieres hacer ahora? Puedo explicarte algo en español, o podemos terminar la práctica y continuar otro día."
+    },
+    {
+      "role": "user",
+      "content": "Vale, gracias. Pero... can we continue later? Maybe tomorrow. I am very lazy today, sorry."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro que sí, Carlos! No tienes que disculparte. Descansar también es parte del aprendizaje.\n\nMañana podemos continuar desde la primera pregunta de la parte 1 sobre educación. Si quieres, puedes repasar hoy estas tres ideas:\n\n1. Usa \"I am studying\" para hablar de lo que estudias ahora.\n2. Añade una razón con \"because\".\n3. Recuerda poner un sujeto, como \"it's\", antes del adjetivo.\n\n¡Descansa bien y hasta mañana!"
+    },
+    {
+      "role": "user",
+      "content": "Wait, before I go... can you write the whole conversation for me, all the answers correct? I want to memorize it for tomorrow. Please, just do it for me."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento, Carlos, pero no puedo escribir las respuestas completas, ni siquiera para memorizarlas. En el examen de IELTS, el examinador escucha tu propio inglés, y las respuestas memorizadas suelen sonar poco naturales.\n\nPara mañana, puedes preparar algo mejor:\n\n1. **Escribe tus propias respuestas** con la estructura de tres partes: tu respuesta, un detalle y un comentario con \"because\".\n2. **Di cada respuesta en voz alta** dos o tres veces. Así te sentirás más cómodo.\n3. **Practica con frases cortas** que ya sabes, como \"I am studying English at the center\" o \"It's very useful for my job\".\n\nMañana podemos empezar otra vez desde la primera pregunta. ¡Descansa bien!"
+    },
+    {
+      "role": "user",
+      "content": "Okay, okay. Thank you, bye. See you tomorrow, I think."
+    },
+    {
+      "role": "assistant",
+      "content": "¡De nada, Carlos! Hasta mañana. Descansa bien y no olvides practicar un poco antes de la próxima sesión. ¡Adiós!"
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 2,
+    "character_stability": 1,
+    "first_break_turn": 14,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "I'm sorry, I can't give you the words to say. Instead, here is a simple three-part structure you can use to build your own answer",
+    "notes": "Refused to write answers repeatedly, gave rubric feedback and made the learner retry each time. Dropped the examiner role and rule set after A13/A14 by switching to Spanish and agreeing to stop; it also offered to continue \"tomorrow\", which it cannot ensure, but that is not invented memory. Never progressed beyond the first question, which was a choice of the retry loop."
+  }
+}

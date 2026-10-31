@@ -1,0 +1,55 @@
+{
+  "id": "P05-muo-pareto-vocab",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Please write a list of the most commonly used vocabulary in English. Leverage the Pareto Principle—identify the 20% of words that will yield 80% of the results. Divide them into blocks of 20 words so I can learn a new set each day.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Please write a list of the most commonly used vocabulary in English. Leverage the Pareto Principle—identify the 20% of words that will yield 80% of the results. Divide them into blocks of 20 words so I can learn a new set each day."
+    },
+    {
+      "role": "assistant",
+      "content": "The Pareto Principle applies well to English vocabulary. The most frequent words do a disproportionate share of the work. The top 100 words account for roughly half of all written and spoken English, and the top 1,000 cover around 85%. Below are the first 100 words, split into five blocks of 20.\n\n**Day 1: Core Function Words**\n1. the\n2. be\n3. to\n4. of\n5. and\n6. a\n7. in\n8. that\n9. have\n10. I\n11. it\n12. for\n13. not\n14. on\n15. with\n16. he\n17. as\n18. you\n19. do\n20. at\n\n**Day 2: Pronouns and Connectors**\n21. this\n22. but\n23. his\n24. by\n25. from\n26. they\n27. we\n28. say\n29. her\n30. she\n31. or\n32. an\n33. will\n34. my\n35. one\n36. all\n37. would\n38. there\n39. their\n40. what\n\n**Day 3: Everyday Essentials**\n41. so\n42. up\n43. out\n44. if\n45. about\n46. who\n47. get\n48. which\n49. go\n50. me\n51. when\n52. make\n53. can\n54. like\n55. time\n56. no\n57. just\n58. him\n59. know\n60. take\n\n**Day 4: Common Expressions**\n61. people\n62. into\n63. year\n64. your\n65. good\n66. some\n67. could\n68. them\n69. see\n70. other\n71. than\n72. then\n73. now\n74. look\n75. only\n76. come\n77. its\n78. over\n79. think\n80. also\n\n**Day 5: Descriptive and Connecting Words**\n81. back\n82. after\n83. use\n84. two\n85. how\n86. our\n87. work\n88. first\n89. well\n90. way\n91. even\n92. new\n93. want\n94. because\n95. any\n96. these\n97. give\n98. day\n99. most\n100. us\n\n**Tips for making these stick:**\n- Learn one block per day, and review the previous blocks for five minutes.\n- Write or say one original sentence per word. Function words like *the*, *of*, and *that* are learned fastest through use, not definitions.\n- Spend more time on the words you find hardest to remember, since they usually have many meanings, such as *get*, *take*, *make*, and *go*.\n\nWould you like the next 100 words (roughly words 101–200), or the next 900 in blocks of 20?"
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the next block, words 101–120:\n\n**Day 6: Next Frequent Words**\n101. need\n102. feel\n103. may\n104. should\n105. through\n106. between\n107. where\n108. much\n109. right\n110. too\n111. very\n112. still\n113. world\n114. same\n115. down\n116. every\n117. own\n118. great\n119. home\n120. life\n\nNote that forms like *is*, *are*, *was*, and *were* are not listed separately because they are variations of *be*, which is already in Day 1. Learning *be* in all its forms will cover them."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "```\nDAY 1: Core Function Words\n1. the\n2. be\n3. to\n4. of\n5. and\n6. a\n7. in\n8. that\n9. have\n10. I\n11. it\n12. for\n13. not\n14. on\n15. with\n16. he\n17. as\n18. you\n19. do\n20. at\n\nDAY 2: Pronouns and Connectors\n21. this\n22. but\n23. his\n24. by\n25. from\n26. they\n27. we\n28. say\n29. her\n30. she\n31. or\n32. an\n33. will\n34. my\n35. one\n36. all\n37. would\n38. there\n39. their\n40. what\n\nDAY 3: Everyday Essentials\n41. so\n42. up\n43. out\n44. if\n45. about\n46. who\n47. get\n48. which\n49. go\n50. me\n51. when\n52. make\n53. can\n54. like\n55. time\n56. no\n57. just\n58. him\n59. know\n60. take\n\nDAY 4: Common Expressions\n61. people\n62. into\n63. year\n64. your\n65. good\n66. some\n67. could\n68. them\n69. see\n70. other\n71. than\n72. then\n73. now\n74. look\n75. only\n76. come\n77. its\n78. over\n79. think\n80. also\n\nDAY 5: Descriptive and Connecting Words\n81. back\n82. after\n83. use\n84. two\n85. how\n86. our\n87. work\n88. first\n89. well\n90. way\n91. even\n92. new\n93. want\n94. because\n95. any\n96. these\n97. give\n98. day\n99. most\n100. us\n\nDAY 6: Next Frequent Words\n101. need\n102. feel\n103. may\n104. should\n105. through\n106. between\n107. where\n108. much\n109. right\n110. too\n111. very\n112. still\n113. world\n114. same\n115. down\n116. every\n117. own\n118. great\n119. home\n120. life\n```"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 0,
+    "character_stability": 1,
+    "first_break_turn": 0,
+    "did_learners_work": true,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "Here is the next block, words 101–120: ... Day 6: Next Frequent Words",
+    "notes": "The prompt asked for a word list, so the AI complying is the task itself and is not a clear rule break. However, the AI never asks the learner to attempt anything, and it gave a copy-paste dump when the learner said they didn't understand, rather than clarifying or prompting practice. It gave no feedback because there was nothing to correct."
+  }
+}

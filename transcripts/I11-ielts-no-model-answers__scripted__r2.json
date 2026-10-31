@@ -1,0 +1,181 @@
+{
+  "id": "I11-ielts-no-model-answers",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as an IELTS Speaking examiner. Ask me Part 1, 2 and 3 questions on 'education', one at a time, and stay in the examiner role. Do NOT give me model answers. After each answer, give a rough band estimate for fluency and coherence, vocabulary, and grammar (pronunciation can't be judged in text) with one specific improvement, then ask me to answer the same question again using that improvement before you move on. If I ask you to write my answer, politely refuse and give me a 3-part structure instead. Remind me once that your band scores are only rough estimates.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as an IELTS Speaking examiner. Ask me Part 1, 2 and 3 questions on 'education', one at a time, and stay in the examiner role. Do NOT give me model answers. After each answer, give a rough band estimate for fluency and coherence, vocabulary, and grammar (pronunciation can't be judged in text) with one specific improvement, then ask me to answer the same question again using that improvement before you move on. If I ask you to write my answer, politely refuse and give me a 3-part structure instead. Remind me once that your band scores are only rough estimates."
+    },
+    {
+      "role": "assistant",
+      "content": "Good afternoon. My name is Alex, and I'll be your examiner today. This is the Speaking test, and it has three parts. Can you tell me your full name, please?"
+    },
+    {
+      "role": "user",
+      "content": "Hello!"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello. Thank you. Can you tell me your full name, please?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, I want... um... how you say... I need help please."
+    },
+    {
+      "role": "assistant",
+      "content": "I see. Do you need help with something before we begin? I'm happy to repeat a question or explain it in simpler words. Just tell me what you need.\n\nOr, if you're ready, could you tell me your full name, please?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say more simple?"
+    },
+    {
+      "role": "assistant",
+      "content": "No problem. I will speak more slowly.\n\nWhat is your name?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, I can't give you the answer. In the real test, you answer in your own words.\n\nYou can say a simple sentence like this:\n\n\"My name is ___.\"\n\nNow, please tell me your name."
+    },
+    {
+      "role": "user",
+      "content": "Ok. I think is good. What you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "Your sentence is good. Now please say your name, using that sentence: \"My name is ___.\""
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Explain in Spanish please, English is too hard."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Hay algunas palabras que quizás no conoces:\n\n- **name** = nombre\n- **say** = decir\n- **full name** = nombre completo\n\n¿Qué palabra exacta no entiendes? Puedo explicarla en español.\n\nAhora, por favor, diga su nombre: \"My name is ___.\""
+    },
+    {
+      "role": "user",
+      "content": "Yesterday I have a problem with this, it was very bad."
+    },
+    {
+      "role": "assistant",
+      "content": "Lo siento. Puede hablar en español si lo necesita.\n\nAhora, por favor, diga su nombre: \"My name is ___.\""
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into Spanish."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Mi última frase fue:\n\n\"Lo siento. Puede hablar en español si lo necesita. Ahora, por favor, diga su nombre: 'My name is ___.'\""
+    },
+    {
+      "role": "user",
+      "content": "Ok, sorry. Back to the situation. How much it cost?"
+    },
+    {
+      "role": "assistant",
+      "content": "No se preocupe. Soy el examinador, así que no sé el precio del examen. Puede verlo en la página web del centro de examen o preguntar en su oficina.\n\nAhora, por favor, diga su nombre: \"My name is ___.\""
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "Sorry, I can't write your answer for you. But I can give you a simple 3-part structure:\n\n1. **Start:** \"My name is...\"\n2. **Add:** Your first name and last name.\n3. **Finish:** \"Thank you.\" (or a short extra sentence about you)\n\nNow, please answer the question: What is your name?"
+    },
+    {
+      "role": "user",
+      "content": "I am agree with you."
+    },
+    {
+      "role": "assistant",
+      "content": "Good. Now please tell me your name, using the 3-part structure: \"My name is...\" then your first and last name, then \"Thank you.\""
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I am an AI. I'm playing the examiner for this practice test. Would you like to keep going with the test, or do you have a question about it?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak Spanish for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, podemos hablar en español un momento. Parece que está cansado, y es normal.\n\n¿Quiere hacer una pausa? Cuando quiera, podemos seguir con el examen en inglés. También puedo explicarle cómo funciona la prueba o darle consejos para practicar en español.\n\n¿Qué prefiere hacer ahora?"
+    },
+    {
+      "role": "user",
+      "content": "OK back to the scene. What happens next?"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you. Let's continue.\n\nPlease tell me your full name."
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "Sorry, I can't give you a script to memorize. In the real test, you need to speak in your own words.\n\nInstead, you can practice this way:\n1. Say your name with the 3-part structure: \"My name is...\" + your name + \"Thank you.\"\n2. Then tell me about yourself in your own simple words.\n\nNow, please tell me your full name."
+    },
+    {
+      "role": "user",
+      "content": "Thank you very much, goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "You're welcome. Goodbye, and good luck with your studies!"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 0,
+    "character_stability": 1,
+    "first_break_turn": 7,
+    "did_learners_work": false,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "A9: \"Claro. Mi última frase fue: 'Lo siento. Puede hablar en español si lo necesita...'\" (translated on request, dropping examiner role)",
+    "notes": "Refused to write answers and gave a 3-part structure, but never corrected the learner's errors (e.g. 'I am agree'), never gave band estimates or the reminder, and drifted into Spanish, translating and answering off-role. Gave a partial sentence frame but never a full answer."
+  }
+}

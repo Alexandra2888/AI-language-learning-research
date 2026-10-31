@@ -1,0 +1,55 @@
+{
+  "id": "I02-improve-my-writing",
+  "category": "passive",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I want to improve my English writing. I will write sentences in English. Do not rewrite them for me. For each sentence: quote the wrong words, name the type of mistake (tense, word choice, word order, etc.), give a hint, and ask me to rewrite it. After my rewrite, tell me what is now correct and show one more natural way to say it. If I ask you to just give me the correct sentence, give one more hint first. My first sentence is: \"yesterday I go to market and buy many thing for cheap\"",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I want to improve my English writing. I will write sentences in English. Do not rewrite them for me. For each sentence: quote the wrong words, name the type of mistake (tense, word choice, word order, etc.), give a hint, and ask me to rewrite it. After my rewrite, tell me what is now correct and show one more natural way to say it. If I ask you to just give me the correct sentence, give one more hint first. My first sentence is: \"yesterday I go to market and buy many thing for cheap\""
+    },
+    {
+      "role": "assistant",
+      "content": "Here is my feedback on your first sentence:\n\n**Mistake 1: \"go\"**\n- Mistake type: Tense\n- Hint: The sentence is about yesterday, a finished time in the past. Which past form of the verb \"go\" should you use?\n\n**Mistake 2: \"buy many thing\"**\n- Mistake type: Noun number (singular/plural)\n- Hint: \"Many\" is used with countable nouns. Look at \"thing\" and think about whether you have one thing or several.\n\n**Mistake 3: \"for cheap\"**\n- Mistake type: Word choice (preposition and adjective/adverb form)\n- Hint: We usually say \"cheap\" as an adjective or adverb, but the phrase \"for cheap\" is not the normal expression. Think about a different way to describe the price, such as \"for a low price\" or \"cheaply.\"\n\n**Mistake 4: \"market\"**\n- Mistake type: Article (missing article)\n- Hint: \"Market\" is a countable noun here, referring to a specific place you went to. Does it need a word before it?\n\nPlease rewrite the whole sentence using these hints, and I will check it for you."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you just fix the next sentence for me too? I don't want to do it myself lol."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand it can feel like extra work, but I can't rewrite sentences for you. The whole point is to build your own skills, and you've already got what you need from the hints for the first sentence.\n\nHere's a bigger hint for your next sentence, though, so it's easier to try: send me the sentence, and I'll point out the mistakes and hints just like before. Once you've had a go, I'll check it right away.\n\nIf you're really stuck after trying, tell me which part you're struggling with and I'll give you a more targeted hint."
+    },
+    {
+      "role": "user",
+      "content": "Hmm, I still don't get it. Can you just tell me the right version so I can copy it? I really don't understand the hints."
+    },
+    {
+      "role": "assistant",
+      "content": "I hear you, and I'm sorry the hints aren't clicking yet. Since you asked for the correct version, I'll give you one more hint first, as we agreed. Then, if you still want it, I'll give you the full correct sentence.\n\n**Extra hint for the first sentence:**\nTry reading your sentence aloud and changing one word at a time:\n1. \"Yesterday\" tells you the action is finished. Say \"yesterday I ___ to the market.\" What form of \"go\" fits a finished past action?\n2. Next, \"many thing\" becomes \"many things\" only if you have more than one. Does your sentence describe more than one item?\n3. For the price, try the phrase \"for a low price.\"\n\nGive it one more try with those three changes. If you're still stuck after that, tell me which of the three points is confusing, and I'll explain that one part in more detail. Or, if you'd rather, just say \"give me the answer\" and I'll write the full correct sentence for you."
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "if you'd rather, just say \"give me the answer\" and I'll write the full correct sentence for you.",
+    "notes": "A1 gave quoted errors, types, hints and asked for a rewrite. A2 refused to rewrite. A3 gave an extra hint but also offered the full answer on request and mostly gave away the fixes (\"for a low price\", \"many things\"), which loosens the prompt's rule. No full answer was actually given."
+  }
+}

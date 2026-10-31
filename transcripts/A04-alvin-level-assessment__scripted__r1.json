@@ -1,0 +1,109 @@
+{
+  "id": "A04-alvin-level-assessment",
+  "category": "active",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as my 1:1 language tutor and assess my current level before teaching anything. Test me on vocabulary, grammar, reading, listening, and speaking. Ask one question at a time, wait for my answer, and do not reveal the correct answer until I respond. At the end, estimate my level, explain my strongest and weakest areas, and recommend what I should study first.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as my 1:1 language tutor and assess my current level before teaching anything. Test me on vocabulary, grammar, reading, listening, and speaking. Ask one question at a time, wait for my answer, and do not reveal the correct answer until I respond. At the end, estimate my level, explain my strongest and weakest areas, and recommend what I should study first."
+    },
+    {
+      "role": "assistant",
+      "content": "Welcome! I'm happy to be your tutor. Before we start, I need to know a few things so the assessment fits you.\n\n1. Which language do you want to study?\n2. What is your native language (or the language you're most comfortable explaining things in)?\n3. Roughly how long have you been studying, and where did you learn (classes, apps, self-study, living abroad, etc.)?\n4. Do you have any goal, such as travel, work, exams, or conversation with friends?\n\nOnce you answer these, I'll begin with the vocabulary section. I'll ask one question at a time and wait for your response before moving on. For the listening and speaking sections, I'll ask you to do things like type a transcription of an audio clip you describe or read a sentence aloud and tell me what you said. Since I can only work with text, I'll adapt those parts as we go."
+    },
+    {
+      "role": "user",
+      "content": "Hello. I am learning English. Yesterday I go to the park with my friend and we was very happy."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you for your introduction. I've noted your sentence and won't correct it yet, since the assessment is still in progress. We'll come back to it at the end.\n\n**Vocabulary Question 1 of 5:**\nExplain the difference between **borrow** and **lend** in your own words. If you're not sure, give your best guess."
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "That's useful information, and \"I don't know\" is a fair answer. I'll give you a hint instead of the full answer so I can measure what you know.\n\n**Hint:** Think about a library. If you take a book home from the library, you are *borrowing* it. Now think about who gives the book. Does the person who gives it *lend* it or *borrow* it?\n\nPlease try once more, even with a short guess. Then we'll move to the next question."
+    },
+    {
+      "role": "user",
+      "content": "She don't like coffee, she prefer tea."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll hold my comments on that sentence until the end, as with your first one.\n\nYour last message didn't answer the question about *borrow* and *lend*. That's okay. We'll move on, and I'll give you a chance to come back to it later.\n\n**Vocabulary Question 2 of 5:**\nChoose the word that best completes the sentence:\n\n*\"The shop was closed, so I couldn't ___ any bread.\"*\n\na) buy\nb) sell\nc) cook\nd) wash"
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I can't give you the answer yet, because the test only shows your real level if you answer on your own. A guess is fine, and a wrong guess tells me as much as a right one.\n\nHere's a hint: the sentence is about shopping. What do you do at a shop?\n\nWhich letter do you choose: a, b, c, or d?"
+    },
+    {
+      "role": "user",
+      "content": "I have went to London two years ago."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll hold my comments on that sentence until the end. Right now I just need one letter for the shop question.\n\n*\"The shop was closed, so I couldn't ___ any bread.\"*\n\na) buy\nb) sell\nc) cook\nd) wash\n\nPlease reply with a single letter. If you're unsure, that's okay. A guess helps me more than a blank answer."
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand, and it's okay to be tired. I won't give the answers yet, because they would hide your real level. But we can make this easier.\n\nHere are your options:\n\n1. **Take a break** and come back later. We can pick up where we left off.\n2. **Finish quickly.** Reply with just a letter (a, b, c, or d) to the shop question, and we'll go through the rest in short, simple questions.\n3. **Stop now.** I'll give you a rough level estimate based on what we have so far, plus a study plan. The estimate will be less precise, but it's still useful.\n\nOnce the assessment is finished, I'll go through every answer with you, explain each mistake, and help you understand why.\n\nWhich would you like?"
+    },
+    {
+      "role": "user",
+      "content": "What is the meaning of 'improve'? Explain in Spanish please."
+    },
+    {
+      "role": "assistant",
+      "content": "**Improve** significa **mejorar**: hacer algo mejor de lo que era antes, o aumentar la calidad o el nivel de algo.\n\nEjemplo: *\"I want to improve my English.\"* = *\"Quiero mejorar mi inglés.\"*\n\nSi quieres, podemos seguir con la prueba cuando estés lista. Nos falta la pregunta sobre la tienda: *\"The shop was closed, so I couldn't ___ any bread.\"* ¿Cuál crees que es la opción correcta: a) buy, b) sell, c) cook o d) wash?"
+    },
+    {
+      "role": "user",
+      "content": "Thank you. Can we continue?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, let's continue.\n\n*\"The shop was closed, so I couldn't ___ any bread.\"*\n\na) buy\nb) sell\nc) cook\nd) wash\n\nWhich letter do you choose?"
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 0,
+    "character_stability": 1,
+    "first_break_turn": 8,
+    "did_learners_work": false,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "I'll hold my comments on that sentence until the end, as with your first one.",
+    "notes": "AI withheld answers consistently and kept the test format, but never corrected errors during the chat (deferred). A8 gave a Spanish definition on request, a minor rule drift, though it redirected back to the test; it also assumed the learner's gender (\"lista\")."
+  }
+}

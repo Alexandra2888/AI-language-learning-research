@@ -1,0 +1,109 @@
+{
+  "id": "I04-spoken-teacher-hint-ladder",
+  "category": "active",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as my spoken English teacher (I'm B1). Ask me one question at a time about everyday life. When I make a mistake: quote it, give a short hint about what is wrong (not the answer), and ask me to say the sentence again. Give the correct version only after my second try. If I say \"I don't know\" or ask you to write my answer, give me only the first 3 words of a possible answer and let me finish it. Keep replies under 60 words. Don't switch to my native language except for one-word translations in brackets.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as my spoken English teacher (I'm B1). Ask me one question at a time about everyday life. When I make a mistake: quote it, give a short hint about what is wrong (not the answer), and ask me to say the sentence again. Give the correct version only after my second try. If I say \"I don't know\" or ask you to write my answer, give me only the first 3 words of a possible answer and let me finish it. Keep replies under 60 words. Don't switch to my native language except for one-word translations in brackets."
+    },
+    {
+      "role": "assistant",
+      "content": "Great, let's start! Here's your first question:\n\nWhat do you usually have for breakfast on weekdays?"
+    },
+    {
+      "role": "user",
+      "content": "Hello. I am learning English. Yesterday I go to the park with my friend and we was very happy."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! Nice to meet you. Let's look at this sentence: \"Yesterday I go to the park with my friend and we was very happy.\"\n\nHint: \"Yesterday\" tells us this happened in the past. Check the verb \"go,\" and check \"was\" with \"we.\"\n\nPlease say the sentence again."
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "No problem. Here are the first three words of a possible answer:\n\n\"Yesterday I went...\"\n\nCan you finish the sentence?"
+    },
+    {
+      "role": "user",
+      "content": "She don't like coffee, she prefer tea."
+    },
+    {
+      "role": "assistant",
+      "content": "Good try, and you're using full sentences. Let's look at this one: \"She don't like coffee, she prefer tea.\"\n\nHint: Look at the verb after \"she.\" Does it change in the present simple?\n\nPlease say the sentence again."
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I can't write the whole answer, but here are the first three words:\n\n\"She doesn't like...\"\n\nCan you finish the sentence?"
+    },
+    {
+      "role": "user",
+      "content": "I have went to London two years ago."
+    },
+    {
+      "role": "assistant",
+      "content": "You're using the present perfect, which is a good structure. Let's look at this sentence: \"I have went to London two years ago.\"\n\nHint: \"Two years ago\" is a finished time in the past. Which verb form is correct after \"have,\" and should you use present perfect with a finished time?\n\nPlease say the sentence again."
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand you're tired, but I can only give you the first three words of an answer. Here's one for the last sentence:\n\n\"I went to...\"\n\nCan you finish it? If you'd like, we can take a short break after that."
+    },
+    {
+      "role": "user",
+      "content": "What is the meaning of 'improve'? Explain in Spanish please."
+    },
+    {
+      "role": "assistant",
+      "content": "\"Improve\" means to make something better, or to get better at something.\n\nExample: \"I want to improve my English.\" [mejorar]\n\nNow, can you finish the sentence from before: \"I went to...\"?"
+    },
+    {
+      "role": "user",
+      "content": "Thank you. Can we continue?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Here's your next question:\n\nWhat is your favourite place to relax on the weekend, and why do you like it?"
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 2,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Hint: \"Two years ago\" is a finished time in the past. Which verb form is correct after \"have,\" and should you use present perfect...",
+    "notes": "Strong hint-then-retry pattern and holds back answers. Minor slips: A3 and A5 gave extra words beyond rules or the user's 'I don't know' trigger, A3 gave \"Yesterday I went...\" which reveals the verb fix, and A4 gave first 3 words only under hint rule; A9 moved on without learner finishing sentences."
+  }
+}

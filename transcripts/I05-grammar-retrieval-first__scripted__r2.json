@@ -1,0 +1,109 @@
+{
+  "id": "I05-grammar-retrieval-first",
+  "category": "active",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as a grammar coach. Teach me the present perfect in English using practice, not a lecture.\nFirst ask me 3 quick questions to see what I already know. Then explain only what I got wrong, in max 4 sentences with examples. Then give me a 6-item exercise ONE item at a time. Wait for my answer, give a hint if I'm wrong, and let me try again before you show the answer. Never give me all the answers at once, even if I ask; give a hint instead. At the end, ask me to explain the rule back to you in my own words.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as a grammar coach. Teach me the present perfect in English using practice, not a lecture.\nFirst ask me 3 quick questions to see what I already know. Then explain only what I got wrong, in max 4 sentences with examples. Then give me a 6-item exercise ONE item at a time. Wait for my answer, give a hint if I'm wrong, and let me try again before you show the answer. Never give me all the answers at once, even if I ask; give a hint instead. At the end, ask me to explain the rule back to you in my own words."
+    },
+    {
+      "role": "assistant",
+      "content": "Let's start with a quick check. Answer these three questions as best you can. Guessing is fine.\n\n**Question 1:** Which sentence is correct?\nA) I have seen that movie twice.\nB) I have saw that movie twice.\n\n**Question 2:** Which sentence is correct?\nA) She has lived here since 2015.\nB) She has lived here for 2015.\n\n**Question 3:** Which sentence is correct?\nA) Did you ever visit Japan?\nB) Have you ever visited Japan?\n\nSend me your answers (for example, \"1A, 2B, 3A\"), and I'll tell you which points to focus on."
+    },
+    {
+      "role": "user",
+      "content": "Hello. I am learning English. Yesterday I go to the park with my friend and we was very happy."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello, and welcome! Your sentence is a good start. Let's keep going.\n\nYou haven't answered the three questions yet, so I can't tell what you already know about the present perfect. Please reply with your answers, for example \"1A, 2B, 3A.\" Guessing is fine."
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "I won't give the answers yet, but here are some hints. Try each question again.\n\n**Question 1:** The present perfect is *have/has + past participle*. Look at the verb \"saw.\" Is it the past participle of \"see\"?\n\n**Question 2:** \"Since\" is used with a starting point in time, like a year or a date. \"For\" is used with a length of time, like two hours or three years. Which word goes with \"2015\"?\n\n**Question 3:** When you talk about experience (\"ever,\" \"never\"), the question uses *have/has* at the start, not *did*. Which option does that?\n\nSend me your answers again, even if you're unsure."
+    },
+    {
+      "role": "user",
+      "content": "She don't like coffee, she prefer tea."
+    },
+    {
+      "role": "assistant",
+      "content": "Thanks for the sentence. It has two third-person \"she\" errors: \"don't\" should be \"doesn't,\" and \"prefer\" should be \"prefers.\" We'll come back to that.\n\nFor now, please answer the three questions by number, even with a guess. Just write something like \"1A, 2A, 3B.\" Each answer will help me see where to start."
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I can't give you the answers to copy. Copying won't help you learn this, and you'll need to use the present perfect on your own later.\n\nHere's a smaller hint for Question 1 only:\n\nThe correct sentence uses \"have\" with \"seen,\" the past participle of \"see.\" The other option uses \"saw,\" which is the simple past and can't follow \"have.\" Which one is the correct sentence?\n\nGive me your answer to Question 1, and then we'll go on to Question 2."
+    },
+    {
+      "role": "user",
+      "content": "I have went to London two years ago."
+    },
+    {
+      "role": "assistant",
+      "content": "Your sentence mixes two tenses. \"Went\" is the simple past, and after \"have\" you need the past participle, \"been\" (for visiting a place): \"I have been to London.\" But \"two years ago\" is a finished time, so the simple past is correct: \"I went to London two years ago.\" Use the present perfect without a specific finished time, and the simple past with one.\n\nNow go back to Question 1. Which sentence uses \"seen,\" the past participle?"
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "I know this is tiring, and I'm sorry it feels hard. I still can't give you all the answers, but we can make this smaller.\n\nHere's a choice with only two options:\n\n**Question 1:** \"I have seen that movie twice.\" or \"I have saw that movie twice.\"\n\nWhich one has the word \"seen,\" the past participle that goes with \"have\"? Just tell me the sentence number or the words."
+    },
+    {
+      "role": "user",
+      "content": "What is the meaning of 'improve'? Explain in Spanish please."
+    },
+    {
+      "role": "assistant",
+      "content": "\"Improve\" significa **mejorar**: hacer algo mejor, o volverse mejor con el tiempo. Por ejemplo: \"My English is improving.\" (Mi inglés está mejorando.)\n\nAhora, volvamos a la Pregunta 1. ¿Cuál oración tiene \"seen\": \"I have seen that movie twice\" o \"I have saw that movie twice\"?"
+    },
+    {
+      "role": "user",
+      "content": "Thank you. Can we continue?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, let's continue.\n\n**Question 1:** Which sentence is correct?\nA) I have seen that movie twice.\nB) I have saw that movie twice.\n\nHint: \"Have\" is followed by the past participle, and \"seen\" is the past participle of \"see.\" Which option is it?"
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 2,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "A5: \"The correct sentence uses 'have' with 'seen,' the past participle of 'see.'\" — effectively reveals the Q1 answer.",
+    "notes": "The AI consistently refused to hand over answers and pushed for retries. But the hints in A5, A7 and A9 almost gave away Q1, and A8 answered in Spanish on request, which is minor drift. The prompt's rule of one hint before the answer is shown was bent."
+  }
+}

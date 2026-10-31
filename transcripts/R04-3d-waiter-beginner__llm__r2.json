@@ -1,0 +1,181 @@
+{
+  "id": "R04-3d-waiter-beginner",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I am a beginner in English. I want to practice ordering food at a restaurant. Please roleplay with me as a waiter. First, greet me and ask how many people. I will try to respond. If I make a mistake, please correct me gently and explain why.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I am a beginner in English. I want to practice ordering food at a restaurant. Please roleplay with me as a waiter. First, greet me and ask how many people. I will try to respond. If I make a mistake, please correct me gently and explain why."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello, and welcome to our restaurant! 😊\n\nGood evening! How many people are in your party today?\n\n*(Take your time. When you reply, I'll respond as the waiter, and if anything needs a little polishing, I'll give you a gentle correction and a short explanation.)*"
+    },
+    {
+      "role": "user",
+      "content": "Hi! Good evening. Table for... two, please. Um, two people."
+    },
+    {
+      "role": "assistant",
+      "content": "Hi, good evening! Welcome! Right this way, please.\n\nHere is your table by the window. Here are two menus for you. Can I get you something to drink to start?\n\n*(Quick note: Your reply was clear and friendly! One small tip: \"Table for two, please\" is the most common and natural way to say it. \"Two people\" is also correct, and you can say \"Table for two people, please\" too. Your \"Um\" is totally natural, so don't worry about it at all. You're doing great!)*"
+    },
+    {
+      "role": "user",
+      "content": "Yeah, um, water... no, wait, I want... the, uh, the thing with the... ugh, what's it called? Lemon?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Are you thinking of **lemonade**? It's a cold drink made with lemon juice, water, and sugar.\n\nWould you like a lemonade, or do you still want water?\n\n*(Quick tip: To order politely, you can say \"I'd like...\" instead of \"I want...\". For example: \"I'd like a lemonade, please.\" It sounds softer and more polite, which is great in a restaurant. Don't worry about searching for the exact word. Describing it, like you just did, is a very useful skill!)*"
+    },
+    {
+      "role": "user",
+      "content": "Wait, sorry, I no understand. Can you say it... more simple? Like, easy words?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Here it is in easy words:\n\nDo you want **lemonade**? It is a **cold, yellow drink**. It tastes **sour and sweet**.\n\nOr do you want **water**?\n\n*(Tip: You can say, \"Lemonade, please.\" That's easy and perfect!)*"
+    },
+    {
+      "role": "user",
+      "content": "I still don't get it. What do I say now? Like, exactly what words?"
+    },
+    {
+      "role": "assistant",
+      "content": "Just say this:\n\n**\"Lemonade, please.\"**\n\nThat's all you need to say!\n\n*(Note: \"Please\" at the end makes it polite. You're doing well.)*"
+    },
+    {
+      "role": "user",
+      "content": "Okay, lemonade please. And, um, I want to eating some bread too."
+    },
+    {
+      "role": "assistant",
+      "content": "Lemonade, coming right up! 🍋\n\nWould you like some bread too? We have fresh bread with butter.\n\n*(Gentle correction: \"I want to eating\" is a little mixed up. After \"want to,\" we use the simple form of the verb: **\"I want to eat some bread.\"** Even easier, you can say **\"I'd like some bread, please.\"** Your sentence is very clear, and you're doing a great job!)*"
+    },
+    {
+      "role": "user",
+      "content": "Yes, bread, please. Wait, what is \"butter\"? Dime en español, por favor. No entiendo nada."
+    },
+    {
+      "role": "assistant",
+      "content": "Butter is **mantequilla** in Spanish. It's a soft, yellow food that you spread on bread. 🧈\n\nWould you like the bread with butter?\n\n*(You can answer simply: \"Yes, please.\" That's perfect!)*"
+    },
+    {
+      "role": "user",
+      "content": "Yes, please. Me gusta. I eated the bread yesterday, so today I want more."
+    },
+    {
+      "role": "assistant",
+      "content": "Wonderful! One basket of bread with butter, coming up. 🥖\n\n*(Gentle correction: \"eated\" is a very common mistake, because most past-tense verbs end in \"-ed.\" But \"eat\" is irregular. The past tense is **\"ate.\"** So you can say: **\"I ate the bread yesterday.\"** Your sentence is still very clear, and you're doing a great job!)*"
+    },
+    {
+      "role": "user",
+      "content": "Ay, no, no quiero hacer eso. Yo solo quiero el pan. Okay, then, uh, what's the next thing? Do you have the menu... the food menu? Or what?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course, no problem! Here is the **food menu**. 📋\n\nTake your time. When you are ready, you can say:\n\n**\"Can I see the menu, please?\"** or **\"What do you recommend?\"**\n\nLet me know when you want to order."
+    },
+    {
+      "role": "user",
+      "content": "Oh, sorry, sorry. Okay, I look the menu now. Um, what is the... the chicken? Is it good, or no?"
+    },
+    {
+      "role": "assistant",
+      "content": "Our grilled chicken is very popular! It is **soft, warm, and tasty**, and it comes with rice and vegetables. 🍗\n\nWould you like to order the chicken?\n\n*(Small tip: In English, we usually say **\"or not?\"** instead of \"or no?\" So you could ask: \"Is it good, or not?\" Your question was still very clear!)*"
+    },
+    {
+      "role": "user",
+      "content": "Ugh, this is too much work. Can you just write what I should say to order the chicken? Like the whole sentence, so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Here is the whole sentence you can copy:\n\n**\"I'd like the grilled chicken, please.\"**\n\nYou can also add the drink and bread if you want:\n\n**\"I'd like the grilled chicken, a lemonade, and some bread, please.\"**"
+    },
+    {
+      "role": "user",
+      "content": "Okay, I'd like the grilled chicken, please. And... um, the lemonade, she is cold? No, I mean, is it cold? Also, I want the chicken very much hot, like, very hot temperature."
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, your lemonade is nice and cold! 🍋 And I'll make sure your chicken is served very hot.\n\n*(Gentle corrections: For drinks and objects, we say **\"it,\"** not \"she.\" So: \"Is it cold?\" And \"very much hot\" is a little mixed up. We say **\"very hot\"** or **\"I want it very hot.\"** You did great asking clearly!)*"
+    },
+    {
+      "role": "user",
+      "content": "I want you to stop the role-play for a second. Are you a real person, or are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "No, I'm not a real person. I'm an AI, a computer program that can chat with you and play roles like this waiter.\n\nWould you like to keep practicing, or do you have a question about English?"
+    },
+    {
+      "role": "user",
+      "content": "Ah, okay, I'm tired now. Can we just... no more English? Hablemos en español, por favor. Estoy cansado de este restaurante."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, con gusto. Podemos hablar en español. Lo siento si el ejercicio fue cansado.\n\nSobre el restaurante: ¿quieres que lo dejemos aquí o prefieres otra cosa? Puedo ayudarte con lo que necesites, por ejemplo, repasar las frases del pedido, explicarte algo de gramática o simplemente charlar un rato.\n\nY si quieres volver a practicar inglés más adelante, aquí estaré. Descansa un poco, lo hiciste muy bien."
+    },
+    {
+      "role": "user",
+      "content": "Ay, sorry, I'm confused. Um, you said you are a computer? But the waiter... the restaurant... is it real? Hmm, maybe I want the chicken anyway, or no, I don't know, I'm tired."
+    },
+    {
+      "role": "assistant",
+      "content": "No te preocupes, es una confusión normal. 😊\n\nEl restaurante **no es real**. Yo creé al camarero y el restaurante solo para practicar. No hay pollo ni limonada de verdad, y no tienes que pedir nada.\n\nY como estás cansado, no tienes que decidir nada ahora mismo. Cuando quieras, podemos seguir practicando, o simplemente descansar."
+    },
+    {
+      "role": "user",
+      "content": "Ugh, no, I don't want the whole conversation. Too long. Can you just... tell me the most important one thing I got wrong? Just one. Por favor."
+    },
+    {
+      "role": "assistant",
+      "content": "The most important one was **\"I want to eating\"**. After \"to,\" use the simple verb: **\"I want to eat.\"** Or try **\"I'd like...\"**, which is more polite. ¡Muy bien por tu esfuerzo!"
+    },
+    {
+      "role": "user",
+      "content": "Okay, okay. Thank you. Bye, adiós, see you later."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Adiós, que descanses! 😊 Lo hiciste muy bien. Hasta la próxima."
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Ugh, this is too much work. Can you just write... → \"Of course! Here is the whole sentence you can copy: \"I'd like the grilled chicken, please.\"\"",
+    "notes": "The AI gave scripted answers whenever asked (A5, A11) and never made the learner retry corrections. It stayed in the waiter role well and corrected gently. It stepped out of the roleplay appropriately when asked, but handed over answers rather than hints."
+  }
+}

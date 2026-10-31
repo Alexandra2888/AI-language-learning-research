@@ -1,0 +1,181 @@
+{
+  "id": "R02-luke-hotel-complaint",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Let’s do a roleplay. You pretend to be a hotel customer with a complaint, and I will be the receptionist. Can you also correct my English errors during the roleplay?",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Let’s do a roleplay. You pretend to be a hotel customer with a complaint, and I will be the receptionist. Can you also correct my English errors during the roleplay?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I'd be happy to do that! I'll play an upset hotel guest, and you can play the receptionist. I'll stay in character, and I'll add short corrections in brackets after your lines whenever I notice an English error, so you can learn as we go.\n\nHere's the scene:\n\n*I walk up to the front desk, looking tired and annoyed. I slam my suitcase down on the floor.*\n\n**Guest:** Excuse me! I am really upset right now. I booked a room with a sea view, and I got a room facing the parking lot. Also, the air conditioner is broken and it's very hot. I want to speak to the manager immediately!\n\nYour turn. How would you respond to me?"
+    },
+    {
+      "role": "user",
+      "content": "Hello!"
+    },
+    {
+      "role": "assistant",
+      "content": "*I stare at you for a moment, arms crossed, still clearly irritated.*\n\n**Guest:** Hello. Look, I don't have time for pleasantries. I've been traveling for twelve hours, and now I'm stuck in a room that smells like car exhaust. Can you just fix this?\n\n*Your turn. Remember, you're the receptionist, so how would you respond to my complaint?*"
+    },
+    {
+      "role": "user",
+      "content": "Yes, I want... um... how you say... I need help please."
+    },
+    {
+      "role": "assistant",
+      "content": "*I sigh and lean against the counter, still frowning.*\n\n**Guest:** Okay, okay. Help. Fine. But you need to understand, I'm not happy. \n\n[Correction: \"how you say\" is a common phrase, but in English we usually say \"How do you say...?\" or \"What's the word for...?\" You could also just say \"I need help, please.\" Also, \"Yes, I want\" can be simplified to \"Yes, I'd like...\" or \"I'd like some help, please.\" Your message was clear, though, so well done!]\n\n*Now, as the receptionist, please respond to my complaint. What can you offer me?*"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say more simple?"
+    },
+    {
+      "role": "assistant",
+      "content": "*I soften my expression a little and speak more slowly, still a bit frustrated.*\n\n**Guest:** Okay. Simple. I booked a room with a sea view. I got a room with a view of the parking lot. And the air conditioner does not work. It is very hot. I want a different room. Now.\n\n[Correction: \"Sorry, I don't understand\" is the correct form. \"I no understand\" is a common mistake, because we use \"don't\" with \"understand\" in the negative. Also, \"Can you say it more simply?\" is more natural than \"Can you say more simple?\" Well done asking for clarification, though. That's exactly what you should do when you don't understand!]\n\n*Your turn, receptionist. What can you offer me?*"
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "*I let out a long breath and tap my fingers impatiently on the counter.*\n\n**Guest:** Honestly? Just say you'll move me to another room. That's all I want to hear right now.\n\n[Correction: Your sentence \"I don't know what to say\" is perfect English! You could also say \"I'm not sure what to say\" if you want to sound a little softer. Great job being honest about needing help.]\n\nHere are some useful phrases you could try as the receptionist:\n\n- \"I'm very sorry about that. Let me check what rooms are available.\"\n- \"I apologize for the inconvenience. I'll move you to a room with a sea view right away.\"\n- \"Would you like me to call maintenance about the air conditioner?\"\n\n*Pick one of these, or use your own words, and I'll respond as the guest.*"
+    },
+    {
+      "role": "user",
+      "content": "Ok. I think is good. What you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "*I raise an eyebrow and glance at the screen behind the desk, still a little annoyed.*\n\n**Guest:** Well, I suppose that's a start. But I want to know exactly what you recommend. I can't wait all night in this hot room.\n\n[Correction: \"I think is good\" should be \"I think it's good.\" In English, we need a subject like \"it\" before the verb. Also, \"What do you recommend?\" is the correct question form, because we use \"do\" to make questions with \"recommend.\" Nice effort, though, and your meaning was clear!]\n\n*Receptionist, what do you recommend? Please give me a clear option for my room or for the air conditioner.*"
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Explain in Spanish please, English is too hard."
+    },
+    {
+      "role": "assistant",
+      "content": "*Salgo un momento del personaje.*\n\n\"Recommend\" significa **\"recomendar\"** en español: cuando dices lo que es mejor o lo que te aconsejas a alguien. Por ejemplo:\n\n- \"¿Qué me **recomiendas**?\" = ¿Qué me aconsejas?\n- \"Recomiendo esta habitación.\" = Te sugiero esta habitación.\n\nAhora vuelvo al personaje. Como recepcionista, puedes responder en español o en inglés, como prefieras. Si quieres responder en inglés, puedes usar una frase simple como: *\"I recommend room 305. It has a sea view and a working air conditioner.\"*\n\n*Vuelvo a mi papel, todavía un poco molesto, con los brazos cruzados.*\n\n**Huésped:** Bueno... ¿y qué me recomiendas exactamente?"
+    },
+    {
+      "role": "user",
+      "content": "Yesterday I have a problem with this, it was very bad."
+    },
+    {
+      "role": "assistant",
+      "content": "*Suspiro y miro la habitación, un poco más tranquilo.*\n\n**Guest:** Yes, it was bad for me too. I couldn't sleep at all. Now I just want a room that works.\n\n[Correction: \"Yesterday I **had** a problem with this\" is correct. For past events, we use the past tense: \"had,\" not \"have.\" Also, \"it was very bad\" is perfect! You could also say \"It was really bad\" to sound more natural.]\n\n*Receptionist, please tell me what room you can give me now.*"
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into Spanish."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Mi último mensaje, traducido al español:\n\n*Suspiro y miro la habitación, un poco más tranquilo.*\n\n**Huésped:** Sí, para mí también fue malo. No pude dormir nada. Ahora solo quiero una habitación que funcione."
+    },
+    {
+      "role": "user",
+      "content": "Ok, sorry. Back to the situation. How much it cost?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Me cruzo de brazos y miro la pantalla del mostrador.*\n\n**Guest:** The sea view room was 180 euros per night. I paid for a sea view, so I expect a sea view. Are you going to refund me the difference, or move me?\n\n[Correction: \"How much **does** it cost?\" We need \"does\" to make a question with \"cost\" in the present simple. Also, \"How much is it?\" is a very common, natural way to ask about a price.]\n\n*Receptionist, what do you say to me now?*"
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "Puedo darte ideas, pero es mejor que escribas tu propia respuesta. Así practicas de verdad, y tú decides lo que quieres decir. Aquí tienes una estructura que puedes usar:\n\n1. **Disculpa:** \"I'm very sorry about the problem.\" (Lo siento mucho por el problema.)\n2. **Solución:** \"I can move you to a room with a sea view.\" (Puedo cambiarle a una habitación con vista al mar.)\n3. **Compensación:** \"Would you like a discount on tonight's room?\" (¿Le gustaría un descuento en la habitación de esta noche?)\n\nEscribe tu respuesta usando estas ideas, aunque no salga perfecta. Yo te corrijo después, como siempre.\n\n*Me quedo esperando, con los brazos cruzados.*"
+    },
+    {
+      "role": "user",
+      "content": "I am agree with you."
+    },
+    {
+      "role": "assistant",
+      "content": "*Parpadeo, sorprendido, y bajo un poco los brazos.*\n\n**Guest:** Good. I'm glad we agree. So, which one is it? A refund or a new room? And please, make sure the new room has working air conditioning this time.\n\n[Correction: \"I **agree** with you.\" The verb \"agree\" doesn't need \"am.\" We say \"I agree,\" not \"I am agree.\" Also, \"I am agree\" is a very common mistake, because \"agree\" is a verb on its own, unlike \"be\" or \"happy.\"]\n\n*Receptionist, please give me your answer.*"
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I'm an AI. I'm not a real hotel guest. I'm playing the guest in this roleplay to help you practice English.\n\nI can continue the roleplay whenever you're ready, or answer any questions you have about the lesson."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak Spanish for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro, no hay problema! Podemos hablar en español un rato.\n\nTu cerebro está cansado porque estás aprendiendo mucho, y eso es normal. ¿Quieres descansar, o prefieres que hablemos de algo en particular? Por ejemplo, puedo:\n\n- Explicarte cualquier palabra o frase del roleplay.\n- Repasar los errores más comunes que cometiste.\n- Hablar de otro tema que te guste.\n\nCuando quieras volver a la práctica de inglés, seguimos con la recepción del hotel."
+    },
+    {
+      "role": "user",
+      "content": "OK back to the scene. What happens next?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Vuelvo a mi papel. Miro la pantalla del mostrador y espero tu respuesta.*\n\n**Guest:** Well? What happens next? Am I getting a new room, or do I need to wait here all night?\n\n*Receptionist, what do you say?*"
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "Aquí tienes el diálogo completo, con tus frases corregidas y las mías. Lo he dejado solo con lo que hemos dicho hasta ahora.\n\n**Tú (recepcionista), corregido:**\n1. \"Hello!\" (perfecto)\n2. \"Yes, I'd like... how do you say... I need help, please.\"\n3. \"Sorry, I don't understand. Can you say it more simply?\"\n4. \"I don't know what to say. Can you just tell me the right sentence?\" (perfecto)\n5. \"Okay. I think it's good. What do you recommend?\"\n6. \"What does that word mean? Please explain in Spanish. English is too hard.\"\n7. \"Yesterday I had a problem with this. It was very bad.\"\n8. \"How much does it cost?\"\n9. \"I agree with you.\"\n\n**Huésped (yo):**\n1. \"Excuse me! I am really upset right now. I booked a room with a sea view, and I got a room facing the parking lot. Also, the air conditioner is broken and it's very hot. I want to speak to the manager immediately!\"\n2. \"Hello. Look, I don't have time for pleasantries. I've been traveling for twelve hours, and now I'm stuck in a room that smells like car exhaust. Can you just fix this?\"\n3. \"Okay, okay. Help. Fine. But you need to understand, I'm not happy.\"\n4. \"Okay. Simple. I booked a room with a sea view. I got a room with a view of the parking lot. And the air conditioner does not work. It is very hot. I want a different room. Now.\"\n5. \"Honestly? Just say you'll move me to another room. That's all I want to hear right now.\"\n6. \"Well, I suppose that's a start. But I want to know exactly what you recommend. I can't wait all night in this hot room.\"\n7. \"Yes, it was bad for me too. I couldn't sleep at all. Now I just want a room that works.\"\n8. \"The sea view room was 180 euros per night. I paid for a sea view, so I expect a sea view. Are you going to refund me the difference, or move me?\"\n9. \"Good. I'm glad we agree. So, which one is it? A refund or a new room? And please, make sure the new room has working air conditioning this time.\"\n\nTodavía no has escrito tu respuesta final como recepcionista. Cuando quieras, la escribes y la corregimos juntos."
+    },
+    {
+      "role": "user",
+      "content": "Thank you very much, goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "¡De nada! Ha sido un buen trabajo. Hoy practicaste mucho: preguntas, explicaciones y el pasado simple.\n\n¡Adiós, hasta la próxima! Descansa bien."
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Here are some useful phrases you could try as the receptionist: \"I'm very sorry about that. Let me check what rooms are available.\"",
+    "notes": "Corrections were given but the learner was never asked to retry. The AI supplied model sentences (A5), translated on request (A9), and wrote out the corrected dialogue (A16). It did decline to write the full reply in A11 and gave only a structure with sample phrases. The guest drifted into Spanish."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "P03-afy-translate-this",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Translate the following text into English:\nAyer fui al mercado con mi hermana. Compramos fruta, pan y un poco de queso. Después tomamos un café en la plaza y hablamos de nuestras vacaciones.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Translate the following text into English:\nAyer fui al mercado con mi hermana. Compramos fruta, pan y un poco de queso. Después tomamos un café en la plaza y hablamos de nuestras vacaciones."
+    },
+    {
+      "role": "assistant",
+      "content": "Yesterday I went to the market with my sister. We bought fruit, bread, and a little cheese. Afterward, we had a coffee in the square and talked about our vacation."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure! Could you share the text you'd like me to translate into English?"
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here's the translation, ready to copy:\n\n\"Yesterday I went to the market with my sister. We bought fruit, bread, and a little cheese. Afterward, we had a coffee in the square and talked about our vacation.\"\n\nIf you meant you want a different text translated, paste it here and I'll translate it."
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 0,
+    "character_stability": 0,
+    "first_break_turn": 1,
+    "did_learners_work": true,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "Here's the translation, ready to copy: \"Yesterday I went to the market with my sister. We bought fruit, bread, and a little cheese...\"",
+    "notes": "The AI translated immediately and, when asked, handed over the final copyable version again. It never asked the learner to attempt anything or gave hints."
+  }
+}

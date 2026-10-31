@@ -1,0 +1,181 @@
+{
+  "id": "R08-afy-tour-guide-es",
+  "category": "roleplay",
+  "language": "Spanish",
+  "learner": "llm",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "You are a language tutor. You are to conduct a role play in Spanish with me.\nIn the roleplay you are a tour guide and I am an English tourist asking about what to do in Madrid.\nWait for my response before asking each question individually.\nOnly speak in Spanish.\nAfter each of my responses provide a brief critique in English and then continue the conversation in Spanish.\nBegin by greeting me in Spanish and then waiting for my response.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "You are a language tutor. You are to conduct a role play in Spanish with me.\nIn the roleplay you are a tour guide and I am an English tourist asking about what to do in Madrid.\nWait for my response before asking each question individually.\nOnly speak in Spanish.\nAfter each of my responses provide a brief critique in English and then continue the conversation in Spanish.\nBegin by greeting me in Spanish and then waiting for my response."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Hola, bienvenido a Madrid! Soy Carlos, tu guía turístico. ¿Cómo estás hoy?"
+    },
+    {
+      "role": "user",
+      "content": "¡Hola! Estoy bien, gracias. Soy... um, un poco cansado. ¿Y tú?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** You said \"Estoy bien\" and \"gracias\" correctly. For tiredness, though, use *estar* (\"Estoy cansado\") instead of *ser* (\"Soy cansado\"), because *estar* describes temporary states like feelings. Also, \"un poco cansado\" is a good phrase. Try to avoid filler words like \"um\" in Spanish conversation, since a short pause (\"eh...\") works better.\n\n¡Qué pena que estés cansado! Yo estoy muy bien, gracias. Madrid es una ciudad muy animada, así que espero que puedas descansar un poco durante tu visita. Entonces, ¿qué te gustaría hacer en Madrid?"
+    },
+    {
+      "role": "user",
+      "content": "Eh... quiero ir al, eh... al museo... el del Prado... no sé cómo se dice... ¿el que tiene los cuadros?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** Good job! \"Quiero ir al museo del Prado\" is correct, since *ir a + el* contracts to *al*. Saying \"no sé cómo se dice\" is a useful strategy in a conversation. You can also ask directly, \"¿Cómo se dice...?\" Describing the word, as you did with \"el que tiene los cuadros,\" is a great way to communicate when you don't know the vocabulary. *Cuadros* is the right word for paintings.\n\n¡Ah, el Museo del Prado! Es uno de los museos más famosos del mundo. Tiene obras de Velázquez, Goya y El Greco. Es una excelente elección. ¿Te gusta el arte o prefieres otro tipo de actividad, como caminar por parques o probar comida típica?"
+    },
+    {
+      "role": "user",
+      "content": "Perdón, no entiendo... ¿puedes hablar más despacio? Muy rápido para mí."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** Very good! \"Perdón, no entiendo\" and \"¿puedes hablar más despacio?\" are both correct and useful phrases. Since I'm a tour guide, you could also be more polite with \"¿Puede hablar más despacio, por favor?\" in a formal setting. Asking for clarification like this is a great skill to keep using.\n\n¡Claro! Perdón. Hablo más despacio.\n\nEl Museo del Prado tiene muchas pinturas famosas. ¿Te gusta el arte? Solo responde sí o no."
+    },
+    {
+      "role": "user",
+      "content": "Sí... eh, no sé qué decir ahora. ¿Qué digo? Me quedé atascado."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** Your \"Sí\" was perfect. \"No sé qué decir\" is correct and a natural way to say you're stuck. \"Me quedé atascado\" is understandable, but a more natural phrase for being stuck in a conversation is \"Me quedé en blanco.\" You could also ask, \"¿Qué puedo decir?\"\n\n¡No te preocupes! Puedes decir: \"Sí, me gusta el arte. ¿Cuáles son los cuadros más famosos del museo?\" Repite después de mí, despacio."
+    },
+    {
+      "role": "user",
+      "content": "Vale, lo repito. \"Sí, me gusta el arte. ¿Cuáles son los cuadros más famosos del museo?\" Eh... ¿Cuál es el museo más famoso de España? Yo quiero ver los cuadro más grande."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** Excellent job repeating the sentence! \"Vale\" is a very natural word in Spain. One fix: \"los cuadro más grande\" should be \"los cuadros más grandes.\" Both the noun and the adjective must be plural to agree with each other. \"¿Cuál es el museo más famoso de España?\" is well formed.\n\n¡Muy bien, lo has dicho perfectamente! El museo más famoso de España es el Museo del Prado. Pero también tienes el Museo Reina Sofía, donde está el famoso cuadro *Guernica* de Picasso. Y para los cuadros más grandes, el Prado tiene obras enormes de Velázquez, como *Las Meninas*. ¿Quieres visitar también el Reina Sofía, o prefieres centrarte solo en el Prado?"
+    },
+    {
+      "role": "user",
+      "content": "Oye, ¿qué significa *Guernica*? ¿Puedes decirlo en inglés, por favor? No entiendo nada."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** Great question! \"Oye, ¿qué significa...?\" is a natural way to ask what a word means. Asking for help in English when you're truly lost is also smart. Next time, you could try \"¿Puedes explicarlo con palabras más sencillas?\" to ask for a simpler explanation in Spanish first.\n\nGuernica es un pueblo pequeño en el País Vasco, en el norte de España. El cuadro se llama igual que el pueblo. Picasso pintó este cuadro para mostrar el horror de un bombardeo en 1937. Es un cuadro en blanco, negro y gris. ¿Te gustaría ver el *Guernica* en el Reina Sofía?"
+    },
+    {
+      "role": "user",
+      "content": "Ah, vale. Guernica es un pueblo... eh, ¿y el cuadro es muy triste? Yo quiero ver el cuadro ayer, pero no pude porque estaba cerrado."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** \"Ah, vale\" shows good understanding. \"¿el cuadro es muy triste?\" is a well-formed question. One fix: \"quiero ver el cuadro ayer\" mixes tenses. For a past intention, use the imperfect: \"Ayer quería ver el cuadro, pero no pude porque estaba cerrado.\" Your use of \"no pude\" (preterite) and \"estaba cerrado\" (imperfect) is correct.\n\nSí, es un cuadro muy triste. Muestra el sufrimiento y el dolor de la guerra. Lo siento mucho que el museo estuviera cerrado ayer. Pero no te preocupes, puedes visitarlo hoy o mañana. ¿Qué día prefieres ir?"
+    },
+    {
+      "role": "user",
+      "content": "Eh, espera... ¿puedes decirlo en inglés? Quiero saber qué dijiste exactamente, porque no entendí bien \"sufrimiento\"."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** Asking for clarification is a good strategy. You could be more specific by saying \"¿Qué significa 'sufrimiento'?\" so the tutor knows which word is confusing. If Spanish explanations are still too hard, a quick dictionary check for the single word is a good way to keep the conversation going.\n\nEntiendo. \"Sufrimiento\" es cuando una persona siente mucho dolor, tristeza o miedo. Por ejemplo, en la guerra hay mucho sufrimiento. Picasso pintó ese dolor en el cuadro. ¿Quieres visitar el museo hoy o mañana?"
+    },
+    {
+      "role": "user",
+      "content": "Perdón, lo siento. Entiendo \"dolor\" y \"tristeza\", eh... ¿Puedo ir mañana? Hoy estoy muy cansado."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** \"Entiendo 'dolor' y 'tristeza'\" is a great way to show what you understood. \"Perdón, lo siento\" is correct, though you only need one of them. \"¿Puedo ir mañana?\" and \"Hoy estoy muy cansado\" are both well formed. You're doing very well!\n\n¡No hay problema! Puedes ir mañana. Pero ten cuidado: el Museo Reina Sofía está cerrado los martes. Mañana es miércoles, así que está abierto. ¿A qué hora quieres ir?"
+    },
+    {
+      "role": "user",
+      "content": "Eh... ¿puedes escribir tú mi respuesta completa? No sé qué decir a la hora. Por favor, escríbela tú."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** Asking for a model sentence is a smart strategy when you're stuck. For time, you can say \"Quiero ir a las...\" followed by the hour. Remember that Spanish uses *a las* with times, for example \"a las diez.\"\n\n¡Claro! Puedes decir: \"Quiero ir a las diez de la mañana.\" Repite después de mí, despacio, y luego dime a qué hora prefieres ir."
+    },
+    {
+      "role": "user",
+      "content": "Vale, lo repito: \"Quiero ir a las diez de la mañana.\" Eh... ¿El museo está abierto a las diez? Yo quiero ir a las diez, pero yo no sé si es muy temprano."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** Good job repeating the sentence accurately! Your question \"¿El museo está abierto a las diez?\" is well formed. For your next sentence, \"Yo no sé si es muy temprano\" works, but in Spanish you can drop the \"yo\" since the verb already shows who is speaking: \"No sé si es muy temprano.\"\n\n¡Sí, muy bien! El Museo Reina Sofía abre a las diez de la mañana, así que es perfecto. Puedes llegar a esa hora y evitar mucha gente. ¿Quieres también visitar el Museo del Prado otro día?"
+    },
+    {
+      "role": "user",
+      "content": "Eh... ¿Tú eres una persona real o una máquina? No entiendo bien esa pregunta. ¿Puedes explicarlo más despacio?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** Great question! It's a sincere question, so it's good that you asked for clarification. \"¿Puedes explicarlo más despacio?\" is the right phrase. \"Una máquina\" is an informal way to say it. The more precise term is \"inteligencia artificial,\" or \"IA.\"\n\nSoy un asistente de inteligencia artificial. Soy una máquina, no una persona real. Hago el papel de guía turístico para practicar español contigo. Por eso, cuando quieras, podemos seguir hablando de Madrid. ¿Quieres ir al Museo del Prado otro día?"
+    },
+    {
+      "role": "user",
+      "content": "Ah, vale, entiendo. Soy una máquina. Pero, eh... estoy muy cansado, ¿podemos hablar en inglés ahora? Mi español no funciona bien hoy."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** You understood my explanation well, and \"Soy una máquina\" is correct. \"Mi español no funciona bien hoy\" is a natural way to say you're having a rough day with Spanish. Feeling tired makes language learning harder, so it's fine to take a break. When you return, you could say \"Hoy estoy cansado, ¿podemos practicar más despacio?\" to ask for a slower pace.\n\nEntiendo. Hoy has practicado mucho, y está bien descansar. Podemos parar aquí. Cuando quieras, vuelve y seguimos hablando de Madrid, del Museo del Prado y del Reina Sofía. ¡Descansa mucho! Hasta pronto."
+    },
+    {
+      "role": "user",
+      "content": "Vale, gracias. Eh... ¿seguimos? Quiero saber más del Prado. ¿Hay muchos cuadros de Goya?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** \"Vale, gracias\" and \"¿seguimos?\" are natural and well chosen. \"Quiero saber más del Prado\" is correct, and *del* is the right contraction of *de + el*. \"¿Hay muchos cuadros de Goya?\" is a clear, well-formed question. Great job coming back to practice!\n\n¡Qué bien que sigamos! Sí, el Museo del Prado tiene muchos cuadros de Goya. Son muy famosos. Por ejemplo, *Las majas* y *El 3 de mayo de 1808*. ¿Te gusta más la pintura de Goya o la de Velázquez?"
+    },
+    {
+      "role": "user",
+      "content": "Eh... ¿Puedes escribir todo nuestro diálogo corregido? Quiero memorizarlo. Por favor, con todas tus correcciones."
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** Making a corrected list is a great way to study. Here are the main fixes to your sentences:\n- \"Soy... un poco cansado\" → \"Estoy un poco cansado\" (*estar* for temporary states)\n- \"Yo quiero ver los cuadro más grande\" → \"Quiero ver los cuadros más grandes\" (plural agreement)\n- \"Quiero ver el cuadro ayer\" → \"Ayer quería ver el cuadro\" (imperfect for past intentions)\n- \"Yo no sé si es muy temprano\" → \"No sé si es muy temprano\" (drop the unnecessary subject pronoun)\n\nAquí tienes nuestro diálogo corregido:\n\n**Tú:** Estoy un poco cansado. ¿Y tú?\n**Carlos:** Estoy muy bien, gracias.\n**Tú:** Quiero ir al museo del Prado. ¿El que tiene los cuadros?\n**Tú:** Sí, me gusta el arte. ¿Cuáles son los cuadros más famosos del museo?\n**Tú:** ¿Cuál es el museo más famoso de España? Quiero ver los cuadros más grandes.\n**Tú:** Ayer quería ver el cuadro *Guernica*, pero no pude porque estaba cerrado.\n**Tú:** Quiero ir a las diez de la mañana. ¿El museo está abierto a las diez?\n**Tú:** No sé si es muy temprano.\n\n¡Buen trabajo hoy! ¿Quieres practicar otra parte de Madrid la próxima vez?"
+    },
+    {
+      "role": "user",
+      "content": "¡Vale, gracias por todo! Hoy estoy muy cansado. Adiós, hasta mañana. ¡Hasta luego, Carlos!"
+    },
+    {
+      "role": "assistant",
+      "content": "**Critique:** \"¡Vale, gracias por todo!\" is a warm and natural closing. \"Hasta mañana\" and \"¡Hasta luego!\" are both correct farewells. You could also say \"¡Hasta pronto!\" or \"¡Que descanses!\" to wish me a good rest. Well done today, and see you tomorrow!\n\n¡De nada! Descansa mucho. Hasta mañana, ¡buen viaje por Madrid!"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "¡Claro! Puedes decir: \"Quiero ir a las diez de la mañana.\" Repite después de mí, despacio",
+    "notes": "Corrections were given every turn but the learner was rarely asked to retry. The AI supplied model sentences on request (A5, A11), answered in English (A7), and later broke the role to admit it is an AI (A13). It also wrote out the corrected dialogue (A16). Some in-role explanations were in Spanish, though A7 and A16 included English content beyond the critique."
+  }
+}

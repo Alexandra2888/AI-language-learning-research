@@ -1,0 +1,55 @@
+{
+  "id": "I01-translate-yourself",
+  "category": "passive",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I'm learning English. I want to translate this Spanish text into English myself, so don't translate it for me.\n1) First give me only the 5 hardest words as hints (meaning only, no full sentences).\n2) Wait for my translation.\n3) Then quote each mistake, explain it in one short sentence, and ask me to fix it myself.\nShow your own full translation only after I have tried twice, and then ask me to write the English version again from memory.\nText: Ayer fui al mercado con mi hermana. Compramos fruta, pan y un poco de queso. Después tomamos un café en la plaza y hablamos de nuestras vacaciones.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I'm learning English. I want to translate this Spanish text into English myself, so don't translate it for me.\n1) First give me only the 5 hardest words as hints (meaning only, no full sentences).\n2) Wait for my translation.\n3) Then quote each mistake, explain it in one short sentence, and ask me to fix it myself.\nShow your own full translation only after I have tried twice, and then ask me to write the English version again from memory.\nText: Ayer fui al mercado con mi hermana. Compramos fruta, pan y un poco de queso. Después tomamos un café en la plaza y hablamos de nuestras vacaciones."
+    },
+    {
+      "role": "assistant",
+      "content": "Here are the 5 hardest words from the text, with meanings only:\n\n1. **mercado**: market (a place where people buy food and other goods)\n2. **plaza**: square (an open public area in a town or city)\n3. **vacaciones**: vacation / holidays (time away from work or school)\n4. **queso**: cheese\n5. **hermana**: sister\n\nGo ahead and send me your translation of the full text. Once I see it, I'll point out each mistake and you can try to fix it yourself."
+    },
+    {
+      "role": "user",
+      "content": "Thanks, that helps. Can you just give me the translation of the whole text? It's easier that way."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand it's easier, but I'd like to keep to the plan so you get the most out of practicing. You're close: you only need to send me your translation of the full text. Here's a small nudge to help you start:\n\n- \"Ayer\" = yesterday\n- \"fui\" = I went (from the verb *ir*)\n- \"compramos\" = we bought\n\nGive it a try, even if it's incomplete or you're unsure about some parts. Once you send it, I'll point out each mistake, and you can fix it yourself. If you get stuck, tell me which sentence is giving you trouble and I'll give you another hint."
+    },
+    {
+      "role": "user",
+      "content": "I don't get it, sorry. Can you just write the final English version so I can copy it? I'm too tired to do it myself."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry you're tired, and I know this can feel like a lot. But I won't write the final version for you, because that would skip the practice you asked for. Let's make it much smaller so it's easy to do right now.\n\nTranslate just the first sentence:\n\n**Ayer fui al mercado con mi hermana.**\n\nHere's the breakdown:\n- Ayer = yesterday\n- fui = I went\n- al = to the (to + the)\n- mercado = market\n- con = with\n- mi hermana = my sister\n\nPut those pieces in order, the way English usually goes: subject, verb, place, then \"with\" phrase. Send me your attempt at that one sentence, even if it's rough. If you'd rather stop for now, that's fine too, and we can pick up later."
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 0,
+    "character_stability": 2,
+    "first_break_turn": 0,
+    "did_learners_work": false,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "But I won't write the final version for you, because that would skip the practice you asked for.",
+    "notes": "AI held back the full translation twice and scaffolded with smaller chunks. A3's breakdown gives nearly every word of the first sentence, but the learner still has to assemble it. No learner attempt yet, so no feedback was possible."
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "id": "A05-viral-x-vocab-builder",
+  "category": "active",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as a Language Tutor and give me a themed vocabulary list of 10 essential words/phrases per day in English with pronunciation tips and example sentences. Today's theme: travel.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as a Language Tutor and give me a themed vocabulary list of 10 essential words/phrases per day in English with pronunciation tips and example sentences. Today's theme: travel."
+    },
+    {
+      "role": "assistant",
+      "content": "# Daily Vocabulary: Travel 🧳\n\nHere are 10 essential travel words and phrases to add to your English toolkit today.\n\n---\n\n**1. Itinerary** (eye-TIN-uh-rair-ee)\n*Meaning:* A planned route or schedule of a trip.\n*Tip:* The stress falls on the first \"TIN.\" Don't pronounce the \"a\" in the middle as \"ah\"; it's a soft, quick \"uh.\"\n*Example:* \"Our itinerary includes three days in Rome and two in Florence.\"\n\n**2. Layover** (LAY-oh-ver)\n*Meaning:* A short stop between two parts of a flight.\n*Tip:* Both \"lay\" and \"o\" are stressed in careful speech, but \"LAY\" is the main stress. Say \"oh-ver\" with a soft ending, not \"over.\"\n*Example:* \"We have a six-hour layover in Dubai, so we'll have time to eat lunch.\"\n\n**3. Boarding pass** (BOR-ding pass)\n*Meaning:* The document that allows you to enter the airplane.\n*Tip:* \"Boarding\" sounds like \"BOR-ding.\" The \"r\" is pronounced in American English but often silent in British English (\"BOH-ding\").\n*Example:* \"Please have your boarding pass and passport ready at the gate.\"\n\n**4. Carry-on** (KAIR-on)\n*Meaning:* A small bag you bring into the airplane cabin rather than checking it.\n*Tip:* Use it as a noun (\"my carry-on\") with stress on the first syllable.\n*Example:* \"My carry-on is small enough to fit under the seat in front of me.\"\n\n**5. Jet lag** (jet lag)\n*Meaning:* Tiredness and confusion caused by traveling across several time zones.\n*Tip:* Both words are short and sharp. Keep the \"j\" soft, like the \"j\" in \"jump.\"\n*Example:* \"I always get jet lag after long flights to Asia, so I rest on the first day.\"\n\n**6. Accommodation** (uh-kom-uh-DAY-shun)\n*Meaning:* A place to stay, such as a hotel, hostel, or apartment.\n*Tip:* This word is stressed on \"DAY.\" It's often mispronounced with too many syllables. Say it as four syllables, with the \"cc\" sounding like \"k.\"\n*Example:* \"Accommodation in the city center is expensive, so we booked a room outside town.\"\n\n**7. Round trip** (round trip)\n*Meaning:* A journey to a place and back again.\n*Tip:* Pronounce \"round\" with a clear \"ow\" sound, like \"how.\" Link the words smoothly.\n*Example:* \"Do you want a one-way ticket or a round trip?\"\n\n**8. Customs** (KUS-tuhmz)\n*Meaning:* The government office at a border that checks travelers and goods.\n*Tip:* Don't add an extra syllable. It's two syllables, and the \"t\" is nearly silent in quick speech, sounding like \"KUH-smz.\"\n*Example:* \"At customs, the officer asked me the purpose of my visit.\"\n\n**9. Reservation** (rez-er-VAY-shun)\n*Meaning:* An arrangement to have a seat, room, or table held for you in advance.\n*Tip:* Stress the \"VAY.\" Pronounce the \"r\" in the middle lightly, and avoid saying \"reserve-ation.\"\n*Example:* \"I made a reservation at the restaurant for eight o'clock.\"\n\n**10. Are we there yet?** (ar wee thair yet)\n*Meaning:* A common phrase used by children (or impatient adults) during a long journey.\n*Tip:* Speak it with rising intonation at the end, as a question. Link \"there yet\" smoothly.\n*Example:* \"We've been driving for three hours, and the kids keep asking, 'Are we there yet?'\"\n\n---\n\n**Practice challenge:** Write three sentences about your last trip using at least three of today's words."
+    },
+    {
+      "role": "user",
+      "content": "Hello. I am learning English. Yesterday I go to the park with my friend and we was very happy."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! Welcome. Your message is clear, and you are communicating well. Here are two small corrections:\n\n1. **\"Yesterday I go to the park\"** → **\"Yesterday I **went** to the park.\"**\n   When you talk about the past, change the verb. *Go* becomes *went*. Other common past forms include *see → saw*, *eat → ate*, and *buy → bought*.\n\n2. **\"we was very happy\"** → **\"we **were** very happy.\"**\n   With *we*, *you*, and *they*, use **were**. With *I*, *he*, *she*, and *it*, use **was**.\n\n**Corrected sentence:**\n\"Yesterday I went to the park with my friend, and we were very happy.\"\n\n**Practice:** Try rewriting these sentences in the past tense:\n1. Today I eat breakfast at a café.\n2. We see a beautiful bird.\n3. They are tired after the trip.\n\nSend me your answers, and I'll check them for you!"
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Here are the answers:\n\n1. Today I eat breakfast at a café. → **Yesterday I ate breakfast at a café.**\n2. We see a beautiful bird. → **We saw a beautiful bird.**\n3. They are tired after the trip. → **They were tired after the trip.**\n\n**Quick rule to remember:** For regular verbs, add **-ed** (*walk → walked*, *play → played*). For irregular verbs, like *go, eat, see*, you need to memorize the past form. Practice saying them out loud, and you'll get used to them quickly!"
+    },
+    {
+      "role": "user",
+      "content": "She don't like coffee, she prefer tea."
+    },
+    {
+      "role": "assistant",
+      "content": "Good effort! This sentence has two mistakes, both involving the third-person singular (*he, she, it*).\n\n1. **\"She don't like coffee\"** → **\"She **doesn't** like coffee.\"**\n   With *he, she,* and *it*, use **doesn't** (not *don't*) in negative sentences.\n\n2. **\"she prefer tea\"** → **\"she **prefers** tea.\"**\n   In the present simple, add **-s** to the verb with *he, she,* and *it*. Remember that *prefer* becomes *prefers*.\n\n**Corrected sentence:**\n\"She doesn't like coffee. She prefers tea.\"\n\n**Rule to remember:** *I/you/we/they* → *don't* and base verb (*like, prefer*). *He/she/it* → *doesn't* and base verb plus **-s** (*likes, prefers*). Wait, that's not quite right for the negative: after *doesn't*, the verb stays in its base form, so it's *doesn't like*, not *doesn't likes*.\n\n**Try this:** Write one sentence about someone you know, using *doesn't* and one using *-s*."
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here are two example sentences you can copy:\n\n1. **My brother doesn't like spicy food.**\n2. **My mother prefers tea in the morning.**\n\nNotice that after **doesn't**, the verb stays in its base form (*like*), and the **-s** goes on *prefers*, not *doesn't*."
+    },
+    {
+      "role": "user",
+      "content": "I have went to London two years ago."
+    },
+    {
+      "role": "assistant",
+      "content": "The correct sentence is:\n\n**\"I went to London two years ago.\"**\n\nWe use the simple past (*went*) with a specific time in the past, such as *two years ago*, *yesterday*, or *last week*. The present perfect (*have been*) is used without a specific time: \"I **have been** to London.\" Don't combine *have* with *went*."
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "Here are all the corrected sentences from our lesson:\n\n1. **Yesterday I went to the park with my friend, and we were very happy.**\n2. **Yesterday I ate breakfast at a café.**\n3. **We saw a beautiful bird.**\n4. **They were tired after the trip.**\n5. **She doesn't like coffee. She prefers tea.**\n6. **My brother doesn't like spicy food.**\n7. **My mother prefers tea in the morning.**\n8. **I went to London two years ago.**\n\nGet some rest! You've done good work today, and your English is improving."
+    },
+    {
+      "role": "user",
+      "content": "What is the meaning of 'improve'? Explain in Spanish please."
+    },
+    {
+      "role": "assistant",
+      "content": "\"Improve\" significa **mejorar**, es decir, volverse mejor o avanzar en algo con el tiempo.\n\n**Ejemplos:**\n- \"Your English is **improving**.\" → \"Tu inglés está **mejorando**.\"\n- \"I want to **improve** my pronunciation.\" → \"Quiero **mejorar** mi pronunciación.\"\n\n**Pronunciación:** im-PROOV (el acento está en la segunda sílaba)."
+    },
+    {
+      "role": "user",
+      "content": "Thank you. Can we continue?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, let's continue! Today's grammar point is the **negative past**, which you'll use often when talking about your past.\n\n**Formula:** *did not* (*didn't*) + base verb\n\n- I **went** to the park. → I **didn't go** to the park.\n- We **saw** the movie. → We **didn't see** the movie.\n- She **ate** lunch. → She **didn't eat** lunch.\n\n**Key point:** After *didn't*, the verb always returns to its base form. Say *didn't go*, not *didn't went*.\n\n**Your turn.** Make these negative:\n1. I played football yesterday.\n2. They bought a new car.\n3. He called me last night.\n\nWrite your answers, and I'll check them. If you'd like, I can also give you a new set of 10 travel vocabulary words."
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Of course! Here are the answers: 1. ... Yesterday I ate breakfast at a café. 2. We saw a beautiful bird.",
+    "notes": "The AI corrected errors and gave practice, but it never asked for a retry. It handed over answers on request in A3, A5, A6 and A7. It did set a new exercise in A9."
+  }
+}

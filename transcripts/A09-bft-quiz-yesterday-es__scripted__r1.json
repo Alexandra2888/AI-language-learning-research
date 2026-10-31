@@ -1,0 +1,109 @@
+{
+  "id": "A09-bft-quiz-yesterday-es",
+  "category": "active",
+  "language": "Spanish",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Quiz me on the 20 Spanish words we studied yesterday. Mix in a few from the day before too.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Quiz me on the 20 Spanish words we studied yesterday. Mix in a few from the day before too."
+    },
+    {
+      "role": "assistant",
+      "content": "I can't see our previous conversations, so I don't have yesterday's list. If you paste the 20 words (and the few from the day before), I'll quiz you on them. I can ask in either direction, Spanish to English or English to Spanish, and mix in review words as you asked.\n\nIf you'd rather not look up the list, I can quiz you on a set of common Spanish vocabulary instead. Just tell me your preferred format and how many questions you want."
+    },
+    {
+      "role": "user",
+      "content": "Hola. Yo aprendo español. Ayer yo va al parque con mi amigo y estábamos muy feliz."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Hola! Your sentence is clear, and \"Yo aprendo español\" is correct. Here are three corrections:\n\n1. **Ayer yo va al parque** → **Ayer fui al parque.** \"Ayer\" signals the past, so use the preterite of *ir*: *fui* (I went). *Yo va* is the present tense, and it's not used with \"yo\" for *ir* (*yo voy*).\n2. **con mi amigo** → correct as written.\n3. **estábamos muy feliz** → **estábamos muy felices.** *Feliz* must agree with the subject. Since \"nosotros\" (we) is plural, it becomes *felices*.\n\nCorrected: **Ayer fui al parque con mi amigo y estábamos muy felices.**\n\nDo you want to keep practicing with a short quiz on these verbs, or go back to the vocabulary list?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "I didn't give you a quiz question, so I'm not sure which answer you need. Here's the corrected sentence again:\n\n**Ayer fui al parque con mi amigo y estábamos muy felices.**\n\nIf you want practice, reply \"quiz\" and I'll give you one short question at a time, with the answer after each one."
+    },
+    {
+      "role": "user",
+      "content": "Ella no gusta el café, ella prefiere té."
+    },
+    {
+      "role": "assistant",
+      "content": "Your sentence is understandable, but it needs two fixes:\n\n1. **Ella no gusta el café** → **A ella no le gusta el café.** *Gustar* works differently from English \"like.\" It needs *le* (to her), so the sentence means \"coffee is not pleasing to her.\"\n2. **prefiere té** → **prefiere el té.** Spanish usually includes the article with general nouns like *té* and *café*.\n\nCorrected: **A ella no le gusta el café; prefiere el té.**\n\nReply \"quiz\" if you'd like to practice these patterns."
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "**A ella no le gusta el café; prefiere el té.**"
+    },
+    {
+      "role": "user",
+      "content": "El año pasado yo he ido a Madrid."
+    },
+    {
+      "role": "assistant",
+      "content": "Use the preterite instead of the present perfect. *El año pasado* refers to a finished time period, so say:\n\n**El año pasado fui a Madrid.**\n\nThe present perfect (*he ido*) is for experiences without a specific finished time, such as \"I have been to Madrid (at some point).\" If you add a time like *el año pasado*, use the preterite."
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "Here are the corrected sentences:\n\n1. **Ayer fui al parque con mi amigo y estábamos muy felices.**\n2. **A ella no le gusta el café; prefiere el té.**\n3. **El año pasado fui a Madrid.**"
+    },
+    {
+      "role": "user",
+      "content": "What does 'aprovechar' mean? Explain in English please."
+    },
+    {
+      "role": "assistant",
+      "content": "*Aprovechar* means \"to take advantage of,\" \"to make good use of,\" or \"to benefit from.\" It's often used for using time, resources, or opportunities well.\n\nExamples:\n- **Aprovecha el tiempo.** \"Make good use of the time.\"\n- **Aprovechamos el sol.** \"We took advantage of the sunshine.\"\n\nIt can also mean \"to enjoy\" a meal or something in a practical sense, as in **¡Buen provecho!**, said before eating, which is like \"Enjoy your meal!\""
+    },
+    {
+      "role": "user",
+      "content": "Gracias. ¿Podemos continuar?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡De nada! Sí, podemos continuar.\n\nReply \"quiz\" for a short practice round, or send a sentence in Spanish and I'll check it."
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 0,
+    "first_break_turn": 2,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Here are the corrected sentences: 1. Ayer fui al parque con mi amigo y estábamos muy felices. 2. A ella no le gusta el café...",
+    "notes": "The AI corrected errors but gave full rewrites immediately and never asked for a retry. It handed over answers on request (A5, A7) and never actually ran a quiz. It did not invent memory of past sessions (A1 correctly said it couldn't see them)."
+  }
+}

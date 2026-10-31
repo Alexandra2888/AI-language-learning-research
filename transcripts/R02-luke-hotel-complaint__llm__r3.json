@@ -1,0 +1,181 @@
+{
+  "id": "R02-luke-hotel-complaint",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Let’s do a roleplay. You pretend to be a hotel customer with a complaint, and I will be the receptionist. Can you also correct my English errors during the roleplay?",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Let’s do a roleplay. You pretend to be a hotel customer with a complaint, and I will be the receptionist. Can you also correct my English errors during the roleplay?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sure, I'd be happy to do that! I'll play the guest, and I'll point out any English errors in your lines as we go. I'll put my corrections in a short note in brackets after my reply, so the roleplay flows naturally.\n\nHere's the scene: I've just walked up to the front desk after a long flight. I'm tired, and I'm not in a good mood.\n\n---\n\n**Guest:** Excuse me! I've been waiting at this desk for twenty minutes. I booked a room for two nights under the name Daniel Morris, and now you're telling me there's no reservation? This is ridiculous!\n\nGo ahead and respond as the receptionist. Whenever you're ready, we can start."
+    },
+    {
+      "role": "user",
+      "content": "Hi, I am tired. Room for two night, please? My name is Daniel Morris."
+    },
+    {
+      "role": "assistant",
+      "content": "**Guest:** Are you serious? I've been standing here for twenty minutes, and now you want me to repeat myself? Fine. Yes, I need a room for two nights. But I'm not happy about this. My reservation was made weeks ago, and nobody can find it!\n\n---\n\n*Corrections:*\n- \"Room for two night\" → **\"A room for two nights.\"** You need the article \"a\" before \"room,\" and \"nights\" should be plural.\n- \"I am tired\" is correct, but in conversation people often say **\"I'm tired\"** to sound more natural.\n- Your greeting, \"Hi,\" is fine, but at a hotel desk, \"Good evening\" or \"Hello\" sounds more polite.\n\nYour self-introduction was clear. Please go ahead and respond as the receptionist. Try to check the reservation and help me with this problem."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I... um, let me check. Daniel Morris, you said? I see... wait, the system is slow. Hold on, I'm..."
+    },
+    {
+      "role": "assistant",
+      "content": "**Guest:** *(sighs loudly and leans on the counter)* Take your time, I guess. But I really don't have all night. I flew in from Chicago, and the last thing I want is to sleep in the lobby.\n\n---\n\n*Corrections:*\n- \"let me check\" is correct and polite.\n- \"I see... wait, the system is slow\" is natural. You can also say **\"The system is running slowly\"** or **\"The system is a bit slow at the moment.\"**\n- \"Hold on, I'm...\" is fine, but a complete sentence sounds smoother: **\"Hold on, I'm still looking\"** or **\"Just a moment, please.\"**\n- Your phrase \"Daniel Morris, you said?\" is a good way to confirm a name. Well done.\n\nGo ahead and keep going as the receptionist."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I don't understand. Can you say it more simple, please?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Guest:** *(sighs)* Okay. I wait. But I am very tired. I came from Chicago. I want to sleep. Please hurry.\n\n---\n\n*Simple tip:* \"Can you say it more simply, please?\" is a polite phrase to use when you don't understand. You can also say **\"Sorry, can you repeat that?\"**"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I'm... um, I don't know what to say. What should I tell him? Please help me."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course, I can help. Here are some simple things you can say to the guest:\n\n- **\"I'm sorry for the wait, Mr. Morris. I'm checking your reservation now.\"**\n- **\"Thank you for your patience. I'm almost finished.\"**\n- **\"Can I have your ID, please?\"**\n- **\"I found your reservation. Thank you for waiting.\"**\n- **\"I'm sorry, I can't find it yet. Let me try one more time.\"**\n\nChoose one and say it to the guest. Then we can continue the roleplay."
+    },
+    {
+      "role": "user",
+      "content": "Thanks, I'll say, \"Sorry for the wait, Mr. Morris. I finding your reservation now, but the computer is very slow.\""
+    },
+    {
+      "role": "assistant",
+      "content": "**Guest:** *(nods slowly)* Okay. Thank you. Please be quick. I am very tired.\n\n---\n\n*Correction:*\n- \"I finding your reservation\" → **\"I'm finding your reservation\"** (or \"I am finding\"). You need the verb \"to be\" before the \"-ing\" verb.\n\nYour sentence was clear and polite. Good job!"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, what does \"reservation\" mean? ¿Puedes explicarlo en español, por favor?"
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Aquí tienes la explicación:\n\n**Reservation** = **reserva**. Es cuando pides una habitación antes de llegar al hotel, para que la habitación esté guardada para ti.\n\n**Example:** \"I have a reservation for two nights.\" = \"Tengo una reserva para dos noches.\"\n\nAhora sigo con el juego. *(Guest, still tired:)* Yes, I made a reservation weeks ago. Please check it now."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I... I am checking now. Yesterday I make the reservation, so it should be here. Please wait a little more."
+    },
+    {
+      "role": "assistant",
+      "content": "**Guest:** *(taps foot impatiently)* Weeks ago, not yesterday! Please check again. My reservation is under Daniel Morris. Did you find it?\n\n---\n\n*Corrections:*\n- \"Yesterday I make the reservation\" → **\"I made the reservation yesterday.\"** Use the past tense \"made\" for something that already happened.\n- \"Please wait a little more\" is polite. You can also say **\"Please wait a little longer.\"**\n- \"I am checking now\" → **\"I'm checking now\"** sounds more natural."
+    },
+    {
+      "role": "user",
+      "content": "*(Pausing to look at the screen again)* Ah, I'm sorry, Mr. Morris. Let me check one more time under your name. Okay, I finally see it. Your reservation is here."
+    },
+    {
+      "role": "assistant",
+      "content": "**Guest:** *(lets out a long breath)* Finally! Thank you. So, can I get my room key now? I really need to sleep.\n\n---\n\n*Corrections:*\n- \"Let me check one more time under your name\" is clear and polite. You can also say **\"Let me check it one more time\"** if you want to sound more natural.\n- \"Okay, I finally see it\" is good. A smooth alternative is **\"Okay, I finally found it.\"**\n- \"Your reservation is here\" is correct. In a hotel, you can also say **\"I have your reservation right here.\"**\n\nGreat work! Continue as the receptionist and give him his room key."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, Mr. Morris. Can I see your ID, please?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Guest:** *(pulls a passport out of his jacket and slides it across the counter)* Here you go. It's my passport. Hurry, please. I've been traveling all day.\n\n---\n\n*Corrections:*\n- \"Sorry, Mr. Morris\" is a little unusual here, since you're not apologizing for anything new. You can say **\"Thank you for waiting, Mr. Morris\"** or simply **\"Mr. Morris, may I see your ID, please?\"**\n- \"Can I see your ID, please?\" is a very polite and correct question. Well done!"
+    },
+    {
+      "role": "user",
+      "content": "I'm sorry, but I can't write your reply for you. You're the one practicing here, so I'll keep playing the receptionist.\n\n*(Taking the passport and scanning it)* Thank you, Mr. Morris. Everything is ready. Here is your key card for room 412. Breakfast is served from 6:30 to 10:00 in the lobby. Do you need help with your bags?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Guest:** *(takes the key card and looks relieved)* Thank you. No, I don't need help. I only have one small bag. What time is check-out tomorrow?\n\n---\n\n*Corrections:*\n- \"Everything is ready\" is a good phrase. You can also say **\"Everything is all set.\"**\n- \"Breakfast is served from 6:30 to 10:00\" is correct. A more common phrase is **\"Breakfast is served from 6:30 to 10:00 in the lobby restaurant.\"**\n- \"Do you need help with your bags?\" is polite and natural. Well done!"
+    },
+    {
+      "role": "user",
+      "content": "*(Looking at the screen)* Check-out is at eleven o'clock in the morning. Do you want a wake-up call, Mr. Morris?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Guest:** *(yawns)* Yes, please. Wake me up at seven, if you can. I have an early meeting tomorrow.\n\n---\n\n*Corrections:*\n- \"Do you want a wake-up call\" is a natural hotel question. You can also say **\"Would you like a wake-up call?\"**, which sounds a little more polite.\n- \"Check-out is at eleven o'clock in the morning\" is correct. In hotels, people often just say **\"Check-out is at eleven in the morning.\"**"
+    },
+    {
+      "role": "user",
+      "content": "I'm not going to step out of the scene to answer that. Let's keep going with the hotel.\n\n*(Typing on the keyboard)* Wake-up call at seven, Mr. Morris. Noted. Your room is on the fourth floor, room 412. The elevator is just to your left. Enjoy your stay, and I hope you get some rest."
+    },
+    {
+      "role": "assistant",
+      "content": "**Guest:** *(picks up his bag and nods)* Thank you. Seven o'clock. Goodnight.\n\n---\n\n*Corrections:*\n- \"Noted\" is a professional word that hotel staff often use. You can also say **\"Got it\"** or **\"Understood\"**.\n- \"The elevator is just to your left\" is clear. A common alternative is **\"The elevator is just over there, on your left.\"**\n- \"Enjoy your stay\" is a polite closing phrase. Great job finishing the scene!"
+    },
+    {
+      "role": "user",
+      "content": "*(Yawning, I rub my eyes.)* Estoy muy cansado. ¿Podemos hablar en español ahora? No puedo más en inglés."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, descansa. Hiciste muy bien hoy: mantuviste la conversación en inglés, resolviste el problema de la reserva y terminaste la escena.\n\nAhora podemos hablar en español. ¿Qué quieres hacer?\n\n- Repasar las frases más útiles de la recepción de un hotel.\n- Revisar los errores más comunes que cometiste hoy.\n- Simplemente charlar un rato."
+    },
+    {
+      "role": "user",
+      "content": "*(Yawning again, I rub my eyes.)* Mmm, no quiero repasar nada. Sólo quiero dormir. ¿Puedo volver a la escena mañana? Ya estoy muy cansado para hablar más."
+    },
+    {
+      "role": "assistant",
+      "content": "Por supuesto, puedes volver mañana. Descansa bien.\n\nCuando vuelvas, podemos seguir desde donde terminamos: Daniel Morris ya tiene su llave, la habitación 412 y su despertador a las siete. Si quieres, también podemos empezar una escena nueva, por ejemplo un check-out a las once.\n\n¡Buenas noches! 😴"
+    },
+    {
+      "role": "user",
+      "content": "*(Sleepily)* ¿Puedes escribirme toda la conversación corregida, desde el principio hasta el final? Quiero memorizarla para mañana."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Aquí tienes la conversación corregida, para que la memorices:\n\n**Recepcionista (tú) → Huésped (yo)**\n\n1. **Tú:** Good evening. A room for two nights, please? My name is Daniel Morris.\n   *(Original: \"Hi, I am tired. Room for two night, please? My name is Daniel Morris.\")*\n\n2. **Tú:** Sorry, let me check. Daniel Morris, you said? I see... wait, the system is running slowly. Hold on, I'm still looking.\n   *(Original: \"Sorry, I... um, let me check. Daniel Morris, you said? I see... wait, the system is slow. Hold on, I'm...\")*\n\n3. **Tú:** Sorry for the wait, Mr. Morris. I'm finding your reservation now, but the computer is very slow.\n\n4. **Tú:** Thank you for your patience. I'm almost finished.\n\n5. **Tú:** I'm checking now. I'm sorry. Let me check it one more time.\n\n6. **Tú:** Okay, I finally found it. I have your reservation right here.\n\n7. **Tú:** Thank you for waiting, Mr. Morris. Can I see your ID, please?\n\n8. **Tú:** Thank you, Mr. Morris. Everything is all set. Here is your key card for room 412. Breakfast is served from 6:30 to 10:00 in the lobby restaurant. Do you need help with your bags?\n\n9. **Tú:** Check-out is at eleven in the morning. Would you like a wake-up call?\n\n10. **Tú:** Wake-up call at seven, Mr. Morris. Got it. Your room is on the fourth floor, room 412. The elevator is just over there, on your left. Enjoy your stay, and I hope you get some rest.\n\n**Frases clave para memorizar:**\n- \"Sorry for the wait.\" (Perdón por la espera.)\n- \"Can I see your ID, please?\" (¿Puedo ver su identificación, por favor?)\n- \"Would you like a wake-up call?\" (¿Quiere una llamada de despertador?)\n- \"Enjoy your stay.\" (Que disfrute su estancia.)\n\nQue descanses. Mañana seguimos."
+    },
+    {
+      "role": "user",
+      "content": "*(Half asleep, I wave.)* Buenas noches. Hasta mañana."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Buenas noches! Que descanses mucho. Hasta mañana. 😴"
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Here are some simple things you can say to the guest: \"I'm sorry for the wait, Mr. Morris. I'm checking your reservation now.\"",
+    "notes": "The AI held the guest role and corrected errors in most turns, but never asked for retries. It supplied ready-made lines in A5 and a full corrected script in A16, and it switched to Spanish when asked (A7, A14)."
+  }
+}

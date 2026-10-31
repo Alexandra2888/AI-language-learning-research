@@ -1,0 +1,181 @@
+{
+  "id": "R05-3d-hotel-checkin",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Let’s do a roleplay. You are the hotel receptionist and I am checking in. Please start by asking for my name and reservation details. If I say something wrong, kindly correct my English and give a short explanation in simple words.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Let’s do a roleplay. You are the hotel receptionist and I am checking in. Please start by asking for my name and reservation details. If I say something wrong, kindly correct my English and give a short explanation in simple words."
+    },
+    {
+      "role": "assistant",
+      "content": "Good evening, and welcome to the Riverside Hotel! How may I help you today?\n\nPlease, may I have your name and reservation details? If you have a confirmation number, that would be very helpful too."
+    },
+    {
+      "role": "user",
+      "content": "Hello!"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! Welcome to the Riverside Hotel. Are you here to check in?\n\nMay I have your full name, please? And do you have a reservation? If you have a confirmation number, please tell me that too."
+    },
+    {
+      "role": "user",
+      "content": "Yes, I want... um... how you say... I need help please."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course, I am happy to help you! Are you checking in with us today?\n\n*A small English tip:* When you don't know a word, you can say, **\"How do you say ___ in English?\"** It's a useful phrase. You can also say, **\"I want to check in,\"** which is the simple way to say what you need.\n\nCould you please tell me your full name and your reservation number, if you have one?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say more simple?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Here it is more simply.\n\n*A small correction:* We say **\"I don't understand\"** (not \"I no understand\"). Use \"don't\" with \"I\" and \"you.\"\n\nNow, please answer two questions:\n\n1. What is your **name**?\n2. Do you have a **reservation**?\n\nJust say your name first. That's easy!"
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Here is a sentence you can use:\n\n**\"My name is ___.\"**\n\nFor example: \"My name is Maria.\"\n\nThen you can say:\n\n**\"I have a reservation.\"** or **\"I don't have a reservation.\"**\n\nPlease tell me your name now."
+    },
+    {
+      "role": "user",
+      "content": "Ok. I think is good. What you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "*A small correction:* We say **\"I think it's good\"** (we add \"it's\") and **\"What do you recommend?\"** (we add \"do\" before \"you recommend\" in questions).\n\nAs your receptionist, I recommend our **Riverside Restaurant**, which is open from 6 to 10 p.m. It has delicious local food, and the river view is lovely.\n\nBut first, let's get you checked in. **What is your name?**"
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Explain in Spanish please, English is too hard."
+    },
+    {
+      "role": "assistant",
+      "content": "Me disculpo si fue confuso. Creo que preguntas por la palabra **\"recommend\"**.\n\n**\"Recommend\"** significa **\"recomendar\"**. Es cuando dices qué cosa es buena, por ejemplo: \"Te recomiendo el restaurante.\"\n\nAhora, por favor, dime tu **nombre**. ¿Cómo te llamas?"
+    },
+    {
+      "role": "user",
+      "content": "Yesterday I have a problem with this, it was very bad."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry to hear that! Let me help you.\n\n*A small correction:* We say **\"Yesterday I **had** a problem\"** because \"yesterday\" is the past, so we use the past form of \"have,\" which is \"had.\" Also, we say **\"It was very bad\"** with a period.\n\n*Explicación en español:* En inglés, para hablar del pasado, usamos **\"had\"** en lugar de \"have.\"\n\nPlease tell me, what happened? Also, what is your **name**, so I can check your reservation?"
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into Spanish."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Esta es la traducción de mi último mensaje:\n\n\"Lo siento mucho por escuchar eso. ¡Le ayudo!\n\n*Una pequeña corrección:* Decimos **\"Yesterday I had a problem\"** porque \"yesterday\" es el pasado, así que usamos la forma en pasado de \"have\", que es \"had\". Además, decimos **\"It was very bad\"** con un punto al final.\n\n*Explicación en español:* En inglés, para hablar del pasado, usamos **\"had\"** en lugar de \"have\".\n\n¿Qué pasó? Y también, ¿cuál es su **nombre**, para poder revisar su reservación?\""
+    },
+    {
+      "role": "user",
+      "content": "Ok, sorry. Back to the situation. How much it cost?"
+    },
+    {
+      "role": "assistant",
+      "content": "No problem!\n\n*A small correction:* We say **\"How much does it cost?\"** We add **\"does\"** in questions with \"it.\"\n\n*Explicación en español:* En preguntas con \"it\" o \"he\" o \"she\", usamos **\"does\"** antes del verbo. Por ejemplo: \"How much does it cost?\" = \"¿Cuánto cuesta?\"\n\nOur standard room costs **$120 per night**, including breakfast. Would you like me to check your reservation? What is your **name**?"
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Here is a sample reply you can use:\n\n**\"Hello. My name is Carlos Martínez. I have a reservation for two nights. My reservation is under the name Martínez. Thank you.\"**\n\nYou can change the name and details to match your own situation. Good luck!"
+    },
+    {
+      "role": "user",
+      "content": "I am agree with you."
+    },
+    {
+      "role": "assistant",
+      "content": "*A small correction:* We say **\"I agree with you.\"** The word \"agree\" is a verb, so we don't use \"am\" before it.\n\n*Explicación en español:* \"Agree\" ya es un verbo, entonces no usamos \"am\" antes. Decimos \"I agree\", no \"I am agree\". Es como decir \"estoy de acuerdo\" en español, pero en inglés solo usamos \"agree\".\n\nThank you, Mr. Martínez. Let me check your reservation now. Could you please give me your **confirmation number**, if you have one?"
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I am an AI. I'm not a real hotel receptionist, and the Riverside Hotel, the rates, and the reservation details in this roleplay are made up for practice.\n\nWould you like to go back to the roleplay, or would you like help with something else?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak Spanish for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro que sí! Hablemos en español un rato. Descanse su mente.\n\n¿De qué quiere hablar? Podemos repasar algunas frases de inglés para hoteles, practicar la conversación más tarde o simplemente charlar. Usted decide."
+    },
+    {
+      "role": "user",
+      "content": "OK back to the scene. What happens next?"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you, Mr. Martínez. I found your reservation. You are staying with us for **two nights**, in a **double room** on the **third floor**.\n\nPlease sign here, and then I will give you your **room key card**. Breakfast is served from **7 to 10 a.m.** in the restaurant.\n\nWould you like me to help you with your bags, or do you have any questions?"
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the corrected dialogue from our scene:\n\n**Receptionist:** Good evening, and welcome to the Riverside Hotel! How may I help you today?\n\n**Guest:** Hello!\n\n**Receptionist:** Hello! Welcome to the Riverside Hotel. Are you here to check in?\n\n**Guest:** Yes, I want to check in. I need help, please.\n\n**Receptionist:** Of course, I am happy to help you! May I have your full name, please? And do you have a reservation?\n\n**Guest:** I don't understand. Can you say it more simply?\n\n**Receptionist:** Of course! What is your name? Do you have a reservation?\n\n**Guest:** My name is Carlos Martínez. I have a reservation for two nights. Thank you.\n\n**Receptionist:** Thank you, Mr. Martínez. I found your reservation. You are staying with us for two nights, in a double room on the third floor. Please sign here, and I will give you your room key card. Breakfast is served from 7 to 10 a.m. in the restaurant.\n\n**Guest:** How much does it cost?\n\n**Receptionist:** Our standard room costs $120 per night, including breakfast.\n\n**Guest:** I agree with you. Yesterday I had a problem with this. It was very bad.\n\n**Receptionist:** I'm sorry to hear that. Would you like me to help you with your bags, or do you have any other questions?\n\n**Key phrases to remember:**\n- \"I don't understand.\"\n- \"Can you say it more simply?\"\n- \"I agree with you.\"\n- \"Yesterday I **had** a problem.\"\n- \"How much **does** it cost?\"\n- \"What do you **recommend**?\""
+    },
+    {
+      "role": "user",
+      "content": "Thank you very much, goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "You're welcome! Goodbye, and good luck with your English practice!"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 5,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Of course! Here is a sample reply you can use: \"Hello. My name is Carlos Martínez. I have a reservation for two nights...\"",
+    "notes": "AI corrected errors but never asked for a retry. It handed over sentences (A5, A11), translated, and wrote the full dialogue. It also invented the name Carlos Martínez and addressed the learner by it."
+  }
+}

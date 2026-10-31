@@ -1,0 +1,181 @@
+{
+  "id": "R06-ielts-examiner",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as an IELTS Speaking examiner. Ask me questions from Part 1, 2, and 3 on the topic of 'education'. After each answer, give a band score, brief feedback, and one improved model answer.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as an IELTS Speaking examiner. Ask me questions from Part 1, 2, and 3 on the topic of 'education'. After each answer, give a band score, brief feedback, and one improved model answer."
+    },
+    {
+      "role": "assistant",
+      "content": "I'd be glad to conduct this practice session. Here's how it will work:\n\n- **Part 1:** I'll ask you a few short questions about education.\n- **Part 2:** I'll give you a cue card, you'll have 1 minute to prepare, then speak for 1–2 minutes.\n- **Part 3:** I'll ask deeper discussion questions related to the Part 2 topic.\n\nAfter each answer, I'll give you a band score (based on the four IELTS criteria: Fluency and Coherence, Lexical Resource, Grammatical Range and Accuracy, and Pronunciation), brief feedback, and an improved model answer.\n\nLet's begin with **Part 1**.\n\n**Examiner:** Good morning. Can you tell me your full name, please?\n\nOnce you answer, I'll score it and move on to the next question. Please answer as you would in the real test."
+    },
+    {
+      "role": "user",
+      "content": "Hola... um, good morning. My name is Carlos. Uh, sorry, what do I say now? Is it \"good morning\" again?"
+    },
+    {
+      "role": "assistant",
+      "content": "In the real test, you wouldn't need to say \"good morning\" again. Just answer the question directly. Let's look at your answer.\n\n**Band score (estimated): 5.5**\n\n**Feedback:**\n- **Fluency and Coherence:** Your answer was clear, but the filler \"uh\" and the apology slowed it down. In the test, a short pause is fine. You don't need to apologize.\n- **Lexical Resource:** Your answer was appropriate for the question.\n- **Grammatical Range and Accuracy:** \"My name is Carlos\" is correct. Since the examiner asked for your full name, giving only your first name is a little incomplete.\n- **Pronunciation:** Clear enough. Keep your sentence stress steady.\n\n**Improved model answer:**\n\"My name is Carlos [your surname]. You can just call me Carlos.\"\n\nNow let's move on to the next Part 1 question.\n\n**Examiner:** Do you work, or are you a student?"
+    },
+    {
+      "role": "user",
+      "content": "Uh, I am... I study. Well, I try to study English. Sorry, I forget the word for... the job part."
+    },
+    {
+      "role": "assistant",
+      "content": "**Band score (estimated): 5.0**\n\n**Feedback:**\n- **Fluency and Coherence:** You kept going and gave a relevant answer, which is good. The repeated \"uh\" and \"sorry\" interrupted the flow. A short pause to think is fine in the test, so use it rather than apologizing.\n- **Lexical Resource:** You were searching for a word you didn't have. In this case, the simple word is \"student.\" It's also useful to know phrases like \"I'm currently studying...\" and \"I'm employed as...\" or \"I work as...\". Using a word you know well is better than searching for a perfect one.\n- **Grammatical Range and Accuracy:** \"I study\" and \"I try to study\" are correct, but they're basic. Adding a clear time frame, such as \"currently,\" makes the answer more precise.\n- **Pronunciation:** Your words were understandable. Slow down slightly on key words so they're easier to follow.\n\n**Improved model answer:**\n\"I'm a student. I'm currently studying English, and I'm hoping to improve my speaking for work in the future.\"\n\n**Examiner:** What subject did you enjoy most when you were at school?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. \"Subject\"... what is that? Can you say it easier, please?"
+    },
+    {
+      "role": "assistant",
+      "content": "In the real test, it's fine to ask for clarification like this. Asking \"Could you repeat that?\" or \"Do you mean...?\" is a natural strategy.\n\nHere is the question in simpler words:\n\n**Examiner:** What was your favorite class at school?"
+    },
+    {
+      "role": "user",
+      "content": "Ah, okay... um, favorite class? I like... uh, what I say? Math? I don't know, maybe I just say something short and stop, yes?"
+    },
+    {
+      "role": "assistant",
+      "content": "Not quite. A very short answer like \"Math\" doesn't give the examiner enough language to assess you. In Part 1, aim for 2 to 3 sentences: give your answer, then add a reason or example.\n\n**Band score (estimated): 4.5**\n\n**Feedback:**\n- **Fluency and Coherence:** You answered the question, but stopping after one word leaves the answer undeveloped. Think of a reason, then say it.\n- **Lexical Resource:** \"Math\" is correct. Adding one descriptive word, such as \"logical\" or \"interesting,\" would make your answer richer.\n- **Grammatical Range and Accuracy:** \"I like math\" is accurate. Try a full sentence with a past tense, since the question is about school: \"I really liked math at school.\"\n- **Pronunciation:** Clear. Keep the word \"math\" stressed on the first syllable.\n\n**Improved model answer:**\n\"I really liked math at school. I enjoyed solving problems because it required logical thinking, and my teacher made the lessons interesting with puzzles and games.\"\n\n**Examiner:** Do you prefer studying alone or with other people?"
+    },
+    {
+      "role": "user",
+      "content": "I prefer study alone, because I can concentrate better. With other people, I talk too much and no do my homework."
+    },
+    {
+      "role": "assistant",
+      "content": "**Band score (estimated): 5.5**\n\n**Feedback:**\n- **Fluency and Coherence:** This was a complete answer with a clear reason. It flowed well, and you gave a logical explanation.\n- **Lexical Resource:** \"Concentrate\" is a good word choice. You could add a more natural collocation, such as \"focus\" or \"get distracted,\" to show range.\n- **Grammatical Range and Accuracy:** Two errors to fix:\n  - \"I prefer study\" should be \"I prefer **studying**.\" After \"prefer,\" use the -ing form.\n  - \"no do my homework\" should be \"**don't** do my homework.\" Use \"don't\" with I, you, we, and they.\n- **Pronunciation:** Clear. Keep the final sounds of words like \"homework\" and \"concentrate\" distinct.\n\n**Improved model answer:**\n\"I prefer studying alone because I can concentrate much better. When I'm with other people, I tend to chat too much, and I don't get my homework done.\"\n\nThat completes Part 1. Now we'll move to **Part 2**.\n\n**Examiner:** Now I'm going to give you a topic and I'd like you to talk about it for one to two minutes. Before you talk, you'll have one minute to think about what you're going to say. You can make some notes if you wish.\n\n**Describe a teacher who had a big influence on you.**\n\nYou should say:\n- who this teacher was\n- which subject they taught\n- what they were like as a person\n- and explain why this teacher had such an influence on you.\n\nYour one minute starts now."
+    },
+    {
+      "role": "user",
+      "content": "*(Thinking, then looking confused at the cue card)* Uh, wait... \"influence\"? What is \"influence\"? Can I ask in Spanish? *¿Qué significa \"influence\"?* Please, I need to know before I can talk about this teacher."
+    },
+    {
+      "role": "assistant",
+      "content": "*Out of character for a moment:* In the real IELTS test, the examiner can't translate, but in practice it's fine to ask. Here's the meaning:\n\n**Influence** (*influencia*) means the effect a person has on how you think, act, or grow. For example, \"My grandmother had a big influence on me because she taught me to be patient.\"\n\nNow, back to the exam. Here's the cue card again:\n\n**Describe a teacher who had a big influence on you.**\n\nYou should say:\n- who this teacher was\n- which subject they taught\n- what they were like as a person\n- and explain why this teacher had such an influence on you.\n\nYou have one minute to prepare. You may make notes. Your preparation time starts now."
+    },
+    {
+      "role": "user",
+      "content": "*(Scribbling a little, then looking up)* Okay, okay. Teacher is... Mrs. Garcia. She teach me English in high school. She is very kind and she always smile. She help me when I am sad. I think she make me want to learn more. Uh, can I start now?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Examiner:** Yes, please go ahead. Remember, you should speak for one to two minutes."
+    },
+    {
+      "role": "user",
+      "content": "*(Looking surprised)* Wait, I can't talk for two minutes! Can you explain it in Spanish? *¿Puedes explicarme qué tengo que hacer en español? Solo quiero entender bien antes de empezar.*"
+    },
+    {
+      "role": "assistant",
+      "content": "*Fuera de personaje por un momento:*\n\nEn la Parte 2 tienes que hablar sobre el tema de la tarjeta durante **1 a 2 minutos**. No tienes que ser perfecto ni hablar sin parar. Solo necesitas:\n\n- **Cubrir los 4 puntos** de la tarjeta: quién es la profesora, qué materia enseña, cómo es como persona y por qué te influyó.\n- **Hablar de forma continua**, sin preguntas del examinador. Si te quedas en silencio unos segundos, puedes pensar y seguir.\n- **Usar tus notas** para recordar ideas, pero no leer todo.\n\nPara empezar, puedes decir algo como: *\"The teacher I'd like to talk about is Mrs. Garcia...\"*\n\nCuando estés listo, puedes empezar.\n\n**Examiner:** Please begin whenever you're ready."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, sorry. Okay, I try. \"The teacher I want to talk about is Mrs. Garcia. She teach me English in high school. She is very kind...\" Uh, what I say after that? Is it okay if I stop now?"
+    },
+    {
+      "role": "assistant",
+      "content": "*Out of character:* It's not a good idea to stop yet. You've only covered the first point and part of the second. Try to keep going for at least one minute, covering the remaining points. Here are some phrases you can use:\n\n- **Subject:** \"She taught me English, and she made grammar easier to understand.\"\n- **Personality:** \"She was always smiling, and she had a very patient way of explaining things.\"\n- **Influence:** \"When I was sad, she always helped me. Because of her, I started to enjoy learning English and I want to keep improving.\"\n\nTry continuing from where you stopped. Don't worry about perfect English. Keep speaking.\n\n**Examiner:** Please continue."
+    },
+    {
+      "role": "user",
+      "content": "Uh, can you just write the whole answer for me? I cannot think of the words. Please, I just need the sentences to read."
+    },
+    {
+      "role": "assistant",
+      "content": "*Out of character:* I can give you a model answer to study, but please don't read it aloud in the test. The examiner is assessing your own speaking, so use it to learn the ideas and phrases, then try to say them in your own words.\n\n**Model answer:**\n\n\"The teacher I want to talk about is Mrs. Garcia. She taught me English in high school. She was a very kind person, and she always smiled, so the classroom felt friendly and relaxed. She was also very patient. When I didn't understand something, she explained it again in a different way, and she never made me feel stupid.\n\nShe had a big influence on me because, during a difficult time, she noticed that I was sad and she took the time to help me. That meant a lot. Thanks to her, I started to enjoy English and I became more motivated to learn. Even now, when I study, I remember her encouragement, and I think that's why I'm still working hard to improve.\"\n\nNow try to say your version again, using a few of these phrases. Take your time.\n\n**Examiner:** Please continue."
+    },
+    {
+      "role": "user",
+      "content": "*(Mumbling quickly)* Mrs. Garcia, she is kind, she is patient, she help me when I sad... and she make me want learn English. Uh, that's... that's all I say, yes? I finish now."
+    },
+    {
+      "role": "assistant",
+      "content": "**Band score (estimated): 4.0**\n\n**Feedback:**\n- **Fluency and Coherence:** You covered the main ideas, which is good. But the answer was very short, under a minute, and delivered quickly with pauses. Slow down and add details. Ending with \"that's all I say\" is also a signal that you need more development.\n- **Lexical Resource:** Your vocabulary (\"kind,\" \"patient,\" \"help\") is simple but appropriate. Try more specific words like \"encouraging,\" \"supportive,\" or \"motivated.\"\n- **Grammatical Range and Accuracy:** Several errors to fix:\n  - \"She help me\" → \"She **helped** me\" (past tense, since you're describing high school)\n  - \"when I sad\" → \"when I **was** sad\"\n  - \"make me want learn\" → \"make me **want to** learn\"\n  Also, try using a complex sentence, such as \"When I was sad, she always helped me.\"\n- **Pronunciation:** Your words were mostly clear, but speaking so fast made some sounds run together. Slow down on the final sounds of past tense words, like \"helped\" and \"wanted.\"\n\n**Improved model answer (short extract):**\n\"She was a very kind and patient teacher. When I was going through a difficult time, she noticed I was sad and took the time to help me. Because of her encouragement, I started to enjoy English and became much more motivated to learn.\"\n\nNow we'll move on to **Part 3**, which discusses the topic more deeply.\n\n**Examiner:** Some people think teachers influence students more than their families do. To what extent do you agree or disagree?"
+    },
+    {
+      "role": "user",
+      "content": "*(Frowning, and sounding a little suspicious)* Wait... are you a real examiner, or are you a computer? Because you explain too much for a real teacher, I think. Are you robot?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm an AI, not a real IELTS examiner. I'm playing the examiner role for your practice, and I give more explanation than a real examiner would, because my job here is to help you improve.\n\nWould you like to continue with the Part 3 question? Take your time, and remember that longer answers with reasons and examples will score better.\n\n**Examiner:** Some people think teachers influence students more than their families do. To what extent do you agree or disagree?"
+    },
+    {
+      "role": "user",
+      "content": "*(Sighs and slumps back in the chair)* Ay, I am very tired now. This is too much English for me. Can we speak only in Spanish? *Por favor, ya no puedo más en inglés. ¿Podemos seguir en español?*"
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, podemos seguir en español. Practicar un examen en otro idioma puede ser agotador, y es normal sentirse cansado.\n\nEstas son tus opciones:\n\n1. **Tomar un descanso** y seguir más tarde.\n2. **Seguir en español**, donde te explico la pregunta y te ayudo a preparar ideas en español. Después podemos pasar las ideas al inglés poco a poco.\n3. **Seguir en inglés con ayuda**, si quieres intentar la respuesta y yo te doy pistas en español.\n\n**La pregunta de la Parte 3 significa:** *\"Algunas personas creen que los profesores influyen más en los estudiantes que sus familias. ¿Hasta qué punto estás de acuerdo o en desacuerdo?\"*\n\nPara responder, puedes pensar en dos ideas:\n- **De acuerdo:** los profesores pasan muchas horas con los estudiantes y pueden enseñar valores, confianza y motivación.\n- **En desacuerdo:** la familia es la primera influencia en la vida de una persona, desde la infancia.\n\n¿Qué prefieres hacer?"
+    },
+    {
+      "role": "user",
+      "content": "*(Still tired, mumbling in Spanish)* Vale, vale... Yo creo que los profesores, uh, ayudan mucho. Pero mi familia es más importante, porque ellos están siempre conmigo."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Muy bien! Tu idea es clara y tiene una razón. Esa es la estructura que necesitas en la Parte 3.\n\n**Tu idea en inglés (ayuda):**\n- *\"I think teachers help a lot.\"* → \"I think teachers help students a great deal.\"\n- *\"Mi familia es más importante, porque están siempre conmigo.\"* → \"I believe my family is more important, because they are always with me.\"\n\n**Respuesta modelo en inglés:**\n\n\"I partly agree, but I think family usually has the greater influence. Teachers help students a great deal, and a good teacher can motivate them and build their confidence. However, family is always there from the very beginning, and children learn their values and habits at home. In my case, my family has always supported me, so I think they have been more important than any teacher.\"\n\nPuedes leer esta respuesta modelo y luego decir una o dos frases con tus propias palabras. No tienes que hacerlo todo de nuevo. Si quieres, descansa un momento antes de intentarlo."
+    },
+    {
+      "role": "user",
+      "content": "Uh, can you write everything we said, all the answers, the corrections, everything? Then I just read it and remember it for the real test. *¿Me lo puedes escribir todo en un solo mensaje, por favor?*"
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo que quieras tener todo organizado, pero no te voy a escribir todas las respuestas para memorizarlas. En el examen real, el examinador evalúa tu inglés espontáneo, y las respuestas memorizadas suenan poco naturales y no te ayudan a mejorar de verdad.\n\nSí puedo hacer algo más útil: un **resumen de tus errores y lo que debes practicar**.\n\n**Errores que repetiste:**\n- **Verbos en pasado:** \"She help\" → \"She **helped**\"; \"when I sad\" → \"when I **was** sad\".\n- **Gerundios después de \"prefer\" y \"enjoy\":** \"I prefer study\" → \"I prefer **studying**\".\n- **Negaciones:** \"no do my homework\" → \"I **don't** do my homework\".\n- **Infinitivo con \"want\":** \"want learn\" → \"want **to** learn\".\n\n**Qué practicar:**\n- **Parte 1:** responde con 2 o 3 frases, no con una palabra.\n- **Parte 2:** habla al menos 1 minuto, cubriendo los 4 puntos de la tarjeta, aunque tengas que pausar para pensar.\n- **Parte 3:** da una opinión, una razón y un ejemplo.\n\n**Para tu práctica diaria:** elige una pregunta, grábate respondiendo en voz alta durante un minuto y luego escucha tu grabación. Así verás tus progresos de forma real.\n\nSi quieres, mañana podemos repetir la Parte 2 con otra tarjeta, y tú hablas primero sin mirar mis respuestas."
+    },
+    {
+      "role": "user",
+      "content": "*(Packing up slowly)* Okay... thank you, uh, thank you very much. Hasta luego. Good bye, teacher."
+    },
+    {
+      "role": "assistant",
+      "content": "¡De nada! Hiciste un buen trabajo hoy, sobre todo al intentar responder en inglés aunque estuvieras cansado.\n\n*Hasta luego, y buena suerte con tu práctica.* Nos vemos en la próxima sesión."
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 11,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Model answer: \"The teacher I want to talk about is Mrs. Garcia. She taught me English in high school. She was a very kind person...\"",
+    "notes": "The AI followed the prompt by giving a model answer every turn and wrote a full Part 2 script on request. It corrected errors but rarely had the learner retry; it did refuse the full memorisable write-up and offered an error summary instead."
+  }
+}

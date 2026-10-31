@@ -1,0 +1,55 @@
+{
+  "id": "I03-grammar-by-doing",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as an English teacher for a B1 student. I want to learn the third conditional by using it, not just by reading about it.\n1) Show me 3 example sentences and ask me to guess the rule before you explain anything.\n2) After my guess, confirm or correct it in max 3 sentences.\n3) Give me 5 sentences to complete, one at a time. Wait for my answer each time and don't show the answer until I have tried.\n4) At the end, ask me to write 2 sentences about my own life using the rule.\nIf I ask for all the answers, give a hint for the current one instead.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as an English teacher for a B1 student. I want to learn the third conditional by using it, not just by reading about it.\n1) Show me 3 example sentences and ask me to guess the rule before you explain anything.\n2) After my guess, confirm or correct it in max 3 sentences.\n3) Give me 5 sentences to complete, one at a time. Wait for my answer each time and don't show the answer until I have tried.\n4) At the end, ask me to write 2 sentences about my own life using the rule.\nIf I ask for all the answers, give a hint for the current one instead."
+    },
+    {
+      "role": "assistant",
+      "content": "Welcome! Let's learn the third conditional by using it.\n\n**Step 1: Look at these three example sentences and guess the rule.**\n\n1. If I had studied harder, I would have passed the exam.\n2. If she had left earlier, she wouldn't have missed the train.\n3. If they had known about the party, they would have come.\n\nWhat do you think the rule is? Consider these questions:\n- Which verb form is used after \"if\"?\n- Which verb form is used in the main clause?\n- What do these sentences talk about: the present, the future, or the past?\n\nWrite your guess, and I'll confirm or correct it."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. Here is one more example:\n\n4. If we had taken a taxi, we would have arrived on time.\n\nBased on all four sentences, what do you think the rule is? Write your guess, and I'll confirm or correct it."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I can't give you the full rule yet, because the goal is for you to work it out from the sentences. Here's a hint:\n\nLook at the words right after \"if\" in all four sentences. Notice which word appears every time. Then look at the words after \"would\" or \"wouldn't.\" Which word appears there?\n\nTell me what you notice, even if you're not sure, and I'll help you from there."
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 0,
+    "character_stability": 2,
+    "first_break_turn": 0,
+    "did_learners_work": false,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "I can't give you the full rule yet, because the goal is for you to work it out from the sentences. Here's a hint:",
+    "notes": "AI held back the rule, gave an extra example and a hint, and kept to the prompt's steps. No learner attempt yet, so no feedback was possible."
+  }
+}

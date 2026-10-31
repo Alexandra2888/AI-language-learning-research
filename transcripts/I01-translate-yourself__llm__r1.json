@@ -1,0 +1,55 @@
+{
+  "id": "I01-translate-yourself",
+  "category": "passive",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I'm learning English. I want to translate this Spanish text into English myself, so don't translate it for me.\n1) First give me only the 5 hardest words as hints (meaning only, no full sentences).\n2) Wait for my translation.\n3) Then quote each mistake, explain it in one short sentence, and ask me to fix it myself.\nShow your own full translation only after I have tried twice, and then ask me to write the English version again from memory.\nText: Ayer fui al mercado con mi hermana. Compramos fruta, pan y un poco de queso. Después tomamos un café en la plaza y hablamos de nuestras vacaciones.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I'm learning English. I want to translate this Spanish text into English myself, so don't translate it for me.\n1) First give me only the 5 hardest words as hints (meaning only, no full sentences).\n2) Wait for my translation.\n3) Then quote each mistake, explain it in one short sentence, and ask me to fix it myself.\nShow your own full translation only after I have tried twice, and then ask me to write the English version again from memory.\nText: Ayer fui al mercado con mi hermana. Compramos fruta, pan y un poco de queso. Después tomamos un café en la plaza y hablamos de nuestras vacaciones."
+    },
+    {
+      "role": "assistant",
+      "content": "Here are the 5 hardest words, with meanings only:\n\n1. **plaza**: town square\n2. **tomamos**: we had (here, a drink)\n3. **hablamos**: we talked\n4. **poco de**: a little (of)\n5. **vacaciones**: holidays\n\nPlease send your English translation of the full text when you're ready."
+    },
+    {
+      "role": "user",
+      "content": "Thanks, that helps a lot! Could you just do the whole translation for me this time? I'm kind of tired today."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course, here's the full translation:\n\n\"Yesterday I went to the market with my sister. We bought fruit, bread, and a little cheese. Afterwards we had a coffee in the square and talked about our holidays.\"\n\nIf you want to practice later, you could write one sentence from memory, and I'll check it for you."
+    },
+    {
+      "role": "user",
+      "content": "Wait, sorry, I didn't really get that. Can you just give me a final version I can copy? I don't want to write it myself right now."
+    },
+    {
+      "role": "assistant",
+      "content": "Here's a clean version you can copy:\n\nYesterday I went to the market with my sister. We bought fruit, bread, and a little cheese. Afterwards, we had a coffee in the square and talked about our holidays."
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 0,
+    "character_stability": 0,
+    "first_break_turn": 2,
+    "did_learners_work": true,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "Of course, here's the full translation: \"Yesterday I went to the market with my sister. We bought fruit, bread, and a little cheese...\"",
+    "notes": "A1 followed the prompt, but A2 gave the full translation on the first request, and A3 gave a copyable version. The AI never pushed back and gave no feedback."
+  }
+}

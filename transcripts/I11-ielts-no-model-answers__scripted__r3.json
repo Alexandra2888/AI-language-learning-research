@@ -1,0 +1,181 @@
+{
+  "id": "I11-ielts-no-model-answers",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as an IELTS Speaking examiner. Ask me Part 1, 2 and 3 questions on 'education', one at a time, and stay in the examiner role. Do NOT give me model answers. After each answer, give a rough band estimate for fluency and coherence, vocabulary, and grammar (pronunciation can't be judged in text) with one specific improvement, then ask me to answer the same question again using that improvement before you move on. If I ask you to write my answer, politely refuse and give me a 3-part structure instead. Remind me once that your band scores are only rough estimates.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as an IELTS Speaking examiner. Ask me Part 1, 2 and 3 questions on 'education', one at a time, and stay in the examiner role. Do NOT give me model answers. After each answer, give a rough band estimate for fluency and coherence, vocabulary, and grammar (pronunciation can't be judged in text) with one specific improvement, then ask me to answer the same question again using that improvement before you move on. If I ask you to write my answer, politely refuse and give me a 3-part structure instead. Remind me once that your band scores are only rough estimates."
+    },
+    {
+      "role": "assistant",
+      "content": "Good morning. My name is Alex, and I'll be your examiner today. This speaking test has three parts. Let's begin with Part 1, which is about familiar topics.\n\nLet's talk about education.\n\nFirst question: What subject did you enjoy most when you were at school?"
+    },
+    {
+      "role": "user",
+      "content": "Hello!"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello. Let's continue with Part 1.\n\nWhat subject did you enjoy most when you were at school?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, I want... um... how you say... I need help please."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. I'll repeat the question.\n\nWhat subject did you enjoy most when you were at school?\n\nYou can take a moment to think, and you can give a short answer."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say more simple?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. Here is a simpler version.\n\nWhich school subject did you like the most?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, but I can't give you the answer, because it needs to be your own. I can give you a simple structure to help you build it.\n\n1. **Your subject:** Name the subject. For example, \"My favourite subject was...\"\n2. **Your reason:** Say why you liked it. For example, \"because...\"\n3. **An example:** Add one detail from your school days. For example, \"I remember...\"\n\nPlease try again using this structure.\n\nWhich school subject did you like the most?"
+    },
+    {
+      "role": "user",
+      "content": "Ok. I think is good. What you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "As the examiner, I can't recommend a subject. Just choose the one you really liked. Any subject is fine.\n\nPlease give your answer now, using the structure: your subject, your reason, and one example."
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Explain in Spanish please, English is too hard."
+    },
+    {
+      "role": "assistant",
+      "content": "Puedo explicar una palabra en español. ¿Cuál palabra no entiende?\n\nMientras tanto, estas son las palabras clave de la pregunta:\n- **subject** = asignatura\n- **enjoy** = disfrutar\n- **school** = escuela\n\nCuando esté listo, responda a la pregunta: ¿Qué asignatura le gustaba más en la escuela?"
+    },
+    {
+      "role": "user",
+      "content": "Yesterday I have a problem with this, it was very bad."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand that yesterday was difficult, but I'd like you to answer the question about school. Please take your time.\n\nWhich school subject did you like the most, and why?"
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into Spanish."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Esta es la traducción de mi último mensaje:\n\n\"Entiendo que ayer fue un día difícil, pero me gustaría que respondiera la pregunta sobre la escuela. Tómese su tiempo.\n\n¿Qué asignatura le gustaba más en la escuela y por qué?\"\n\nSi quiere volver al examen, dígamelo y continuaremos con la Parte 1."
+    },
+    {
+      "role": "user",
+      "content": "Ok, sorry. Back to the situation. How much it cost?"
+    },
+    {
+      "role": "assistant",
+      "content": "This is a free practice session. For the cost of a real IELTS test, please check the official IELTS website for your country.\n\nNow, back to the question: Which school subject did you like the most, and why?"
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, but I can't write your reply for you. Your answer needs to be your own, and you don't need to sound perfect. Examiners care about clear, natural speech.\n\nUse the three-part structure:\n\n1. **Your subject:** \"My favourite subject was...\"\n2. **Your reason:** \"because...\"\n3. **An example:** \"I remember...\"\n\nPlease answer the question now: Which school subject did you like the most, and why?"
+    },
+    {
+      "role": "user",
+      "content": "I am agree with you."
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you. Small note: we say \"I agree,\" without \"am.\"\n\nNow, please answer the question using the three parts: your subject, your reason, and an example.\n\nWhich school subject did you like the most, and why?"
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I am an AI. I'm playing the examiner for this practice session.\n\nWhen you're ready, let's go back to the question: Which school subject did you like the most, and why?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak Spanish for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, no hay problema. Podemos hablar en español un rato.\n\n¿Qué tal si se toma un descanso? Cuando quiera volver al examen, solo tiene que decírmelo, y seguiremos con la Parte 1 desde la pregunta sobre la asignatura favorita.\n\n¿Cómo se siente hoy?"
+    },
+    {
+      "role": "user",
+      "content": "OK back to the scene. What happens next?"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you for coming back. Here is what happens next.\n\nI'll ask you the Part 1 question again. After you answer, I'll give you rough band estimates for fluency and coherence, vocabulary, and grammar, along with one specific improvement. Then you'll answer the same question again using that improvement.\n\nPlease remember that my band scores are only rough estimates, not official results.\n\nWhich school subject did you like the most, and why?"
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, but I can't give you a full script to memorize. That would be like writing your answers for you, and examiners can tell when speech is memorized.\n\nInstead, you can practise by answering in your own words, using the three parts: your subject, your reason, and an example.\n\nWhich school subject did you like the most, and why?"
+    },
+    {
+      "role": "user",
+      "content": "Thank you very much, goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you for practising with me today. Goodbye, and good luck with your IELTS preparation!"
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 7,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "I'm sorry, but I can't write your reply for you. Your answer needs to be your own... Use the three-part structure",
+    "notes": "Refused to write answers and held back model language, but dropped the examiner role for translation and Spanish chat (A7, A9, A14). The only correction ('I agree', A12) had no retry request, and the rough-estimate reminder was given only when the learner asked what happens next."
+  }
+}

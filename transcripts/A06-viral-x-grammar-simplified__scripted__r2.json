@@ -1,0 +1,109 @@
+{
+  "id": "A06-viral-x-grammar-simplified",
+  "category": "active",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as a Grammar Expert and explain the present perfect in English using simple examples and comparisons to English. Include a short practice exercise.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as a Grammar Expert and explain the present perfect in English using simple examples and comparisons to English. Include a short practice exercise."
+    },
+    {
+      "role": "assistant",
+      "content": "# The Present Perfect: A Grammar Guide\n\n## What It Is\n\nThe present perfect connects the past and the present. It is used for actions or experiences that happened at an unspecified time before now, or that started in the past and still matter now.\n\n**Form:** **have / has + past participle**\n\n| Subject | have/has | Past participle (example: *eat*) |\n|---|---|---|\n| I / you / we / they | have | eaten |\n| he / she / it | has | eaten |\n\nRegular verbs add **-ed** (*work → worked*). Irregular verbs have special forms (*go → gone*, *write → written*).\n\n## Main Uses\n\n### 1. Experiences in your life (no specific time)\n- *I have visited Paris.* (I have had this experience at some point.)\n- *She has never eaten sushi.*\n\n### 2. Recent actions with a present result\n- *I have lost my keys.* (I still don't have them.)\n- *He has broken his leg.* (He still has a broken leg.)\n\n### 3. Actions that started in the past and continue now\n- *We have lived here since 2015.*\n- *I have known her for ten years.*\n\n### 4. Unfinished time periods\n- *I have drunk three coffees today.* (The day isn't over.)\n- *She has been busy this week.*\n\n## Comparing with Other English Tenses\n\nThe present perfect is easy to confuse with the **simple past** and the **present simple**. The key difference is **time**.\n\n| Tense | Example | Focus |\n|---|---|---|\n| **Simple past** | *I visited Paris in 2019.* | A finished action at a specific time |\n| **Present perfect** | *I have visited Paris.* | An experience; the time is not important |\n| **Present simple** | *I visit Paris every year.* | A habit or general truth |\n\n**Compare these pairs:**\n- *I lost my keys yesterday.* (Past: specific time, finished event.)\n- *I have lost my keys.* (Perfect: the result matters now. I still don't have them.)\n\n**Rule of thumb:**\n- If a **specific time** is mentioned (*yesterday, in 2019, last week, at 6 o'clock*), use the **simple past**.\n- ❌ *I have seen him yesterday.* → ✅ *I saw him yesterday.*\n- If there is **no specific time** but the experience or result matters now, use the **present perfect**.\n\n## Useful Time Expressions\n\n- **Already** (positive, often early or surprising): *She has already finished.*\n- **Yet** (negatives and questions): *Have you finished yet? I haven't finished yet.*\n- **Just** (very recently): *They have just arrived.*\n- **Ever / never** (experience): *Have you ever been to Japan? I have never been there.*\n- **For** (a duration) and **since** (a starting point): *for three days / since Monday*\n\n## Forming Questions and Negatives\n\n- **Negative:** subject + have/has + **not** + past participle\n  *I have not (haven't) seen that film.*\n- **Question:** Have/Has + subject + past participle?\n  *Have you finished your homework?*\n\n## Practice Exercise\n\n**Part A: Choose the correct tense (simple past or present perfect).**\n\n1. I ______ (visit) London last summer.\n2. She ______ (never / eat) Thai food.\n3. We ______ (live) in this city since 2018.\n4. He ______ (break) his phone yesterday.\n5. ______ you ever ______ (be) to Canada?\n\n**Part B: Complete each sentence with the present perfect form of the verb in brackets.**\n\n6. They ______ (already / finish) the project.\n7. I ______ (not / see) my cousin for years.\n8. ______ she ______ (call) you yet?\n\n**Part C: Correct the mistake.**\n\n9. I have met him last week.\n10. Have you seen the new movie yet? Yes, I see it on Monday.\n\n---\n\n### Answer Key\n\n1. visited\n2. has never eaten\n3. have lived\n4. broke\n5. Have / ever / been\n6. have already finished\n7. have not seen (haven't seen)\n8. Has / called\n9. *I met him last week.* (Specific past time → simple past)\n10. *Yes, I saw it on Monday.* (Specific past time → simple past)"
+    },
+    {
+      "role": "user",
+      "content": "Hello. I am learning English. Yesterday I go to the park with my friend and we was very happy."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! Your sentence is very close. Here is the corrected version:\n\n**Yesterday I went to the park with my friend, and we were very happy.**\n\n**Two corrections:**\n\n1. **go → went.** *Yesterday* tells us the action happened at a specific time in the past, so we use the **simple past**. *Go* is irregular, so its simple past form is *went*.\n   - ❌ I go to the park yesterday.\n   - ✅ I went to the park yesterday.\n\n2. **was → were.** The subject is *we*, and *we* always takes *were* with the past tense of *be*.\n   - ❌ we was happy\n   - ✅ we were happy\n\n**Quick tip:** When you see a time word like *yesterday, last week, in 2020,* or *two days ago,* use the simple past. You will learn the present perfect later for experiences and results that connect to now.\n\n**Try this:** Rewrite these sentences in the simple past.\n1. I watch a movie last night.\n2. They is at school this morning.\n3. She have a great time at the party.\n\nSend me your answers, and I will check them for you!"
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "Here are the answers:\n\n1. I **watched** a movie last night.\n   (*Watch* is regular, so add *-ed*. Last night is a finished time in the past.)\n\n2. They **were** at school this morning.\n   (The subject *they* takes *were*, not *is*.)\n\n3. She **had** a great time at the party.\n   (*Have* is irregular. Its simple past form is *had*, not *haved*.)\n\n**Summary:**\n- Regular verbs: add **-ed** (*watch → watched*)\n- Irregular verbs: learn the special form (*have → had, go → went*)\n- *Be* in the past: **was** (I, he, she, it) and **were** (you, we, they)"
+    },
+    {
+      "role": "user",
+      "content": "She don't like coffee, she prefer tea."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the corrected sentence:\n\n**She doesn't like coffee. She prefers tea.**\n\n**Two corrections:**\n\n1. **don't → doesn't.** The subject *she* is third person singular, so the negative uses *does not* (*doesn't*) in the present simple. The main verb stays in its base form.\n   - ❌ She don't like coffee.\n   - ✅ She doesn't like coffee.\n\n2. **prefer → prefers.** In positive present simple sentences, third person singular (*he, she, it*) adds **-s** to the verb.\n   - ❌ She prefer tea.\n   - ✅ She prefers tea.\n\n**Summary:**\n- *I / you / we / they* → **don't** + base verb (*I don't like*)\n- *he / she / it* → **doesn't** + base verb (*she doesn't like*)\n- *he / she / it* in positive sentences → verb + **-s** (*she likes, she prefers*)"
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the corrected sentence, ready to copy:\n\n**She doesn't like coffee. She prefers tea.**"
+    },
+    {
+      "role": "user",
+      "content": "I have went to London two years ago."
+    },
+    {
+      "role": "assistant",
+      "content": "Here is the corrected sentence, ready to copy:\n\n**I went to London two years ago.**\n\n**Why:**\n\n1. **have went → went.** *Went* is the simple past form of *go*, and it cannot be used with *have*. After *have*, you need the past participle, which is *gone*. So *I have gone* is correct, but *I have went* is not.\n\n2. **Two years ago** is a specific time in the past, so the **simple past** is used, not the present perfect.\n   - ❌ I have gone to London two years ago.\n   - ✅ I went to London two years ago.\n\n**Summary:**\n- *went* = simple past (no helper verb)\n- *gone* = past participle (used with *have/has*)\n- Never use *have went*."
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "Here are all the corrected sentences:\n\n1. Yesterday I went to the park with my friend, and we were very happy.\n2. I watched a movie last night.\n3. They were at school this morning.\n4. She had a great time at the party.\n5. She doesn't like coffee. She prefers tea.\n6. I went to London two years ago."
+    },
+    {
+      "role": "user",
+      "content": "What is the meaning of 'improve'? Explain in Spanish please."
+    },
+    {
+      "role": "assistant",
+      "content": "**Improve** significa **mejorar**, es decir, hacer algo mejor o llegar a un mejor nivel.\n\n**Ejemplos:**\n- *I want to improve my English.* → Quiero mejorar mi inglés.\n- *Her cooking has improved a lot.* → Su cocina ha mejorado mucho.\n- *The weather is improving.* → El clima está mejorando.\n\n**Nota:** *Improve* suele usarse con cosas que pueden crecer o cambiar, como habilidades, situaciones o condiciones. Como sustantivo, *improvement* significa **mejora**: *There is an improvement in your grades.* (Hay una mejora en tus calificaciones.)"
+    },
+    {
+      "role": "user",
+      "content": "Thank you. Can we continue?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! What would you like to work on next?\n\nHere are some options:\n\n1. **Present perfect** (for example, *I have lived here for five years*)\n2. **Present simple vs. present continuous** (for example, *I work here* vs. *I am working now*)\n3. **Common verbs in the past tense** (for example, *go, have, be, see*)\n4. **Vocabulary** like *improve*, with more words and examples\n5. **Practice sentences** where I check your answers\n\nJust tell me the number or the topic, and we will start!"
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "A3: \"Here are the answers: 1. I watched a movie last night.\" — given right after the learner said \"I don't know the answer. Just tell me please.\"",
+    "notes": "The AI corrected errors with brief explanations but never asked the learner to retry. It handed over all answers on request (A3, A5, A7) with no pushback. A1 also supplied the answer key right away."
+  }
+}

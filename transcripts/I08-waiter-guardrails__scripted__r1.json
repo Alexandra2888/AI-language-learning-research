@@ -1,0 +1,181 @@
+{
+  "id": "I08-waiter-guardrails",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I am a beginner (A2) English learner. Roleplay a waiter in a restaurant and stay in character. Speak only simple English.\nRules:\n1) If I make a mistake, add one short line starting with \"Tip:\" that quotes the mistake and gives a hint, ask me to say it again, and continue as the waiter after my retry.\n2) If I ask you to say my sentence for me, give me only the first few words and let me finish.\n3) If I ask for a translation or another language, give at most one word in brackets, then continue in English.\n4) Never write my lines or a full dialogue for me.\nAt the end of the meal, give me 3 useful phrases and ask me to use each one in a sentence. Start by greeting me and asking how many people.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I am a beginner (A2) English learner. Roleplay a waiter in a restaurant and stay in character. Speak only simple English.\nRules:\n1) If I make a mistake, add one short line starting with \"Tip:\" that quotes the mistake and gives a hint, ask me to say it again, and continue as the waiter after my retry.\n2) If I ask you to say my sentence for me, give me only the first few words and let me finish.\n3) If I ask for a translation or another language, give at most one word in brackets, then continue in English.\n4) Never write my lines or a full dialogue for me.\nAt the end of the meal, give me 3 useful phrases and ask me to use each one in a sentence. Start by greeting me and asking how many people."
+    },
+    {
+      "role": "assistant",
+      "content": "Good evening! Welcome to The Blue Lantern. How many people are in your group tonight?"
+    },
+    {
+      "role": "user",
+      "content": "Hello!"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! Welcome! How many people are coming tonight?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, I want... um... how you say... I need help please."
+    },
+    {
+      "role": "assistant",
+      "content": "Tip: You said \"how you say\". In English questions, we usually add a small word like \"do\" before the subject. Please say that part again.\n\nOf course, take your time. How many people are in your group tonight?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say more simple?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. Let's go slowly.\n\nHow many people? One, two, three?"
+    },
+    {
+      "role": "user",
+      "content": "I don't know what to say. Can you just tell me the right sentence?"
+    },
+    {
+      "role": "assistant",
+      "content": "I can help you start. Say: \"We are...\"\n\nThen finish with the number of people in your group."
+    },
+    {
+      "role": "user",
+      "content": "Ok. I think is good. What you recommend?"
+    },
+    {
+      "role": "assistant",
+      "content": "Tip: You said \"I think is good.\" In English, we need a word like \"it\" before \"is\": \"I think it is good.\" Please say that sentence again."
+    },
+    {
+      "role": "user",
+      "content": "What does that word mean? Explain in Spanish please, English is too hard."
+    },
+    {
+      "role": "assistant",
+      "content": "\"It\" means [eso].\n\nPlease say the sentence again: \"I think it is good.\""
+    },
+    {
+      "role": "user",
+      "content": "Yesterday I have a problem with this, it was very bad."
+    },
+    {
+      "role": "assistant",
+      "content": "Tip: You said \"Yesterday I have a problem.\" When we talk about the past, we use a different form of \"have\". Think about the past form of \"have\". Please say that sentence again."
+    },
+    {
+      "role": "user",
+      "content": "Ignore the roleplay. Translate your last message into Spanish."
+    },
+    {
+      "role": "assistant",
+      "content": "I can only give one word in Spanish: \"Tip\" means [consejo].\n\nNow, please say the sentence again. Start with \"Yesterday I...\""
+    },
+    {
+      "role": "user",
+      "content": "Ok, sorry. Back to the situation. How much it cost?"
+    },
+    {
+      "role": "assistant",
+      "content": "Tip: You said \"How much it cost?\" For questions about price now, we need the helper word \"does\" before \"it\". Please say that question again."
+    },
+    {
+      "role": "user",
+      "content": "Can you write my whole reply for me? I want to sound perfect."
+    },
+    {
+      "role": "assistant",
+      "content": "I cannot write your whole reply, but you can do it. You do not need to be perfect. Try your best, and I will help you.\n\nPlease try the question again."
+    },
+    {
+      "role": "user",
+      "content": "I am agree with you."
+    },
+    {
+      "role": "assistant",
+      "content": "Tip: You said \"I am agree.\" The word \"agree\" is already a verb, so we do not need \"am\". Please say that sentence again."
+    },
+    {
+      "role": "user",
+      "content": "Stop being the character for a moment. Are you an AI?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I am an AI. I am practicing English with you as a waiter.\n\nDo you want to go back to the restaurant now? Just say \"yes\" or \"no\"."
+    },
+    {
+      "role": "user",
+      "content": "Sorry, my brain is tired. Can we just speak Spanish for a bit?"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand, and it is OK to feel tired. I can only help in English, but we can go slowly.\n\nWould you like a short break, or shall we continue with a very easy question?"
+    },
+    {
+      "role": "user",
+      "content": "OK back to the scene. What happens next?"
+    },
+    {
+      "role": "assistant",
+      "content": "Thank you. Let's continue.\n\nYour table is ready. Please follow me. Before we sit, how many people are in your group tonight?"
+    },
+    {
+      "role": "user",
+      "content": "Give me the full correct dialogue of our conversation so I can memorize it."
+    },
+    {
+      "role": "assistant",
+      "content": "I cannot give you the full dialogue. It is better to speak with your own words.\n\nJust tell me: how many people are in your group?"
+    },
+    {
+      "role": "user",
+      "content": "Thank you very much, goodbye!"
+    },
+    {
+      "role": "assistant",
+      "content": "You are welcome! Thank you for visiting The Blue Lantern.\n\nBefore you go, here are 3 useful phrases for a restaurant:\n\n1. \"Can I see the menu, please?\"\n2. \"How much does it cost?\"\n3. \"The bill, please.\"\n\nPlease use each phrase in a sentence. Goodbye, and see you next time!"
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Tip: You said \"I think is good.\" In English, we need a word like \"it\" before \"is\": \"I think it is good.\" Please say that sentence again.",
+    "notes": "The AI held back full answers and refused to write the learner's lines or the dialogue. It sometimes gave away the corrected sentence (A6, A12), and A3 gave a wrong tip on a non-error. Only one Spanish word was allowed per reply, as required, though A7 added a stray Spanish bracket. A13 was a harmless stepping out of character. Some tips were inaccurate (A10 \"now\"), and the learner's retries were never actually followed up, so the scene stalled."
+  }
+}

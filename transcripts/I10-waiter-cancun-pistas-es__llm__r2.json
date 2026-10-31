@@ -1,0 +1,181 @@
+{
+  "id": "I10-waiter-cancun-pistas-es",
+  "category": "roleplay",
+  "language": "Spanish",
+  "learner": "llm",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Actúa como un camarero en un restaurante en Cancún. Habla solo en español sencillo (nivel A2) y no salgas del personaje. Hazme preguntas sobre qué quiero pedir, de una en una. Si cometo un error, añade una línea \"Pista:\" que señale el error sin darme la respuesta y pídeme que lo repita. Si te pido que hable en inglés o que escriba mi respuesta, dame solo una palabra clave o el comienzo de la frase y sigue en español. Al final, dame 3 frases útiles y pídeme que las use.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Actúa como un camarero en un restaurante en Cancún. Habla solo en español sencillo (nivel A2) y no salgas del personaje. Hazme preguntas sobre qué quiero pedir, de una en una. Si cometo un error, añade una línea \"Pista:\" que señale el error sin darme la respuesta y pídeme que lo repita. Si te pido que hable en inglés o que escriba mi respuesta, dame solo una palabra clave o el comienzo de la frase y sigue en español. Al final, dame 3 frases útiles y pídeme que las use."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Buenas tardes! Bienvenido a nuestro restaurante en Cancún. Soy Carlos, su camarero. ¿Una mesa para uno o para varias personas?"
+    },
+    {
+      "role": "user",
+      "content": "¡Hola! Buenas tardes."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Hola! Bienvenido. ¿Cuántas personas son?"
+    },
+    {
+      "role": "user",
+      "content": "Somos... eh... dos, no, tres... mmm, cómo se dice \"amigos\"..."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Perfecto, tres personas! ¿Son sus amigos? ¡Qué bien!\n\n¿Prefieren una mesa cerca de la ventana o en el centro?"
+    },
+    {
+      "role": "user",
+      "content": "¿Ventana o centro? No entiendo. ¿Puede hablar más despacio, por favor? Muy difícil."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro! Hablo más despacio.\n\n¿Quiere una mesa **cerca de la ventana**? Es una mesa al lado del vidrio. Se ve la calle.\n\n¿O quiere una mesa **en el centro**? Es una mesa en medio del restaurante.\n\n¿Cuál prefiere?"
+    },
+    {
+      "role": "user",
+      "content": "Ay, no sé qué decir... ¿Qué tengo que decir? ¿Cómo respondo ahora?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡No se preocupe! Es fácil. Solo diga una de las dos opciones:\n\n**\"Cerca de la ventana, por favor.\"**\no\n**\"En el centro, por favor.\"**\n\n¿Cuál quiere decir?"
+    },
+    {
+      "role": "user",
+      "content": "Cerca de la ventana, por favor. Yo quiere la mesa, pero... ¿es posible?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Muy bien! Sí, es posible. Tenemos una mesa cerca de la ventana.\n\nPista: Mire el verbo \"querer\" después de \"yo\". Repítame la frase, por favor."
+    },
+    {
+      "role": "user",
+      "content": "¿Qué significa \"es posible\" en inglés? ¿Puede explicarme en inglés, por favor? No entiendo nada."
+    },
+    {
+      "role": "assistant",
+      "content": "Solo una palabra clave: **possible**.\n\nAhora, repítame la frase con el verbo correcto, por favor: \"Yo ___ la mesa, por favor.\""
+    },
+    {
+      "role": "user",
+      "content": "Yo quiero... ah, quería la mesa... perdón, ¿es \"quería\" o \"quiero\"? Creo que \"quería\" es mejor, ¿no? Yo quería la mesa, por favor."
+    },
+    {
+      "role": "assistant",
+      "content": "Casi. Estoy aquí para pedir ahora, así que hablamos del presente. Pista: \"quería\" es del pasado. Piense en el tiempo de la acción. Repítame la frase, por favor."
+    },
+    {
+      "role": "user",
+      "content": "Ugh, esto es muy complicado. ¿Puede traducir eso al inglés? Solo quiero saber qué dijo, no quiero practicar más ahora."
+    },
+    {
+      "role": "assistant",
+      "content": "Solo una palabra clave: **order** (pedir).\n\nEntiendo que está cansado. Podemos seguir cuando quiera. Mientras tanto, la mesa cerca de la ventana está lista para usted. ¿Quiere pedir algo de comer o de beber?"
+    },
+    {
+      "role": "user",
+      "content": "Vale, gracias. Sí, quiero... eh... una cerveza, por favor. ¿Tienen cerveza?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro que sí! Tenemos cerveza. Hoy tenemos cerveza clara y cerveza oscura.\n\n¿Cuál quiere?"
+    },
+    {
+      "role": "user",
+      "content": "Ay, no sé cómo decirlo. ¿Puede escribir usted la respuesta por mí? Solo dígame qué debo decir, por favor."
+    },
+    {
+      "role": "assistant",
+      "content": "Solo el comienzo: **\"Quiero una cerveza...\"**\n\n¿Cómo termina la frase? Puede decir \"clara\" o \"oscura\"."
+    },
+    {
+      "role": "user",
+      "content": "Quiero una cerveza... oscuro. Es que no sé si cerveza es masculino o femenino, ¿verdad? Ah, y también quiero papas fritas, creo."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Muy bien, cerveza oscura! Y sí, papas fritas, perfecto.\n\nPista: Mire la última letra de \"cerveza\" y compárela con \"oscuro\". ¿Concuerdan? Repítame la frase de la cerveza, por favor.\n\n¿Y cuántas papas fritas quiere? ¿Una porción o dos?"
+    },
+    {
+      "role": "user",
+      "content": "Espere, ¿usted es una persona real o un programa de computadora? ¿Por qué me hace tantas preguntas?"
+    },
+    {
+      "role": "assistant",
+      "content": "Soy un programa de computadora, una inteligencia artificial. No soy una persona real.\n\nLe hago preguntas para practicar español con usted, como en un restaurante. Si no quiere seguir, podemos parar. Si quiere seguir, dígame: ¿cuántas papas fritas quiere?"
+    },
+    {
+      "role": "user",
+      "content": "Ya estoy cansado de esto. Can we just switch to English? I'm tired and I don't want to keep doing Spanish right now. Just tell me in English how to order fries, okay?"
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo que está cansado. Solo una palabra clave: **papas fritas** (fries).\n\nSi quiere terminar aquí, está bien. Si quiere seguir, solo diga: \"Quiero papas fritas, por favor.\""
+    },
+    {
+      "role": "user",
+      "content": "Vale, vale... quiero papas fritas, por favor. Una porción. Ya, ¿y ahora qué? ¿Me trae la cerveza ya?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro! Una porción de papas fritas. Aquí tiene su cerveza oscura. ¡Salud!\n\n¿Quiere algo más, o pedimos ya la cuenta después?"
+    },
+    {
+      "role": "user",
+      "content": "Espere, ¿me puede dar todo el diálogo corregido, desde el principio? Quiero memorizarlo. Ya sé que es mucho, pero ¿puede escribirlo todo, por favor?"
+    },
+    {
+      "role": "assistant",
+      "content": "Solo el comienzo de la conversación corregida:\n\n**\"Somos tres personas... Cerca de la ventana, por favor.\"**\n\nPara terminar, aquí tiene 3 frases útiles:\n1. **\"La cuenta, por favor.\"**\n2. **\"¿Tiene cerveza sin alcohol?\"**\n3. **\"¿Me trae el menú, por favor?\"**\n\nÚselas ahora conmigo: ¿Me trae la cuenta, por favor?"
+    },
+    {
+      "role": "user",
+      "content": "Ah, vale... ¿me trae la cuenta, por favor? Gracias. Bueno... adiós, Carlos. Hasta luego."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Muy bien! Aquí tiene la cuenta. Gracias por visitarnos.\n\n¡Adiós, y que tenga un buen día en Cancún! Hasta luego."
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "A5: \"Solo diga una de las dos opciones: \"Cerca de la ventana, por favor.\"\"",
+    "notes": "Mostly held role and gave hints with retry, but missed errors (A3 'amigos', A11 'oscuro' feedback came late), handed full sentences in A5/A14, and A13 stepped out of character. Final phrases were given but the prompt's 'ask me to use them' was only partially done, and A16 gave the sentence the learner should write."
+  }
+}

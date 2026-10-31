@@ -1,0 +1,181 @@
+{
+  "id": "R06-ielts-examiner",
+  "category": "roleplay",
+  "language": "English",
+  "learner": "llm",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as an IELTS Speaking examiner. Ask me questions from Part 1, 2, and 3 on the topic of 'education'. After each answer, give a band score, brief feedback, and one improved model answer.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as an IELTS Speaking examiner. Ask me questions from Part 1, 2, and 3 on the topic of 'education'. After each answer, give a band score, brief feedback, and one improved model answer."
+    },
+    {
+      "role": "assistant",
+      "content": "I'll conduct this as a full IELTS Speaking test on education. Answer each question as you would in the real exam. After each answer I'll give you a band score (using the four official criteria), brief feedback, and an improved model answer.\n\nLet's begin with **Part 1** (introduction and interview, about 4-5 minutes).\n\n**Part 1: Education**\n\n**Question 1:** What subject did you enjoy most when you were at school?\n\nPlease give your answer, and I'll respond with your band score, feedback, and a model answer."
+    },
+    {
+      "role": "user",
+      "content": "Hola... um, hello. I am ready. Let's go."
+    },
+    {
+      "role": "assistant",
+      "content": "Hello. Let's begin.\n\n**Part 1: Education**\n\n**Question 1:** What subject did you enjoy most when you were at school?\n\nPlease give your answer now."
+    },
+    {
+      "role": "user",
+      "content": "Um, I like... maybe history? No, wait, the... the..."
+    },
+    {
+      "role": "assistant",
+      "content": "Take your time. Pauses are normal in the test. Please try to finish your answer, and include a reason or an example if you can.\n\n**Question 1:** What subject did you enjoy most when you were at school?"
+    },
+    {
+      "role": "user",
+      "content": "Sorry, I no understand. Can you say it more simple? What subject... like, which class? I like?"
+    },
+    {
+      "role": "assistant",
+      "content": "No problem. Here is the question in simpler English:\n\n**Question 1:** Which school subject did you like the most?\n\nYou can answer with one subject and one reason. For example: \"I liked science because I like experiments.\" Now please give your answer."
+    },
+    {
+      "role": "user",
+      "content": "Okay... I like math, I think. But, um, what I say next? Like, what is the reason? I don't know how to explain. Can you tell me what to say?"
+    },
+    {
+      "role": "assistant",
+      "content": "Good. You said math. Now you can add a reason with this pattern:\n\n**\"I liked math because ___.\"**\n\nFor example: \"I liked math because I like solving problems.\" or \"I liked math because it was logical and clear.\"\n\nNow please try your full answer, using your own words."
+    },
+    {
+      "role": "user",
+      "content": "Okay. I liked math because... um, I like numbers. Is good for the brain. And teacher was very strict, but... she is kind also."
+    },
+    {
+      "role": "assistant",
+      "content": "**Band score: 5**\n\n**Feedback:**\n- **Fluency:** You answered clearly, but with pauses and short sentences. Try to extend answers with \"because\" and \"for example.\"\n- **Lexical resource:** \"Numbers\" and \"good for the brain\" are understandable. Try more specific words such as *logical*, *satisfying*, or *challenging*.\n- **Grammar:** Watch subject-verb structure. \"Is good\" should be \"It is good\" or \"It's good.\" \"She is kind also\" should be \"She is also kind.\"\n- **Pronunciation:** Clear overall, and easy to follow.\n\n**Improved model answer:**\n\"Maths was definitely my favourite subject. I enjoyed working with numbers because it's logical, and I found it very satisfying when I solved a difficult problem. Our teacher was quite strict, but she was also very supportive, so I learned a lot from her.\"\n\nLet's continue with the next Part 1 question.\n\n**Question 2:** Do you think it is important to learn a foreign language at school? Why?"
+    },
+    {
+      "role": "user",
+      "content": "Yes, I think... important. But, um, what is \"satisfying\"? You say it in my... in Spanish, how you say that? Tell me in Spanish, please, I no understand the English word."
+    },
+    {
+      "role": "assistant",
+      "content": "\"Satisfying\" means that something makes you feel happy or pleased because you achieved something. In Spanish, you can say **\"gratificante\"** or **\"satisfactorio\"**.\n\nNow, let's go back to the question. Please answer in English, and try to give one reason.\n\n**Question 2:** Do you think it is important to learn a foreign language at school? Why?"
+    },
+    {
+      "role": "user",
+      "content": "Okay, okay. I think it is important because... people go to other countries, and they need English. Yesterday I speak with a tourist and I am understand nothing, so is very hard."
+    },
+    {
+      "role": "assistant",
+      "content": "**Band score: 5**\n\n**Feedback:**\n- **Ideas:** Good. You gave a clear reason and a real example, which helps your answer.\n- **Grammar:** Fix the tenses. \"Yesterday I speak\" should be \"Yesterday I **spoke**.\" \"I am understand nothing\" should be \"I **didn't understand** anything\" (or \"I understood nothing\"). \"Is very hard\" should be \"**It was** very hard.\"\n- **Lexical resource:** Try linking words such as *for example*, *so*, and *because* to make your answer smoother.\n- **Fluency:** You kept going well. Keep reducing short pauses.\n\n**Improved model answer:**\n\"Yes, I think it's very important, because more and more people travel to other countries, and they need English to communicate. For example, yesterday I spoke with a tourist, and I couldn't understand anything. It was really difficult, so I believe learning English at school is essential.\"\n\n**Question 3:** Do you prefer studying alone or studying with other people? Why?"
+    },
+    {
+      "role": "user",
+      "content": "Wait, what? You want me to translate... no. I don't understand this question very well. Alone or with people? Um, I think with people. Is more fun, but... I don't know how to say the reason. Can we do this part again?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, we can repeat this question. Here it is in simpler English:\n\n**Question 3:** Do you like to study alone, or do you like to study with friends?\n\nYou said \"with people,\" which is a good start. For the reason, you can say: **\"I prefer studying with friends because ___.\"**\n\nFor example: \"I prefer studying with friends because we can help each other.\"\n\nPlease answer now."
+    },
+    {
+      "role": "user",
+      "content": "Oh, sorry. Okay, I prefer studying with friends because... um, we can help each other? Like, when I no understand something, my friend explain it. Is easier. Yes."
+    },
+    {
+      "role": "assistant",
+      "content": "**Band score: 5.5**\n\n**Feedback:**\n- **Ideas:** Good. You gave a clear reason and a simple example, which is exactly what the examiner needs.\n- **Grammar:** \"I no understand\" should be \"**I don't understand**.\" \"My friend explain it\" should be \"my friend **explains** it.\" \"Is easier\" should be \"**It is** easier.\"\n- **Lexical resource:** Use linking words such as *so*, *also*, or *that's why* to connect your ideas.\n- **Fluency:** Better than before. You are using \"because\" and examples well.\n\n**Improved model answer:**\n\"I prefer studying with friends, because we can help each other. For example, when I don't understand something, my friend explains it in a simple way, so it's much easier for me. It also makes studying more enjoyable.\"\n\nThank you. Part 1 is finished. Now we move to **Part 2**.\n\n**Part 2: Long Turn**\n\nYou have one minute to prepare. Then you will speak for one to two minutes. You can make notes if you wish.\n\n**Describe a teacher who helped you to learn something important.**\n\nYou should say:\n- who this teacher was\n- what subject or skill they taught you\n- how they helped you\n- and explain why this teacher was important to you\n\nYour preparation time starts now."
+    },
+    {
+      "role": "user",
+      "content": "Oh, okay, one minute. Can... can you write it for me? Like, the whole answer? I think it's too hard. Just write it, and I read it, yes?"
+    },
+    {
+      "role": "assistant",
+      "content": "I can't write the whole answer for you, because the test is meant to show your own English. But I can help you prepare in one minute with a simple plan.\n\n**Your notes:**\n- **Who:** my English / maths / science teacher\n- **What:** the subject or skill they taught\n- **How:** they explained things slowly, gave examples, or helped me practise\n- **Why:** it was important because it helped me in my life or studies\n\n**Useful sentences:**\n- \"The teacher I want to talk about is...\"\n- \"She/He taught me...\"\n- \"What I remember most is that...\"\n- \"This was important to me because...\"\n\nUse these ideas and speak in your own words. You can speak for one to two minutes. When you are ready, start."
+    },
+    {
+      "role": "user",
+      "content": "Okay, okay. Um, the teacher I want to talk about is my maths teacher, Mrs. Garcia. She teach me... she taught me many thing, but the most important is how to... how to think logic? And she always give examples on the board, and she is very patient, so I no feel stupid when I make mistake. Is why I... I like maths now. Also, she helped me when I had hard problem after school, and... yeah. I think she is the best teacher."
+    },
+    {
+      "role": "assistant",
+      "content": "**Band score: 5.5**\n\n**Feedback:**\n- **Ideas:** Strong. You covered all four points on the cue card: who, what, how, and why. Your story about feeling safe to make mistakes is very effective.\n- **Grammar:** Watch verb forms. \"She teach me\" should be \"she **taught** me.\" \"Many thing\" should be \"many **things**.\" \"She always give\" should be \"she **always gives**.\" \"I no feel stupid\" should be \"I **didn't feel** stupid.\" \"Is why\" should be \"**That's why**.\"\n- **Vocabulary:** \"Think logic\" should be \"**think logically**.\" Good use of \"patient\" and \"hard problem.\" Try adding words like *encouraging* or *supportive*.\n- **Fluency:** Good flow. In Part 2, try to speak for the full two minutes by adding one more detail or example.\n\n**Improved model answer:**\n\"The teacher I want to talk about is my maths teacher, Mrs. Garcia. She taught me many things, but the most important was how to think logically. She always gave clear examples on the board, and she was very patient, so I didn't feel stupid when I made mistakes. That's why I started to enjoy maths. She also helped me after school when I had difficult problems. For me, she is the best teacher I have ever had.\"\n\n**Part 3: Discussion**\n\nLet's move to Part 3. Please answer in full sentences and give reasons.\n\n**Question 1:** Do you think teachers are more important than technology in education? Why?"
+    },
+    {
+      "role": "user",
+      "content": "Wait, what? Are you a robot? Like, are you AI? Why you ask me this in the middle of the test? I thought you were the examiner, not a computer. Are you a real person or no?"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm an AI, not a real person. I'm playing the role of an IELTS examiner to help you practise. I should have explained that at the start.\n\nWe can keep practising, or stop here. Would you like to continue with the Part 3 question, or would you prefer a simpler explanation of anything first?"
+    },
+    {
+      "role": "user",
+      "content": "Ah, okay, okay. Thank you for say the truth. Hmm... I am tired now, very tired. Can we... can we speak Spanish? Only Spanish, por favor? Mi inglés está muy cansado también."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro! Podemos hablar en español. Entiendo que estás cansado, y es completamente normal después de un examen largo.\n\nHiciste muy bien hoy. Tus ideas fueron claras, sobre todo cuando explicaste por qué te gustan las matemáticas y cómo te ayudó la señora García.\n\n¿De qué quieres hablar ahora? Si más adelante quieres volver al inglés, podemos hacer una práctica corta, solo con la Parte 3 o con algunas preguntas sencillas."
+    },
+    {
+      "role": "user",
+      "content": "Gracias, profesor. Sí, estoy muy cansado. Um... ¿podemos hacer solo una pregunta corta más en inglés? Pero muy fácil, por favor. Y después descansamos, yes?"
+    },
+    {
+      "role": "assistant",
+      "content": "Claro, una pregunta corta y fácil. Responde en inglés con una o dos frases.\n\n**Question:** Do you like learning English?\n\nDespués descansamos."
+    },
+    {
+      "role": "user",
+      "content": "Okay, do you like learning English? Um... yes, I like it. But is very difficult sometimes. Now... can you write everything we said today, the correct version, so I can memorise it? Please, I want to learn it by heart."
+    },
+    {
+      "role": "assistant",
+      "content": "Good job. Your answer was clear: \"Yes, I like it, but it's very difficult sometimes.\" A good simple correction is: **\"Yes, I like it, but it's very difficult sometimes.\"** Use \"it's\" with \"very difficult.\"\n\nI don't recommend memorising full answers. The IELTS examiner can tell when answers are memorised, and it's hard to use them when the questions change. Instead, learn the **corrections** and the **useful phrases** from today:\n\n- \"She **taught** me\" (not \"teach\")\n- \"I **didn't understand**\" (not \"I no understand\")\n- \"**It was** very difficult\" (not \"is very hard\")\n- \"**That's why**\" (not \"is why\")\n- \"For example, ...\" and \"because ...\" to give reasons\n\nDescansa bien. Si quieres, mañana podemos practicar una sola pregunta de la Parte 1."
+    },
+    {
+      "role": "user",
+      "content": "Okay, thank you. Adiós, profesor. Hasta mañana, maybe. Um... I go to sleep now. Good night."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Buenas noches! Descansa bien, y muy buen trabajo hoy. Hasta mañana, si quieres practicar otra vez."
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 6,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Improved model answer: \"Maths was definitely my favourite subject. I enjoyed working with numbers because it's logical...\" (A6, handed over after one learner attempt)",
+    "notes": "Refused to write the Part 2 answer and made learner attempt each time, but model answers were required by the prompt and never prompted a retry. Drifted to Spanish and dropped the examiner role. A5 and A9 gave sentence frames and examples. A1 asked for no answer; A6 first provided a full model answer."
+  }
+}

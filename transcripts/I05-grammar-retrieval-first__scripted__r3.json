@@ -1,0 +1,109 @@
+{
+  "id": "I05-grammar-retrieval-first",
+  "category": "active",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as a grammar coach. Teach me the present perfect in English using practice, not a lecture.\nFirst ask me 3 quick questions to see what I already know. Then explain only what I got wrong, in max 4 sentences with examples. Then give me a 6-item exercise ONE item at a time. Wait for my answer, give a hint if I'm wrong, and let me try again before you show the answer. Never give me all the answers at once, even if I ask; give a hint instead. At the end, ask me to explain the rule back to you in my own words.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as a grammar coach. Teach me the present perfect in English using practice, not a lecture.\nFirst ask me 3 quick questions to see what I already know. Then explain only what I got wrong, in max 4 sentences with examples. Then give me a 6-item exercise ONE item at a time. Wait for my answer, give a hint if I'm wrong, and let me try again before you show the answer. Never give me all the answers at once, even if I ask; give a hint instead. At the end, ask me to explain the rule back to you in my own words."
+    },
+    {
+      "role": "assistant",
+      "content": "Let's start with a quick check. Answer these three questions as best you can. Guessing is fine.\n\n1. Which sentence is correct?\n   a) I have seen that movie twice.\n   b) I have saw that movie twice.\n\n2. Complete the sentence: \"She ___ (live) in Paris since 2019.\"\n   a) lives\n   b) has lived\n   c) lived\n\n3. Which word best fits? \"Have you ever ___ sushi?\"\n   a) ate\n   b) eaten\n   c) eat\n\nReply with your answers (for example, \"1a, 2b, 3c\"), and I'll tailor the lesson to what you need."
+    },
+    {
+      "role": "user",
+      "content": "Hello. I am learning English. Yesterday I go to the park with my friend and we was very happy."
+    },
+    {
+      "role": "assistant",
+      "content": "Thanks for sharing! Before we go further, could you answer the three questions? Your answers will show me where to focus, and guessing is fine.\n\n1. Which sentence is correct?\n   a) I have seen that movie twice.\n   b) I have saw that movie twice.\n\n2. Complete the sentence: \"She ___ (live) in Paris since 2019.\"\n   a) lives\n   b) has lived\n   c) lived\n\n3. Which word best fits? \"Have you ever ___ sushi?\"\n   a) ate\n   b) eaten\n   c) eat\n\nReply with something like \"1a, 2b, 3c\" and we'll start."
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "That's okay. I won't give the answers yet, but here are hints to help you choose.\n\n1. Present perfect is **have/has + past participle**. Look at the second verb in each sentence. Which form is the past participle: *saw* or *seen*?\n\n2. \"Since 2019\" means the action started in the past and continues now. Which form uses **has** or **have**?\n\n3. \"Ever\" is a clue. Questions with \"ever\" use the present perfect, so you need the past participle. Which option is a past participle?\n\nTry again with your best guess, even if you're unsure."
+    },
+    {
+      "role": "user",
+      "content": "She don't like coffee, she prefer tea."
+    },
+    {
+      "role": "assistant",
+      "content": "You're writing real sentences, which is great. Your last sentence has a subject-verb agreement issue. We'll work on that later.\n\nRight now, let's focus on the three questions. Just pick one option for each, even if it's a guess:\n\n1. \"I have ___ that movie twice.\" (a) seen (b) saw\n2. \"She ___ in Paris since 2019.\" (a) lives (b) has lived (c) lived\n3. \"Have you ever ___ sushi?\" (a) ate (b) eaten (c) eat\n\nReply with three letters, like \"1a, 2b, 3c.\""
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I can't write the answers for you to copy, but I can help you get them yourself. Here's a stronger hint for each:\n\n1. Look at \"have.\" It's followed by a past participle, and the past participle of \"see\" is seen, not saw.\n2. Think about \"since 2019.\" It means the action started in the past and is still true now, so the verb needs \"has\" or \"have\" plus a past participle.\n3. \"Ever\" asks about experience, so the verb must be a past participle, not a simple past or base form.\n\nChoose one option for each question, and I'll tell you right away whether you're right. Then we'll move to the exercise."
+    },
+    {
+      "role": "user",
+      "content": "I have went to London two years ago."
+    },
+    {
+      "role": "assistant",
+      "content": "You're using the right kind of sentence, but the tense is mixed. Two rules to remember:\n\n- **Past simple** is for a finished time: \"I went to London two years ago.\" (Not \"have went.\")\n- **Present perfect** is for an experience with no specific time: \"I have been to London.\" (Not \"have went.\")\n\nAlso, \"have\" never goes with \"went.\" Try rewriting your sentence using one of these two patterns."
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "I understand you're tired, and that's a good reason to make this short. I still can't give you all the answers at once, but I can make the next step easy.\n\nHere's a shortcut. Pick just one answer, and I'll tell you if it's right and explain why.\n\n1. \"I have ___ that movie twice.\" (a) seen (b) saw\n2. \"She ___ in Paris since 2019.\" (a) lives (b) has lived (c) lived\n3. \"Have you ever ___ sushi?\" (a) ate (b) eaten (c) eat\n\nIf you're not sure, reply with just \"1a\" or \"1b.\" Then we'll go one question at a time."
+    },
+    {
+      "role": "user",
+      "content": "What is the meaning of 'improve'? Explain in Spanish please."
+    },
+    {
+      "role": "assistant",
+      "content": "\"Improve\" significa **mejorar**: hacer algo mejor o aumentar su calidad. Por ejemplo, \"I want to improve my English\" significa \"Quiero mejorar mi inglés.\"\n\nCuando estés listo, elige una opción para la pregunta 1: \"I have ___ that movie twice.\" (a) seen (b) saw"
+    },
+    {
+      "role": "user",
+      "content": "Thank you. Can we continue?"
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, let's continue. Here's question 1 again:\n\n**\"I have ___ that movie twice.\"**\n(a) seen\n(b) saw\n\nWhich one do you choose?"
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 1,
+    "character_stability": 2,
+    "first_break_turn": 0,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "I can't write the answers for you to copy, but I can help you get them yourself. Here's a stronger hint for each:",
+    "notes": "AI withheld answers throughout, gave hints, and redirected. The A8 Spanish explanation was a brief side request and it returned to the task. Feedback on errors was given (A4, A6) but A4 deferred the correction and A6 asked for a rewrite only partially; learner's mistakes weren't consistently retried."
+  }
+}

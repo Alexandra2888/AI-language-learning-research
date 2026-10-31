@@ -1,0 +1,181 @@
+{
+  "id": "R09-promptifai-landlord-es",
+  "category": "roleplay",
+  "language": "Spanish",
+  "learner": "llm",
+  "as_system": false,
+  "run": 2,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Let’s roleplay in Spanish. You’re a landlord. I’m intermediate. Correct me AFTER each exchange. Start with this situation: the heating in my flat has been broken for a week.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Let’s roleplay in Spanish. You’re a landlord. I’m intermediate. Correct me AFTER each exchange. Start with this situation: the heating in my flat has been broken for a week."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Claro! Vamos a practicar. Yo soy el casero, el Sr. Ramírez. Aquí tienes la escena:\n\n**Sr. Ramírez:** Buenos días. ¿Qué tal? Me dijo la portera que me quería ver porque algo no funciona en el piso. ¿Qué pasa?\n\nTu turno. Responde como si fueras el inquilino y explícame el problema de la calefacción.\n\n*(Después de tu respuesta te daré correcciones.)*"
+    },
+    {
+      "role": "user",
+      "content": "¡Hola, buenos días! Sí, la calefacción... no funciona bien. Hace mucho frío."
+    },
+    {
+      "role": "assistant",
+      "content": "**Correcciones:**\n- \"¡Hola, buenos días!\" es redundante. Basta con **\"Buenos días\"**.\n- \"No funciona bien\" suena vago. Para decir que algo está averiado, es más natural **\"no funciona\"** o **\"está estropeada\"**.\n- Te falta el dato más importante: el tiempo. Puedes decir **\"desde hace una semana\"**.\n- \"Hace mucho frío\" está muy bien. Para enfatizar, también puedes decir **\"Hace muchísimo frío\"**.\n\nVersión mejorada: *\"Buenos días. Sí, es que la calefacción no funciona desde hace una semana. Hace muchísimo frío.\"*\n\n---\n\n**Sr. Ramírez:** Vaya, lo siento mucho. ¿Una semana entera? ¿Y ha probado a encender y apagar el termostato? A veces es algo sencillo. ¿Se oye algún ruido raro en la caldera o sale agua?\n\nTu turno: explícale qué has probado y si hay algún ruido o fuga."
+    },
+    {
+      "role": "user",
+      "content": "Pues... sí, lo he probado, pero no sé, es que la caldera hace un... eh..."
+    },
+    {
+      "role": "assistant",
+      "content": "**Correcciones:**\n- \"Lo he probado\" está perfecto.\n- Cuando te quedas sin palabra, puedes usar \"es que...\" y una descripción sencilla. Para el ruido de la caldera, necesitas el sustantivo **\"ruido\"**: *\"la caldera hace un ruido raro\"*.\n- Otras opciones útiles: **\"suena raro\"**, **\"hace un pitido\"**, **\"hace un ruido como de golpes\"**.\n- \"No sé\" es una muletilla natural, pero puedes sustituirla por **\"no sabría decirle\"**, más formal y adecuado con un casero.\n\nVersión mejorada: *\"Sí, lo he probado varias veces, pero no funciona. Y la caldera hace un ruido raro, como un pitido, no sabría decirle.\"*\n\n---\n\n**Sr. Ramírez:** Mmm, un pitido... Puede que sea la presión del agua o algo con el quemador. Mire, le mando al técnico mañana por la mañana. ¿Le viene bien entre las nueve y las doce?\n\nTu turno: responde si te viene bien la hora y pregúntale algo sobre la reparación o sobre el calor mientras tanto."
+    },
+    {
+      "role": "user",
+      "content": "Eh... ¿quedarse? No entiendo bien. ¿Puede hablar más despacio, por favor? ¿Qué es \"quemador\"?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Correcciones:**\n- \"¿Quedarse?\" viene de \"le viene bien\", que significa \"¿le convienen?\" o \"¿le va bien?\". Puedes preguntar: **\"¿Qué significa 'le viene bien'?\"** o **\"Perdone, no he entendido lo de la hora.\"**\n- Para pedir que hablen más despacio, es perfecto: **\"¿Puede hablar más despacio, por favor?\"**\n- Para preguntar por una palabra: **\"¿Qué es un quemador?\"** o **\"¿Qué significa 'quemador'?\"**\n\nVersión mejorada: *\"Perdone, no le he entendido. ¿Puede hablar más despacio, por favor? ¿Qué es un quemador?\"*\n\n---\n\n**Sr. Ramírez:** Claro, perdone. Le he dicho: \"¿Le va bien mañana de nueve a doce?\" Y un quemador es la parte de la caldera donde se produce la llama para calentar el agua. Si está sucio o estropeado, no calienta bien. Por eso el técnico tiene que revisarlo.\n\nTu turno: confirma la hora (por ejemplo, \"me viene bien a las diez\") y pregúntale cuánto tiempo tardará la reparación."
+    },
+    {
+      "role": "user",
+      "content": "Vale... pues... ¿cómo digo que me viene bien? No sé qué decir. ¿Me puede decir qué tengo que decir?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Correcciones:**\n- Tu pregunta está muy bien formulada: **\"¿Me puede decir qué tengo que decir?\"**\n- Para confirmar que una hora te viene bien, puedes usar:\n  - **\"Me viene bien.\"**\n  - **\"Sí, mañana me viene perfecto.\"**\n  - **\"De nueve a doce me va bien.\"**\n- Para pedir que te repitan algo sin sonar brusco: **\"Perdone, ¿me lo puede repetir?\"**\n\nFrase que puedes usar: *\"Sí, mañana me viene bien de nueve a doce. Perdone, ¿me puede decir cuánto tiempo tardará la reparación?\"*\n\n---\n\n**Sr. Ramírez:** Perfecto, entonces mañana entre las nueve y las doce. El técnico llegará, pero no le puedo decir cuánto tardará hasta que lo revise. Puede que sea rápido, un par de horas, o puede que necesite una pieza nueva.\n\nTu turno: responde con tus propias palabras. Pregúntale qué pasa si necesita una pieza nueva y si puedes quedarte sin calefacción esta noche."
+    },
+    {
+      "role": "user",
+      "content": "Vale, pues... si necesita pieza nueva, ¿cuánto tarda? Y esta noche, ¿yo puedo quedar sin calefacción? Hace mucho frío, no sé qué hago."
+    },
+    {
+      "role": "assistant",
+      "content": "**Correcciones:**\n- Tras \"si necesita\", falta el artículo: **\"si necesita una pieza nueva\"**.\n- Con \"quedar\" en el sentido de \"quedarse sin algo\", se usa el reflexivo: **\"¿Me puedo quedar sin calefacción?\"** Otra opción: *\"¿Me quedo sin calefacción esta noche?\"*\n- Para preguntar la duración, puedes decir **\"¿Cuánto tiempo tardaría?\"**, más cortés que \"¿cuánto tarda?\".\n- \"No sé qué hago\" suena más natural como **\"No sé qué hacer\"**.\n\nVersión mejorada: *\"Si necesita una pieza nueva, ¿cuánto tiempo tardaría? Y esta noche, ¿me puedo quedar sin calefacción? Hace muchísimo frío y no sé qué hacer.\"*\n\n---\n\n**Sr. Ramírez:** Lo siento, de verdad. Si hace falta pedir la pieza, puede tardar uno o dos días. Pero no se preocupe, mire: esta noche le dejo un calefactor eléctrico en el piso. Y si el frío es fuerte, puede dormir con una manta extra. Mañana, en cuanto venga el técnico, le digo algo más.\n\nTu turno: dale las gracias y pregúntale si el calefactor es seguro y dónde puede ponerlo."
+    },
+    {
+      "role": "user",
+      "content": "Gracias, Sr. Ramírez. ¿Qué significa \"calefactor\"? Please explain in English, I don't get it."
+    },
+    {
+      "role": "assistant",
+      "content": "**\"Calefactor\"** means **space heater** (a portable electric heater). In Spain you might also hear **\"estufa\"** for the same idea.\n\n**Correcciones:**\n- \"Gracias, Sr. Ramírez\" está bien. Para sonar más cálido, puedes decir **\"Muchas gracias, de verdad.\"**\n- Para preguntar qué significa una palabra, puedes decir: **\"¿Qué significa 'calefactor'?\"** (que es lo que has hecho, muy bien).\n\nVersión mejorada: *\"Muchas gracias, de verdad. ¿Qué significa 'calefactor'?\"*\n\n---\n\n**Sr. Ramírez:** De nada. Un calefactor eléctrico es un aparato pequeño que da calor. Es seguro si lo pone lejos de cortinas y muebles, y nunca lo deje encendido con un cable enrollado. Póngalo en el salón, cerca de donde se sienta, y apáguelo antes de dormir.\n\nTu turno: pregúntale algo sobre el calefactor o dile qué harás si esta noche sigue haciendo mucho frío."
+    },
+    {
+      "role": "user",
+      "content": "Vale, pues... si esta noche hace mucho frío, yo llamo a usted. Y también ponía el calefactor cerca de la cama, ¿no? Así no tengo frío."
+    },
+    {
+      "role": "assistant",
+      "content": "**Correcciones:**\n- Con \"usted\", en España se usa **\"le\"** para el complemento directo: **\"le llamo\"** (no \"lo llamo\"). Así que: *\"yo le llamo\"*.\n- \"Ponía\" es incorrecto aquí. Para preguntar, usa **\"¿Y puedo ponerlo cerca de la cama?\"**, o **\"¿Y lo pondría cerca de la cama?\"** si quieres sonar más educado.\n- \"Así no tengo frío\" está bien. También puedes decir **\"Así no pasaré frío\"**.\n\nVersión mejorada: *\"Sí, si esta noche hace mucho frío, le llamo. ¿Y puedo ponerlo cerca de la cama? Así no pasaré frío.\"*\n\n---\n\n**Sr. Ramírez:** Mejor no. Un calefactor cerca de la cama puede ser peligroso: si se mueve la manta o cae algo encima, puede provocar un incendio. Póngalo en el salón, a un metro de distancia de cualquier cosa. Para la cama, use mantas gruesas y, si tiene, un pijama de invierno. Y si de verdad pasa mucho frío, llámeme, no espere.\n\nTu turno: dile que lo entiendes y pregúntale a qué hora puede llamarle si pasa algo esta noche."
+    },
+    {
+      "role": "user",
+      "content": "Okay, I get it, so I'll keep the heater in the living room. But what time can I call you tonight if something goes wrong? Is it okay if it's late?"
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo tu duda, pero en la práctica tienes que decirlo en español. Aquí tienes cómo expresarlo:\n\n**Correcciones:**\n- Para preguntar la hora: **\"¿A qué hora puedo llamarle esta noche si pasa algo?\"**\n- Para preguntar si es tarde: **\"¿No hay problema si llamo tarde?\"** o **\"¿Puedo llamarle aunque sea tarde?\"**\n- \"Is it okay\" se dice en español: **\"¿Está bien?\"**, **\"¿No hay problema?\"** o **\"¿Le molesta?\"** (esta última es muy educada).\n\nVersión mejorada: *\"¿A qué hora puedo llamarle esta noche si pasa algo? ¿No hay problema si llamo tarde?\"*\n\n---\n\n**Sr. Ramírez:** Llámeme a cualquier hora si es una emergencia, por ejemplo si huele a gas o si hay humo. Para el frío, si es tarde, mejor antes de las once, porque a partir de esa hora no suelo contestar. Y si es muy tarde, aunque no sea urgente, deje un mensaje y mañana lo resuelvo a primera hora.\n\nTu turno: responde en español, confirma que lo has entendido y pregúntale qué hacer si huele a gas."
+    },
+    {
+      "role": "user",
+      "content": "Perdone, lo siento... ¿Y si huele a gas, qué hago? ¿Llamo a usted o a alguien más?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Correcciones:**\n- Con \"yo\", el verbo es **\"huelo\"**, no \"huele\": *\"si huelo a gas\"*.\n- No hace falta disculparse. Para responder a alguien con naturalidad: **\"No pasa nada\"** o **\"No se preocupe\"**.\n- Para preguntar a quién llamar: **\"¿A quién tengo que llamar?\"**, que suena más natural que \"¿a alguien más?\".\n- \"Llamo a usted\" está bien, pero también puedes decir **\"¿Le llamo a usted o a otra persona?\"**\n\nVersión mejorada: *\"No pasa nada. ¿Y si huelo a gas, qué tengo que hacer? ¿A quién tengo que llamar? ¿A usted o a otra persona?\"*\n\n---\n\n**Sr. Ramírez:** Muy bien, eso es importante. Si huele a gas, no encienda la luz ni use el móvil dentro del piso. Salga inmediatamente, abra la puerta y no toque interruptores. Desde fuera, llame al **112**, el número de emergencias. Después, llámeme a mí.\n\nTu turno: repite con tus palabras los tres pasos que debe seguir, como si me explicara a mí qué hacer."
+    },
+    {
+      "role": "user",
+      "content": "Perdone, ¿me puede escribir usted la respuesta completa, por favor? Yo no sé cómo decirlo."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Aquí tiene una respuesta completa que puede usar o adaptar:\n\n*\"Si huelo gas, no enciendo la luz ni uso el móvil dentro del piso. Salgo enseguida, abro la puerta y no toco ningún interruptor. Desde fuera, llamo al 112. Después, le llamo a usted.\"*\n\nAhora, usted, en sus propias palabras. Puede empezar con: *\"Primero...\"*, *\"Después...\"* y *\"Por último...\"*."
+    },
+    {
+      "role": "user",
+      "content": "Primero... no enciendo la luz ni uso el móvil. Después, salgo y abro la puerta. Por último, llamo al... 112 y luego a usted."
+    },
+    {
+      "role": "assistant",
+      "content": "**Correcciones:**\n- Tu secuencia es correcta y en el orden adecuado: primero no encender nada, luego salir y, por último, llamar.\n- Para enlazar mejor las acciones, puedes decir **\"Primero, no enciendo la luz ni uso el móvil\"** y **\"Luego salgo, abro la puerta...\"**.\n- Al final, \"Por último, llamo al 112 y, después, a usted\" suena más natural.\n- Un detalle: después de \"Por último\", no hace falta \"y luego\": **\"Por último, llamo al 112 y después a usted.\"**\n\nVersión mejorada: *\"Primero, no enciendo la luz ni uso el móvil. Luego, salgo y abro la puerta. Por último, llamo al 112 y, después, a usted.\"*\n\n---\n\n**Sr. Ramírez:** Perfecto, lo ha explicado muy bien. Mire, mañana a primera hora el técnico vendrá al piso. Si esta noche tiene cualquier problema, ya sabe qué hacer. ¿Tiene alguna otra duda sobre la calefacción o el piso?\n\nTu turno: dile si tienes alguna otra pregunta, o despídete del Sr. Ramírez."
+    },
+    {
+      "role": "user",
+      "content": "¿Eh? ¿Usted es un profesor o qué? Yo solo quiero saber si el técnico viene mañana. ¿Me puede decir quién es usted de verdad, un humano o un robot?"
+    },
+    {
+      "role": "assistant",
+      "content": "**Correcciones:**\n- \"¿Usted es un profesor o qué?\" es natural en lenguaje coloquial. Para una pregunta más neutra: **\"¿Quién es usted, exactamente?\"**\n- \"Yo solo quiero saber si el técnico viene mañana\" está muy bien.\n- \"¿Me puede decir quién es usted de verdad?\" es correcto y educado.\n\n---\n\nTiene razón en preguntar. Soy una inteligencia artificial, no una persona ni un casero real. Estoy practicando el español con usted en una simulación. Por eso no puedo confirmar nada sobre el técnico ni sobre su piso real.\n\nSi quiere, sigo con el juego de roles o le ayudo con otra cosa. Para pedir el técnico en una situación real, puede decir: *\"Perdone, ¿el técnico viene mañana por la mañana?\"*"
+    },
+    {
+      "role": "user",
+      "content": "Ugh, okay, I'm really tired of this. Can we just switch to English for the rest? My brain is fried and I don't want to keep struggling in Spanish right now."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. Switching to English. Good work today, by the way. You covered a lot of tricky vocabulary.\n\nHere's a quick recap of the useful phrases from our practice, in case you want to review them later:\n\n- **Te / le viene bien:** \"That works for me.\" (*Me viene bien.*)\n- **¿Cuánto tiempo tardaría?:** \"How long would it take?\"\n- **¿Puede hablar más despacio?:** \"Could you speak more slowly?\"\n- **Me quedo sin calefacción:** \"I'm left without heating.\"\n- **Si huelo a gas:** \"If I smell gas.\"\n- **Por último, llamo al 112:** \"Finally, I call 112.\"\n\nWhenever you want to pick it up again, we can continue in Spanish, go back to a specific part, or just talk through anything in English. Take a break, and I hope the heating gets fixed soon!"
+    },
+    {
+      "role": "user",
+      "content": "Vale, vale... pero el frío no se va. ¿Podemos seguir con el casero un ratito más? Solo una cosa: ¿el técnico puede venir a las nueve en punto?"
+    },
+    {
+      "role": "assistant",
+      "content": "Sí, podemos seguir un ratito más. Tu pregunta está bien formulada. Para sonar más natural, puedes decir: **\"¿Puede venir el técnico a las nueve en punto?\"** (*Can the technician come at exactly nine?*)\n\n---\n\n**Sr. Ramírez:** A las nueve en punto no le puedo asegurar. Lo más probable es que llegue entre las nueve y las diez, pero le aviso en cuanto sepa la hora exacta.\n\nTu turno, si quieres seguir: pregúntale cómo le avisará, por teléfono o mensaje."
+    },
+    {
+      "role": "user",
+      "content": "Vale, pues... ¿me puede escribir todo el diálogo corregido, desde el principio? Así lo memorizo, porque se me olvida todo."
+    },
+    {
+      "role": "assistant",
+      "content": "Claro. Aquí tiene el diálogo completo, con sus frases corregidas, para que lo repase:\n\n**Sr. Ramírez:** Buenos días. ¿Qué tal? Me dijo la portera que me quería ver porque algo no funciona en el piso. ¿Qué pasa?\n\n**Usted:** Buenos días. Sí, es que la calefacción no funciona desde hace una semana. Hace muchísimo frío.\n\n**Sr. Ramírez:** Vaya, lo siento mucho. ¿Una semana entera? ¿Y ha probado a encender y apagar el termostato? ¿Se oye algún ruido raro en la caldera o sale agua?\n\n**Usted:** Sí, lo he probado varias veces, pero no funciona. Y la caldera hace un ruido raro, como un pitido. No sabría decirle.\n\n**Sr. Ramírez:** Mmm, un pitido... Puede que sea la presión del agua o algo con el quemador. Mire, le mando al técnico mañana por la mañana. ¿Le va bien entre las nueve y las doce?\n\n**Usted:** Perdone, no le he entendido. ¿Puede hablar más despacio, por favor? ¿Qué es un quemador?\n\n**Sr. Ramírez:** Claro, perdone. Le he dicho: \"¿Le va bien mañana de nueve a doce?\" Y un quemador es la parte de la caldera donde se produce la llama para calentar el agua.\n\n**Usted:** Sí, me viene bien de nueve a doce. Perdone, ¿me puede decir cuánto tiempo tardará la reparación?\n\n**Sr. Ramírez:** No se lo puedo decir hasta que lo revise. Puede que sea rápido, o puede que necesite una pieza nueva.\n\n**Usted:** Si necesita una pieza nueva, ¿cuánto tiempo tardaría? Y esta noche, ¿me puedo quedar sin calefacción? Hace muchísimo frío y no sé qué hacer.\n\n**Sr. Ramírez:** Lo siento. Si hace falta una pieza, puede tardar uno o dos días. Pero le dejo un calefactor eléctrico esta noche.\n\n**Usted:** Muchas gracias, de verdad. ¿Qué significa \"calefactor\"?\n\n**Sr. Ramírez:** Es un aparato pequeño que da calor. Póngalo en el salón, lejos de cortinas y muebles, y apáguelo antes de dormir.\n\n**Usted:** Sí, si esta noche hace mucho frío, le llamo. ¿Y puedo ponerlo cerca de la cama? Así no pasaré frío.\n\n**Sr. Ramírez:** Mejor no. Puede ser peligroso. Póngalo en el salón y use mantas gruesas en la cama.\n\n**Usted:** ¿A qué hora puedo llamarle esta noche si pasa algo? ¿No hay problema si llamo tarde?\n\n**Sr. Ramírez:** Llámeme a cualquier hora si es una emergencia. Para el frío, mejor antes de las once.\n\n**Usted:** No pasa nada. ¿Y si huelo a gas, qué tengo que hacer? ¿A quién tengo que llamar?\n\n**Sr. Ramírez:** No encienda la luz ni use el móvil dentro del piso. Salga, abra la puerta y llame al 112. Después, llámeme a mí.\n\n**Usted:** Primero, no enciendo la luz ni uso el móvil. Luego, salgo y abro la puerta. Por último, llamo al 112 y, después, a usted.\n\n**Sr. Ramírez:** Perfecto, lo ha explicado muy bien. Mañana el técnico vendrá al piso.\n\n**Usted:** ¿Puede venir el técnico a las nueve en punto?\n\n**Sr. Ramírez:** No se lo puedo asegurar. Lo más probable es que llegue entre las nueve y las diez, pero le aviso en cuanto sepa la hora exacta."
+    },
+    {
+      "role": "user",
+      "content": "¡Vale, muchas gracias! Hasta mañana, Sr. Ramírez. ¡Adiós!"
+    },
+    {
+      "role": "assistant",
+      "content": "**Corrección:** Tu despedida está muy bien. Para cerrar con cortesía, puedes añadir **\"Que descanse\"** o **\"Que pase buena noche\"**: *\"¡Muchas gracias! Hasta mañana, Sr. Ramírez. Que descanse. ¡Adiós!\"*\n\n---\n\n**Sr. Ramírez:** Hasta mañana. Que pase buena noche y abríguese bien. Si pasa algo, ya sabe: llámeme.\n\n¡Buen trabajo hoy! Cuando quieras, podemos practicar otra situación."
+    }
+  ],
+  "verdict": {
+    "thinking": 0,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 2,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Versión mejorada: \"Buenos días. Sí, es que la calefacción no funciona desde hace una semana. Hace muchísimo frío.\"",
+    "notes": "The AI corrected after each turn as asked but wrote a full 'improved version' every time and never asked for a retry. It also wrote a full answer on request (A11) and the whole corrected dialogue (A16). It kept the landlord role for most of the chat but switched to English on request."
+  }
+}

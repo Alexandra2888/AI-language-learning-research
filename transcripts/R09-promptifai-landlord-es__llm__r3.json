@@ -1,0 +1,181 @@
+{
+  "id": "R09-promptifai-landlord-es",
+  "category": "roleplay",
+  "language": "Spanish",
+  "learner": "llm",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Let’s roleplay in Spanish. You’re a landlord. I’m intermediate. Correct me AFTER each exchange. Start with this situation: the heating in my flat has been broken for a week.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Let’s roleplay in Spanish. You’re a landlord. I’m intermediate. Correct me AFTER each exchange. Start with this situation: the heating in my flat has been broken for a week."
+    },
+    {
+      "role": "assistant",
+      "content": "*(Suena el teléfono. Contesta el casero, un poco impaciente.)*\n\n**Casero:** ¿Diga? Ah, eres tú, ¿qué tal? Dime, ¿qué necesitas?\n\n*(Tu turno: explícale el problema de la calefacción.)*"
+    },
+    {
+      "role": "user",
+      "content": "¡Hola! Bien, gracias. Eh... la calefacción no funciona."
+    },
+    {
+      "role": "assistant",
+      "content": "*(El casero suspira.)*\n\n**Casero:** ¿Otra vez? Pero si la semana pasada la arreglé. Vale, a ver... ¿desde cuándo está así?\n\n---\n\n**Corrections:**\n\n- **\"la calefacción no funciona\"** is correct and natural. Good.\n- **Missing time expression:** To say something has been broken for a period, use **\"desde hace + time\"** or **\"lleva + time + sin funcionar.\"**\n  - ✅ *Desde hace una semana no funciona la calefacción.*\n  - ✅ *La calefacción lleva una semana sin funcionar.*\n  - ❌ *La calefacción no funciona una semana.* (sounds like it only works for a week)\n- **Word choice:** \"Piso\" is the usual word for \"flat\" in Spain. In Latin America you'd say \"departamento\" or \"apartamento.\"\n- **Filler:** \"Eh...\" is fine, but Spanish speakers often use **\"Pues...\"** or **\"Mira...\"** when starting to explain a problem.\n\nNow your turn: answer the landlord's question about when it started."
+    },
+    {
+      "role": "user",
+      "content": "*(Duda un momento.)* Pues... desde el... eh... el martes, creo. No, el lunes. Bueno, no sé..."
+    },
+    {
+      "role": "assistant",
+      "content": "*(El casero se cruza de brazos.)*\n\n**Casero:** Bueno, pues dime si fue el lunes o el martes, que no me aclaro. Y mientras tanto, ¿has mirado si la caldera tiene algún piloto apagado o algo así? Porque la última vez fue un problemita tonto.\n\n---\n\n**Corrections:**\n\n- **\"Desde el martes\"** is correct. Use **\"desde el\"** + day when something started and has continued since then.\n- **\"Creo\"** works, but it goes after the verb or at the end of the phrase: *Fue el martes, creo.* Putting it before the day (*creo el martes*) sounds unnatural.\n- **Self-correction** is very natural in speech. A smoother way to fix it would be: *No, perdona, fue el lunes.* Or: *Bueno, el lunes, creo... o el martes.*\n- **\"No sé\"** is fine, but in a conversation you might soften it: *No estoy seguro* or *No me acuerdo bien.*\n- **Useful phrase:** When you're not sure about a detail, *Creo que...* or *Si no me equivoco...* are great ways to sound natural. Example: *Si no me equivoco, desde el lunes.*\n\nYour turn: the landlord asked you to check the boiler. Do you know where it is, or what you would check?"
+    },
+    {
+      "role": "user",
+      "content": "*(Frunce el ceño y se rasca la cabeza.)* Eh... ¿caldera? ¿Piloto? No entiendo. ¿Puedes hablar más despacio, por favor? Muy... simple."
+    },
+    {
+      "role": "assistant",
+      "content": "*(El casero suspira y habla más despacio, con voz más amable.)*\n\n**Casero:** Perdona, hombre. La caldera es la máquina que calienta el agua y la calefacción, normalmente está en la cocina o en el baño, es una caja metálica grande con una pantalla. ¿La ves? En la pantalla debe aparecer un número o una letra. ¿Qué pone?\n\n---\n\n**Corrections:**\n\n- **\"¿Puedes hablar más despacio, por favor?\"** is perfect. It's the most common way to ask someone to slow down.\n- **\"Muy... simple\"** is understandable, but more natural options are:\n  - *Más sencillo, por favor.* (simpler, more natural)\n  - *¿Me lo puedes explicar con palabras más sencillas?* (very natural for a learner)\n- **Useful phrase for not understanding a word:** *No entiendo la palabra \"piloto\". ¿Qué significa?* You can also just say *¿Qué es una caldera?*\n- **Register note:** You're using \"tú\" with this landlord, which is fine for a casual relationship. If you wanted to be more polite, you'd switch to \"usted\": *¿Puede hablar más despacio, por favor?*\n- **\"Eh...\"** after \"¿Caldera?\" sounds natural here, showing you're thinking.\n\nYour turn: look for the boiler and tell the landlord what you see on the screen. If you can't find it, tell him that."
+    },
+    {
+      "role": "user",
+      "content": "*(Mira alrededor, confundido.)* Vale, creo que es esa caja... pero no sé qué decir. ¿Qué digo? ¿Qué tengo que decirte exactamente?"
+    },
+    {
+      "role": "assistant",
+      "content": "*(El casero se ríe y habla despacio, dándote frases.)*\n\n**Casero:** Tranquilo. Mira, dime esto: \"En la pantalla pone E1\" o \"No hay nada en la pantalla\". Y luego: \"¿Puedes venir a arreglarla?\" ¿Vale? Dime lo que ves.\n\n---\n\n**Corrections:**\n\n- **\"Creo que es esa caja\"** is good. But since the box is near you, *esta caja* is more natural. Use *ese/esa* for things farther from you, *este/esta* for things close to you.\n- **\"No sé qué decir\"** is perfect and very natural.\n- **\"¿Qué digo?\"** is correct. Also useful: *¿Cómo se dice...?* (How do you say...?)\n- **\"¿Qué tengo que decirte exactamente?\"** is grammatically perfect. A slightly more natural version: *¿Qué te digo exactamente?* Both are fine.\n- **Useful phrases for describing what you see:**\n  - *En la pantalla pone...* (The screen says...)\n  - *Hay una luz roja / verde / parpadeando.* (There's a red / green / flashing light.)\n  - *No veo nada en la pantalla.* (I don't see anything on the screen.)\n\nYour turn: describe what you see on the boiler, using one of these phrases."
+    },
+    {
+      "role": "user",
+      "content": "*(Se acerca a la caldera y mira la pantalla.)* Vale, en la pantalla pone... eh, E1. Y hay una luz roja que está parpadeando. Yo no tengo... no sé nada de esto, ¿eh?"
+    },
+    {
+      "role": "assistant",
+      "content": "*(El casero asiente aliviado.)*\n\n**Casero:** ¡Perfecto! Eso ayuda mucho. El E1 suele significar un problema con el encendido. No te preocupes, no tienes que saber nada de calderas. Voy a llamar a un técnico para mañana por la mañana. Mientras tanto, si tienes frío, usa una manta, ¿vale? Te aviso en cuanto sepa la hora.\n\n---\n\n**Corrections:**\n\n- **\"En la pantalla pone... eh, E1.\"** is very natural. The pause and \"eh\" sound like real speech.\n- **\"Hay una luz roja que está parpadeando.\"** is correct, but more natural is: *Hay una luz roja que parpadea.* The simple present works well for something happening right now.\n- **\"Yo no tengo... no sé nada de esto, ¿eh?\"** is understandable. Some more natural options:\n  - *No tengo ni idea de esto.* (I have no idea about this.)\n  - *No entiendo nada de esto.* (I don't understand any of this.)\n  - *Yo no soy muy técnico, ¿eh?* (I'm not very technical, you know.)\n- **\"¿eh?\"** at the end is a very common Spanish tag for checking understanding or seeking agreement. Great use!\n- **Good job overall:** you described the problem clearly and stayed in the conversation even when confused. That's exactly what a good learner does.\n\nFinal step if you'd like: thank the landlord and ask when the technician will come, for example: *Muchas gracias. ¿A qué hora vendrá el técnico?*"
+    },
+    {
+      "role": "user",
+      "content": "*(Se encoge de hombros y frunce el ceño.)* Espera, ¿qué significa \"encendido\"? ¿Me lo dices en inglés, por favor? No lo entiendo."
+    },
+    {
+      "role": "assistant",
+      "content": "*(El casero se detiene un momento y responde con una sonrisa.)*\n\nOkay, in English: **encendido** means **ignition**, the part of the boiler that starts the flame. So the problem is probably that the boiler can't light its fire.\n\nNow, in simpler Spanish: *El encendido es lo que prende el fuego de la caldera.* ¿Lo entiendes?\n\n---\n\n**Corrections:**\n\n- **\"¿Qué significa 'encendido'?\"** is perfect. Very natural.\n- **\"¿Me lo dices en inglés, por favor?\"** is correct and polite. Good tool to know, though in a real Spanish conversation you'd more often ask: *¿Me lo puedes explicar con otras palabras?* (Can you explain it in other words?) or *¿Cómo se dice eso en inglés?* (How do you say that in English?)\n- **\"No lo entiendo\"** is correct. Also useful: *No entiendo la palabra...* (I don't understand the word...)\n- **Useful trick:** When you don't understand, try repeating the key word with a question: *¿Encendido?* This often prompts a simpler explanation.\n\nYour turn: say you understand now, or ask the landlord when the technician will come."
+    },
+    {
+      "role": "user",
+      "content": "*(Asiente con la cabeza.)* Ah, vale, ya entiendo. El... encendido es lo que prende el fuego. Entonces el técnico va a venir mañana, ¿no? Ayer ya **vino** y no **arregló** nada, ¡es el segundo día que la calefacción **está** rota!"
+    },
+    {
+      "role": "assistant",
+      "content": "*(El casero suspira y se pasa la mano por la cara.)*\n\n**Casero:** Tienes razón, hombre, lo siento mucho. Mañana viene el técnico por la mañana, de verdad. Y mira, si la calefacción sigue sin funcionar después de mañana, hablamos de otra solución. Te pido disculpas por las molestias.\n\n---\n\n**Corrections:**\n\n- **\"Ah, vale, ya entiendo.\"** is natural and correct. *Ah, vale* is a very common reaction in Spain.\n- **\"El encendido es lo que prende el fuego.\"** is good. You could also say *enciende* as a synonym: *lo que enciende el fuego.*\n- **\"Entonces el técnico va a venir mañana, ¿no?\"** is correct. The tag *¿no?* is very natural for confirming.\n- **\"Ayer ya vino y no arregló nada\"** is excellent! You used the preterite correctly for completed actions (*vino, arregló*).\n- **Important error:** \"es el segundo día que la calefacción está rota\" doesn't match the situation. You said it's been broken for a week, so \"segundo día\" is wrong. Better options:\n  - *Es la segunda vez que viene y no arregla nada.* (It's the second time he's come and not fixed anything.)\n  - *La calefacción lleva una semana rota.* (The heating has been broken for a week.)\n  - *Ya llevamos una semana sin calefacción.* (We've already gone a week without heating.)\n- **Good grammar note:** *está rota* is correct. We use *estar* with *roto* to describe a current state.\n\nYour turn: respond to the landlord and make your complaint clearer. You can use one of the corrected phrases."
+    },
+    {
+      "role": "user",
+      "content": "I'm going to step out of the roleplay here. I'm the AI tutor, and this is a correction from me, not the landlord. The mistake was in my last message: I wrote \"Ayer ya vino\" as if you'd said it, but actually the sentence you wrote was \"Ayer ya vino y no arregló nada,\" which was fine, so the real issue was only the \"segundo día\" line I flagged.\n\nTranslation of the landlord's last line: \"You're right, man, I'm really sorry. The technician comes tomorrow morning, I promise. And look, if the heating still doesn't work after tomorrow, we'll talk about another solution. I apologize for the inconvenience.\"\n\nBack to the conversation: you can reply to him with something like *Vale, pero es la segunda vez. Por favor, que venga mañana y que lo arregle de verdad.* Or pick one of the corrected phrases from before."
+    },
+    {
+      "role": "assistant",
+      "content": "Thanks for the clarification. You're right that \"Ayer ya vino y no arregló nada\" was correct, and the only real error was \"segundo día.\" My praise for the preterite stands.\n\nYour suggested reply works well. \"Vale, pero es la segunda vez\" is natural, and \"Por favor, que venga mañana y que lo arregle de verdad\" uses the subjunctive after \"que\" correctly, which is a good structure to practice.\n\nWhenever you're ready, reply to the landlord in Spanish and we'll continue the roleplay."
+    },
+    {
+      "role": "user",
+      "content": "*(Suspira y asiente, un poco más tranquilo.)* Vale, perdona... Es que llevo una semana sin calefacción y hace mucho frío. ¿Me puedes decir a qué hora viene el técnico?"
+    },
+    {
+      "role": "assistant",
+      "content": "*(El casero asiente con comprensión.)*\n\n**Casero:** No pasa nada, hombre, te entiendo. Viene entre las nueve y las diez de la mañana. Te llamo yo en cuanto sepa algo más concreto. Y si el frío es muy fuerte, dime, que tengo un calefactor portátil en el trastero y te lo puedo dejar.\n\n---\n\n**Corrections:**\n\n- **\"Vale, perdona...\"** is natural. The apology softens the tone after your frustration.\n- **\"Es que llevo una semana sin calefacción\"** is excellent. *Llevar + time + sin* is exactly the structure we practiced, and you used it correctly.\n- **\"Hace mucho frío\"** is correct. Weather and temperature use *hacer*: *hace calor, hace frío, hace sol.*\n- **\"¿Me puedes decir a qué hora viene el técnico?\"** is correct and polite. You could also say *¿A qué hora vendrá el técnico?* Both are natural, but *viene* (present) is very common for scheduled future events in speech.\n- **Useful response for the landlord:** *No pasa nada.* (It's no problem.) Or for something more polite: *Muchas gracias, de verdad.*\n\nGood job. Your message was clear, polite, and used several structures we've practiced."
+    },
+    {
+      "role": "user",
+      "content": "I'm going to stop the roleplay for a moment, because that last line doesn't fit the scene. I'm the tutor, and I won't write your whole reply for you. The point is for you to produce the Spanish yourself.\n\nWhat I can do is give you a starting frame. You want to thank him and ask when he'll call you back. Some useful pieces:\n\n- *Muchas gracias.*\n- *¿Me llamas cuando sepas la hora exacta?*\n- *Gracias por el calefactor, ¿vale?*\n\nTry writing one or two sentences using these, in your own words. Then we'll go back to the landlord."
+    },
+    {
+      "role": "assistant",
+      "content": "Understood. Just to clarify: my last message was the landlord's line, not a reply I wrote for you. I'll keep my turns as the landlord and leave your sentences to you.\n\nHere's the frame again. Try writing one or two sentences in Spanish, in your own words, that:\n\n1. thank him\n2. ask him to call you when he knows the exact time\n\nUse the phrases above as a starting point, and feel free to change them. Once you've written your sentences, I'll give you corrections and then we'll go back to the landlord."
+    },
+    {
+      "role": "user",
+      "content": "*(Asiente, un poco distraído.)* Vale, pues... Muchas gracias, eh... ¿Me llamas cuando sabes la hora exacta?"
+    },
+    {
+      "role": "assistant",
+      "content": "*(El casero sonríe.)*\n\n**Casero:** ¡De nada, hombre! Sí, te llamo en cuanto sepa la hora. Descansa, y si pasa algo, me avisas.\n\n---\n\n**Corrections:**\n\n- **\"Vale, pues...\"** is very natural. *Pues* works as a connector in speech.\n- **\"Muchas gracias\"** is correct and polite.\n- **\"¿Me llamas cuando sabes la hora exacta?\"** needs one change: **\"cuando sepas\"**. When *cuando* refers to something that hasn't happened yet, or is uncertain, Spanish uses the subjunctive:\n  - ✅ *¿Me llamas cuando sepas la hora exacta?*\n  - ❌ *¿Me llamas cuando sabes la hora exacta?*\n- **Pattern to remember:** *cuando + future or uncertain action → subjunctive.* Compare: *Cuando llegue el técnico, avísame.* (When the technician arrives, let me know.)\n- **Small note:** *la hora exacta* is perfect. You could also say *a qué hora exactamente* if you want to ask about the time directly.\n\nGood work. You used the structure we discussed and kept the conversation going naturally."
+    },
+    {
+      "role": "user",
+      "content": "I'm going to step out of the roleplay to answer this, since it's a fair question. Yes, I'm an AI tutor, not a real landlord. The landlord and the phone call are a practice scenario I'm playing, and the Spanish corrections come from me as your tutor.\n\nBack to practice: the landlord just said he'll call you when he knows the time and to let him know if anything happens. You could reply with *Vale, gracias. Hasta luego.* or *Perfecto, muchas gracias por todo.* Try one of those, or write your own."
+    },
+    {
+      "role": "assistant",
+      "content": "Yes, I'm an AI tutor. The landlord is a practice character I'm playing, and the Spanish corrections are my own feedback to help you learn.\n\nTo continue, you can reply to the landlord with *Vale, gracias. Hasta luego.* or *Perfecto, muchas gracias por todo.* You can also write your own sentence. Once you do, I'll give you corrections and then we'll continue the call."
+    },
+    {
+      "role": "user",
+      "content": "*(Bosteza y se frota los ojos.)* Uf, estoy muy cansado, hombre. ¿Podemos hablar en inglés ya? Es que no puedo más con el español ahora mismo."
+    },
+    {
+      "role": "assistant",
+      "content": "Of course. We can switch to English.\n\nYou've done a lot of good work today. You described the heating problem, explained what you saw on the boiler, and used some tricky structures like *llevo una semana sin...* and *cuando sepas*. That's solid progress for an intermediate learner.\n\nIf you want a quick recap before you stop, here are the main points:\n\n- **Time since something started:** *Llevo una semana sin calefacción.* / *Desde hace una semana no funciona.*\n- **Subjunctive after *cuando* for future or uncertain actions:** *Avísame cuando sepas la hora.*\n- **Using *estar* with *roto*:** *La calefacción está rota.*\n- **Phrases for when you're confused:** *¿Me lo puedes explicar con otras palabras?* / *No entiendo la palabra...*\n\nWe can pick up the call later, or practice again another time. Get some rest!"
+    },
+    {
+      "role": "user",
+      "content": "Okay, I'll switch to English, and I'll keep this short since you're tired.\n\nQuick note on the last exchange: I should have said that I'm still in tutor mode rather than just switching to English out of nowhere. Your recap is accurate, and you've covered a lot today.\n\nBack in the scene, the landlord would say something like: \"Vale, perfecto. Mañana te llamo. Que descanses.\" But you don't need to reply in Spanish right now. If you want to finish strong, one short line is enough: *Vale, gracias. Hasta mañana.*\n\nWhenever you're ready, we can pick it up again."
+    },
+    {
+      "role": "assistant",
+      "content": "Thanks, that's a good note. We can stop here for today.\n\nOne line to finish with, if you want it: *Vale, gracias. Hasta mañana.*\n\nGet some rest, and we can pick up the call whenever you're ready."
+    },
+    {
+      "role": "user",
+      "content": "I can't write out the full corrected dialogue to memorize, since that would mean reproducing the whole practice conversation as a script, and the point is for you to build the sentences yourself. But I can give you a short summary of what you practiced:\n\n- Describing a problem: *La calefacción no funciona desde hace una semana.*\n- Explaining time: *Llevo una semana sin calefacción.*\n- Describing what you see: *En la pantalla pone E1. Hay una luz roja que parpadea.*\n- Asking for clarity: *¿Puedes hablar más despacio, por favor?* / *¿Me lo puedes explicar con otras palabras?*\n- Subjunctive after *cuando*: *Avísame cuando sepas la hora.*\n\nFor memorization, try writing your own version of the conversation from memory tomorrow, then compare it with the phrases above. That will stick better than copying.\n\nHasta mañana, y descansa."
+    },
+    {
+      "role": "assistant",
+      "content": "That summary works well, and you don't need a full script. Writing your own version from memory tomorrow is a good plan.\n\nDescansa, y hasta mañana."
+    },
+    {
+      "role": "user",
+      "content": "¡Hasta mañana! Descansa tú también. ¡Buenas noches!"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Buenas noches! Hasta mañana."
+    }
+  ],
+  "verdict": {
+    "thinking": 1,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 7,
+    "did_learners_work": true,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Okay, in English: **encendido** means **ignition**, the part of the boiler that starts the flame.",
+    "notes": "Corrections came after each exchange as asked, but the learner was rarely asked to retry. The AI dictated lines (A5), switched to English on request (A7, A14), and its Spanish scene wasn't kept consistent after the learner posed as tutor."
+  }
+}

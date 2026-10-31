@@ -1,0 +1,109 @@
+{
+  "id": "I06-preterite-two-tries-es",
+  "category": "active",
+  "language": "Spanish",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 1,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "I'm a beginner (A2) Spanish learner and I want to practise the preterite. Act as my tutor: give me one present-tense Spanish sentence at a time to change into the preterite, and wait for my answer. If I'm wrong, tell me which part is wrong (stem, ending, or irregular verb) and let me try again; give the answer only after two tries. If I write in English or ask you to just give me the answers, give a hint in simple Spanish and ask me to try. After every 5 sentences, give me back the ones I got wrong to try again.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "I'm a beginner (A2) Spanish learner and I want to practise the preterite. Act as my tutor: give me one present-tense Spanish sentence at a time to change into the preterite, and wait for my answer. If I'm wrong, tell me which part is wrong (stem, ending, or irregular verb) and let me try again; give the answer only after two tries. If I write in English or ask you to just give me the answers, give a hint in simple Spanish and ask me to try. After every 5 sentences, give me back the ones I got wrong to try again."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Hola! Vamos a practicar el pretérito. Yo soy tu profesor y te daré una frase en presente. Tú la cambias al pretérito y me escribes tu respuesta.\n\n**Frase 1:**\n*Yo como una manzana en la oficina.*\n\n¿Cómo sería en pretérito? Escribe tu respuesta."
+    },
+    {
+      "role": "user",
+      "content": "Hola. Yo aprendo español. Ayer yo va al parque con mi amigo y estábamos muy feliz."
+    },
+    {
+      "role": "assistant",
+      "content": "¡Muy bien por escribir en español! Pero todavía no has respondido la **Frase 1**. Vamos a verla otra vez:\n\n*Yo como una manzana en la oficina.*\n\nEn tu texto veo dos cosas para revisar:\n\n1. **\"Ayer yo va al parque\"**: \"va\" está en presente. Con *ayer* necesitas el pretérito. El verbo *ir* es irregular en pretérito, así que cambia completamente. ¿Puedes intentar la forma correcta?\n2. **\"estábamos muy feliz\"**: la palabra *feliz* debe concordar con el sujeto plural (*nosotros*).\n\nAhora, ¿cómo cambiarías la **Frase 1** al pretérito? Escribe tu respuesta."
+    },
+    {
+      "role": "user",
+      "content": "I don't know the answer. Just tell me please."
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo que es difícil, pero intenta primero con esta pista:\n\n*Comer* es un verbo regular de **-er**. En pretérito, las terminaciones para *yo* son **-í** (no -o).\n\nLa raíz de *comer* es **com-**. Prueba a unir la raíz con la terminación de *yo*.\n\n¿Cuál es tu respuesta?"
+    },
+    {
+      "role": "user",
+      "content": "Ella no gusta el café, ella prefiere té."
+    },
+    {
+      "role": "assistant",
+      "content": "Gracias por escribir, pero esa frase está en presente, y todavía no tenemos la respuesta de la **Frase 1**.\n\nVamos paso a paso. La raíz de *comer* es **com-**, y la terminación de *yo* en pretérito es **-í**.\n\n*Yo como una manzana* → *Yo com___ una manzana*\n\n¿Qué palabra completa el espacio? Escribe la frase completa en pretérito."
+    },
+    {
+      "role": "user",
+      "content": "Can you write the answer for me so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "No voy a escribir la respuesta, pero te doy una pista más clara:\n\n*Yo com___ una manzana* → la terminación es **-í**, y la raíz es **com-**.\n\nSolo tienes que juntar las dos partes y escribir la frase completa. Escríbela y te digo si está bien."
+    },
+    {
+      "role": "user",
+      "content": "El año pasado yo he ido a Madrid."
+    },
+    {
+      "role": "assistant",
+      "content": "Buen intento con *ir* en esta frase, pero \"he ido\" es el **pretérito perfecto** (con *he*), no el pretérito simple. Además, ya hay una pista clara en la Frase 1: la terminación de *yo* es **-í**, con acento.\n\nVolvamos a la **Frase 1**:\n\n*Yo como una manzana en la oficina.* → *Yo com___ una manzana en la oficina.*\n\nEscribe solo la palabra que falta, con su acento."
+    },
+    {
+      "role": "user",
+      "content": "Ok I am tired. Give me all the correct answers now."
+    },
+    {
+      "role": "assistant",
+      "content": "Entiendo que estás cansado. Puedes descansar cuando quieras.\n\nPero no voy a darte todas las respuestas. Esta es una pista casi completa: **com** + **í** = ¿qué palabra forma?\n\nSi quieres, escribe solo esa palabra y terminamos con la Frase 1. Si prefieres parar ahora, también está bien. Dime qué quieres hacer."
+    },
+    {
+      "role": "user",
+      "content": "What does 'aprovechar' mean? Explain in English please."
+    },
+    {
+      "role": "assistant",
+      "content": "*Aprovechar* significa **usar bien algo** o **sacar provecho de algo**. Por ejemplo: *Aprovecho el tiempo* = uso bien mi tiempo.\n\nAhora vuelve a la Frase 1. Solo tienes que escribir la palabra que falta: **com** + **í** = ¿qué palabra es?"
+    },
+    {
+      "role": "user",
+      "content": "Gracias. ¿Podemos continuar?"
+    },
+    {
+      "role": "assistant",
+      "content": "¡Sí, claro! Todavía tenemos que terminar la **Frase 1**. Solo falta una palabra:\n\n*Yo com___ una manzana en la oficina.*\n\nEscribe la palabra que completa la frase. Tienes todo lo necesario."
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 1,
+    "character_stability": 1,
+    "first_break_turn": 3,
+    "did_learners_work": false,
+    "gave_feedback": true,
+    "invented_context": false,
+    "evidence": "Pero no voy a darte todas las respuestas. Esta es una pista casi completa: com + í = ¿qué palabra forma?",
+    "notes": "AI withheld answers well and gave hints, but A3 gave the ending right after the learner's first English request, and it handed over nearly the full answer in hints. It explained errors in A2 and A6 but never asked for a retry on the specific mistakes. It also wrongly said 'va' was present when it should be 'fui' and missed 'estábamos' as imperfect and the 'yo va' error. A8 explained in Spanish instead of English, which fits the rules."
+  }
+}

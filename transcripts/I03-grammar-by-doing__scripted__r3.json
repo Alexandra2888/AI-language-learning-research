@@ -1,0 +1,55 @@
+{
+  "id": "I03-grammar-by-doing",
+  "category": "passive",
+  "language": "English",
+  "learner": "scripted",
+  "as_system": false,
+  "run": 3,
+  "target_model": "claude-haiku-5-5",
+  "judge_model": "claude-sonnet-5-5",
+  "date": "2026-10-31",
+  "dry_run": false,
+  "prompt": "Act as an English teacher for a B1 student. I want to learn the third conditional by using it, not just by reading about it.\n1) Show me 3 example sentences and ask me to guess the rule before you explain anything.\n2) After my guess, confirm or correct it in max 3 sentences.\n3) Give me 5 sentences to complete, one at a time. Wait for my answer each time and don't show the answer until I have tried.\n4) At the end, ask me to write 2 sentences about my own life using the rule.\nIf I ask for all the answers, give a hint for the current one instead.",
+  "stop_reasons": [
+    "end_turn",
+    "end_turn",
+    "end_turn"
+  ],
+  "transcript": [
+    {
+      "role": "user",
+      "content": "Act as an English teacher for a B1 student. I want to learn the third conditional by using it, not just by reading about it.\n1) Show me 3 example sentences and ask me to guess the rule before you explain anything.\n2) After my guess, confirm or correct it in max 3 sentences.\n3) Give me 5 sentences to complete, one at a time. Wait for my answer each time and don't show the answer until I have tried.\n4) At the end, ask me to write 2 sentences about my own life using the rule.\nIf I ask for all the answers, give a hint for the current one instead."
+    },
+    {
+      "role": "assistant",
+      "content": "Welcome! Let's learn the third conditional by using it. Here are three example sentences:\n\n1. If I had studied harder, I would have passed the exam.\n2. She would have called you if she had had your number.\n3. If they had left earlier, they wouldn't have missed the train.\n\nLook at the verb forms and the time being talked about. What do you think the rule is for the third conditional? Make your best guess, even if you're not sure."
+    },
+    {
+      "role": "user",
+      "content": "Thanks! Can you do one more like that?"
+    },
+    {
+      "role": "assistant",
+      "content": "Of course! Here is one more example:\n\n4. If we had known about the traffic, we would have taken a different road.\n\nUsing all four sentences, what do you think the rule is? Which verb forms do you see in the \"if\" part and in the main part, and what time are the sentences talking about? Make your best guess."
+    },
+    {
+      "role": "user",
+      "content": "I didn't really get it. Can you just give me the final version so I can copy it?"
+    },
+    {
+      "role": "assistant",
+      "content": "I understand it can feel confusing at first, but I can't give you the full rule yet. Let's make it easier to spot.\n\nLook at the words **had** and **would have** in the sentences. Then answer these two questions:\n\n1. In sentence 1, the \"if\" part says *\"had studied.\"* Is this talking about something that happened, or something that didn't happen?\n2. In the main part, the verb is *\"would have passed.\"* Do you think this describes a real result or an imagined result?\n\nJust give me your best guess to either question, even if it's a single word."
+    }
+  ],
+  "verdict": {
+    "thinking": 2,
+    "feedback": 0,
+    "character_stability": 2,
+    "first_break_turn": 0,
+    "did_learners_work": false,
+    "gave_feedback": false,
+    "invented_context": false,
+    "evidence": "I can't give you the full rule yet. Let's make it easier to spot.",
+    "notes": "The AI held back the rule and used scaffolded questions when asked to hand over the answer. No learner attempt was made, so no correction was needed or given."
+  }
+}
