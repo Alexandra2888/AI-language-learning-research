@@ -21,3 +21,6 @@ __pycache__/
 .DS_Store
 .vscode/
 .idea/
+
+# Transcripts
+AI_Prompt_Library.docx
